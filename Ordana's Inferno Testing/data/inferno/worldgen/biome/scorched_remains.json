@@ -1,0 +1,114 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:smoke"
+      },
+      "probability": 0.01
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "sky_color": 7254527,
+    "fog_color": 4592640,
+    "water_color": 4159204,
+    "water_fog_color": 4341314
+  },
+  "surface_builder": "nether-survival:scorched_remains",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      
+      "nether-survival:basalt_pillar",
+      "nether-survival:basalt_pillar"
+    ],
+    [ 
+      "minecraft:delta",
+      "minecraft:patch_fire",
+      "minecraft:glowstone_extra",
+      "nether-survival:glowstone",
+      "minecraft:ore_magma",
+      "nether-survival:spring_closed_double",
+      "nether-survival:ore_gold_deltas",
+      "nether-survival:ore_quartz_deltas",
+      "nether-survival:scoria_base",
+      "nether-survival:scoria_base",
+      "nether-survival:scorched_terrain",
+      "nether-survival:scorched_terrain"
+    ],
+    [
+      "minecraft:spring_lava_double",
+      "nether-survival:basalt_replacer",
+      "nether-survival:basalt_replacer"
+    ]
+  ],
+  "starts": [
+    "minecraft:nether_fossil",
+    "minecraft:bastion_remnant"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:ghast",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 45,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "nether",
+  "depth": 0.1,
+  "scale": 0.2
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BHB",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_sandstone"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "B": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:blast_furnace"
+  }
+}

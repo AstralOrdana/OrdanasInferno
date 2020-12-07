@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wither_rose"
+        }
+    },
+    "result": {
+        "item": "minecraft:feather",
+        "count": 2
+    }
+}

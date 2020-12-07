@@ -1,0 +1,45 @@
+{
+    "config": {
+      "feature": {
+    "config": {
+      "state_provider": {
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Properties": {
+                "waterlogged": "false"
+              },
+              "Name": "minecraft:dead_brain_coral_fan"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Properties": {
+                "waterlogged": "false"
+              },
+              "Name": "minecraft:dead_brain_coral_fan"
+            }
+          },
+          {
+            "weight": 32,
+            "data": {
+              "Name": "minecraft:air"
+            }
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "minecraft:block_pile"
+  },
+      "decorator": {
+        "config": {
+          "count": 16
+        },
+        "type": "minecraft:count_multilayer"
+      }
+    },
+    "type": "minecraft:decorated"
+  }

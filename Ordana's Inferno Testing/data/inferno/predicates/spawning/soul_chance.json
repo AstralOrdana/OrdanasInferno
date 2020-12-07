@@ -1,0 +1,12 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "biome": "nether-survival:anirrum_valley"
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.5
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "liquid",
+        "probability": 0.05
+      }
+    },
+    "feature": {
+      "type": "minecraft:netherrack_replace_blobs",
+      "config": {
+        "state": {
+          "Name": "minecraft:dead_horn_coral_block"
+        },
+        "target": {
+          "Name": "minecraft:dark_prismarine"
+        },
+        "radius": 0
+      }
+    }
+  }
+}

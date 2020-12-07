@@ -1,0 +1,5 @@
+summon minecraft:mooshroom ~ ~ ~ {Type:"red"}
+execute if predicate nether-survival:spawning/companion_chance if block ~ ~ ~1 #nether-survival:no_collision unless block ~ ~-1 ~1 #nether-survival:no_collision run summon mooshroom ~ ~ ~1 {Type:"red"}
+execute if predicate nether-survival:spawning/companion_chance if block ~1 ~ ~ #nether-survival:no_collision unless block ~1 ~-1 ~ #nether-survival:no_collision run summon mooshroom ~1 ~ ~ {Type:"red"}
+execute if predicate nether-survival:spawning/companion_chance if block ~ ~ ~-1 #nether-survival:no_collision unless block ~ ~-1 ~-1 #nether-survival:no_collision run summon mooshroom ~ ~ ~-1 {Age:-24000,Type:"red"}
+execute if predicate nether-survival:spawning/companion_chance if block ~-1 ~ ~ #nether-survival:no_collision unless block ~-1 ~-1 ~ #nether-survival:no_collision run summon mooshroom ~-1 ~ ~ {Age:-24000,Type:"red"}

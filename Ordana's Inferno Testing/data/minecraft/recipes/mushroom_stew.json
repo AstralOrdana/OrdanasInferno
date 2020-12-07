@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "stews",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+   	    "tag": "nether-survival:mushrooms"
+        },
+        {
+   	    "tag": "nether-survival:mushrooms"
+        }
+    ],
+    "result": {
+        "item": "minecraft:mushroom_stew",
+        "count": 1
+    }
+}

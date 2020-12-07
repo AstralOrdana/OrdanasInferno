@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I##",
+        "RRQ",
+        "I##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:polished_blackstone"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        },
+        "I": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result": {
+        "item": "minecraft:observer",
+        "count": 1
+    }
+}

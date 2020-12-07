@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "II",
+        "II"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:cactus"
+        }
+
+    },
+    "result": {
+        "item": "minecraft:birch_log",
+        "count": 1
+    }
+}

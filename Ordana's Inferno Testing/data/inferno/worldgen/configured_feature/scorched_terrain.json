@@ -1,0 +1,33 @@
+{
+    "config": {
+      "feature": {
+    "config": {
+      "state_provider": {
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:andesite"
+            }
+          },
+          {
+            "weight": 6,
+            "data": {
+              "Name": "minecraft:air"
+            }
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "minecraft:block_pile"
+  },
+      "decorator": {
+        "config": {
+          "count": 16
+        },
+        "type": "minecraft:count_multilayer"
+      }
+    },
+    "type": "minecraft:decorated"
+  }

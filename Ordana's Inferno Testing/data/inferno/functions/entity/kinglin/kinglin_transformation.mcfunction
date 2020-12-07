@@ -1,0 +1,5 @@
+tag @s add Orda-NS-Kinglin
+attribute @s minecraft:generic.max_health base set 100
+data merge entity @s {ArmorDropChances:[-327.670F,-327.670F,-327.670F,-327.670F],Health:100f}
+data merge entity @s {DeathLootTable:"nether-survival:entities/kinglin"}
+replaceitem entity @s weapon.mainhand golden_axe{CustomModelData:28001,Unbreakable:1b}

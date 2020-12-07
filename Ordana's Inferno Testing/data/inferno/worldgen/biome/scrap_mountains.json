@@ -1,0 +1,105 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:cloud"
+      },
+      "probability": 0.03
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "sky_color": 7254527,
+    "fog_color": 3877466,
+    "water_color": 4159204,
+    "water_fog_color": 4341314
+  },
+  "surface_builder": "nether-survival:scrap_pit",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "nether-survival:scrap_delta",
+      "nether-survival:heavy_scrap",
+      "nether-survival:heavy_scrap",
+      "nether-survival:heavy_scrap",
+      "nether-survival:heavy_scrap",
+      "nether-survival:heavy_scrap",
+      "nether-survival:heavy_scrap",
+      "nether-survival:heavy_scrap",
+      "nether-survival:heavy_scrap",
+      "nether-survival:light_scrap",
+      "nether-survival:heavy_scrap_1",
+      "nether-survival:heavy_scrap_2",
+      "nether-survival:heavy_scrap_1",
+      "nether-survival:heavy_scrap_2",
+      "minecraft:patch_fire",
+      "minecraft:ore_magma",
+      "nether-survival:spring_closed_double",
+      "nether-survival:ore_gold_nether",
+      "nether-survival:ore_quartz_nether",
+      "nether-survival:scoria"
+    ],
+    [
+      "minecraft:spring_lava_double",
+      "nether-survival:ore_nihiline",
+      "nether-survival:scrap_delta"
+    ]
+  ],
+  "starts": [
+    "minecraft:bastion_remnant"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "nether",
+  "depth": 0.1,
+  "scale": 0.2
+}

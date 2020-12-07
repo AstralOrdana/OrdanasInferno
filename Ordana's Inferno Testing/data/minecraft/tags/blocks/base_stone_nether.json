@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:end_stone",
+    "minecraft:red_sandstone",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:mycelium"
+  ]
+}

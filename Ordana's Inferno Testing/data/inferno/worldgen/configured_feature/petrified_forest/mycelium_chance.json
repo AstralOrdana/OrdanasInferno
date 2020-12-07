@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "liquid",
+        "probability": 0.5
+      }
+    },
+    "feature": {
+      "type": "minecraft:netherrack_replace_blobs",
+      "config": {
+        "state": {
+          "Name": "minecraft:mycelium",
+          "Properties":{
+            "snowy":"false"
+          }
+        },
+        "target": {
+          "Name": "minecraft:dark_prismarine"
+        },
+        "radius": 0
+      }
+    }
+  }
+}

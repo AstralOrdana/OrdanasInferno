@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "MCM",
+        "CCC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:book"
+        },
+        "M": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "C": {
+            "item": "minecraft:crying_obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:enchanting_table",
+        "count": 1
+    }
+}

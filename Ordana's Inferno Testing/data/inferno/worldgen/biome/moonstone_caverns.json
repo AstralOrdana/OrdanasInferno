@@ -1,0 +1,119 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.warped_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:end_rod"
+      },
+      "probability": 0.01428
+    },
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "sky_color": 7254527,
+    "fog_color": 9820156,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "surface_builder": "nether-survival:moonstone_caverns",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ],
+    "liquid": [
+      "nether-survival:maximum_caves"
+    ]
+  },
+  "features": [
+    [
+      "nether-survival:twisting_vines",
+      "nether-survival:weeping_vines",
+      "minecraft:basalt_pillar",
+      "minecraft:basalt_pillar",
+      "minecraft:basalt_pillar"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "nether-survival:spring_open",
+      "minecraft:glowstone_extra",
+      "nether-survival:glowstone",
+      "minecraft:ore_magma",
+      "nether-survival:spring_closed",
+      "minecraft:ore_blackstone",
+      "nether-survival:scoria",
+      "nether-survival:vine_replacer_moonstone",
+      "nether-survival:vine_replacer_moonstone",
+      "nether-survival:vine_replacer_moonstone_2",
+      "nether-survival:vine_replacer_moonstone",
+      "nether-survival:vine_replacer_moonstone",
+      "nether-survival:vine_replacer_moonstone_2",
+      "nether-survival:basalt_replacer_moonstone",
+      "nether-survival:basalt_replacer_moonstone",
+      "nether-survival:basalt_replacer_moonstone",
+      "nether-survival:wart_replacer_moonstone",
+      "nether-survival:wart_replacer_moonstone",
+      "nether-survival:wart_replacer_moonstone"
+    ],
+    [
+       "minecraft:spring_lava",
+       "nether-survival:moonstone_crystals",
+       "nether-survival:moonstone_veins",
+       "nether-survival:glowstone_replacer"
+    ]
+  ],
+  "starts": [
+    "minecraft:bastion_remnant"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "energy_budget": 0.12,
+      "charge": 1.0
+    }
+  },
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "nether",
+  "depth": 0.1,
+  "scale": 0.2
+}

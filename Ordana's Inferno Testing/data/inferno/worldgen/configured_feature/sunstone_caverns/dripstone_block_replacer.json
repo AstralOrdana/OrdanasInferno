@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_extra",
+        "config": {
+          "count": 0,
+          "extra_count": 5000,
+          "extra_chance": 1
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:range",
+                "config": {
+                  "maximum": 1,
+                  "bottom_offset": 250,
+                  "top_offset": 0
+                }
+              }
+            }
+          },
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:glowstone"
+              },
+              "target": {
+                "Name": "minecraft:dripstone_block"
+              },
+              "radius": 9
+            }
+          }
+        }
+      }
+    }
+  }

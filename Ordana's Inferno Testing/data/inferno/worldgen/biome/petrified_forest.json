@@ -1,0 +1,146 @@
+{
+    "effects": {
+      "mood_sound": {
+        "sound": "minecraft:ambient.warped_forest.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.warped_forest.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "minecraft:music.nether.warped_forest",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:mycelium"
+        },
+        "probability": 0.118093334
+      },
+      "ambient_sound": "minecraft:ambient.warped_forest.loop",
+      "sky_color": 7254527,
+      "fog_color": 657930,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "surface_builder": "nether-survival:petrified_forest",
+    "carvers": {
+      "air": [
+        "minecraft:nether_cave"
+      ],
+      "liquid": [
+        "nether-survival:maximum_caves",
+        "nether-survival:more_caves_dx"
+      ]
+    },
+    "features": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        "nether-survival:spring_open",
+        "minecraft:patch_fire",
+        "minecraft:glowstone_extra",
+        "nether-survival:glowstone",
+        "minecraft:ore_magma",
+        "nether-survival:spring_closed",
+        "minecraft:ore_gravel_nether",
+        "nether-survival:scoria",
+        "nether-survival:quartz_crystals",
+        "nether-survival:weeping_vines",
+        "nether-survival:weeping_vines",
+        "nether-survival:weeping_vines",
+        "nether-survival:weeping_vines",
+        "nether-survival:weeping_vines",
+        "nether-survival:weeping_vines"
+      ],
+      [
+        "minecraft:spring_lava",
+        "nether-survival:ore_slate",
+        "nether-survival:petrified_forest/mycelium_chance",
+        "nether-survival:petrified_forest/fix_caves",
+        "nether-survival:petrified_forest/forced_mushrooms",
+        "nether-survival:petrified_forest/forced_quartzshrooms",
+        "nether-survival:petrified_forest/forced_glowshrooms",
+        "nether-survival:petrified_forest/orange_terra",
+        "nether-survival:cap_replacer_north",
+        "nether-survival:cap_replacer_northeast",
+        "nether-survival:cap_replacer_northwest",
+        "nether-survival:cap_replacer_east",
+        "nether-survival:cap_replacer_west",
+        "nether-survival:cap_replacer_south",
+        "nether-survival:cap_replacer_southeast",
+        "nether-survival:cap_replacer_southwest",
+        "nether-survival:cap_replacer_north",
+        "nether-survival:cap_replacer_northeast",
+        "nether-survival:cap_replacer_northwest",
+        "nether-survival:cap_replacer_east",
+        "nether-survival:cap_replacer_west",
+        "nether-survival:cap_replacer_south",
+        "nether-survival:cap_replacer_southeast",
+        "nether-survival:cap_replacer_southwest",
+        "nether-survival:wart_replacer",
+        "nether-survival:vine_replacer_alt",
+        "nether-survival:vine_replacer_light",
+        "nether-survival:vine_replacer_new",
+        "nether-survival:vine_replacer_alt",
+        "nether-survival:vine_replacer_light",
+        "nether-survival:vine_replacer_new",
+        "nether-survival:quartz_replacer",
+        "nether-survival:vine_replacer_alt",
+        "nether-survival:vine_replacer_light",
+        "nether-survival:vine_replacer_new",
+        "nether-survival:vine_replacer_alt",
+        "nether-survival:vine_replacer_light",
+        "nether-survival:vine_replacer_new"
+      ],
+      [
+        "nether-survival:petrified_forest/kill_mycel"
+      ]
+    ],
+    "starts": [
+      "minecraft:bastion_remnant"
+    ],
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:cave_spider",
+          "weight": 20,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:strider",
+          "weight": 60,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "ambient": [],
+      "water_creature": [],
+      "water_ambient": [],
+      "misc": []
+    },
+    "spawn_costs": {
+      "minecraft:cave_spider": {
+        "energy_budget": 0.12,
+        "charge": 1.0
+      }
+    },
+    "precipitation": "none",
+    "temperature": 2.0,
+    "downfall": 0.0,
+    "category": "nether",
+    "depth": 0.1,
+    "scale": 0.2
+  }

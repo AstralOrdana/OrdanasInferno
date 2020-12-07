@@ -1,0 +1,29 @@
+{
+  "config": {
+    "feature": {
+      "name": "midnight_mushroom",
+      "config": {
+        "feature": {
+          "config": {
+                "probability": 1.0
+              },
+              "type": "minecraft:bamboo"
+        },
+        "decorator": {
+              "config": {},
+              "type": "minecraft:iceberg"
+          },
+          "type": "minecraft:decorated"
+        
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 64
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

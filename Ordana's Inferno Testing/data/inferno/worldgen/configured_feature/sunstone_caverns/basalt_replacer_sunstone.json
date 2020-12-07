@@ -1,0 +1,52 @@
+{
+    "config": {
+      "feature": {
+      "name": "cap_replacer",
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "target": {
+                    "Name": "minecraft:basalt",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  },
+                  "state": {
+                    "Name": "minecraft:glowstone"
+                  },
+                  "radius": {
+                    "base": 120,
+                    "spread": 0
+                  }
+                },
+                "type": "minecraft:netherrack_replace_blobs"
+              },
+              "decorator": {
+                "config": {
+                  "bottom_offset": 0,
+                  "top_offset": 0,
+                  "maximum": 192
+                },
+                "type": "minecraft:range"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {},
+            "type": "minecraft:square"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      "decorator": {
+        "config": {
+          "count": 128
+        },
+        "type": "minecraft:count"
+      }
+    },
+    "type": "minecraft:decorated"
+  }

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " I ",
+        "III"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bricks"
+        },
+        "I": {
+            "item": "minecraft:brick"
+        }
+
+    },
+    "result": {
+        "item": "minecraft:anvil",
+        "count": 1
+    }
+}

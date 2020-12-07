@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BIB",
+        "DFD",
+        " B "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:stick"
+        },
+        "I": {
+            "item": "minecraft:brick"
+        },
+        "D": {
+            "item": "minecraft:string"
+        },
+        "F": {
+            "item": "minecraft:tripwire_hook"
+        }
+    },
+    "result": {
+        "item": "minecraft:crossbow",
+        "count": 1
+    }
+}

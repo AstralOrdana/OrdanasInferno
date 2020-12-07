@@ -1,0 +1,12 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "biome": "nether-survival:croaker_forest"
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.75
+  }
+]
