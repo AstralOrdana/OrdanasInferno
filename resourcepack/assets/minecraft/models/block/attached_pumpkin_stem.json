@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/stem_fruit",
+  "textures": {
+    "stem": "minecraft:block/bone_gourd_stem_attached",
+    "leaves": "minecraft:block/bone_gourd_stem_attached_leaves"
+  }
+}

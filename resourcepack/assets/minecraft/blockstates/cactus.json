@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/cactus"
+      },
+	  {
+        "model": "minecraft:block/cactus",
+        "y": 90
+      },
+	  {
+        "model": "minecraft:block/cactus",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/cactus",
+        "y": 270
+      },
+	  {
+        "model": "minecraft:block/cactus_1"
+      },
+	  {
+        "model": "minecraft:block/cactus_1",
+        "y": 90
+      },
+	  {
+        "model": "minecraft:block/cactus_1",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/cactus_1",
+        "y": 270
+      },
+	  {
+        "model": "minecraft:block/cactus_2"
+      },
+	  {
+        "model": "minecraft:block/cactus_2",
+        "y": 90
+      },
+	  {
+        "model": "minecraft:block/cactus_2",
+        "y": 180
+      },
+	  {
+        "model": "minecraft:block/cactus_2",
+        "y": 270
+      }
+    ]
+  }
+}

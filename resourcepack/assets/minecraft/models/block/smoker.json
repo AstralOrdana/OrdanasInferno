@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:dream_team_custom/blocks/orientable_with_bottom_back",
+  "textures": {
+    "top": "minecraft:block/smoker_top",
+	"bottom": "minecraft:block/polished_blackstone",
+    "front": "minecraft:block/smoker_front",
+    "side": "minecraft:block/smoker_side",
+	"back": "minecraft:block/smoker_back"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/dead_tube_coral_block_top",
+    "side": "minecraft:block/dead_tube_coral_block"
+  }
+}

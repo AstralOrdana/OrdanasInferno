@@ -1,0 +1,7 @@
+{
+    "parent": "block/dream_team_template_wall_cluster",
+    "textures": {
+        "all": "block/clusters/quartz_cluster",
+		"particle": "block/clusters/quartz_cluster_particle"
+    }
+}

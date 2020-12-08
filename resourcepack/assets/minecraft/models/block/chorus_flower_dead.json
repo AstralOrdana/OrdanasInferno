@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/chorus_flower",
+  "textures": {
+    "side": "minecraft:block/chorus_flower_dead",
+	"top": "minecraft:block/chorus_flower_dead_top"
+  }
+}

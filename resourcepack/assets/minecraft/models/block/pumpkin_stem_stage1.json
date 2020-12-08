@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:dream_team_custom/blocks/cross_crop",
+  "textures": {
+    "cross": "minecraft:block/bone_gourd_stem_stage1"
+  }
+}

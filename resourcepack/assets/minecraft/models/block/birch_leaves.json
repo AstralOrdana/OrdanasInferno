@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/warped_root_bundle",
+    "side": "minecraft:block/warped_root_bundle_side"
+  }
+}

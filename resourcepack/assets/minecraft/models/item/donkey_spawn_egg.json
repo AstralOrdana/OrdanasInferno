@@ -1,0 +1,6 @@
+{
+    "parent": "item/dream_template_spawn_egg",
+    "textures": {
+        "all": "item/spawn_eggs/donkey_spawn_egg"
+    }
+}
