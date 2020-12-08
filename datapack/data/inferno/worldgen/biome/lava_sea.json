@@ -28,35 +28,35 @@
       "minecraft:nether_cave"
     ],
     "liquid": [
-      "nether-survival:maximum_caves"
+      "inferno:maximum_caves"
     ]
   },
   "features": [
     [],
     [],
     [
-      "nether-survival:basalt_pillar"
+      "inferno:basalt_pillar"
     ],
     [],
     [],
     [],
     [],
     [
-      "nether-survival:spring_open",
+      "inferno:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:glowstone_extra",
       "minecraft:brown_mushroom_nether",
       "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed",
+      "inferno:spring_closed",
       "minecraft:ore_gravel_nether",
-      "nether-survival:ore_blackstone",
-      "nether-survival:ore_gold_nether",
-      "nether-survival:ore_quartz_nether",
-      "nether-survival:scoria"
+      "inferno:ore_blackstone",
+      "inferno:ore_gold_nether",
+      "inferno:ore_quartz_nether",
+      "inferno:scoria"
     ],
     [
       "minecraft:spring_lava",

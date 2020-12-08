@@ -1,2 +1,2 @@
 tag @s add Orda-NS-GhastCheck
-execute as @s at @s if predicate nether-survival:spawning/soul_chance unless score $Ordana-NS-SoulMobCap OrdN-S_MobCap matches 40.. run function nether-survival:entity/soul/soul_spawned
+execute as @s at @s if predicate inferno:spawning/soul_chance unless score $Ordana-NS-SoulMobCap OrdN-S_MobCap matches 40.. run function inferno:entity/soul/soul_spawned

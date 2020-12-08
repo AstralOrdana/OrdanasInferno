@@ -28,19 +28,19 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "nether-survival:moonstone_caverns",
+  "surface_builder": "inferno:moonstone_caverns",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
     ],
     "liquid": [
-      "nether-survival:maximum_caves"
+      "inferno:maximum_caves"
     ]
   },
   "features": [
     [
-      "nether-survival:twisting_vines",
-      "nether-survival:weeping_vines",
+      "inferno:twisting_vines",
+      "inferno:weeping_vines",
       "minecraft:basalt_pillar",
       "minecraft:basalt_pillar",
       "minecraft:basalt_pillar"
@@ -52,31 +52,31 @@
     [],
     [],
     [
-      "nether-survival:spring_open",
+      "inferno:spring_open",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed",
+      "inferno:spring_closed",
       "minecraft:ore_blackstone",
-      "nether-survival:scoria",
-      "nether-survival:vine_replacer_moonstone",
-      "nether-survival:vine_replacer_moonstone",
-      "nether-survival:vine_replacer_moonstone_2",
-      "nether-survival:vine_replacer_moonstone",
-      "nether-survival:vine_replacer_moonstone",
-      "nether-survival:vine_replacer_moonstone_2",
-      "nether-survival:basalt_replacer_moonstone",
-      "nether-survival:basalt_replacer_moonstone",
-      "nether-survival:basalt_replacer_moonstone",
-      "nether-survival:wart_replacer_moonstone",
-      "nether-survival:wart_replacer_moonstone",
-      "nether-survival:wart_replacer_moonstone"
+      "inferno:scoria",
+      "inferno:vine_replacer_moonstone",
+      "inferno:vine_replacer_moonstone",
+      "inferno:vine_replacer_moonstone_2",
+      "inferno:vine_replacer_moonstone",
+      "inferno:vine_replacer_moonstone",
+      "inferno:vine_replacer_moonstone_2",
+      "inferno:basalt_replacer_moonstone",
+      "inferno:basalt_replacer_moonstone",
+      "inferno:basalt_replacer_moonstone",
+      "inferno:wart_replacer_moonstone",
+      "inferno:wart_replacer_moonstone",
+      "inferno:wart_replacer_moonstone"
     ],
     [
        "minecraft:spring_lava",
-       "nether-survival:moonstone_crystals",
-       "nether-survival:moonstone_veins",
-       "nether-survival:glowstone_replacer"
+       "inferno:moonstone_crystals",
+       "inferno:moonstone_veins",
+       "inferno:glowstone_replacer"
     ]
   ],
   "starts": [

@@ -6,10 +6,10 @@
             "item": "minecraft:bowl"
         },
         {
-   	    "tag": "nether-survival:mushrooms"
+   	    "tag": "inferno:mushrooms"
         },
         {
-   	    "tag": "nether-survival:mushrooms"
+   	    "tag": "inferno:mushrooms"
         }
     ],
     "result": {

@@ -1,7 +1,7 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "nether-survival:scrap_pit_outskirts"
+                "biome": "inferno:scrap_pit_outskirts"
               }
 			}
 			  

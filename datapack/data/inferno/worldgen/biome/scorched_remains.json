@@ -28,7 +28,7 @@
     "water_color": 4159204,
     "water_fog_color": 4341314
   },
-  "surface_builder": "nether-survival:scorched_remains",
+  "surface_builder": "inferno:scorched_remains",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -43,27 +43,27 @@
     [],
     [
       
-      "nether-survival:basalt_pillar",
-      "nether-survival:basalt_pillar"
+      "inferno:basalt_pillar",
+      "inferno:basalt_pillar"
     ],
     [ 
       "minecraft:delta",
       "minecraft:patch_fire",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed_double",
-      "nether-survival:ore_gold_deltas",
-      "nether-survival:ore_quartz_deltas",
-      "nether-survival:scoria_base",
-      "nether-survival:scoria_base",
-      "nether-survival:scorched_terrain",
-      "nether-survival:scorched_terrain"
+      "inferno:spring_closed_double",
+      "inferno:ore_gold_deltas",
+      "inferno:ore_quartz_deltas",
+      "inferno:scoria_base",
+      "inferno:scoria_base",
+      "inferno:scorched_terrain",
+      "inferno:scorched_terrain"
     ],
     [
       "minecraft:spring_lava_double",
-      "nether-survival:basalt_replacer",
-      "nether-survival:basalt_replacer"
+      "inferno:basalt_replacer",
+      "inferno:basalt_replacer"
     ]
   ],
   "starts": [

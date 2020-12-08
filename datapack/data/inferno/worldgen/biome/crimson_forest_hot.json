@@ -29,7 +29,7 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "nether-survival:crimson_forest",
+  "surface_builder": "inferno:crimson_forest",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -58,20 +58,20 @@
       "minecraft:spring_closed",
       "minecraft:spring_closed",
       "minecraft:ore_gravel_nether",
-      "nether-survival:ore_gold_nether",
-      "nether-survival:ore_quartz_nether",
-      "nether-survival:ore_gold_nether",
-      "nether-survival:ore_quartz_nether",
-      "nether-survival:scoria",
-      "nether-survival:ore_blackstone"
+      "inferno:ore_gold_nether",
+      "inferno:ore_quartz_nether",
+      "inferno:ore_gold_nether",
+      "inferno:ore_quartz_nether",
+      "inferno:scoria",
+      "inferno:ore_blackstone"
     ],
     [
       "minecraft:spring_lava",
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "nether-survival:weeping_vines",
-      "nether-survival:weeping_vines",
+      "inferno:weeping_vines",
+      "inferno:weeping_vines",
       "minecraft:crimson_fungi",
       "minecraft:crimson_forest_vegetation"
     ]

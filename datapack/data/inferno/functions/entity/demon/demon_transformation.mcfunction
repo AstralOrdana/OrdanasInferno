@@ -6,9 +6,9 @@ replaceitem entity @s weapon.mainhand stone_sword
 replaceitem entity @s weapon.offhand air
 
 ###GEAR CHANCE###
-execute as @s at @s if predicate nether-survival:demon/demon_cloth run replaceitem entity @s armor.chest leather_chestplate
-execute as @s at @s if predicate nether-survival:demon/demon_cloth run replaceitem entity @s armor.legs leather_leggings
-execute as @s at @s if predicate nether-survival:demon/demon_offhand run replaceitem entity @s weapon.offhand glowstone_dust
+execute as @s at @s if predicate inferno:demon/demon_cloth run replaceitem entity @s armor.chest leather_chestplate
+execute as @s at @s if predicate inferno:demon/demon_cloth run replaceitem entity @s armor.legs leather_leggings
+execute as @s at @s if predicate inferno:demon/demon_offhand run replaceitem entity @s weapon.offhand glowstone_dust
 
 ###DEMON LANCER [TRIDENT] ###
-execute as @s at @s if predicate nether-survival:demon/arch_demon unless entity @s[nbt={IsBaby:1b}] run function nether-survival:entity/demon/arch_demon_transformation
+execute as @s at @s if predicate inferno:demon/arch_demon unless entity @s[nbt={IsBaby:1b}] run function inferno:entity/demon/arch_demon_transformation

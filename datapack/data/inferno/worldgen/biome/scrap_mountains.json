@@ -28,7 +28,7 @@
     "water_color": 4159204,
     "water_fog_color": 4341314
   },
-  "surface_builder": "nether-survival:scrap_pit",
+  "surface_builder": "inferno:scrap_pit",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -43,31 +43,31 @@
     [],
     [],
     [
-      "nether-survival:scrap_delta",
-      "nether-survival:heavy_scrap",
-      "nether-survival:heavy_scrap",
-      "nether-survival:heavy_scrap",
-      "nether-survival:heavy_scrap",
-      "nether-survival:heavy_scrap",
-      "nether-survival:heavy_scrap",
-      "nether-survival:heavy_scrap",
-      "nether-survival:heavy_scrap",
-      "nether-survival:light_scrap",
-      "nether-survival:heavy_scrap_1",
-      "nether-survival:heavy_scrap_2",
-      "nether-survival:heavy_scrap_1",
-      "nether-survival:heavy_scrap_2",
+      "inferno:scrap_delta",
+      "inferno:heavy_scrap",
+      "inferno:heavy_scrap",
+      "inferno:heavy_scrap",
+      "inferno:heavy_scrap",
+      "inferno:heavy_scrap",
+      "inferno:heavy_scrap",
+      "inferno:heavy_scrap",
+      "inferno:heavy_scrap",
+      "inferno:light_scrap",
+      "inferno:heavy_scrap_1",
+      "inferno:heavy_scrap_2",
+      "inferno:heavy_scrap_1",
+      "inferno:heavy_scrap_2",
       "minecraft:patch_fire",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed_double",
-      "nether-survival:ore_gold_nether",
-      "nether-survival:ore_quartz_nether",
-      "nether-survival:scoria"
+      "inferno:spring_closed_double",
+      "inferno:ore_gold_nether",
+      "inferno:ore_quartz_nether",
+      "inferno:scoria"
     ],
     [
       "minecraft:spring_lava_double",
-      "nether-survival:ore_nihiline",
-      "nether-survival:scrap_delta"
+      "inferno:ore_nihiline",
+      "inferno:scrap_delta"
     ]
   ],
   "starts": [

@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "nether-survival:sunstone_caverns",
+          "biome": "inferno:sunstone_caverns",
           "parameters": {
             "altitude": 0,
             "temperature": 0,
@@ -47,6 +47,6 @@
         }
       ]
     },
-    "settings": "nether-survival:inferno"
+    "settings": "inferno:inferno"
   }
 }

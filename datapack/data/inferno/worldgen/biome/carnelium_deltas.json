@@ -28,7 +28,7 @@
     "water_color": 4159204,
     "water_fog_color": 4341314
   },
-  "surface_builder": "nether-survival:basalt_deltas",
+  "surface_builder": "inferno:basalt_deltas",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -47,23 +47,23 @@
     [],
     [],
     [
-      "nether-survival:basalt_blobs",
-      "nether-survival:blackstone_blobs",
-      "nether-survival:spring_delta",
+      "inferno:basalt_blobs",
+      "inferno:blackstone_blobs",
+      "inferno:spring_delta",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:brown_mushroom_nether",
       "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed_double",
-      "nether-survival:ore_gold_deltas",
-      "nether-survival:ore_quartz_deltas",
-      "nether-survival:ore_redstone",
-      "nether-survival:ore_carnelium",
-      "nether-survival:ore_carnelium_poor",
-      "nether-survival:scoria"
+      "inferno:spring_closed_double",
+      "inferno:ore_gold_deltas",
+      "inferno:ore_quartz_deltas",
+      "inferno:ore_redstone",
+      "inferno:ore_carnelium",
+      "inferno:ore_carnelium_poor",
+      "inferno:scoria"
     ],
     [
       "minecraft:spring_lava_double"

@@ -33,7 +33,7 @@
             },
             {
               "type": "minecraft:tag",
-              "name": "nether-survival:scrap",
+              "name": "inferno:scrap",
               "expand": true,
               "functions": [
                 {
@@ -56,7 +56,7 @@
             },
             {
               "type": "minecraft:tag",
-              "name": "nether-survival:scrap",
+              "name": "inferno:scrap",
               "expand": true,
               "functions": [
                 {

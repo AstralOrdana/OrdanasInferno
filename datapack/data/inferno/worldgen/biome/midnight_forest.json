@@ -28,48 +28,48 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "nether-survival:midnight_forest",
+  "surface_builder": "inferno:midnight_forest",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
     ],
     "liquid": [
-      "nether-survival:maximum_caves"
+      "inferno:maximum_caves"
     ]
   },
   "features": [
     [],
     [],
     [
-      "nether-survival:limestone_rock",
-      "nether-survival:glowing_rock"
+      "inferno:limestone_rock",
+      "inferno:glowing_rock"
     ],
     [],
     [],
     [],
     [],
     [
-      "nether-survival:spring_open",
+      "inferno:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed",
+      "inferno:spring_closed",
       "minecraft:ore_gravel_nether",
-      "nether-survival:ore_blackstone",
-      "nether-survival:ore_gold_nether",
-      "nether-survival:ore_quartz_nether",
-      "nether-survival:ore_limestone",
-      "nether-survival:scoria",
-      "nether-survival:limestone_veins"
+      "inferno:ore_blackstone",
+      "inferno:ore_gold_nether",
+      "inferno:ore_quartz_nether",
+      "inferno:ore_limestone",
+      "inferno:scoria",
+      "inferno:limestone_veins"
     ],
     [
       "minecraft:spring_lava",
-      "nether-survival:midnight_mushroom",
-      "nether-survival:midnight_roots",
-      "nether-survival:midnight_roots_tall",
-      "nether-survival:midnight_spore"
+      "inferno:midnight_mushroom",
+      "inferno:midnight_roots",
+      "inferno:midnight_roots_tall",
+      "inferno:midnight_spore"
     ]
   ],
   "starts": [

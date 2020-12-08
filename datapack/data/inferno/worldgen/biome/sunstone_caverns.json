@@ -28,13 +28,13 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "nether-survival:sunstone_caverns",
+  "surface_builder": "inferno:sunstone_caverns",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
     ],
     "liquid": [
-      "nether-survival:maximum_caves"
+      "inferno:maximum_caves"
     ]
   },
   "features": [
@@ -49,19 +49,19 @@
     [],
     [],
     [
-      "nether-survival:spring_open",
+      "inferno:spring_open",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed",
+      "inferno:spring_closed",
       "minecraft:ore_blackstone",
-      "nether-survival:scoria",
-      "nether-survival:sunstone_caverns/dripstone_block_replacer"
+      "inferno:scoria",
+      "inferno:sunstone_caverns/dripstone_block_replacer"
     ],
     [
        "minecraft:spring_lava",
-       "nether-survival:sunstone_crystals",
-       "nether-survival:sunstone_veins"
+       "inferno:sunstone_crystals",
+       "inferno:sunstone_veins"
     ]
   ],
   "starts": [

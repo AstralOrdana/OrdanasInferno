@@ -1,7 +1,7 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "nether-survival:spectre_forest"
+                "biome": "inferno:spectre_forest"
               }
 			}
 			  

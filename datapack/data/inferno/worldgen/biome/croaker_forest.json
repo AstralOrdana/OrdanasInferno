@@ -28,7 +28,7 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "nether-survival:warped_forest",
+  "surface_builder": "inferno:warped_forest",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -43,18 +43,18 @@
     [],
     [],
     [
-      "nether-survival:spring_open",
+      "inferno:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:ore_magma",
-      "nether-survival:spring_closed",
+      "inferno:spring_closed",
       "minecraft:ore_gravel_nether",
-      "nether-survival:ore_blackstone",
-      "nether-survival:ore_gold_nether",
-      "nether-survival:ore_quartz_nether",
-      "nether-survival:scoria"
+      "inferno:ore_blackstone",
+      "inferno:ore_gold_nether",
+      "inferno:ore_quartz_nether",
+      "inferno:scoria"
     ],
     [
       "minecraft:spring_lava",
@@ -63,7 +63,7 @@
       "minecraft:warped_fungi",
       "minecraft:warped_forest_vegetation",
       "minecraft:nether_sprouts",
-      "nether-survival:twisting_vines"
+      "inferno:twisting_vines"
     ]
   ],
   "starts": [

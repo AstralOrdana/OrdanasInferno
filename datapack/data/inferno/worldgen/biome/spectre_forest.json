@@ -28,7 +28,7 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "nether-survival:spectre_forest",
+  "surface_builder": "inferno:spectre_forest",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -43,30 +43,30 @@
     [],
     [],
     [
-      "nether-survival:spring_open",
+      "inferno:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
+      "inferno:glowstone",
       "minecraft:glowstone_extra",
-      "nether-survival:glowstone",
-      "nether-survival:spring_closed",
-      "nether-survival:ore_anirrum",
-      "nether-survival:ore_gold_nether",
-      "nether-survival:ore_quartz_nether",
-      "nether-survival:ore_soul_stone",
-      "nether-survival:soul_soil_base",
-      "nether-survival:scoria"
+      "inferno:glowstone",
+      "inferno:spring_closed",
+      "inferno:ore_anirrum",
+      "inferno:ore_gold_nether",
+      "inferno:ore_quartz_nether",
+      "inferno:ore_soul_stone",
+      "inferno:soul_soil_base",
+      "inferno:scoria"
     ],
     [
       "minecraft:spring_lava",
-      "nether-survival:spectre_mushroom",
-      "nether-survival:spectre_roots",
-      "nether-survival:spectre_roots_2",
-      "nether-survival:spectre_roots_3",
-      "nether-survival:spectre_roots_4",
-      "nether-survival:spectre_spore",
-      "nether-survival:glowstone_replacer"
+      "inferno:spectre_mushroom",
+      "inferno:spectre_roots",
+      "inferno:spectre_roots_2",
+      "inferno:spectre_roots_3",
+      "inferno:spectre_roots_4",
+      "inferno:spectre_spore",
+      "inferno:glowstone_replacer"
     ]
   ],
   "starts": [
