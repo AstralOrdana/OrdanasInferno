@@ -1,4 +1,9 @@
 {
+    "config": {
+      "feature": {
+        "name": "petrified_mushroom",
+        "config": {
+          "feature": {
             "config": {
               "cap_provider": {
                 "state": {
@@ -22,4 +27,23 @@
                   },
                   "foliage_radius": 2
                 },
-                "type": "minecraft:huge_brown_mushroom" }
+                "type": "minecraft:huge_brown_mushroom"
+              },
+          "decorator": {
+                "config": {},
+                "type": "minecraft:iceberg"
+            },
+            "type": "minecraft:decorated"
+          
+        },
+        "type": "minecraft:decorated"
+      },
+      "decorator": {
+        "config": {
+          "count": 64
+        },
+        "type": "minecraft:count_multilayer"
+      }
+    },
+    "type": "minecraft:decorated"
+  }
