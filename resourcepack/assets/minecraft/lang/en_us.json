@@ -230,7 +230,7 @@
   "block.minecraft.ender_chest": "Soul Chest",
   "block.minecraft.smoker": "Carnelium Forge",
   "block.minecraft.blast_furnace": "Soul Forge",
-  "block.minecraft.enchanting_table": "Enchantment Altar",
+  "block.minecraft.anvil": "Enchantment Altar",
   
   "block.minecraft.shulker_box": "Anirrum Box",
   "block.minecraft.white_shulker_box": "White Anirrum Box",
@@ -394,6 +394,10 @@
   "container.smoker": "Carnelium Forge",
   "container.shulkerBox": "Anirrum Box",
   
+  "container.repair": "Repair & Enchant",
+  "container.repair.cost": "Enchantment Cost: %1$s",
+  "container.repair.expensive": "Too Expensive!",
+  
   "gui.recipebook.toggleRecipes.blastable": "Showing Hauntable",
   "gui.recipebook.toggleRecipes.smokable": "Showing Forgeable",
   
@@ -519,7 +523,9 @@
   "subtitles.item.trident.throw": "Pitchfork clangs",
   "subtitles.item.trident.thunder": "Pitchfork thunder cracks",
   
-  "subtitles.block.enchantment_table.use": "Enchantment Altar used",
+  "subtitles.block.anvil.destroy": "Enchantment Altar destroyed",
+  "subtitles.block.anvil.land": "Enchantment Altar landed",
+  "subtitles.block.anvil.use": "Enchantment Altar used",
   "subtitles.block.blastfurnace.fire_crackle": "Soul Forge crackles",
   "subtitles.block.smoker.smoke": "Carnelium Forge Melts",
   "subtitles.block.shulker_box.close": "Anirrum Box closes",

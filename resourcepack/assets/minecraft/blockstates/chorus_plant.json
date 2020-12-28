@@ -2,7 +2,7 @@
   "multipart": [
     {
       "apply": {
-        "model": "minecraft:block/chorus_plant"
+        "model": "minecraft:block/chorus_plant/chorus_plant"
       }
     },
 	{
@@ -14,7 +14,7 @@
 		"west": "false"
       },
       "apply": {
-        "model": "minecraft:block/chorus_plant_inside_face"
+        "model": "minecraft:block/chorus_plant/chorus_plant_inside_face"
       }
     },
 	{
@@ -22,7 +22,7 @@
         "north": "true"
       },
       "apply": {
-        "model": "minecraft:block/chorus_plant_branch"
+        "model": "minecraft:block/chorus_plant/chorus_plant_branch_north"
       }
     },
     {
@@ -30,9 +30,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "minecraft:block/chorus_plant_branch",
-        "y": 90,
-        "uvlock": false
+        "model": "minecraft:block/chorus_plant/chorus_plant_branch_east"
       }
     },
     {
@@ -40,9 +38,7 @@
         "south": "true"
       },
       "apply": {
-        "model": "minecraft:block/chorus_plant_branch",
-        "y": 180,
-        "uvlock": false
+        "model": "minecraft:block/chorus_plant/chorus_plant_branch_south"
       }
     },
     {
@@ -50,9 +46,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "minecraft:block/chorus_plant_branch",
-        "y": 270,
-        "uvlock": false
+        "model": "minecraft:block/chorus_plant/chorus_plant_branch_west"
       }
     },
     {
@@ -60,7 +54,7 @@
         "up": "true"
       },
       "apply": {
-        "model": "minecraft:block/chorus_plant_branch_up"
+        "model": "minecraft:block/chorus_plant/chorus_plant_branch_up"
       }
     },
     {
@@ -68,7 +62,7 @@
         "down": "true"
       },
       "apply": {
-        "model": "minecraft:block/chorus_plant_branch_down"
+        "model": "minecraft:block/chorus_plant/chorus_plant_branch_down"
       }
     }
   ]
