@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 8
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:huge_fungus",
+            "config": {
+              "hat_state": {
+                "Name": "minecraft:air"
+              },
+              "decor_state": {
+                "Name": "minecraft:air"
+              },
+              "stem_state": {
+                "Name": "minecraft:purpur_pillar",
+                "Properties": {
+                  "axis": "y"
+                }
+              },
+              "valid_base_block": {
+                "Name": "minecraft:granite"
+              },
+              "planted": false
+            }
+          }
+        }
+      }
+    }
+  }

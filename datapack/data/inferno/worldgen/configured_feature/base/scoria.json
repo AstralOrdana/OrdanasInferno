@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count",
+            "config": {
+              "count": 128
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:range_biased",
+                "config": {
+                  "maximum": 32,
+                  "bottom_offset": 1,
+                  "top_offset": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "state": {
+            "Name": "minecraft:andesite"
+          },
+          "size": 64,
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:netherrack"
+          }
+        }
+      }
+    }
+  }

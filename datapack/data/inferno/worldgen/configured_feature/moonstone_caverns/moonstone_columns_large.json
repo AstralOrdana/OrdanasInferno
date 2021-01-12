@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": {
+          "base": 1,
+          "spread": 4
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:depth_average",
+              "config": {
+                "baseline": 0,
+                "spread": 128
+              }
+            },
+            "feature": {
+              "type": "minecraft:large_dripstone",
+              "config": {
+                "floor_to_ceiling_search_range": 100,
+                "column_radius": {
+                  "base": 2,
+                  "spread": 17
+                },
+                "height_scale": {
+                  "base": 2,
+                  "spread": 0.1
+                },
+                "max_column_radius_to_cave_height_ratio": 0.33,
+                "stalactite_bluntness": {
+                  "base": 0.3,
+                  "spread": 0.4
+                },
+                "stalagmite_bluntness": {
+                  "base": 0.4,
+                  "spread": 0.5
+                },
+                "wind_speed": {
+                  "base": 0,
+                  "spread": 0
+                },
+                "min_radius_for_wind": 5,
+                "min_bluntness_for_wind": 0.7
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

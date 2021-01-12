@@ -1,14 +1,14 @@
 {
-  "config": {
-    "top_material": {
-      "Name": "minecraft:end_stone"
+    "config": {
+      "top_material": {
+        "Name": "minecraft:end_stone"
+      },
+      "under_material": {
+        "Name": "minecraft:red_sandstone"
+      },
+      "underwater_material": {
+        "Name": "minecraft:soul_soil"
+      }
     },
-    "under_material": {
-      "Name": "minecraft:red_sandstone"
-    },
-    "underwater_material": {
-      "Name": "minecraft:soul_soil"
-    }
-  },
-  "type": "minecraft:nether_forest"
-}
+    "type": "minecraft:nether_forest"
+  }

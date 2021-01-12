@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count_multilayer",
+            "config": {
+              "count": {
+                "base": 9,
+                "spread": 8
+              }
+            }
+          },
+          "inner": {
+            "type": "minecraft:square",
+            "config": {}
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "state": {
+            "Name": "minecraft:stone"
+          },
+          "size": 32,
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:netherrack"
+          }
+        }
+      }
+    }
+  }

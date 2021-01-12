@@ -1,45 +1,38 @@
 {
-    "config": {
-      "feature": {
-    "config": {
-      "state_provider": {
-        "entries": [
-          {
-            "weight": 1,
-            "data": {
-              "Properties": {
-                "waterlogged": "false"
-              },
-              "Name": "minecraft:dead_bubble_coral_fan"
-            }
-          },
-          {
-            "weight": 1,
-            "data": {
-              "Properties": {
-                "waterlogged": "false"
-              },
-              "Name": "minecraft:dead_bubble_coral_fan"
-            }
-          },
-          {
-            "weight": 32,
-            "data": {
-              "Name": "minecraft:air"
-            }
-          }
-        ],
-        "type": "minecraft:weighted_state_provider"
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 16
       }
     },
-    "type": "minecraft:block_pile"
-  },
-      "decorator": {
-        "config": {
-          "count": 16
-        },
-        "type": "minecraft:count_multilayer"
+    "feature": {
+      "type": "minecraft:block_pile",
+      "config": {
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:small_amethyst_bud",
+                "Properties": {
+                  "waterlogged": "false",
+                  "facing": "up",
+                  "lit": "true"
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "data": {
+                "Name": "minecraft:air"
+              }
+            }
+          ]
+        }
       }
-    },
-    "type": "minecraft:decorated"
+    }
   }
+}

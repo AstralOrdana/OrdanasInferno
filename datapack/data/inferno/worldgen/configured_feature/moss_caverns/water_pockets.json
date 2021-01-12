@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 5
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:range",
+          "config": {
+            "maximum": 140,
+            "bottom_offset": 0,
+            "top_offset": 0
+          }
+        },
+        "feature": {
+          "type": "minecraft:delta_feature",
+          "config": {
+            "contents": {
+              "Name": "minecraft:water",
+              "Properties": {
+                "level": "0"
+              }
+            },
+            "rim": {
+              "Name": "minecraft:powder_snow"
+            },
+            "size": {
+              "base": 3,
+              "spread": 4
+            },
+            "rim_size": {
+              "base": 1,
+              "spread": 2
+            }
+          }
+        }
+      }
+    }
+  }
+}

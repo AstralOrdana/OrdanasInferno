@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:soul_sand_valley",
   "config": {
     "top_material": {
       "Name": "minecraft:soul_sand"
@@ -9,6 +10,5 @@
     "underwater_material": {
       "Name": "minecraft:soul_sand"
     }
-  },
-  "type": "minecraft:soul_sand_valley"
+  }
 }

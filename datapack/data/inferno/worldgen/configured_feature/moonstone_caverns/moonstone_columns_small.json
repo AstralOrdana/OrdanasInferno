@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": {
+            "base": 20,
+            "spread": 40
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:range",
+                "config": {
+                  "maximum": 60,
+                  "bottom_offset": 0,
+                  "top_offset": 0
+                }
+              },
+              "feature": {
+                "type": "minecraft:small_dripstone",
+                "config": {
+                  "max_placements": 5,
+                  "empty_space_search_radius": 10,
+                  "max_offset_from_origin": 2,
+                  "chance_of_taller_dripstone": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

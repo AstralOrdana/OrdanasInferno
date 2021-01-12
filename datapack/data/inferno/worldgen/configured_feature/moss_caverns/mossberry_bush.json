@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 64
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:iceberg",
+            "config": {}
+          },
+          "feature": "minecraft:patch_berry_bush"
+        }
+      }
+    }
+  }

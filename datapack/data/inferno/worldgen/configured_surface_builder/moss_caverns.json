@@ -1,0 +1,17 @@
+{
+    "config": {
+        "top_material": {
+          "Name": "minecraft:green_concrete_powder"
+          },
+      "under_material": {
+        "Name": "minecraft:podzol",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      "underwater_material": {
+        "Name": "minecraft:powder_snow"
+      }
+    },
+    "type": "minecraft:nether_forest"
+  }

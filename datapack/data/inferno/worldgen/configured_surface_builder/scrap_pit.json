@@ -1,7 +1,7 @@
 {
     "config": {
       "top_material": {
-        "Name": "minecraft:red_sand"
+        "Name": "minecraft:granite"
       },
       "under_material": {
         "Name": "minecraft:diorite"
@@ -10,5 +10,5 @@
         "Name": "minecraft:red_sand"
       }
     },
-    "type": "minecraft:default"
+    "type": "minecraft:nether_forest"
   }

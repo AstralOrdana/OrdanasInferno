@@ -1,10 +1,22 @@
 {
+  "surface_builder": "inferno:midnight_forest",
+  "depth": 0.1,
+  "scale": 0.2,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
   "effects": {
+    "sky_color": 37314,
+    "fog_color": 2333555,
+    "water_color": 2333555,
+    "water_fog_color": 1205064,
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.warped_forest.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "additions_sound": {
       "sound": "minecraft:ambient.warped_forest.additions",
@@ -21,57 +33,8 @@
         "type": "minecraft:warped_spore"
       },
       "probability": 0.01628
-    },
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
-    "sky_color": 7254527,
-    "fog_color": 2333555,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    }
   },
-  "surface_builder": "inferno:midnight_forest",
-  "carvers": {
-    "air": [
-      "minecraft:nether_cave"
-    ],
-    "liquid": [
-      "inferno:maximum_caves"
-    ]
-  },
-  "features": [
-    [],
-    [],
-    [
-      "inferno:limestone_rock",
-      "inferno:glowing_rock"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "inferno:spring_open",
-      "minecraft:patch_fire",
-      "minecraft:patch_soul_fire",
-      "minecraft:glowstone_extra",
-      "inferno:glowstone",
-      "minecraft:ore_magma",
-      "inferno:spring_closed",
-      "minecraft:ore_gravel_nether",
-      "inferno:ore_blackstone",
-      "inferno:ore_gold_nether",
-      "inferno:ore_quartz_nether",
-      "inferno:ore_limestone",
-      "inferno:scoria",
-      "inferno:limestone_veins"
-    ],
-    [
-      "minecraft:spring_lava",
-      "inferno:midnight_mushroom",
-      "inferno:midnight_roots",
-      "inferno:midnight_roots_tall",
-      "inferno:midnight_spore"
-    ]
-  ],
   "starts": [
     "minecraft:bastion_remnant"
   ],
@@ -106,13 +69,49 @@
   "spawn_costs": {
     "minecraft:enderman": {
       "energy_budget": 0.12,
-      "charge": 1.0
+      "charge": 1
     }
   },
-  "precipitation": "none",
-  "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether",
-  "depth": 0.1,
-  "scale": 0.2
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "inferno:midnight_forest/midnight_fungus",
+      "inferno:midnight_forest/midnight_roots",
+      "inferno:midnight_forest/midnight_roots_tall",
+      "inferno:midnight_forest/midnight_bloom",
+      "inferno:midnight_forest/midnight_spores",
+      "inferno:midnight_forest/limestone_ore",
+      "inferno:midnight_forest/limestone_rock",
+      "inferno:base/scoria"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_quartz_nether",
+      "inferno:midnight_forest/limestone_infection"
+    ],
+    [
+      "minecraft:spring_lava",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
+    ]
+  ]
 }

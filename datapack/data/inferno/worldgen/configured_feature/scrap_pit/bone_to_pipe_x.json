@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_extra",
+        "config": {
+          "count": 0,
+          "extra_count": 1000,
+          "extra_chance": 1
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:range",
+                "config": {
+                  "maximum": 128,
+                  "bottom_offset": 0,
+                  "top_offset": 0
+                }
+              }
+            }
+          },
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:purpur_pillar",
+                "Properties": {
+                  "axis": "x"
+                }
+              },
+              "target": {
+                "Name": "minecraft:bone_block",
+                "Properties": {
+                  "axis": "x"
+                }
+              },
+              "radius": 16
+            }
+          }
+        }
+      }
+    }
+  }

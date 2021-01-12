@@ -12,7 +12,7 @@
       "type": "minecraft:netherrack_replace_blobs",
       "config": {
         "state": {
-          "Name": "minecraft:blue_ice"
+          "Name": "minecraft:amethyst_block"
         },
         "target": {
           "Name": "minecraft:netherrack"

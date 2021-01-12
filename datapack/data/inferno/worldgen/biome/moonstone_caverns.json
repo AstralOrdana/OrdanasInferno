@@ -1,28 +1,11 @@
 {
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
-      "tick_chance": 0.0111
-    },
-    "music": {
-      "sound": "minecraft:music.nether.warped_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
     "particle": {
       "options": {
         "type": "minecraft:end_rod"
       },
       "probability": 0.01428
     },
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "sky_color": 7254527,
     "fog_color": 9820156,
     "water_color": 4159204,
@@ -31,66 +14,37 @@
   "surface_builder": "inferno:moonstone_caverns",
   "carvers": {
     "air": [
-      "minecraft:nether_cave"
-    ],
-    "liquid": [
-      "inferno:maximum_caves"
+      "minecraft:ocean_cave"
     ]
   },
   "features": [
     [
-      "inferno:twisting_vines",
-      "inferno:weeping_vines",
-      "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar"
+      "inferno:moonstone_caverns/moonstone_columns_large",
+      "inferno:moonstone_caverns/moonstone_columns_small"
     ],
     [],
     [],
     [],
     [],
     [],
-    [],
     [
-      "inferno:spring_open",
-      "minecraft:glowstone_extra",
-      "inferno:glowstone",
-      "minecraft:ore_magma",
-      "inferno:spring_closed",
       "minecraft:ore_blackstone",
-      "inferno:scoria",
-      "inferno:vine_replacer_moonstone",
-      "inferno:vine_replacer_moonstone",
-      "inferno:vine_replacer_moonstone_2",
-      "inferno:vine_replacer_moonstone",
-      "inferno:vine_replacer_moonstone",
-      "inferno:vine_replacer_moonstone_2",
-      "inferno:basalt_replacer_moonstone",
-      "inferno:basalt_replacer_moonstone",
-      "inferno:basalt_replacer_moonstone",
-      "inferno:wart_replacer_moonstone",
-      "inferno:wart_replacer_moonstone",
-      "inferno:wart_replacer_moonstone"
+      "inferno:base/scoria",
+      "inferno:moonstone_caverns/dripstone_to_moonstone"
     ],
     [
-       "minecraft:spring_lava",
-       "inferno:moonstone_crystals",
-       "inferno:moonstone_veins",
-       "inferno:glowstone_replacer"
+       "inferno:moonstone_caverns/moonstone_crystals",
+       "inferno:moonstone_caverns/netherrack_replacer"
+    ],
+    [
+      "inferno:moonstone_caverns/moonstone_ore"
     ]
   ],
   "starts": [
     "minecraft:bastion_remnant"
   ],
   "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
     "creature": [
       {
         "type": "minecraft:strider",
@@ -104,12 +58,7 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {
-    "minecraft:enderman": {
-      "energy_budget": 0.12,
-      "charge": 1.0
-    }
-  },
+  "spawn_costs": {},
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,

@@ -1,17 +1,17 @@
 {
-  "config": {
-    "top_material": {
-      "Name": "minecraft:blackstone"
-    },
-    "under_material": {
-      "Properties": {
-        "axis": "y"
+    "type": "minecraft:basalt_deltas",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:blackstone"
       },
-      "Name": "minecraft:basalt"
-    },
-    "underwater_material": {
-      "Name": "minecraft:magma_block"
+      "under_material": {
+        "Name": "minecraft:basalt",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      "underwater_material": {
+        "Name": "minecraft:magma_block"
+      }
     }
-  },
-  "type": "minecraft:basalt_deltas"
-}
+  }
