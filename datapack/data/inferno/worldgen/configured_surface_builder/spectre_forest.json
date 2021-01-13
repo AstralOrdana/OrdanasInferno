@@ -4,7 +4,7 @@
         "Name": "minecraft:end_stone"
       },
       "under_material": {
-        "Name": "minecraft:red_sandstone"
+        "Name": "minecraft:terracotta"
       },
       "underwater_material": {
         "Name": "minecraft:soul_soil"

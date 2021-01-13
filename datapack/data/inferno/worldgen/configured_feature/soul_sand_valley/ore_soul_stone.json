@@ -29,7 +29,7 @@
                 "type": "minecraft:ore",
                 "config": {
                   "state": {
-                    "Name": "minecraft:red_sandstone"
+                    "Name": "minecraft:terracotta"
                   },
                   "size": 42,
                   "target": {

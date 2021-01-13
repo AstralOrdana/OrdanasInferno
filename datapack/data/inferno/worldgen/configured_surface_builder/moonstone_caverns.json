@@ -4,7 +4,7 @@
           "Name": "minecraft:amethyst_block"
           },
       "under_material": {
-        "Name": "minecraft:red_sandstone"
+        "Name": "minecraft:terracotta"
       },
       "underwater_material": {
         "Name": "minecraft:budding_amethyst"

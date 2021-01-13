@@ -28,7 +28,7 @@
           "size": 32,
           "target": {
             "predicate_type": "minecraft:block_match",
-            "block": "minecraft:red_sandstone"
+            "block": "minecraft:terracotta"
           }
         }
       }

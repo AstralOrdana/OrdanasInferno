@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:red_sandstone"
+              "name": "minecraft:terracotta"
             }
           ]
         }
