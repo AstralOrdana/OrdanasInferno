@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "top": "minecraft:block/spectre_nylium",
-    "bottom": "minecraft:block/red_sandstone",
+    "bottom": "minecraft:block/terracotta",
     "side": "minecraft:block/spectre_nylium_side"
   }
 }
