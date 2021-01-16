@@ -8,7 +8,7 @@
   "has_skylight": false,
   "has_ceiling": true,
   "coordinate_scale": 16,
-  "ambient_light": 0,
+  "ambient_light": 0.1,
   "fixed_time": 6000,
   "logical_height": 256,
   "effects": "minecraft:the_nether",
