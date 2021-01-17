@@ -132,6 +132,16 @@
             "weirdness": 0,
             "offset": 0
           }
+        },
+        {
+          "biome": "inferno:magma_mires",
+          "parameters": {
+            "altitude": 0,
+            "temperature": -0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
         }
       ]
     },
