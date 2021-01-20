@@ -7,13 +7,10 @@
         }
           },
       "under_material": {
-        "Name": "minecraft:powder_snow"
+        "Name": "minecraft:calcite"
       },
       "underwater_material": {
-        "Name": "minecraft:podzol",
-        "Properties": {
-          "snowy": "false"
-        }
+        "Name": "minecraft:powder_snow"
       }
     },
     "type": "minecraft:nether_forest"
