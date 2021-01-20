@@ -27,7 +27,10 @@
             }
           },
           "valid_base_block": {
-            "Name": "minecraft:green_concrete_powder"
+            "Name": "minecraft:podzol",
+            "Properties": {
+              "snowy": "false"
+            }
           },
           "planted": false
         }
