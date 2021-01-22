@@ -18,9 +18,9 @@
       },
       "particle": {
         "options": {
-          "type": "minecraft:mycelium_dust_particle"
+          "type": "minecraft:soul"
         },
-        "probability": 0.01428
+        "probability": 0.001
       },
       "ambient_sound": "minecraft:ambient.warped_forest.loop",
       "sky_color": 7254527,

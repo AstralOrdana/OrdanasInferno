@@ -54,9 +54,7 @@
     },
     "features": [
       [
-        "minecraft:twisting_vines",
         "inferno:moss_caverns/water_pockets",
-        "inferno:moss_caverns/mossberry_bush",
         "inferno:moss_caverns/calcite_to_dirt"
       ],
       [
@@ -65,7 +63,8 @@
         "inferno:moss_caverns/mossball_tree"
       ],
       [
-        "inferno:moss_caverns/dirt_to_calcite"
+        "inferno:moss_caverns/dirt_to_calcite",
+        "inferno:moss_caverns/glow_lichen"
       ],
       [],
       []
