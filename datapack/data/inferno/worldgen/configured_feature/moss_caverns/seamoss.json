@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "inner": {
+            "type": "minecraft:count_multilayer",
+            "config": {
+              "count": 48
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:seagrass",
+        "config": {
+          "probability": 0.5
+        }
+      }
+    }
+  }

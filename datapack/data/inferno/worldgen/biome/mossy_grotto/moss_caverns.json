@@ -60,7 +60,9 @@
       [
         "inferno:moss_caverns/mossbloom_tree",
         "inferno:moss_caverns/mossbloom_tree_vines",
-        "inferno:moss_caverns/mossball_tree"
+        "inferno:moss_caverns/mossball_tree",
+        "inferno:moss_caverns/seamoss",
+        "inferno:moss_caverns/kelp"
       ],
       [
         "inferno:moss_caverns/dirt_to_calcite",
