@@ -5,8 +5,8 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":28001}, "model": "dream_team_custom/z_oi_demon_idol"},
-		{"predicate": {"custom_model_data":28002}, "model": "dream_team_custom/z_oi_demon_idol_on"},
-		{"predicate": {"custom_model_data":28003}, "model": "dream_team_custom/z_oi_fertilizer"}
+		{"predicate": {"custom_model_data":28001}, "model": "dream_team_custom/entities/demon/z_oi_demon_idol"},
+		{"predicate": {"custom_model_data":28002}, "model": "dream_team_custom/entities/demon/z_oi_demon_idol_on"},
+		{"predicate": {"custom_model_data":28003}, "model": "dream_team_custom/items/z_oi_fertilizer"}
 	]
 }

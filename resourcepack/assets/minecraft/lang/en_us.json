@@ -231,6 +231,8 @@
   "block.minecraft.smoker": "Carnelium Forge",
   "block.minecraft.blast_furnace": "Soul Forge",
   "block.minecraft.anvil": "Enchantment Altar",
+  "block.minecraft.chipped_anvil": "Chipped Enchantment Altar",
+  "block.minecraft.damaged_anvil": "Damaged Enchantment Altar",
   
   "block.minecraft.shulker_box": "Anirrum Box",
   "block.minecraft.white_shulker_box": "White Anirrum Box",
@@ -345,7 +347,7 @@
   "item.minecraft.pumpkin_seeds": "Bone Gourd Seeds",
   "item.minecraft.melon_seeds": "Nether Melon Seeds",
   "item.minecraft.wheat_seeds": "Turnip seeds",
-  "item.minecraft.cocoa_beans": "Infectious Spores",
+  "item.minecraft.cocoa_beans": "Mossball",
   
   "item.minecraft.charcoal": "Magmatic Rock",
   "item.minecraft.lapis_lazuli": "Moonstone Crystal",
