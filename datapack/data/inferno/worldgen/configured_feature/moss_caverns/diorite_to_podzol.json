@@ -22,8 +22,8 @@
               "inner": {
                 "type": "minecraft:depth_average",
                 "config": {
-                  "baseline": 144,
-                  "spread": 4
+                  "baseline": 128,
+                  "spread": 10
                 }
               }
             }
@@ -32,15 +32,15 @@
             "type": "minecraft:ore",
             "config": {
               "state": {
-                "Name": "minecraft:calcite"
+                "Name": "minecraft:podzol",
+                "Properties": {
+                  "snowy": "false"
+                }
               },
               "size": 64,
               "target": {
                 "predicate_type": "minecraft:block_match",
-                "block": "minecraft:podzol",
-                "Properties": {
-                  "snowy": "false"
-                }
+                "block": "minecraft:diorite"
               }
             }
           }

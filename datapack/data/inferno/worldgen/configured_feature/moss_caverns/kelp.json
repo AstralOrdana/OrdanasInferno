@@ -2,30 +2,45 @@
     "type": "minecraft:decorated",
     "config": {
       "decorator": {
-        "type": "minecraft:count_noise_biased",
+        "type": "minecraft:count",
         "config": {
-          "noise_to_count_ratio": 120,
-          "noise_factor": 80,
-          "noise_offset": 0
+          "count": 16
         }
       },
       "feature": {
         "type": "minecraft:decorated",
         "config": {
           "decorator": {
-            "type": "minecraft:square",
-            "config": {}
+            "type": "minecraft:count_noise_biased",
+            "config": {
+              "noise_to_count_ratio": 1,
+              "noise_factor": 80,
+              "noise_offset": 0
+            }
           },
           "feature": {
             "type": "minecraft:decorated",
             "config": {
               "decorator": {
-                "type": "minecraft:top_solid_heightmap",
-                "config": {}
+                "type": "minecraft:range",
+                "config": {
+                  "maximum": 30,
+                  "bottom_offset": 0,
+                  "top_offset": 0
+                }
               },
               "feature": {
-                "type": "minecraft:kelp",
-                "config": {}
+                "type": "minecraft:decorated",
+                "config": {
+                  "decorator": {
+                    "type": "minecraft:square",
+                    "config": {}
+                  },
+                  "feature": {
+                    "type": "minecraft:kelp",
+                    "config": {}
+                  }
+                }
               }
             }
           }
