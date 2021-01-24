@@ -1,47 +1,51 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:count_multilayer",
-        "config": {
-          "count": 32
-        }
-      },
-      "feature": {
-        "type": "minecraft:decorated",
-        "config": {
-          "decorator": {
-            "type": "minecraft:square",
-            "config": {}
-          },
-          "feature": {
-            "type": "minecraft:glow_lichen",
-            "config": {
-              "can_be_placed_on": [
-                {
-                  "Name": "minecraft:podzol",
-                  "Properties":{
-                      "snowy": "false"
-                  }
-                },
-                {
-                  "Name": "minecraft:jungle_log",
-                  "Properties":{
-                    "axis": "y"
-                  }
-                },
-                {
-                  "Name": "minecraft:diorite"
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 128
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count_noise_biased",
+          "config": {
+            "noise_to_count_ratio": 1,
+            "noise_factor": 100,
+            "noise_offset": 0
+          }
+        },
+        "feature": {
+          "type": "minecraft:glow_lichen",
+          "config": {
+            "search_range": 10,
+            "chance_of_spreading": 0.5,
+            "can_place_on_floor": true,
+            "can_place_on_ceiling": true,
+            "can_place_on_wall": true,
+            "can_be_placed_on": [
+              {
+                "Name": "minecraft:podzol",
+                "Properties": {
+                  "snowy": "false"
                 }
-              ],
-              "chance_of_spreading": 0.5,
-              "search_range": 10,
-              "can_place_on_floor": false,
-              "can_place_on_ceiling": true,
-              "can_place_on_wall": true
-            }
+              },
+              {
+                "Name": "minecraft:jungle_log",
+                "Properties": {
+                  "axis": "y"
+                }
+              },
+              {
+                "Name": "minecraft:diorite"
+              }
+            ]
           }
         }
       }
     }
   }
+}
