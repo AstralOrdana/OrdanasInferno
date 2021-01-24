@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:diorite",
+              "name": "minecraft:calcite",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",

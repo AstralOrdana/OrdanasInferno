@@ -4,7 +4,7 @@
         "Name": "minecraft:granite"
       },
       "under_material": {
-        "Name": "minecraft:diorite"
+        "Name": "minecraft:calcite"
       },
       "underwater_material": {
         "Name": "minecraft:red_sand"
