@@ -7,7 +7,7 @@
         }
           },
       "under_material": {
-        "Name": "minecraft:diorite"
+        "Name": "minecraft:calcite"
       },
       "underwater_material": {
         "Name": "minecraft:powder_snow"
