@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "block/tall_seamoss_top",
-		"particle": "block/water_moss_layer1"
+		"particle": "block/seamoss_layer1"
 	},
 	"elements": [
 		{
