@@ -22,8 +22,13 @@
               "inner": {
                 "type": "minecraft:depth_average",
                 "config": {
+<<<<<<< Updated upstream:datapack/data/inferno/worldgen/configured_feature/moss_caverns/calcite_to_dirt.json
                   "baseline": 144,
                   "spread": 4
+=======
+                  "baseline": 128,
+                  "spread": 10
+>>>>>>> Stashed changes:datapack/data/inferno/worldgen/configured_feature/moss_caverns/diorite_to_podzol.json
                 }
               }
             }
