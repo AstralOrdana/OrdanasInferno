@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 48
+        }
+      },
+      "feature": {
+        "type": "minecraft:seagrass",
+        "config": {
+          "probability": 1
+        }
+      }
+    }
+  }
