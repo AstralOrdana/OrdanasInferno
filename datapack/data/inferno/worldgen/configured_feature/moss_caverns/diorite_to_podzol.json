@@ -22,8 +22,8 @@
               "inner": {
                 "type": "minecraft:depth_average",
                 "config": {
-                  "baseline": 128,
-                  "spread": 10
+                  "baseline": 144,
+                  "spread": 6
                 }
               }
             }
