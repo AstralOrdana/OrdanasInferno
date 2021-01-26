@@ -45,12 +45,6 @@
         "weight": 1,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
       }
     ],
     "creature": [

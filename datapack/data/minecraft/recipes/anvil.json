@@ -1,16 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###",
-        " I ",
-        "III"
+        " # ",
+        "III",
+        " I "
     ],
     "key": {
         "#": {
-            "item": "minecraft:bricks"
+            "item": "minecraft:lapis_lazuli"
         },
         "I": {
-            "item": "minecraft:brick"
+            "item": "minecraft:crying_obsidian"
         }
 
     },

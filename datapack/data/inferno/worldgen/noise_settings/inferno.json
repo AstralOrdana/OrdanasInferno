@@ -19,7 +19,7 @@
     "density_offset": 0.019921875,
     "size_horizontal": 1,
     "size_vertical": 2,
-    "simplex_surface_noise": false,
+    "simplex_surface_noise": true,
     "random_density_offset": false,
     "island_noise_override": false,
     "amplified": false,
@@ -48,6 +48,11 @@
         "salt": 0
       },
       "minecraft:bastion_remnant": {
+        "spacing": 10,
+        "separation": 5,
+        "salt": 0
+      },
+      "minecraft:pillager_outpost": {
         "spacing": 10,
         "separation": 5,
         "salt": 0

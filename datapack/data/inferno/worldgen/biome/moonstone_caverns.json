@@ -41,7 +41,8 @@
     ]
   ],
   "starts": [
-    "minecraft:bastion_remnant"
+    "minecraft:bastion_remnant",
+    "minecraft:pillager_outpost"
   ],
   "spawners": {
     "monster": [],
