@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:brick"
+    },
+    "N": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "minecraft:chain"
+  }
+}

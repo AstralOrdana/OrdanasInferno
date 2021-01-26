@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BB",
-    "BB"
+    "NN",
+    "NN"
   ],
   "key": {
-    "B": {
+    "N": {
       "item": "minecraft:stone"
     }
   },

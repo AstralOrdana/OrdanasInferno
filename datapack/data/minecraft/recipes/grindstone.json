@@ -1,22 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#_#",
-        "N N"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:nether_brick"
-        },
-        "_": {
-            "item": "minecraft:polished_blackstone_slab"
-        },
-        "N": {
-            "item": "minecraft:nether_bricks"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I-I",
+    "# #"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:nether_brick"
     },
-    "result": {
-        "item": "minecraft:grindstone",
-        "count": 1
+    "-": {
+      "item": "minecraft:polished_blackstone_slab"
+    },
+    "#": {
+      "item": "minecraft:nether_bricks"
     }
+  },
+  "result": {
+    "item": "minecraft:grindstone"
+  }
 }

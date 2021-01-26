@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BB",
-    "BB"
+    "FF",
+    "FF"
   ],
   "key": {
-    "B": {
-      "item": "minecraft:ink_sac"
+    "F": {
+      "item": "minecraft:popped_chorus_fruit"
     }
   },
   "result": {
-    "item": "minecraft:purpur_block"
+    "item": "minecraft:purpur_block",
+    "count": 4
   }
 }

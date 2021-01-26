@@ -1,20 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "///",
-        " / ",
-        "/_/"
-    ],
-    "key": {
-        "/": {
-            "item": "minecraft:stick"
-        },
-        "_": {
-            "item": "minecraft:polished_blackstone_slab"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    " / ",
+    "/_/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
     },
-    "result": {
-        "item": "minecraft:armor_stand",
-        "count": 1
+    "_": {
+      "item": "minecraft:smooth_blackstone_slab"
     }
+  },
+  "result": {
+    "item": "minecraft:armor_stand"
+  }
 }

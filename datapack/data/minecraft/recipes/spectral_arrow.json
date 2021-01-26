@@ -1,15 +1,9 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:bedrock"
-        }
-    },
-    "result": {
-        "item": "minecraft:bedrock",
-        "count": 1
-    }
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:arrow"
+  },
+  "result": "minecraft:spectral_arrow",
+  "experience": 0.1,
+  "cookingtime": 100
 }

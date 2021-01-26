@@ -1,19 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "/",
-        "B"
-    ],
-    "key": {
-        "/": {
-            "item": "minecraft:honey_bottle"
-        },
-        "B": {
-            "item": "minecraft:piston"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
     },
-    "result": {
-        "item": "minecraft:sticky_piston",
-        "count": 1
+    "S": {
+      "item": "minecraft:honey_bottle"
     }
+  },
+  "result": {
+    "item": "minecraft:sticky_piston"
+  }
 }

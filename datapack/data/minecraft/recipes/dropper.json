@@ -1,24 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "K#K",
-        "# #",
-        "KRK"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:polished_blackstone"
-        },
-
-        "R": {
-            "item": "minecraft:redstone"
-        },
-        "K": {
-            "item": "minecraft:brick"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "# #",
+    "BRB"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
     },
-    "result": {
-        "item": "minecraft:dropper",
-        "count": 1
+    "#": {
+      "item": "minecraft:polsihed_blackstone"
+    },
+    "B": {
+      "item": "minecraft:brick"
     }
+  },
+  "result": {
+    "item": "minecraft:dropper"
+  }
 }

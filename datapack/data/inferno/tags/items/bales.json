@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:oak_leaves",
+      "minecraft:spruce_leaves",
+      "minecraft:birch_leaves",
+      "minecraft:hay_block",
+      "minecraft:dried_kelp_block"
+    ]
+  }

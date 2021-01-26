@@ -1,17 +1,15 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " I",
-        "I "
-    ],
-    "key": {
-        "I": {
-            "item": "minecraft:brick"
-        }
-
-    },
-    "result": {
-        "item": "minecraft:shears",
-        "count": 1
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "# "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
     }
+  },
+  "result": {
+    "item": "minecraft:shears"
+  }
 }

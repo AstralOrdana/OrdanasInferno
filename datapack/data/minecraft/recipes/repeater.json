@@ -1,22 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#R#",
-        "PPP"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:redstone_torch"
-        },
-        "R": {
-            "item": "minecraft:redstone"
-        },
-        "P": {
-            "item": "minecraft:polished_basalt"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
     },
-    "result": {
-        "item": "minecraft:repeater",
-        "count": 1
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:polished_basalt"
     }
+  },
+  "result": {
+    "item": "minecraft:repeater"
+  }
 }

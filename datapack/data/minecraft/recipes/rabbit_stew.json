@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bowl"
-        },
-        {
-            "item": "minecraft:bamboo"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:chorus_flower"
-        },
-        {
-            "item": "minecraft:cooked_chicken"
-        }
-    ],
-    "result": {
-        "item": "minecraft:rabbit_stew",
-        "count": 1
+  "type": "minecraft:crafting_shapeless",
+  "group": "rabbit_stew",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:chorus_flower"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "item": "minecraft:bowl"
     }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_stew"
+  }
 }

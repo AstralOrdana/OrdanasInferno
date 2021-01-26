@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:polished_granite"
+        }
+
+    },
+    "result": {
+        "item": "minecraft:mossy_cobblestone_wall",
+        "count": 6
+    }
+}

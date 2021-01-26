@@ -53,8 +53,8 @@
         "salt": 0
       },
       "minecraft:pillager_outpost": {
-        "spacing": 10,
-        "separation": 5,
+        "spacing": 5,
+        "separation": 2,
         "salt": 0
       }
     }

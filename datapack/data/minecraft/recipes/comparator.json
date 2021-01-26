@@ -1,23 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " # ",
-        "#Q#",
-        "PPP"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:redstone_torch"
-        },
-        "Q": {
-            "item": "minecraft:quartz"
-        },
-        "P": {
-            "item": "minecraft:polished_basalt"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
     },
-    "result": {
-        "item": "minecraft:comparator",
-        "count": 1
+    "X": {
+      "item": "minecraft:quartz"
+    },
+    "I": {
+      "item": "minecraft:polished_basalt"
     }
+  },
+  "result": {
+    "item": "minecraft:comparator"
+  }
 }

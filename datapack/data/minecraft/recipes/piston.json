@@ -1,26 +1,25 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "BRB",
-        "iBi"
-    ],
-    "key": {
-        "#": {
- 	     "tag": "minecraft:planks"
-        },
-        "B": {
-            "item": "minecraft:polished_blackstone"
-        },
-        "i": {
-            "item": "minecraft:brick"
-        },
-        "R": {
-            "item": "minecraft:redstone"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#R#",
+    "X#X"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
     },
-    "result": {
-        "item": "minecraft:piston",
-        "count": 1
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "T": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:brick"
     }
+  },
+  "result": {
+    "item": "minecraft:piston"
+  }
 }

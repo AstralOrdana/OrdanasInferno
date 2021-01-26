@@ -1,21 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " # ",
-        "III",
-        " I "
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:lapis_lazuli"
-        },
-        "I": {
-            "item": "minecraft:crying_obsidian"
-        }
-
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "iii",
+    " i "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:lapis_lazuli"
     },
-    "result": {
-        "item": "minecraft:anvil",
-        "count": 1
+    "i": {
+      "item": "minecraft:crying_obsidian"
     }
+  },
+  "result": {
+    "item": "minecraft:anvil"
+  }
 }

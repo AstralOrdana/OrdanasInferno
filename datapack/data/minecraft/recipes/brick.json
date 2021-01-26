@@ -1,18 +1,9 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "III",
-        "III",
-        "III"
-    ],
-    "key": {
-        "I": {
-            "item": "minecraft:shulker_shell"
-        }
-
-    },
-    "result": {
-        "item": "minecraft:brick",
-        "count": 1
-    }
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:iron_ore"
+  },
+  "result": "minecraft:brick",
+  "experience": 0.7,
+  "cookingtime": 200
 }

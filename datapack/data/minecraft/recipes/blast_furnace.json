@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "B#B",
-    "BHB",
-    "BBB"
+    "III",
+    "IXI",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:terracotta"
     },
-    "H": {
+    "X": {
       "item": "minecraft:heart_of_the_sea"
     },
-    "B": {
+    "I": {
       "item": "minecraft:polished_blackstone"
     }
   },

@@ -5,6 +5,8 @@
     "minecraft:crimson_planks",
     "minecraft:birch_planks",
     "minecraft:spruce_planks",
-    "minecraft:oak_planks"
+    "minecraft:oak_planks",
+    "minecraft:jungle_planks",
+    "minecraft:acacia_planks"
   ]
 }

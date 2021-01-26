@@ -1,20 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#i#",
-        "###",
-        " # "
-    ],
-    "key": {
-        "#": {
-   	    "tag": "minecraft:planks"
-        },
-        "i": {
-            "item": "minecraft:brick"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
     },
-    "result": {
-        "item": "minecraft:shield",
-        "count": 1
+    "o": {
+      "item": "minecraft:brick"
     }
+  },
+  "result": {
+    "item": "minecraft:shield"
+  }
 }

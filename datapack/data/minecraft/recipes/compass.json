@@ -1,20 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " I ",
-        "IBI",
-        " I "
-    ],
-    "key": {
-        "B": {
-            "item": "minecraft:redstone"
-        },
-        "I": {
-            "item": "minecraft:brick"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
     },
-    "result": {
-        "item": "minecraft:compass",
-        "count": 1
+    "X": {
+      "item": "minecraft:redstone"
     }
+  },
+  "result": {
+    "item": "minecraft:compass"
+  }
 }

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "B  ",
-    "BB ",
-    "BBB"
+    "#  ",
+    "## ",
+    "###"
   ],
   "key": {
-    "B": {
+    "#": {
       "item": "minecraft:cut_sandstone"
     }
   },

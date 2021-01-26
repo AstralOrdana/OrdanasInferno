@@ -1,26 +1,25 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "K#K",
-        "#B#",
-        "KRK"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:polished_blackstone"
-        },
-        "B": {
-            "item": "minecraft:bow"
-        },
-        "R": {
-            "item": "minecraft:redstone"
-        },
-        "K": {
-            "item": "minecraft:brick"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "BRB"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
     },
-    "result": {
-        "item": "minecraft:dispenser",
-        "count": 1
+    "#": {
+      "item": "minecraft:polsihed_blackstone"
+    },
+    "X": {
+      "item": "minecraft:bow"
+    },
+    "B": {
+      "item": "minecraft:brick"
     }
+  },
+  "result": {
+    "item": "minecraft:dispenser"
+  }
 }

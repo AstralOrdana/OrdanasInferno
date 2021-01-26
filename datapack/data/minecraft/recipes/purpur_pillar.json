@@ -1,20 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BDB",
-    "BDB",
-    "BDB"
+    "# #",
+    "# #",
+    "# #"
   ],
   "key": {
-    "B": {
+    "#": {
       "item": "minecraft:scute"
-    },
-    "D": {
-      "item": "minecraft:ink_sac"
     }
   },
   "result": {
-    "item": "minecraft:purpur_block",
-    "count": 1
+    "item": "minecraft:purpur_pillar"
   }
 }

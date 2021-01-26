@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "S#S",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gunpowder"
+        },
+        "S": {
+            "item": "minecraft:soul_sand"
+        }
+    },
+    "result": {
+        "item": "minecraft:tnt",
+        "count": 1
+    }
+}

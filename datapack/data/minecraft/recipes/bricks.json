@@ -1,18 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "III",
-        "III",
-        "III"
-    ],
-    "key": {
-        "I": {
-            "item": "minecraft:brick"
-        }
-
-    },
-    "result": {
-        "item": "minecraft:bricks",
-        "count": 1
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
     }
+  },
+  "result": {
+    "item": "minecraft:bricks"
+  }
 }
