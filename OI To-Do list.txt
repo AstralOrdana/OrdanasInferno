@@ -1,0 +1,25 @@
+***MASTER TEXTURE TO-DO LIST***
+
+Complete Mossberry wood set
+Complete Mossy Mossberry wood set
+Fix bookshelf variant textures
+Create Glider texture
+Create Glider Blood texture
+Change Scrap Pipe to popped chorus fruit
+Change Glider Blood to Ink Sac
+Create Glider Feather texture
+Create Glowing Mossball item texture
+Create Glowing Moss Plant item texture
+Create Treemoss ball item texture
+Create Mossy Marble textures
+Update Polished Marble variants
+Create Mossberry Leaves texture
+Create Mossberry Berry Leaves texture
+Create Mossberry item texture
+Create Mossier Moss texture
+Create Mossberry Bush texture
+Create Fern texture
+Create Large Fern texture
+Create Moss Druid texture
+Create Plashfish texture
+Create Pufferfish texture
