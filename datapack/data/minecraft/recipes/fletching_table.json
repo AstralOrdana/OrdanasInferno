@@ -3,14 +3,14 @@
   "group": "bookshelves",
   "pattern": [
     "###",
-    "@@@",
+    "XXX",
     "###"
   ],
   "key": {
     "#": {
       "item": "minecraft:acacia_planks"
     },
-    "@": {
+    "X": {
       "item": "minecraft:book"
     }
   },
