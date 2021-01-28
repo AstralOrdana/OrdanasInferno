@@ -13,7 +13,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=Orda-NS-FertilizerCloud] at @
 execute as @e[type=minecraft:rabbit,nbt=!{MoreCarrotTicks:0},tag=!Orda-NS-CroakerDoneCarrot] at @s run function inferno:entity/croaker/fertilizer_placement_carrots
 execute as @e[type=minecraft:rabbit,nbt={MoreCarrotTicks:0},tag=Orda-NS-CroakerDoneCarrot] at @s run tag @s remove Orda-NS-CroakerDoneCarrot
 #Nylium Fertilizer#
-#execute as @e[type=minecraft:area_effect_cloud,tag=Orda-NS-FertilizerCloud] at @s if block ~ ~-1 ~ 
+#execute as @e[type=minecraft:area_effect_cloud,tag=Orda-NS-FertilizerCloud] at @s if block ~ ~-1 ~
 
 ###MOB ADJUSTMENT###
 function inferno:mob_adjustments
@@ -58,3 +58,15 @@ execute store result score $Ordana-NS-ShroomsteerSMobCap OrdN-S_MobCap if entity
 
 #Zarpan#
 execute store result score $Ordana-NS-ZarpanMobCap OrdN-S_MobCap if entity @e[type=mule]
+
+###Mossier Moss###
+execute as @a store result score @s OrdN-S_MossTicks run data get entity @s TicksFrozen
+execute as @a[scores={OrdN-S_MossTicks=120..}] at @s run function inferno:mossier_moss
+
+###croaker fertilizer###
+execute as @e[type=minecraft:rabbit,nbt=!{InLove:0}] at @s run function inferno:entity/croaker/croaker_feeding
+execute as @e[type=minecraft:area_effect_cloud,tag=Orda-NS-FertilizerCloud] at @s run fill ~4 ~-4 ~4 ~-4 ~1 ~-4 minecraft:farmland[moisture=7] replace minecraft:farmland
+
+###MOB ADJUSTMENTS###
+#Kinglin#
+execute as @e[type=minecraft:vindicator,tag=Orda-NS-Kinglin] run data merge entity @s {Johnny:0b}

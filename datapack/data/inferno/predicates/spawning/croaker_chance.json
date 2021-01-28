@@ -2,7 +2,7 @@
   {
     "condition": "minecraft:location_check",
     "predicate": {
-      "biome": "inferno:croaker_forest"
+      "biome": "inferno:warped_forest"
     }
   },
   {
