@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:clay",
+              "name": "minecraft:amethyst_block",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -28,13 +28,13 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:clay_ball",
+              "name": "minecraft:lapis_lazuli",
               "functions": [
                 {
                   "function": "minecraft:set_count",
                   "count": {
                     "min": 1,
-                    "max": 2
+                    "max": 3
                   },
                   "add": false
                 },
@@ -51,25 +51,19 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:stone_shovel"
+                    "item": "minecraft:netherite_pickaxe"
                   }
                 },
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:netherite_shovel"
+                    "item": "minecraft:diamond_pickaxe"
                   }
                 },
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:diamond_shovel"
-                  }
-                },
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:iron_shovel"
+                    "item": "minecraft:iron_pickaxe"
                   }
                 }
               ]

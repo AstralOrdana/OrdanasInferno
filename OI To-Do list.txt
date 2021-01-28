@@ -5,7 +5,6 @@ Complete Mossy Mossberry wood set
 Fix bookshelf variant textures
 Create Glider texture
 Create Glider Blood texture
-Change Scrap Pipe to popped chorus fruit
 Change Glider Blood to Ink Sac
 Create Glider Feather texture
 Create Glowing Mossball item texture
@@ -23,3 +22,6 @@ Create Large Fern texture
 Create Moss Druid texture
 Create Plashfish texture
 Create Pufferfish texture
+
+
+[DONE] Change Scrap Pipe to popped chorus fruit
