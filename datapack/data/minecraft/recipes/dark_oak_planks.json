@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bookshelves",
+    "pattern": [
+      "###",
+      "XXX",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:spruce_planks"
+      },
+      "X": {
+        "item": "minecraft:book"
+      }
+    },
+    "result": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  }

@@ -1,13 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "planks",
-  "ingredients": [
-    {
-      "tag": "minecraft:jungle_logs"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#W#",
+    "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    },
+    "W": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
   "result": {
     "item": "minecraft:jungle_planks",
-    "count": 4
+    "count": 8
   }
 }

@@ -8,7 +8,7 @@
   "block.minecraft.grass_path": "Soil Path",
   "block.minecraft.sand": "Volcanic Ash",
   
-  "block.minecraft.clay": "Soul Scraps",
+  "block.minecraft.clay": "Anirrum Scraps",
   "block.minecraft.lapis_ore": "Moonstone Ore",
   "block.minecraft.iron_ore": "Carnelium-Rich Blackstone",
   "block.minecraft.coal_ore": "Poor Carnelium",
@@ -30,10 +30,10 @@
   "block.minecraft.chorus_plant": "Spectre Stem",
   "block.minecraft.bamboo": "Midnight Fungus",
   "block.minecraft.cactus": "Ochre Fungus",
+  "block.minecraft.dandelion": "Midnight Bloom",
   
   "block.minecraft.dead_tube_coral_block": "Petrified Stem",
   "block.minecraft.emerald_ore": "Quartz-Rich Stem",
-  "block.minecraft.sea_lantern": "Sunstone-Rich Stem",
   "block.minecraft.dead_brain_coral_block": "Petrified Cap",
   
   "block.minecraft.sea_pickle": "Spectre Roots",
@@ -52,9 +52,6 @@
   "block.minecraft.mushroom_stem": "Spore stem",
   "block.minecraft.red_mushroom_block": "Spectre Wartspore",
   "block.minecraft.brown_mushroom_block": "Midnight Wartspore",
-  
-  "block.minecraft.acacia_planks": "Mossberry Planks",
-  "block.minecraft.jungle_planks": "Mossy Mossberry Planks",
 
   "block.minecraft.bookshelf": "Mossy Mossberry Bookshelf",
   "block.minecraft.fletching_table": "Mossberry Bookshelf",
@@ -203,16 +200,54 @@
   "block.minecraft.cut_sandstone": "Polished Slate",
   "block.minecraft.cut_sandstone_slab": "Polished Slate Slab",
   "block.minecraft.mossy_cobblestone_stairs": "Polished Slate Stairs",
-  "block.minecraft.diorite_wall": "Polished Slate Wall",
   "block.minecraft.smooth_sandstone": "Polished Slate Bricks",
   "block.minecraft.smooth_sandstone_slab": "Polished Slate Brick Slab",
   "block.minecraft.smooth_sandstone_stairs": "Polished Slate Brick Stairs",
   "block.minecraft.end_stone_brick_wall": "Polished Slate Brick Wall",
   "block.minecraft.chiseled_sandstone": "Chiseled Polished Slate",
+
+  "block.minecraft.diorite": "Marble",
+  "block.minecraft.diorite_stairs": "Marble Stairs",
+  "block.minecraft.diorite_slab": "Marble Slab",
+  "block.minecraft.diorite_wall": "Marble Wall",
+
+  "block.minecraft.podzol": "Moss Block",
+  "block.minecraft.seagrass": "Seamoss",
+  "item.minecraft.cocoa_beans": "Mossball",
+  "item.minecraft.glow_ink_sac": "Glowing Mossball",
+  "item.minecraft.sweet_berries": "Mossberries",
+  "block.minecraft.kelp": "Seavain",
+  "item.minecraft.bread": "Seavain Blossom",
+
+  "block.minecraft.acacia_planks": "Mossberry Planks",
+  "block.minecraft.acacia_slab": "Mossberry Slab",
+  "block.minecraft.acacia_stairs": "Mossberry Stairs",
+  "block.minecraft.acacia_fence": "Mossberry Fence",
+  "block.minecraft.acacia_fence_gate": "Mossberry Fence Gate",
+  "block.minecraft.acacia_button": "Mossberry Button",
+  "block.minecraft.acacia_pressure_plate": "Mossberry Pressure Plate",
+  "block.minecraft.acacia_sign": "Mossberry Sign",
+  "block.minecraft.acacia_door": "Mossberry Door",
+  "block.minecraft.acacia_trapdoor": "Mossberry Trapdoor",
+
+  "block.minecraft.jungle_log": "Mossberry Log",
+  "block.minecraft.jungle_wood": "Mossberry Wood",
+  "block.minecraft.stripped_jungle_log": "Stripped Mossberry Log",
+  "block.minecraft.stripped_jungle_wood": "Stripped Mossberry Wood",
+  "block.minecraft.jungle_planks": "Mossy Mossberry Planks",
+  "block.minecraft.jungle_slab": "Mossy Mossberry Slab",
+  "block.minecraft.jungle_stairs": "Mossy Mossberry Stairs",
+  "block.minecraft.jungle_fence": "Mossy Mossberry Fence",
+  "block.minecraft.jungle_fence_gate": "Mossy Mossberry Fence Gate",
+  "block.minecraft.jungle_button": "Mossy Mossberry Button",
+  "block.minecraft.jungle_pressure_plate": "Mossy Mossberry Pressure Plate",
+  "block.minecraft.jungle_sign": "Mossy Mossberry Sign",
+  "block.minecraft.jungle_door": "Mossy Mossberry Door",
+  "block.minecraft.jungle_trapdoor": "Mossy Mossberry Trapdoor",
   
-  "block.minecraft.diorite": "Pipe Scraps",
   "block.minecraft.granite": "Gear Scraps",
-  "block.minecraft.red_sand": "Loose Scrap",
+  "block.minecraft.calcite": "Pipe Scraps",
+  "block.minecraft.red_sand": "Loose Scraps",
   "block.minecraft.emerald_block": "Nihiline Scraps",
   
   "block.minecraft.purpur_pillar": "Pipe Block",
@@ -222,7 +257,6 @@
   
   "block.minecraft.prismarine": "Block of Anirrum",
   "block.minecraft.lapis_block": "Block of Moonstone",
-  "block.minecraft.glowstone": "Sunstone",
   "block.minecraft.diamond_block": "Nihiline Block",
   "block.minecraft.honey_block": "Coagulated Blood",
   "block.minecraft.bricks": "Block of Carnelium",
@@ -305,7 +339,7 @@
   "item.minecraft.iron_pickaxe": "Anirrum Pickaxe",
   "item.minecraft.iron_hoe": "Anirrum Hoe",
 
-  "item.minecraft.honeycomb": "Dense Scraps",
+  "item.minecraft.honeycomb": "Dense Scrap",
   "item.minecraft.diamond": "Nihiline Ingot",
   "item.minecraft.diamond_helmet": "Nihiline Helmet",
   "item.minecraft.diamond_chestplate": "Nihiline Chestplate",
@@ -319,9 +353,9 @@
   "item.minecraft.diamond_hoe": "Nihiline Hoe",
   
   "item.minecraft.golden_helmet": "Golden Crown",
-  "item.minecraft.golden_chestplate": "Golden Necklace",
-  "item.minecraft.golden_leggings": "Golden Leg Chain",
-  "item.minecraft.golden_boots": "Golden Toe Rings",
+  "item.minecraft.golden_chestplate": "Golden Amulet",
+  "item.minecraft.golden_leggings": "Golden belt",
+  "item.minecraft.golden_boots": "Golden Anklet",
   
   "item.minecraft.elytra": "Fly Wings",
   "item.minecraft.trident": "Pitchfork",
@@ -339,7 +373,6 @@
   "item.minecraft.pumpkin_pie": "Bone Gourd Pie",
   "item.minecraft.beetroot": "Turnip",
   "item.minecraft.beetroot_soup": "Turnip Soup",
-  "item.minecraft.sweet_berries": "Blaze Berries",
   "item.minecraft.honey_bottle": "Bottle of Demon Blood",
   "item.minecraft.chicken": "Raw Croaker",
   "item.minecraft.cooked_chicken": "Cooked Croaker",
@@ -350,7 +383,6 @@
   "item.minecraft.pumpkin_seeds": "Bone Gourd Seeds",
   "item.minecraft.melon_seeds": "Nether Melon Seeds",
   "item.minecraft.wheat_seeds": "Turnip seeds",
-  "item.minecraft.cocoa_beans": "Mossball",
   
   "item.minecraft.charcoal": "Magmatic Rock",
   "item.minecraft.lapis_lazuli": "Moonstone Crystal",
@@ -360,8 +392,6 @@
   "item.minecraft.stick": "Stem Fiber",
   "item.minecraft.slime_ball": "Rubber ball",
   "item.minecraft.fermented_spider_eye": "Maggot Eggs",
-
-  "item.minecraft.glowstone_dust": "Sunstone Crystal",
   
   "item.minecraft.spectral_arrow": "Soul Arrow",
   "item.minecraft.dragon_breath": "Soul in a Bottle",
