@@ -22,6 +22,11 @@ Create Large Fern texture
 Create Moss Druid texture
 Create Plashfish texture
 Create Pufferfish texture
+Add Soul Scorched effect
+Add demon idol drop
+finish bone demon
+re write croaker code
+check optimized main for any optimisations that can be done
 
 
 [DONE] Change Scrap Pipe to popped chorus fruit
