@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:diamond_ore"
+            "name": "minecraft:oak_leaves"
           }
         ],
         "conditions": [

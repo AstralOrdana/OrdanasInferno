@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smoking",
     "ingredient": {
-        "item": "minecraft:diamond_ore"
+        "item": "minecraft:emerald_block"
     },
     "result": "minecraft:honeycomb",
     "experience": 0.1,

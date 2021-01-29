@@ -16,10 +16,7 @@
                   "predicate": {
                     "enchantments": [
                       {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                        "enchantment": "minecraft:silk_touch"
                       }
                     ]
                   }
@@ -51,26 +48,17 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:stone_shovel"
+                    "tag": "inferno:anirrum_shovels"
                   }
-                },
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:soul_soil",
+              "functions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:netherite_shovel"
-                  }
-                },
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:diamond_shovel"
-                  }
-                },
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:iron_shovel"
-                  }
+                  "function": "minecraft:explosion_decay"
                 }
               ]
             }

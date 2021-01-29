@@ -2,7 +2,8 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -24,26 +25,21 @@
                   }
                 }
               ],
-              "name": "minecraft:infested_stone"
+              "name": "minecraft:stripped_dark_oak_wood"
             },
             {
               "type": "minecraft:item",
-	      "functions": [
+              "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "min": 0.0,
-                    "max": 2.0,
-                    "type": "minecraft:uniform"
-                  }
-                }
-	      ],
-              "conditions": [
+                  "count": 3.0,
+                  "add": false
+                },
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:fermented_spider_eye"
+              "name": "minecraft:book"
             }
           ]
         }

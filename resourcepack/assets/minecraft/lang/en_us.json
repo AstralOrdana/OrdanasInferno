@@ -43,21 +43,26 @@
   "block.minecraft.red_mushroom": "Spectre Spore",
   "block.minecraft.brown_mushroom": "Midnight Spore",
   
-  "block.minecraft.hay_block": "Spectre Root Bundle",
-  "block.minecraft.spruce_leaves": "Midnight Root Bundle",
-  "block.minecraft.dried_kelp_block": "Crimson Root Bundle",
-  "block.minecraft.birch_leaves": "Warped Root Bundle",
-  "block.minecraft.oak_leaves": "Withered Ochre Root Bundle",
+  "block.minecraft.hay_block": "Spectre Root Bale",
+  "block.minecraft.spruce_leaves": "Midnight Root Bale",
+  "block.minecraft.dried_kelp_block": "Crimson Root Bale",
+  "block.minecraft.birch_leaves": "Warped Root Bale",
+  "block.minecraft.oak_leaves": "Withered Ochre Root Bale",
   
   "block.minecraft.mushroom_stem": "Spore stem",
   "block.minecraft.red_mushroom_block": "Spectre Wartspore",
   "block.minecraft.brown_mushroom_block": "Midnight Wartspore",
   
-  "block.minecraft.acacia_planks": "Ochre Bookshelf",
-  "block.minecraft.jungle_planks": "Spectre Bookshelf",
+  "block.minecraft.acacia_planks": "Mossberry Planks",
+  "block.minecraft.jungle_planks": "Mossy Mossberry Planks",
+
+  "block.minecraft.bookshelf": "Mossy Mossberry Bookshelf",
+  "block.minecraft.fletching_table": "Mossberry Bookshelf",
   "block.minecraft.dark_oak_planks": "Midnight Bookshelf",
   "block.minecraft.stripped_acacia_wood": "Crimson Bookshelf",
   "block.minecraft.stripped_dark_oak_wood": "Warped Bookshelf",
+  "block.minecraft.stripped_acacia_log": "Ochre Bookshelf",
+  "block.minecraft.stripped_dark_oak_log": "Spectre Bookshelf",
 
   "block.minecraft.birch_log": "Ochre Bundle",
   "block.minecraft.birch_wood": "Ochre Hyphae",
@@ -208,7 +213,7 @@
   "block.minecraft.diorite": "Pipe Scraps",
   "block.minecraft.granite": "Gear Scraps",
   "block.minecraft.red_sand": "Loose Scrap",
-  "block.minecraft.diamond_ore": "Nihiline Scraps",
+  "block.minecraft.emerald_block": "Nihiline Scraps",
   
   "block.minecraft.purpur_pillar": "Pipe Block",
   "block.minecraft.dead_fire_coral_block": "Metal Plate Block",
@@ -221,11 +226,9 @@
   "block.minecraft.diamond_block": "Nihiline Block",
   "block.minecraft.honey_block": "Coagulated Blood",
   "block.minecraft.bricks": "Block of Carnelium",
-  "block.minecraft.emerald_block": "Block of Sunstone",
   "block.minecraft.slime_block": "Rubber Block",
   
   "block.minecraft.iron_block": "Colossus Building Block",
-  "block.minecraft.bookshelf": "Crystal Relay",
   
   "block.minecraft.ender_chest": "Soul Chest",
   "block.minecraft.smoker": "Carnelium Forge",
@@ -368,7 +371,8 @@
   
   "item.minecraft.nautilus_shell": "Scrap Gear",
   "item.minecraft.scute": "Scrap Plate",
-  "item.minecraft.ink_sac": "Scrap Pipe",
+  "item.minecraft.popped_chorus_fruit": "Scrap Pipe",
+  "item.minecraft.ink_sac": "Glider Blood",
   
   "item.minecraft.slime_spawn_egg": "Spawn Ghost Cocoon",
   "item.minecraft.bee_spawn_egg": "Fly Spawn Egg",
@@ -415,7 +419,6 @@
   "entity.minecraft.mule": "Zombified Tarpan",
   "entity.minecraft.horse": "Undead Tarpan",
   "entity.minecraft.skeleton_horse": "Vanilla Skeleton Horse",
-  "entity.minecraft.vindicator": "Piglin King",
   "entity.minecraft.rabbit": "Croaker",
   "entity.minecraft.creeper": "Beeper",
   

@@ -9,6 +9,9 @@
     "minecraft:cut_red_sandstone",
     "minecraft:smooth_red_sandstone",
     "minecraft:clay",
-    "minecraft:blast_furnace"
+    "minecraft:blast_furnace",
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst",
+    "minecraft:lapis_block"
   ]
 }

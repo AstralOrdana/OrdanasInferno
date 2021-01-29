@@ -2,7 +2,7 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
-      "type": "minecraft:count",
+      "type": "minecraft:count_multilayer",
       "config": {
         "count": 16
       }
@@ -11,14 +11,14 @@
       "type": "minecraft:decorated",
       "config": {
         "decorator": {
-          "type": "minecraft:square",
+          "type": "minecraft:nope",
           "config": {}
         },
         "feature": {
           "type": "minecraft:decorated",
           "config": {
             "decorator": {
-              "type": "minecraft:heightmap",
+              "type": "minecraft:nope",
               "config": {}
             },
             "feature": {

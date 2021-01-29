@@ -1,0 +1,90 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/emerald_block"
+      },
+	  {
+        "model": "minecraft:block/emerald_block",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/emerald_block",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/emerald_block",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      },
+	  {
+        "model": "minecraft:block/emerald_block_mirrored"
+      },
+	  {
+        "model": "minecraft:block/emerald_block_mirrored",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/emerald_block_mirrored",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/emerald_block_mirrored",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      },
+	  {
+        "model": "minecraft:block/emerald_block_1"
+      },
+	  {
+        "model": "minecraft:block/emerald_block_1",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/emerald_block_1",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/emerald_block_1",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      },
+	  {
+        "model": "minecraft:block/emerald_block_mirrored_1"
+      },
+	  {
+        "model": "minecraft:block/emerald_block_mirrored_1",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/emerald_block_mirrored_1",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/emerald_block_mirrored_1",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      }
+    ]
+  }
+}

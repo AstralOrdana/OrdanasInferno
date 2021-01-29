@@ -12,22 +12,14 @@
               "name": "minecraft:calcite",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
-                  "terms": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "enchantments": [
-                          {
-                            "enchantment": "minecraft:silk_touch",
-                            "levels": {
-                              "min": 1
-                            }
-                          }
-                        ]
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch"
                       }
-                    }
-                  ]
+                    ]
+                  }
                 }
               ]
             },
@@ -39,33 +31,11 @@
                 {
                   "function": "minecraft:set_count",
                   "count": {
-                    "min": 4.0,
-                    "max": 8.0,
-                    "type": "minecraft:uniform"
-                  }
-                },
-                {
-                  "function": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops"
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:tag",
-              "name": "inferno:scrap",
-              "expand": true,
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": {
-                    "min": 4.0,
-                    "max": 8.0,
-                    "type": "minecraft:uniform"
-                  }
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 8
+                  },
+                  "add": true
                 },
                 {
                   "function": "minecraft:apply_bonus",
