@@ -1,0 +1,24 @@
+{
+  "values": [
+     "minecraft:bee",
+     "minecraft:blaze",
+     "minecraft:cave_spider",
+     "minecraft:creeper",
+     "minecraft:donkey",
+     "minecraft:drowned",
+     "minecraft:enderman",
+     "minecraft:endermite",
+     "minecraft:hoglin",
+     "minecraft:horse",
+     "minecraft:mooshroom",
+     "minecraft:husk",
+     "minecraft:magma_cube",
+     "minecraft:mule",
+     "minecraft:phantom",
+     "minecraft:piglin",
+     "minecraft:piglin_brute",
+     "minecraft:pillager",
+     "minecraft:silverfish",
+     "minecraft:player"
+  ]
+}
