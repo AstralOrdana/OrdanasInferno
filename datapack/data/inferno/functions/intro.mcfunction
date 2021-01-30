@@ -8,6 +8,8 @@ scoreboard objectives add OrdN-S_DemonAbi dummy
 scoreboard objectives add OrdN-S_Clouduse dummy
 scoreboard objectives add OrdN-S_MobCap dummy
 scoreboard objectives add OrdN-S_MossTicks dummy
+scoreboard objectives add OrdN-S_SchorchedLevel dummy
+
 
 ###Disable Freeze Damage For mossier moss###
 gamerule freezeDamage false
