@@ -1,7 +1,6 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "inferno:black_desert_wasteland"
+                "biome": "inferno:volcanic_desert"
               }
 			}
-			  

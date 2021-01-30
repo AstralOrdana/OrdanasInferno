@@ -2,28 +2,28 @@
   "language.name": "English",
   "language.region": "United States",
   "language.code": "en_us",
-  
+
   "block.minecraft.dirt": "Nether Soil",
   "block.minecraft.coarse_dirt": "Rough Soil",
   "block.minecraft.grass_path": "Soil Path",
   "block.minecraft.sand": "Volcanic Ash",
-  
+
   "block.minecraft.clay": "Anirrum Scraps",
   "block.minecraft.lapis_ore": "Moonstone Ore",
   "block.minecraft.iron_ore": "Carnelium-Rich Blackstone",
   "block.minecraft.coal_ore": "Poor Carnelium",
   "block.minecraft.dead_horn_coral_block": "Quartz-Rich Slate",
-  
+
   "block.minecraft.dead_brain_coral_fan": "Quartz Cluster",
   "block.minecraft.dead_fire_coral_fan": "Sunstone Cluster",
   "block.minecraft.amethyst_cluster": "Moonstone Cluster",
   "block.minecraft.small_amethyst_bud": "Small Moonstone Bud",
   "block.minecraft.medium_amethyst_bud": "Medium Moonstone Bud",
   "block.minecraft.large_amethyst_bud": "Large Moonstone Bud",
-  
+
   "block.minecraft.amethyst_block": "Moonstone",
   "block.minecraft.budding_amethyst": "Budding Moonstone",
-  
+
   "block.minecraft.end_stone": "Spectre Nylium",
   "block.minecraft.grass_block": "Midnight Nylium",
   "block.minecraft.chorus_flower": "Spectre Fungus",
@@ -31,24 +31,24 @@
   "block.minecraft.bamboo": "Midnight Fungus",
   "block.minecraft.cactus": "Ochre Fungus",
   "block.minecraft.dandelion": "Midnight Bloom",
-  
+
   "block.minecraft.dead_tube_coral_block": "Petrified Stem",
   "block.minecraft.emerald_ore": "Quartz-Rich Stem",
   "block.minecraft.dead_brain_coral_block": "Petrified Cap",
-  
+
   "block.minecraft.sea_pickle": "Spectre Roots",
   "block.minecraft.grass": "Midnight Roots",
   "block.minecraft.tall_grass": "Tall Midnight Roots",
   "block.minecraft.dead_bush": "Withered Ochre Roots",
   "block.minecraft.red_mushroom": "Spectre Spore",
   "block.minecraft.brown_mushroom": "Midnight Spore",
-  
+
   "block.minecraft.hay_block": "Spectre Root Bale",
   "block.minecraft.spruce_leaves": "Midnight Root Bale",
   "block.minecraft.dried_kelp_block": "Crimson Root Bale",
   "block.minecraft.birch_leaves": "Warped Root Bale",
   "block.minecraft.oak_leaves": "Withered Ochre Root Bale",
-  
+
   "block.minecraft.mushroom_stem": "Spore stem",
   "block.minecraft.red_mushroom_block": "Spectre Wartspore",
   "block.minecraft.brown_mushroom_block": "Midnight Wartspore",
@@ -75,7 +75,7 @@
   "block.minecraft.birch_sign": "Ochre Sign",
   "block.minecraft.birch_door": "Ochre Door",
   "block.minecraft.birch_trapdoor": "Ochre Trapdoor",
-  
+
   "block.minecraft.spruce_log": "Midnight Bundle",
   "block.minecraft.spruce_wood": "Midnight Hyphae",
   "block.minecraft.stripped_spruce_log": "Stripped Midnight Bundle",
@@ -90,7 +90,7 @@
   "block.minecraft.spruce_sign": "Midnight Sign",
   "block.minecraft.spruce_door": "Midnight Door",
   "block.minecraft.spruce_trapdoor": "Midnight Trapdoor",
-  
+
   "block.minecraft.oak_log": "Spectre Bundle",
   "block.minecraft.oak_wood": "Spectre Hyphae",
   "block.minecraft.stripped_oak_log": "Stripped Spectre Bundle",
@@ -123,7 +123,7 @@
   "block.minecraft.smooth_red_sandstone_stairs": "Polished Soul Stone Brick Stairs",
   "block.minecraft.brick_wall": "Polished Soul Stone Brick Wall",
   "block.minecraft.chiseled_red_sandstone": "Chiseled Polished Soul Stone",
-  
+
   "block.minecraft.white_terracotta": "White Polished Soul Stone",
   "block.minecraft.light_gray_terracotta": "Light Gray Polished Soul Stone",
   "block.minecraft.gray_terracotta": "Gray Polished Soul Stone",
@@ -140,7 +140,7 @@
   "block.minecraft.blue_terracotta": "Blue Polished Soul Stone",
   "block.minecraft.purple_terracotta": "Purple Polished Soul Stone",
   "block.minecraft.magenta_terracotta": "Magenta Polished Soul Stone",
-  
+
   "block.minecraft.white_concrete": "White Soul Stone Bricks",
   "block.minecraft.light_gray_concrete": "Light Gray Soul Stone Bricks",
   "block.minecraft.gray_concrete": "Gray Soul Stone Bricks",
@@ -157,7 +157,7 @@
   "block.minecraft.blue_concrete": "Blue Soul Stone Bricks",
   "block.minecraft.purple_concrete": "Purple Soul Stone Bricks",
   "block.minecraft.magenta_concrete": "Magenta Soul Stone Bricks",
-  
+
   "block.minecraft.stone": "Limestone",
   "block.minecraft.stone_slab": "Limestone Slab",
   "block.minecraft.stone_stairs": "Limestone Stairs",
@@ -173,12 +173,12 @@
   "block.minecraft.stone_brick_stairs": "Polished Limestone Brick Stairs",
   "block.minecraft.stone_brick_wall": "Polished Limestone Brick Wall",
   "block.minecraft.chiseled_stone_bricks": "Chiseled Polished Limestone",
-  
+
   "block.minecraft.infested_stone": "Limestone Nest",
   "block.minecraft.infested_mossy_stone_bricks": "Polished Limestone Nest",
   "block.minecraft.infested_stone_bricks": "Limestone Brick Nest",
   "block.minecraft.infested_chiseled_stone_bricks": "Chiseled Limestone Nest",
-  
+
   "block.minecraft.andesite": "Scoria",
   "block.minecraft.andesite_slab": "Scoria Slab",
   "block.minecraft.andesite_stairs": "Scoria Stairs",
@@ -244,33 +244,33 @@
   "block.minecraft.jungle_sign": "Mossy Mossberry Sign",
   "block.minecraft.jungle_door": "Mossy Mossberry Door",
   "block.minecraft.jungle_trapdoor": "Mossy Mossberry Trapdoor",
-  
+
   "block.minecraft.granite": "Gear Scraps",
   "block.minecraft.calcite": "Pipe Scraps",
   "block.minecraft.red_sand": "Loose Scraps",
   "block.minecraft.emerald_block": "Nihiline Scraps",
-  
+
   "block.minecraft.purpur_pillar": "Pipe Block",
   "block.minecraft.dead_fire_coral_block": "Metal Plate Block",
   "block.minecraft.purpur_block": "Pipeline Block",
   "block.minecraft.dead_bubble_coral_block": "Clockwork Block",
-  
+
   "block.minecraft.prismarine": "Block of Anirrum",
   "block.minecraft.lapis_block": "Block of Moonstone",
   "block.minecraft.diamond_block": "Nihiline Block",
   "block.minecraft.honey_block": "Coagulated Blood",
   "block.minecraft.bricks": "Block of Carnelium",
   "block.minecraft.slime_block": "Rubber Block",
-  
+
   "block.minecraft.iron_block": "Colossus Building Block",
-  
+
   "block.minecraft.ender_chest": "Soul Chest",
   "block.minecraft.smoker": "Carnelium Forge",
   "block.minecraft.blast_furnace": "Soul Forge",
   "block.minecraft.anvil": "Enchantment Altar",
   "block.minecraft.chipped_anvil": "Chipped Enchantment Altar",
   "block.minecraft.damaged_anvil": "Damaged Enchantment Altar",
-  
+
   "block.minecraft.shulker_box": "Anirrum Box",
   "block.minecraft.white_shulker_box": "White Anirrum Box",
   "block.minecraft.light_gray_shulker_box": "Light Gray Anirrum Box",
@@ -288,32 +288,32 @@
   "block.minecraft.blue_shulker_box": "Blue Anirrum Box",
   "block.minecraft.purple_shulker_box": "Purple Anirrum Box",
   "block.minecraft.magenta_shulker_box": "Magenta Anirrum Box",
-  
+
   "block.minecraft.pumpkin": "Bone Gourd",
   "block.minecraft.carved_pumpkin": "Carved Bone Gourd",
   "block.minecraft.melon": "Nether Melon",
-  
+
   "block.minecraft.iron_door": "Carnelium Door",
   "block.minecraft.iron_bars": "Carnelium Bars",
   "block.minecraft.iron_trapdoor": "Carnelium Trapdoor",
   "block.minecraft.chain": "Carnelium Chain",
   "block.minecraft.brick_slab": "Carnelium Slab",
-  
+
   "block.minecraft.dragon_wall_head": "Soul Serpent Wall Head",
   "block.minecraft.dragon_head": "Soul Serpent Head",
-  
+
   "item.minecraft.wooden_sword": "Stem Sword",
   "item.minecraft.wooden_shovel": "Stem Shovel",
   "item.minecraft.wooden_axe": "Stem Axe",
   "item.minecraft.wooden_pickaxe": "Stem Pickaxe",
   "item.minecraft.wooden_hoe": "Stem Hoe",
-  
+
   "item.minecraft.stone_sword": "Blackstone Sword",
   "item.minecraft.stone_shovel": "Blackstone Shovel",
   "item.minecraft.stone_axe": "Blackstone Axe",
   "item.minecraft.stone_pickaxe": "Blackstone Pickaxe",
   "item.minecraft.stone_hoe": "Blackstone Hoe",
-  
+
   "item.minecraft.brick": "Carnelium Ingot",
   "item.minecraft.shulker_shell": "Carnelium Nugget",
   "item.minecraft.rabbit_hide": "Carnelium Rubble",
@@ -322,9 +322,9 @@
   "item.minecraft.chainmail_leggings": "Carnelium Leggings",
   "item.minecraft.chainmail_boots": "Carnelium Boots",
   "item.minecraft.iron_horse_armor": "Carnelium Horse Armor",
-  
+
   "block.minecraft.end_rod": "Anirrum Chain",
-  
+
   "item.minecraft.clay_ball": "Inert Anirrum Scrap",
   "item.minecraft.iron_ingot": "Anirrum Ingot",
   "item.minecraft.iron_nugget": "Anirrum Nugget",
@@ -332,7 +332,7 @@
   "item.minecraft.iron_chestplate": "Anirrum Chestplate",
   "item.minecraft.iron_leggings": "Anirrum Leggings",
   "item.minecraft.iron_boots": "Anirrum Boots",
-  
+
   "item.minecraft.iron_sword": "Anirrum Sword",
   "item.minecraft.iron_shovel": "Anirrum Shovel",
   "item.minecraft.iron_axe": "Anirrum Axe",
@@ -345,21 +345,21 @@
   "item.minecraft.diamond_chestplate": "Nihiline Chestplate",
   "item.minecraft.diamond_leggings": "Nihiline Leggings",
   "item.minecraft.diamond_boots": "Nihiline Boots",
-  
+
   "item.minecraft.diamond_sword": "Nihiline Sword",
   "item.minecraft.diamond_shovel": "Nihiline Shovel",
   "item.minecraft.diamond_pickaxe": "Nihiline Pickaxe",
   "item.minecraft.diamond_axe": "Nihiline Axe",
   "item.minecraft.diamond_hoe": "Nihiline Hoe",
-  
+
   "item.minecraft.golden_helmet": "Golden Crown",
   "item.minecraft.golden_chestplate": "Golden Amulet",
   "item.minecraft.golden_leggings": "Golden belt",
   "item.minecraft.golden_boots": "Golden Anklet",
-  
+
   "item.minecraft.elytra": "Fly Wings",
   "item.minecraft.trident": "Pitchfork",
-  
+
   "item.minecraft.apple": "Weeping Candy",
   "item.minecraft.cod": "Wart Bundle",
   "item.minecraft.cooked_cod": "Wart Loaf",
@@ -378,32 +378,32 @@
   "item.minecraft.cooked_chicken": "Cooked Croaker",
   "item.minecraft.rabbit_foot": "Croaker's Foot",
   "item.minecraft.rabbit_stew": "Croaker Stew",
-  
+
   "item.minecraft.beetroot_seeds": "Ginger Seeds",
   "item.minecraft.pumpkin_seeds": "Bone Gourd Seeds",
   "item.minecraft.melon_seeds": "Nether Melon Seeds",
   "item.minecraft.wheat_seeds": "Turnip seeds",
-  
+
   "item.minecraft.charcoal": "Magmatic Rock",
   "item.minecraft.lapis_lazuli": "Moonstone Crystal",
   "item.minecraft.enchanted_book": "Enchanted Moonstone Crystal",
-  
+
   "item.minecraft.feather": "Wither Leaf",
   "item.minecraft.stick": "Stem Fiber",
   "item.minecraft.slime_ball": "Rubber ball",
   "item.minecraft.fermented_spider_eye": "Maggot Eggs",
-  
+
   "item.minecraft.spectral_arrow": "Soul Arrow",
   "item.minecraft.dragon_breath": "Soul in a Bottle",
-  
+
   "item.minecraft.heart_of_the_sea": "Soul Heart",
   "block.minecraft.conduit": "Energy Core",
-  
+
   "item.minecraft.nautilus_shell": "Scrap Gear",
   "item.minecraft.scute": "Scrap Plate",
   "item.minecraft.popped_chorus_fruit": "Scrap Pipe",
   "item.minecraft.ink_sac": "Glider Blood",
-  
+
   "item.minecraft.slime_spawn_egg": "Spawn Ghost Cocoon",
   "item.minecraft.bee_spawn_egg": "Fly Spawn Egg",
   "item.minecraft.silverfish_spawn_egg": "Maggot Spawn Egg",
@@ -419,24 +419,24 @@
   "item.minecraft.vindicator_spawn_egg": "Piglin King Spawn Egg",
   "item.minecraft.rabbit_spawn_egg": "Croaker Spawn Egg",
   "item.minecraft.creeper_spawn_egg": "Beeper Spawn Egg",
-  
+
   "entity.minecraft.vindicator": "Piglin King",
-  
+
   "item.ordana_inferno.demon_idol": "Demon Idol",
   "item.ordana_inferno.fertilizer": "Fertilizer",
-  
+
   "container.enderchest": "Soul Chest",
   "container.blast_furnace": "Soul Forge",
   "container.smoker": "Carnelium Forge",
   "container.shulkerBox": "Anirrum Box",
-  
+
   "container.repair": "Repair & Enchant",
   "container.repair.cost": "Enchantment Cost: %1$s",
   "container.repair.expensive": "Too Expensive!",
-  
+
   "gui.recipebook.toggleRecipes.blastable": "Showing Hauntable",
   "gui.recipebook.toggleRecipes.smokable": "Showing Forgeable",
-  
+
   "entity.minecraft.slime": "Ghost Cocoon",
   "entity.minecraft.bee": "Fly",
   "entity.minecraft.silverfish": "Maggot",
@@ -451,14 +451,14 @@
   "entity.minecraft.skeleton_horse": "Vanilla Skeleton Horse",
   "entity.minecraft.rabbit": "Croaker",
   "entity.minecraft.creeper": "Beeper",
-  
+
   "entity.minecraft.ender_dragon": "Soul Serpent",
   "entity.minecraft.dragon_fireball": "Soul Serpent Fireball",
-  
+
   "entity.ordana_inferno.horse_skeleton": "Skeleton Horse",
   "entity.ordana_inferno.horse_wither_skeleton": "Wither Skeleton Horse",
   "entity.ordana_inferno.horse_demon": "Demonic Horse",
-  
+
   "subtitles.entity.slime.attack": "Magma Cube attacks",
   "subtitles.entity.slime.death": "Ghost Cocoon dies",
   "subtitles.entity.slime.hurt": "Ghost Cocoon hurts",
@@ -542,7 +542,7 @@
   "subtitles.entity.ender_dragon.growl": "Soul Serpent growls",
   "subtitles.entity.ender_dragon.hurt": "Soul Serpent hurts",
   "subtitles.entity.ender_dragon.shoot": "Soul Serpent shoots",
-  
+
   "subtitles.item.armor.equip_leather": "Leather armor rustles",
   "subtitles.item.armor.equip_chain": "Carnelium armor clangs",
   "subtitles.item.armor.equip_iron": "Anirrum armor clanks",
@@ -550,14 +550,14 @@
   "subtitles.item.armor.equip_netherite": "Netherite armor clanks",
   "subtitles.item.armor.equip_elytra": "Fly Wings rustle",
   "subtitles.item.armor.equip_gold": "Gold accesory clinks",
-  
+
   "subtitles.item.trident.hit": "Pitchfork stabs",
   "subtitles.item.trident.hit_ground": "Pitchfork vibrates",
   "subtitles.item.trident.return": "Pitchfork returns",
   "subtitles.item.trident.riptide": "Pitchfork zooms",
   "subtitles.item.trident.throw": "Pitchfork clangs",
   "subtitles.item.trident.thunder": "Pitchfork thunder cracks",
-  
+
   "subtitles.block.anvil.destroy": "Enchantment Altar destroyed",
   "subtitles.block.anvil.land": "Enchantment Altar landed",
   "subtitles.block.anvil.use": "Enchantment Altar used",
@@ -565,7 +565,7 @@
   "subtitles.block.smoker.smoke": "Carnelium Forge Melts",
   "subtitles.block.shulker_box.close": "Anirrum Box closes",
   "subtitles.block.shulker_box.open": "Anirrum Box opens",
-  
+
   "death.attack.cactus.player": "%1$s walked into a Ochre Fungus whilst trying to escape %2$s",
   "death.attack.sweetBerryBush": "%1$s was poked to death by a color hue bush",
   "death.attack.sweetBerryBush.player": "%1$s was poked to death by a color hue bush whilst trying to escape %2$s",
@@ -575,10 +575,18 @@
   "death.attack.flyIntoWall.player": "%1$s got squished like a bug whilst trying to escape %2$s",
   "death.attack.dragonBreath": "%1$s was roasted in serpent fire",
   "death.attack.dragonBreath.player": "%1$s was roasted in serpent fire by %2$s",
-  
+
   "stat.minecraft.interact_with_blast_furnace": "Interactions with Soul Forge",
   "stat.minecraft.interact_with_smoker": "Interactions with Carnelium Forge",
   "stat.minecraft.aviate_one_cm": "Distance by Fly Wings",
-  
-  "gamerule.disableElytraMovementCheck": "Disable Fly Wings movement check"
+
+  "gamerule.disableElytraMovementCheck": "Disable Fly Wings movement check",
+
+  "effect.minecraft.luck": "Soul Scorched",
+  "item.minecraft.tipped_arrow.effect.luck": "according to all known laws of my code there is no way this arrow should be able to scorch",
+  "item.minecraft.potion.effect.luck": "error report to nobody",
+  "item.minecraft.splash_potion.effect.luck": "error 404 functionality not found",
+  "item.minecraft.lingering_potion.effect.luck": "lingering error",
+
+
 }

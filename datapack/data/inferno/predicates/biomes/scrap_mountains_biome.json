@@ -1,7 +1,6 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "inferno:scrap_pit_mountains"
+                "biome": "inferno:scrap_pit"
               }
 			}
-			  

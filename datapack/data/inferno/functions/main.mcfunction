@@ -5,7 +5,6 @@ execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 20.. run function
 ###CROAKER FERTILIZER###
 execute as @e[type=minecraft:armor_stand,tag=Orda-NS-ArmorFertilizer] at @s run function inferno:entity/croaker/fertilizer_placement
 
-###HURT ANIMATIONS###
 #PIGLIN KING#
 item entity @e[type=minecraft:vindicator,nbt={HurtTime:0s}] armor.head replace minecraft:emerald{CustomModelData:28005}
 item entity @e[type=minecraft:vindicator,nbt=!{HurtTime:0s}] armor.head replace minecraft:emerald{CustomModelData:28006}
@@ -15,7 +14,7 @@ item entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.
 
 ###MOB PARTICLES###
 #BEEPER#
-execute as @e[type=minecraft:creeper] at @s run particle minecraft:smoke ~ ~ ~ 0 0.3 0 0.01 3
+item entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.head replace minecraft:emerald{CustomModelData:28004}
 
 
 ###DEMON IDOL###

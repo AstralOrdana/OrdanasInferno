@@ -5,6 +5,28 @@
       "rolls": 1,
       "entries": [
         {
+          "rolls": 1,
+          "bonus_rolls": 0,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:armor_stand",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:28001,EntityTag:{Tags:[\"Orda-NS-ArmorDemonIdol\"]}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "inferno:scorched"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {

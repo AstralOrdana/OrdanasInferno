@@ -1,7 +1,6 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "inferno:carnelium_deltas"
+                "biome": "inferno:basalt_deltas"
               }
 			}
-			  

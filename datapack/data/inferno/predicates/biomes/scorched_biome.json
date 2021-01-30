@@ -1,7 +1,6 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "inferno:scorched_remains"
+                "biome": "inferno:magma_mires"
               }
 			}
-			  
