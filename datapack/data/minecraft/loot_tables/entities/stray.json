@@ -3,29 +3,29 @@
   "pools": [
     {
       "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
-          "rolls": 1,
-          "bonus_rolls": 0,
-          "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
             {
-              "type": "minecraft:item",
-              "name": "minecraft:armor_stand",
-              "functions": [
-                {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:28001,EntityTag:{Tags:[\"Orda-NS-ArmorDemonIdol\"]}}"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:reference",
-                  "name": "inferno:scorched"
-                }
-              ]
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:28001,EntityTag:{Tags:[\"Orda-NS-ArmorDemonIdol\"]}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "inferno:scorched"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
