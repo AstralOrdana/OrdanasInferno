@@ -7,8 +7,6 @@ Create Glider texture
 Create Glider Blood texture
 Change Glider Blood to Ink Sac
 Create Glider Feather texture
-Create Glowing Mossball item texture
-Create Glowing Moss Plant item texture
 Create Treemoss ball item texture
 Create Mossy Marble textures
 Update Polished Marble variants
@@ -25,9 +23,10 @@ Create Pufferfish texture
 finish bone demon
 re write croaker code
 check optimized main for any optimisations that can be done
-Make Icon for soul schorched effect
 
-
+[DONE] Create Glowing Mossball item texture
+[DONE] Create Glowing Moss Plant item texture
+[DONE] Make Icon for soul schorched effect
 [DONE] Change Scrap Pipe to popped chorus fruit
-[DONE]Add Soul Scorched effect
-[DONE]Add demon idol drop
+[DONE] Add Soul Scorched effect
+[DONE] Add demon idol drop
