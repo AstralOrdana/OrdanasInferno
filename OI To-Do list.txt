@@ -1,11 +1,10 @@
-***MASTER TEXTURE TO-DO LIST***
+***MASTER TO-DO LIST***
 
 Complete Mossberry wood set
 Complete Mossy Mossberry wood set
 Fix bookshelf variant textures
 Create Glider texture
 Create Glider Blood texture
-Change Glider Blood to Ink Sac
 Create Glider Feather texture
 Create Treemoss ball item texture
 Create Mossy Marble textures
@@ -23,6 +22,10 @@ Create Pufferfish texture
 finish bone demon
 re write croaker code
 check optimized main for any optimisations that can be done
+Major recipe advancemnet update
+Progression advancements
+re-add nether wastes
+
 
 [DONE] Create Glowing Mossball item texture
 [DONE] Create Glowing Moss Plant item texture
@@ -30,3 +33,7 @@ check optimized main for any optimisations that can be done
 [DONE] Change Scrap Pipe to popped chorus fruit
 [DONE] Add Soul Scorched effect
 [DONE] Add demon idol drop
+[DONE] Change Glider Blood to Ink Sac
+[DONE] Major lang file update
+[DONE] Major block loot table update
+[DONE] Major recipe update]

@@ -2,7 +2,7 @@
   {
     "condition": "minecraft:location_check",
     "predicate": {
-      "biome": "inferno:lava_sea"
+      "biome": "inferno:nether_wastes"
     }
   },
   {
