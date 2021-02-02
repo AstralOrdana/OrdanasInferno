@@ -1,6 +1,9 @@
 #Optimization Response
 scoreboard players reset $Ordana-NS-FakePlayer OrdN-S_Optimize
 
+###Bone Demon###
+execute as @e[tag=Orda-NS-BoneDemon] at @s run function inferno:entity/demon/bone_demon/aicontroller
+
 ###CROAKER FERTILIZER(Optimized Main)###
 execute as @e[type=minecraft:area_effect_cloud,tag=Orda-NS-FertilizerCloud] at @s run particle dust 0.388 0.878 0.796 1 ~ ~ ~ 3.6 0.6 3.6 0 10 normal
 execute as @e[type=minecraft:area_effect_cloud,tag=Orda-NS-FertilizerCloud] at @s run particle dust 0.420 0.749 0.729 2 ~ ~ ~ 0.2 0.2 0.2 0 2 normal
@@ -67,4 +70,4 @@ execute as @e[type=minecraft:vindicator,tag=Orda-NS-Kinglin] run data merge enti
 
 ###soul schorched###
 execute as @e[type=#inferno:scorchable] at @s if block ~ ~0.25 ~ minecraft:soul_fire run function inferno:soulfire
-execute as @e[nbt=!{ActiveEffects:[{Id:26b}]}, type=#inferno:scorchable] run function inferno:soulfirent
+execute as @e[nbt=!{ActiveEffects:[{Id:26b}]}, type=#inferno:scorchable] run function inferno:

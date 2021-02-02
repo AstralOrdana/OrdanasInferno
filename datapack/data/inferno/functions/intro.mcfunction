@@ -9,6 +9,8 @@ scoreboard objectives add OrdN-S_Clouduse dummy
 scoreboard objectives add OrdN-S_MobCap dummy
 scoreboard objectives add OrdN-S_MossTicks dummy
 scoreboard objectives add OrdN-S_FireTime dummy
+scoreboard objectives add OrdN-S_BoomDist dummy
+scoreboard objectives add OrdN-S_AtkTime dummy
 
 
 ###Disable Freeze Damage For mossier moss###
