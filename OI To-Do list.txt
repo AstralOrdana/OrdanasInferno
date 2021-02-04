@@ -37,4 +37,4 @@ re-add nether wastes
 [DONE] Change Glider Blood to Ink Sac
 [DONE] Major lang file update
 [DONE] Major block loot table update
-[DONE] Major recipe update]
+[DONE] Major recipe update

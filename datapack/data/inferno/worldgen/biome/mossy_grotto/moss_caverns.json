@@ -8,16 +8,16 @@
   "category": "none",
   "effects": {
     "sky_color": 11069100,
-    "fog_color": 1856780,
+    "fog_color": 864259,
     "water_color": 61183,
     "water_fog_color": 116409,
-    "grass_color": 1422610,
+    "grass_color": 2023450,
     "foliage_color": 16486030,
     "particle": {
       "options": {
-        "type": "minecraft:sneeze"
+        "type": "minecraft:spore_blossom_air"
       },
-      "probability": 0.01
+      "probability": 0.001
     }
   },
   "starts": [],
@@ -73,7 +73,8 @@
       "minecraft:kelp_cold"
     ],
     [
-      "inferno:moss_caverns/glow_lichen"
+      "inferno:moss_caverns/glow_lichen",
+      "inferno:moss_caverns/moss_blobs"
     ],
     [],
     []

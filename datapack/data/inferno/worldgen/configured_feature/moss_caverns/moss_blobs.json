@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count",
+            "config": {
+              "count": 8
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:range_biased",
+                "config": {
+                  "maximum": 30,
+                  "bottom_offset": 1,
+                  "top_offset": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "state": {
+            "Name": "minecraft:podzol",
+            "Properties": {
+                "snowy": "false"
+            }
+          },
+          "size": 32,
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:diorite"
+          }
+        }
+      }
+    }
+  }
