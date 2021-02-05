@@ -1,21 +1,22 @@
 {
 	"credit": "Made with Blockbench, Modeler: DMTHGM",
-	"texture_size": [16, 32],
+	"texture_size": [32, 32],
 	"textures": {
 		"all": "block/bamboo_large_leaves",
-		"particle": "block/bamboo_particle"
+		"particle": "block/bamboo_large_leaves"
 	},
 	"elements": [
 		{
-			"from": [1, 12.001, 1],
-			"to": [15, 16.001, 15],
+			"from": [1, 11, 1],
+			"to": [15, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
 			"faces": {
-				"north": {"uv": [0, 14, 14, 16], "texture": "#all"},
-				"east": {"uv": [0, 14, 14, 16], "texture": "#all"},
-				"south": {"uv": [0, 14, 14, 16], "texture": "#all"},
-				"west": {"uv": [0, 14, 14, 16], "texture": "#all"},
-				"up": {"uv": [0, 0, 14, 7], "texture": "#all"},
-				"down": {"uv": [0, 7, 14, 14], "texture": "#all"}
+				"north": {"uv": [9, 0, 16, 2.5], "texture": "#all"},
+				"east": {"uv": [9, 0, 16, 2.5], "texture": "#all"},
+				"south": {"uv": [9, 0, 16, 2.5], "texture": "#all"},
+				"west": {"uv": [9, 0, 16, 2.5], "texture": "#all"},
+				"up": {"uv": [0, 0, 7, 7], "texture": "#all"},
+				"down": {"uv": [0, 7, 7, 14], "texture": "#all"}
 			}
 		}
 	]
