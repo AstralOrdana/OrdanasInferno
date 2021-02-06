@@ -8,35 +8,44 @@
       }
     },
     "feature": {
-      "type": "minecraft:huge_fungus",
+      "type": "minecraft:decorated",
       "config": {
-        "hat_state": {
-          "Name": "minecraft:jungle_leaves",
-          "Properties": {
-            "distance": "1",
-            "persistent": "true"
-          }
+        "decorator": {
+          "type": "minecraft:nope",
+          "config": {}
         },
-        "decor_state": {
-          "Name": "minecraft:dark_oak_leaves",
-          "Properties": {
-            "distance": "1",
-            "persistent": "true"
+        "feature": {
+          "type": "minecraft:huge_fungus",
+          "config": {
+            "hat_state": {
+              "Name": "minecraft:jungle_leaves",
+              "Properties": {
+                "distance": "1",
+                "persistent": "false"
+              }
+            },
+            "decor_state": {
+              "Name": "minecraft:dark_oak_leaves",
+              "Properties": {
+                "distance": "1",
+                "persistent": "false"
+              }
+            },
+            "stem_state": {
+              "Name": "minecraft:jungle_log",
+              "Properties": {
+                "axis": "y"
+              }
+            },
+            "valid_base_block": {
+              "Name": "minecraft:podzol",
+              "Properties": {
+                "snowy": "false"
+              }
+            },
+            "planted": false
           }
-        },
-        "stem_state": {
-          "Name": "minecraft:jungle_log",
-          "Properties": {
-            "axis": "y"
-          }
-        },
-        "valid_base_block": {
-          "Name": "minecraft:podzol",
-          "Properties": {
-            "snowy": "false"
-          }
-        },
-        "planted": false
+        }
       }
     }
   }
