@@ -9,8 +9,6 @@ Create Glider Feather texture
 Create Treemoss ball item texture
 Create Mossy Marble textures
 Update Polished Marble variants
-Create Mossberry Leaves texture
-Create Mossberry Berry Leaves texture
 Create Mossberry item texture
 Create Mossier Moss texture
 Create Mossberry Bush texture
@@ -26,7 +24,8 @@ Major recipe advancemnet update
 Progression advancements
 re-add nether wastes
 
-
+[DONE] Create Mossberry Leaves texture
+[DONE] Create Mossberry Berry Leaves texture
 [DONE] Create Glowing Mossball item texture
 [DONE] Create Glowing Moss Plant item texture
 [DONE] Make Icon for soul schorched effect
