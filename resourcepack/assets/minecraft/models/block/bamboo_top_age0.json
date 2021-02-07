@@ -6,11 +6,11 @@
 	},
 	"elements": [
 		{
-			"from": [6.5, 16, 6.5],
-			"to": [9.5, 16, 9.5],
+			"from": [7, 16, 7],
+			"to": [9, 16, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
 			"faces": {
-				"up": {"uv": [13, 5, 16, 8], "texture": "#all"}
+				"up": {"uv": [14, 4, 16, 6], "texture": "#all", "cullface": "up"}
 			}
 		}
 	]
