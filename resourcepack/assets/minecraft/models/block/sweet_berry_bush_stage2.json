@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/sweet_berry_bush_template",
+  "textures": {
+    "bush": "minecraft:block/mossberry_bush",
+	"cross": "minecraft:block/mossberry_bush_twigs_stage2"
+  }
+}
