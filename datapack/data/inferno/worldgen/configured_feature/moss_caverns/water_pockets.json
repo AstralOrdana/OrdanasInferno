@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count_multilayer",
       "config": {
-        "count": 5
+        "count": 16
       }
     },
     "feature": {
@@ -28,7 +28,7 @@
               }
             },
             "rim": {
-              "Name": "minecraft:powder_snow"
+              "Name": "minecraft:diorite"
             },
             "size": {
               "base": 3,

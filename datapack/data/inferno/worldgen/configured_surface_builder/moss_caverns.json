@@ -10,7 +10,7 @@
         "Name": "minecraft:diorite"
       },
       "underwater_material": {
-        "Name": "minecraft:powder_snow"
+        "Name": "minecraft:dark_prismarine"
       }
     },
     "type": "minecraft:nether_forest"
