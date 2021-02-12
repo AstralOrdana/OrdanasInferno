@@ -14,7 +14,7 @@
   "surface_builder": "inferno:moonstone_caverns",
   "carvers": {
     "air": [
-      "minecraft:ocean_cave"
+      "minecraft:nether_cave"
     ]
   },
   "features": [
