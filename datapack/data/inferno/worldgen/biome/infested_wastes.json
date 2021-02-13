@@ -1,0 +1,106 @@
+{
+    "surface_builder": "inferno:infested_wastes",
+    "depth": 1,
+    "scale": 1,
+    "temperature": 2,
+    "downfall": 0,
+    "precipitation": "none",
+    "category": "nether",
+    "effects": {
+      "sky_color": 37314,
+      "fog_color": 2333555,
+      "water_color": 2333555,
+      "water_fog_color": 1205064,
+      "ambient_sound": "minecraft:ambient.warped_forest.loop",
+      "mood_sound": {
+        "sound": "minecraft:ambient.warped_forest.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.warped_forest.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "minecraft:music.nether.warped_forest",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:warped_spore"
+        },
+        "probability": 0.01628
+      }
+    },
+    "starts": [
+      "minecraft:bastion_remnant"
+    ],
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:enderman",
+          "weight": 1,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:strider",
+          "weight": 60,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "ambient": [],
+      "water_creature": [],
+      "water_ambient": [],
+      "misc": []
+    },
+    "spawn_costs": {
+      "minecraft:enderman": {
+        "energy_budget": 0.12,
+        "charge": 1
+      }
+    },
+    "carvers": {
+      "air": [
+        "minecraft:nether_cave"
+      ]
+    },
+    "features": [
+      [],
+      [
+        "inferno:infested_wastes/limestone_ore",
+        "inferno:infested_wastes/limestone_rock",
+        "inferno:base/scoria"
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        "minecraft:spring_open",
+        "minecraft:patch_fire",
+        "minecraft:patch_soul_fire",
+        "minecraft:glowstone_extra",
+        "minecraft:glowstone",
+        "minecraft:ore_magma",
+        "minecraft:spring_closed",
+        "minecraft:ore_gravel_nether",
+        "minecraft:ore_blackstone",
+        "minecraft:ore_gold_nether",
+        "minecraft:ore_quartz_nether",
+        "inferno:infested_wastes/limestone_infection"
+      ],
+      [
+        "minecraft:spring_lava",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:red_mushroom_normal"
+      ]
+    ]
+  }

@@ -1,7 +1,7 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "inferno:midnight_forest"
+                "biome": "inferno:infested_wastes"
               }
 			}
 			  

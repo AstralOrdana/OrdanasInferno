@@ -1,5 +1,5 @@
 {
-  "surface_builder": "inferno:midnight_forest",
+  "surface_builder": "inferno:umbra_forest",
   "depth": 0.1,
   "scale": 0.2,
   "temperature": 2,
@@ -8,7 +8,7 @@
   "category": "nether",
   "effects": {
     "sky_color": 37314,
-    "fog_color": 2333555,
+    "fog_color": 789773,
     "water_color": 2333555,
     "water_fog_color": 1205064,
     "ambient_sound": "minecraft:ambient.warped_forest.loop",
@@ -74,13 +74,11 @@
   "features": [
     [],
     [
-      "inferno:midnight_forest/midnight_fungus",
-      "inferno:midnight_forest/midnight_roots",
-      "inferno:midnight_forest/midnight_roots_tall",
-      "inferno:midnight_forest/midnight_bloom",
-      "inferno:midnight_forest/midnight_spores",
-      "inferno:midnight_forest/limestone_ore",
-      "inferno:midnight_forest/limestone_rock",
+      "inferno:umbra_forest/umbra_fungus",
+      "inferno:umbra_forest/umbra_roots",
+      "inferno:umbra_forest/umbra_roots_tall",
+      "inferno:umbra_forest/umbra_bloom",
+      "inferno:umbra_forest/umbra_spores",
       "inferno:base/scoria"
     ],
     [],
@@ -99,8 +97,7 @@
       "minecraft:ore_gravel_nether",
       "minecraft:ore_blackstone",
       "minecraft:ore_gold_nether",
-      "minecraft:ore_quartz_nether",
-      "inferno:midnight_forest/limestone_infection"
+      "minecraft:ore_quartz_nether"
     ],
     [
       "minecraft:spring_lava",

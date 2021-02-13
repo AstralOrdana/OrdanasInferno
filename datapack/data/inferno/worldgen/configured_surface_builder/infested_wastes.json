@@ -1,0 +1,14 @@
+{
+    "config": {
+      "top_material": {
+        "Name": "minecraft:stone"
+      },
+      "under_material": {
+        "Name": "minecraft:netherrack"
+      },
+      "underwater_material": {
+        "Name": "minecraft:infested_stone"
+      }
+    },
+    "type": "minecraft:nether_forest"
+  }

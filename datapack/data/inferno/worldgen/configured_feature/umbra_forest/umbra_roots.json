@@ -1,7 +1,6 @@
 {
   "config": {
     "feature": {
-      "name": "midnight_roots",
       "config": {
         "can_replace": false,
         "project": false,
@@ -21,7 +20,7 @@
         "tries": 128,
         "state_provider": {
           "state": {
-            "Name": "minecraft:dandelion"
+            "Name": "minecraft:grass"
           },
           "type": "minecraft:simple_state_provider"
         },

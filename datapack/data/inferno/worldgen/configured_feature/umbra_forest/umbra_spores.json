@@ -1,7 +1,6 @@
 {
   "config": {
     "feature": {
-      "name": "midnight_roots",
       "config": {
         "can_replace": false,
         "project": false,
@@ -9,7 +8,7 @@
         "xspread": 18,
         "yspread": 3,
         "zspread": 18,
-        "whitelist": [
+       "whitelist": [
           {
           "Properties": {
               "snowy": "false"
@@ -21,7 +20,7 @@
         "tries": 128,
         "state_provider": {
           "state": {
-            "Name": "minecraft:grass"
+            "Name": "minecraft:brown_mushroom"
           },
           "type": "minecraft:simple_state_provider"
         },

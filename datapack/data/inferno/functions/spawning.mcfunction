@@ -13,6 +13,6 @@ execute as @e[type=minecraft:ghast,tag=!Orda-NS-GhastCheck] run function inferno
 #Fly NEEDS TWEAKING#
 execute as @e[type=minecraft:zombie,tag=!Orda-NS-ZombieCheck] run function inferno:entity/fly/fly_spawning
 
-#Midnight Shroomsteer#
+#Umbra Shroomsteer#
 execute as @e[type=minecraft:zombie_villager,tag=!Orda-NS-ZombieVillagerCheck] run function inferno:entity/shroomsteer/shroomsteer_m_spawning
 execute as @e[type=minecraft:chicken,tag=!Orda-NS-ZombieVillagerCheck] run function inferno:entity/shroomsteer/shroomsteer_m_spawning

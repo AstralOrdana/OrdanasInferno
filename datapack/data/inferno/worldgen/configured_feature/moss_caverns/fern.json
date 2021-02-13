@@ -1,7 +1,6 @@
 {
     "config": {
       "feature": {
-        "name": "midnight_roots",
         "config": {
           "can_replace": false,
           "project": false,

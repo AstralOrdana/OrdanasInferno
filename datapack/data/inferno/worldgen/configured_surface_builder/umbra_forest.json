@@ -10,8 +10,8 @@
       "Name": "minecraft:dirt"
     },
     "underwater_material": {
-      "Name": "minecraft:stone"
+      "Name": "minecraft:glowstone"
     }
   },
-  "type": "minecraft:mountain"
+  "type": "minecraft:nether_forest"
 }
