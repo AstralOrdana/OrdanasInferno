@@ -2,7 +2,13 @@
   "variants": {
     "": [
       {
-        "model": "minecraft:block/stripped_dark_oak_wood"
+        "model": "minecraft:block/warped_bookshelf_0"
+      },
+	  {
+        "model": "minecraft:block/warped_bookshelf_1"
+      },
+	  {
+        "model": "minecraft:block/warped_bookshelf_2"
       }
     ]
   }
