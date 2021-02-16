@@ -10,6 +10,16 @@
           "name": "minecraft:armor_stand",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Bone Idol",
+                "italic": false,
+                "hoverEvent": {
+                  "action": "show_text"
+                }
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:28001,EntityTag:{Tags:[\"Orda-NS-ArmorDemonIdol\"]}}"
             }
