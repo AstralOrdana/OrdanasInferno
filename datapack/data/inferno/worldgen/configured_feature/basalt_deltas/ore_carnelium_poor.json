@@ -7,19 +7,24 @@
           "config": {
             "feature": {
               "config": {
-                "target": {
-                  "block": "minecraft:basalt",
-                    "Properties": {
-                      "axis": "y"
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:basalt",
+                        "Properties": {
+                          "axis": "y"
+                        },
+                      "predicate_type": "minecraft:block_match"
                     },
-                  "predicate_type": "minecraft:block_match"
-                },
-                "state": {
-                  "Name": "minecraft:coal_ore"
-                },
-                "size": 32
+                    "state": {
+                      "Name": "minecraft:coal_ore"
+                    }
+                  }
+                ],
+                "size": 32,
+                "discard_chance_on_air_exposure": 0.0
               },
-              "type": "minecraft:ore"
+              "type": "minecraft:scattered_ore"
             },
             "decorator": {
               "config": {

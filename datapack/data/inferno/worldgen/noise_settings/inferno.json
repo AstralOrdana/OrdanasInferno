@@ -4,7 +4,7 @@
     "bedrock_floor_position": 0,
     "aquifers_enabled": false,
     "noise_caves_enabled": true,
-    "grimstone_enabled": true,
+    "deepslate_enabled": false,
     "sea_level": 32,
     "disable_mob_generation": false,
     "default_block": {

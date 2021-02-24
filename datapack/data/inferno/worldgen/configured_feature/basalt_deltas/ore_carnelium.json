@@ -7,14 +7,19 @@
           "config": {
             "feature": {
               "config": {
-                "target": {
-                  "block": "minecraft:blackstone",
-                  "predicate_type": "minecraft:block_match"
-                },
-                "state": {
-                  "Name": "minecraft:iron_ore"
-                },
-                "size": 14
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:blackstone",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:iron_ore"
+                    }
+                  }
+                ],
+                "size": 14,
+                "discard_chance_on_air_exposure": 0.0
               },
               "type": "minecraft:ore"
             },
@@ -23,7 +28,7 @@
                 "baseline": {
                   "absolute": 32
                 },
-                "spread": 32
+                "spread": 16
               },
               "type": "minecraft:depth_average"
             }

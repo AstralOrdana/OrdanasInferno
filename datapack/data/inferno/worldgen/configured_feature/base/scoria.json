@@ -7,7 +7,7 @@
           "outer": {
             "type": "minecraft:count",
             "config": {
-              "count": 128
+              "count": 64
             }
           },
           "inner": {
@@ -35,15 +35,20 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "state": {
-            "Name": "minecraft:andesite"
-          },
-          "size": 64,
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:netherrack"
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:netherrack",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:andesite"
+                    }
+                  }
+                ],
+                "size": 64,
+                "discard_chance_on_air_exposure": 0.0
           }
         }
       }
     }
-  }

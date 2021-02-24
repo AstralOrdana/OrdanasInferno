@@ -7,10 +7,7 @@
         "outer": {
           "type": "minecraft:count",
           "config": {
-            "count": {
-              "base": 16,
-              "spread": 1
-            }
+            "count": 64
           }
         },
         "inner": {
@@ -38,15 +35,20 @@
     "feature": {
       "type": "minecraft:ore",
       "config": {
-        "state": {
-          "Name": "minecraft:terracotta"
-        },
-        "size": 42,
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:soul_fire_base_blocks"
+        "targets": [
+          {
+            "target": {
+              "block": "minecraft:netherrack",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "minecraft:terracotta"
+            }
+          }
+        ],
+        "size": 64,
+        "discard_chance_on_air_exposure": 0.0
         }
       }
     }
   }
-}

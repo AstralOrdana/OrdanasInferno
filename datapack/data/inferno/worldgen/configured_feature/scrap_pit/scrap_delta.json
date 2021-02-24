@@ -16,8 +16,8 @@
             "spread": 4
           },
           "rim_size": {
-            "base": 0,
-            "spread": 2
+            "base": 1,
+            "spread": 3
           }
         },
         "type": "minecraft:delta_feature"

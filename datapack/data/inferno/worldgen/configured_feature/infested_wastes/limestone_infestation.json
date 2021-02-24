@@ -28,13 +28,19 @@
               "feature": {
                 "type": "minecraft:ore",
                 "config": {
-                  "state": {
-                    "Name": "minecraft:infested_stone"
-                  },
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "minecraft:stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:infested_stone"
+                      }
+                    }
+                  ],
                   "size": 5,
-                  "target": {
-                    "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:stone"
+                  "discard_chance_on_air_exposure": 0.0
                   }
                 }
               }
@@ -43,4 +49,3 @@
         }
       }
     }
-  }

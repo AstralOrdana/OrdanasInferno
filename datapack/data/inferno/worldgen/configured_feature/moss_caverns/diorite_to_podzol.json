@@ -35,20 +35,26 @@
           "feature": {
             "type": "minecraft:ore",
             "config": {
-              "state": {
-                "Name": "minecraft:podzol",
-                "Properties": {
-                  "snowy": "false"
+              "targets": [
+                {
+                  "target": {
+                    "block": "minecraft:diorite",
+                    "predicate_type": "minecraft:block_match"
+                  },
+                  "state": {
+                    "Name": "minecraft:podzol",
+                    "Properties":{
+                      "snowy": "false"
+                    }
+                  }
                 }
-              },
+              ],
               "size": 64,
-              "target": {
-                "predicate_type": "minecraft:block_match",
-                "block": "minecraft:diorite"
+              "discard_chance_on_air_exposure": 0.0
               }
             }
           }
         }
       }
     }
-  }
+  

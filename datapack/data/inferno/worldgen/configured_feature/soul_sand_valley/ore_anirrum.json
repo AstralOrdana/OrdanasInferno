@@ -36,15 +36,20 @@
     "feature": {
       "type": "minecraft:ore",
       "config": {
-        "state": {
-          "Name": "minecraft:clay"
-        },
-        "size": 14,
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:soul_fire_base_blocks"
+        "targets": [
+          {
+            "target": {
+              "tag": "minecraft:soul_fire_base_blocks",
+              "predicate_type": "minecraft:tag_match"
+            },
+            "state": {
+              "Name": "minecraft:clay"
+            }
+          }
+        ],
+        "size": 16,
+        "discard_chance_on_air_exposure": 0.0
         }
       }
     }
   }
-}

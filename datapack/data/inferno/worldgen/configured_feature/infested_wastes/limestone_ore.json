@@ -35,15 +35,20 @@
     "feature": {
       "type": "minecraft:ore",
       "config": {
-        "state": {
-          "Name": "minecraft:stone"
-        },
+        "targets": [
+          {
+            "target": {
+              "block": "minecraft:netherrack",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ],
         "size": 32,
-        "target": {
-          "predicate_type": "minecraft:block_match",
-          "block": "minecraft:netherrack"
+        "discard_chance_on_air_exposure": 0.0
         }
       }
     }
   }
-}

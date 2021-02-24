@@ -7,26 +7,31 @@
           "config": {
             "feature": {
               "config": {
-                "target": {
-                  "block": "minecraft:blackstone",
-                  "predicate_type": "minecraft:block_match"
-                },
-                "state": {
-                  "Properties": {
-                    "lit": "false"
-                  },
-                  "Name": "minecraft:redstone_ore"
-                },
-                "size": 21
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:blackstone",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:redstone_ore",
+                        "Properties":{
+                          "lit": "false"
+                        }
+                    }
+                  }
+                ],
+                "size": 14,
+                "discard_chance_on_air_exposure": 0.0
               },
               "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
                 "baseline": {
-                  "absolute": 30
+                  "absolute": 16
                 },
-                "spread": 30
+                "spread": 32
               },
               "type": "minecraft:depth_average"
             }

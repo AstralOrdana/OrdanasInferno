@@ -71,9 +71,7 @@
     },
     "features": [
       [
-          "inferno:magma_mires/magma_columns_large",
-          "minecraft:small_dripstone",
-          "minecraft:dripstone_cluster"
+          "inferno:magma_mires/magma_columns_large"
       ],
       [],
       [],
@@ -82,9 +80,9 @@
       [],
       [],
       [
-        "inferno:magma_mires/magma_pool",
         "minecraft:basalt_pillar",
         "minecraft:basalt_pillar",
+        "inferno:magma_mires/basalt_cluster",
         "minecraft:spring_delta",
         "minecraft:patch_fire",
         "minecraft:patch_soul_fire",
@@ -95,14 +93,15 @@
         "minecraft:ore_gold_deltas",
         "minecraft:ore_quartz_deltas",
         "inferno:basalt_deltas/ore_redstone",
-        "inferno:basalt_deltas/ore_carnelium",
-        "inferno:basalt_deltas/ore_carnelium_poor"
+        "inferno:basalt_deltas/ore_carnelium"
       ],
       [
         "minecraft:spring_lava",
         "minecraft:spring_lava",
         "minecraft:spring_lava",
-        "inferno:magma_mires/netherrack_to_scoria"
+        "inferno:magma_mires/netherrack_to_scoria",
+        "inferno:basalt_deltas/ore_carnelium_poor",
+        "inferno:magma_mires/magma_pool"
       ]
     ]
   }
