@@ -18,11 +18,14 @@
                 "config": {}
               },
               "inner": {
-                "type": "minecraft:range_biased",
+                "type": "minecraft:range",
                 "config": {
-                  "maximum": 30,
-                  "bottom_offset": 1,
-                  "top_offset": 0
+                  "bottom_inclusive": {
+                    "above_bottom": 1
+                  },
+                  "top_inclusive": {
+                    "below_top": 1
+                  }
                 }
               }
             }

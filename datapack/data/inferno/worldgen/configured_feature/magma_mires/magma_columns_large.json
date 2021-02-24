@@ -1,61 +1,48 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:count",
-        "config": {
-          "count": {
-            "base": 2,
-            "spread": 3
-          }
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": {
+          "base": 2,
+          "spread": 1
         }
-      },
-      "feature": {
-        "type": "minecraft:decorated",
-        "config": {
-          "decorator": {
-            "type": "minecraft:square",
-            "config": {}
-          },
-          "feature": {
-            "type": "minecraft:decorated",
-            "config": {
-              "decorator": {
-                "type": "minecraft:range",
-                "config": {
-                  "maximum": 128,
-                  "bottom_offset": 0,
-                  "top_offset": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "above_bottom": 1
+                },
+                "top_inclusive": {
+                  "below_top": 1
                 }
-              },
-              "feature": {
-                "type": "minecraft:large_dripstone",
-                "config": {
-                  "floor_to_ceiling_search_range": 60,
-                  "column_radius": {
-                    "base": 3,
-                    "spread": 10
-                  },
-                  "height_scale": {
-                    "base": 0.4,
-                    "spread": 1.6
-                  },
-                  "max_column_radius_to_cave_height_ratio": 0.33,
-                  "stalactite_bluntness": {
-                    "base": 0.3,
-                    "spread": 0.6
-                  },
-                  "stalagmite_bluntness": {
-                    "base": 0.4,
-                    "spread": 0.6
-                  },
-                  "wind_speed": {
-                    "base": 0,
-                    "spread": 0
-                  },
-                  "min_radius_for_wind": 0,
-                  "min_bluntness_for_wind": 0
-                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:large_dripstone",
+              "config": {
+                "floor_to_ceiling_search_range": 60,
+                "column_radius": 4,
+                "height_scale": 9.2,
+                "max_column_radius_to_cave_height_ratio": 0.2,
+                "stalactite_bluntness": 4.8,
+                "stalagmite_bluntness": 4.8,
+                "wind_speed": 0,
+                "min_radius_for_wind": 0,
+                "min_bluntness_for_wind": 0
               }
             }
           }
@@ -63,3 +50,4 @@
       }
     }
   }
+}

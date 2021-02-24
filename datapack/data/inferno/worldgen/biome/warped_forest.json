@@ -30,9 +30,6 @@
     },
     "surface_builder": "inferno:warped_forest",
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],

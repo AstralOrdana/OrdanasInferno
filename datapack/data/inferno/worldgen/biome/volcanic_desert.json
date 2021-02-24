@@ -30,9 +30,6 @@
     },
     "surface_builder": "inferno:volcanic_desert",
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],

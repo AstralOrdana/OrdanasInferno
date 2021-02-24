@@ -20,10 +20,14 @@
                 "config": {}
               },
               "inner": {
-                "type": "minecraft:depth_average",
+                "type": "minecraft:range",
                 "config": {
-                  "baseline": 144,
-                  "spread": 9
+                  "bottom_inclusive": {
+                    "above_bottom": 135
+                  },
+                  "top_inclusive": {
+                    "below_top": 0
+                  }
                 }
               }
             }

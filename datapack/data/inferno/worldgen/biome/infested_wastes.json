@@ -1,7 +1,7 @@
 {
     "surface_builder": "inferno:infested_wastes",
-    "depth": 1,
-    "scale": 1,
+    "depth": 0.1,
+    "scale": 0.2,
     "temperature": 2,
     "downfall": 0,
     "precipitation": "none",
@@ -67,15 +67,11 @@
       }
     },
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],
       [
         "inferno:infested_wastes/limestone_ore",
-        "inferno:infested_wastes/limestone_rock",
         "inferno:base/scoria"
       ],
       [],
@@ -95,7 +91,7 @@
         "minecraft:ore_blackstone",
         "minecraft:ore_gold_nether",
         "minecraft:ore_quartz_nether",
-        "inferno:infested_wastes/limestone_infection"
+        "inferno:infested_wastes/limestone_infestation"
       ],
       [
         "minecraft:spring_lava",

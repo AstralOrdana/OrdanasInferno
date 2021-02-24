@@ -1,46 +1,50 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:count",
-        "config": {
-          "count": 16
-        }
-      },
-      "feature": {
-        "type": "minecraft:decorated",
-        "config": {
-          "decorator": {
-            "type": "minecraft:square",
-            "config": {}
-          },
-          "feature": {
-            "type": "minecraft:decorated",
-            "config": {
-              "decorator": {
-                "type": "minecraft:range",
-                "config": {
-                  "maximum": 100,
-                  "bottom_offset": 30,
-                  "top_offset": 0
-                }
-              },
-              "feature": {
-                "type": "minecraft:ore",
-                "config": {
-                  "state": {
-                    "Name": "minecraft:clay"
-                  },
-                  "size": 14,
-                  "target": {
-                    "predicate_type": "minecraft:tag_match",
-                    "tag": "minecraft:soul_fire_base_blocks"
-                  }
-                }
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": {
+              "base": 16,
+              "spread": 1
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:depth_average",
+              "config": {
+                "baseline": {
+                  "absolute": 128
+                },
+                "spread": 64
               }
             }
           }
         }
       }
+    },
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "state": {
+          "Name": "minecraft:clay"
+        },
+        "size": 14,
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:soul_fire_base_blocks"
+        }
+      }
     }
   }
+}

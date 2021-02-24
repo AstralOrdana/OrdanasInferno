@@ -30,9 +30,6 @@
     },
     "surface_builder": "inferno:spectre_forest",
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],
@@ -67,8 +64,7 @@
       ]
     ],
     "starts": [
-      "minecraft:bastion_remnant",
-      "minecraft:pillager_outpost"
+      "minecraft:bastion_remnant"
     ],
     "spawners": {
       "monster": [

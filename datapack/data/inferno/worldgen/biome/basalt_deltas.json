@@ -30,9 +30,6 @@
     },
     "surface_builder": "inferno:basalt_deltas",
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],

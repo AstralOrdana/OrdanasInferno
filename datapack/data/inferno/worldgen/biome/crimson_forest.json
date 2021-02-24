@@ -31,9 +31,6 @@
     },
     "surface_builder": "inferno:crimson_forest",
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],

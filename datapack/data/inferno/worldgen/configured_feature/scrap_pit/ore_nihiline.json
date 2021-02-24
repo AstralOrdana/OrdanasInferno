@@ -20,11 +20,12 @@
             },
             "decorator": {
               "config": {
-                "bottom_offset": 0,
-                "top_offset": 0,
-                "maximum": 60 
+                "baseline": {
+                  "absolute": 32
+                },
+                "spread": 16
               },
-              "type": "minecraft:range"
+              "type": "minecraft:depth_average"
             }
           },
           "type": "minecraft:decorated"

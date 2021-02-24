@@ -13,14 +13,10 @@
   },
   "surface_builder": "inferno:moonstone_caverns",
   "carvers": {
-    "air": [
-      "minecraft:nether_cave"
-    ]
   },
   "features": [
     [
-      "inferno:moonstone_caverns/moonstone_columns_large",
-      "inferno:moonstone_caverns/moonstone_columns_small"
+      "minecraft:amethyst_geode"
     ],
     [],
     [],
@@ -29,20 +25,18 @@
     [],
     [
       "minecraft:ore_blackstone",
-      "inferno:base/scoria",
-      "inferno:moonstone_caverns/dripstone_to_moonstone"
+      "inferno:base/scoria"
     ],
     [
        "inferno:moonstone_caverns/moonstone_crystals",
-       "inferno:moonstone_caverns/netherrack_replacer"
+       "inferno:moonstone_caverns/ore_soul_stone"
     ],
     [
       "inferno:moonstone_caverns/moonstone_ore"
     ]
   ],
   "starts": [
-    "minecraft:bastion_remnant",
-    "minecraft:pillager_outpost"
+    "minecraft:bastion_remnant"
   ],
   "spawners": {
     "monster": [],

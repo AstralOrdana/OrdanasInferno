@@ -25,9 +25,6 @@
     },
     "surface_builder": "minecraft:nether",
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],

@@ -1,46 +1,52 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:count",
-        "config": {
-          "count": 8
-        }
-      },
-      "feature": {
-        "type": "minecraft:decorated",
-        "config": {
-          "decorator": {
-            "type": "minecraft:square",
-            "config": {}
-          },
-          "feature": {
-            "type": "minecraft:decorated",
-            "config": {
-              "decorator": {
-                "type": "minecraft:range",
-                "config": {
-                  "maximum": 128,
-                  "bottom_offset": 0,
-                  "top_offset": 0
-                }
-              },
-              "feature": {
-                "type": "minecraft:ore",
-                "config": {
-                  "state": {
-                    "Name": "minecraft:terracotta"
-                  },
-                  "size": 42,
-                  "target": {
-                    "predicate_type": "minecraft:tag_match",
-                    "tag": "minecraft:soul_fire_base_blocks"
-                  }
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": {
+              "base": 16,
+              "spread": 1
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "absolute": 0
+                },
+                "top_inclusive": {
+                  "absolute": 0
                 }
               }
             }
           }
         }
       }
+    },
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "state": {
+          "Name": "minecraft:terracotta"
+        },
+        "size": 42,
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:soul_fire_base_blocks"
+        }
+      }
     }
   }
+}

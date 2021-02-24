@@ -68,13 +68,12 @@
     },
     "spawn_costs": {},
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [
-          "inferno:magma_mires/magma_columns_large"
+          "inferno:magma_mires/magma_columns_large",
+          "minecraft:small_dripstone",
+          "minecraft:dripstone_cluster"
       ],
       [],
       [],
@@ -83,7 +82,6 @@
       [],
       [],
       [
-        "inferno:magma_mires/dripstone_to_magma",
         "inferno:magma_mires/magma_pool",
         "minecraft:basalt_pillar",
         "minecraft:basalt_pillar",
@@ -101,12 +99,9 @@
         "inferno:basalt_deltas/ore_carnelium_poor"
       ],
       [
-        "minecraft:spring_lava_double",
-        "minecraft:spring_lava_double",
-        "minecraft:spring_lava_double",
-        "minecraft:spring_lava_double",
-        "minecraft:spring_lava_double",
-        "minecraft:spring_lava_double",
+        "minecraft:spring_lava",
+        "minecraft:spring_lava",
+        "minecraft:spring_lava",
         "inferno:magma_mires/netherrack_to_scoria"
       ]
     ]

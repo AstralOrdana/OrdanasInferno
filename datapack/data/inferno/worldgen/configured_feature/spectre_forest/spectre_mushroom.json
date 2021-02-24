@@ -1,27 +1,24 @@
 {
+  "type": "minecraft:decorated",
   "config": {
-    "feature": {
-      "name": "spectre_mushroom",
-      "config": {
-        "feature": {
-          "config": {},
-          "type": "minecraft:chorus_plant"
-        },
-        "decorator": {
-              "config": {},
-              "type": "minecraft:iceberg"
-          },
-          "type": "minecraft:decorated"
-        
-      },
-      "type": "minecraft:decorated"
-    },
     "decorator": {
+      "type": "minecraft:count_multilayer",
       "config": {
         "count": 8
-      },
-      "type": "minecraft:count_multilayer"
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:iceberg",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:chorus_plant",
+          "config": {}
+        }
+      }
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

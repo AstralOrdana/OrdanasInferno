@@ -2,17 +2,17 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
-      "type": "minecraft:count_extra",
-      "config": {
-        "count": 0,
-        "extra_count": 1000,
-        "extra_chance": 1
-      }
-    },
-    "feature": {
       "type": "minecraft:decorated",
       "config": {
-        "decorator": {
+        "outer": {
+          "type": "minecraft:count_extra",
+          "config": {
+            "count": 0,
+            "extra_count": 1000,
+            "extra_chance": 1
+          }
+        },
+        "inner": {
           "type": "minecraft:decorated",
           "config": {
             "outer": {
@@ -22,26 +22,28 @@
             "inner": {
               "type": "minecraft:range",
               "config": {
-                "maximum": 128,
-                "bottom_offset": 0,
-                "top_offset": 0
+                "bottom_inclusive": {
+                  "absolute": 0
+                },
+                "top_inclusive": {
+                  "absolute": 0
+                }
               }
             }
           }
-        },
-        "feature": {
-          "type": "minecraft:ore",
-          "config": {
-            "state": {
-              "Name": "minecraft:amethyst_block"
-            },
-            "size": 64,
-            "target": {
-              "predicate_type": "minecraft:block_match",
-              "block": "minecraft:glowstone"
-            }
-          }
         }
+      }
+    },
+    "feature": {
+      "type": "minecraft:netherrack_replace_blobs",
+      "config": {
+        "state": {
+          "Name": "minecraft:amethyst_block"
+        },
+        "target": {
+          "Name": "minecraft:glowstone"
+        },
+        "radius": 16
       }
     }
   }

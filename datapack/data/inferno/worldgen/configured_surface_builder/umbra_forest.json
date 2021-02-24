@@ -10,7 +10,7 @@
       "Name": "minecraft:dirt"
     },
     "underwater_material": {
-      "Name": "minecraft:glowstone"
+      "Name": "minecraft:shroomlight"
     }
   },
   "type": "minecraft:nether_forest"

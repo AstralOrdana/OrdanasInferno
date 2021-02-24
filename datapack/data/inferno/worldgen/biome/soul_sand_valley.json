@@ -30,9 +30,6 @@
     },
     "surface_builder": "inferno:soul_sand_valley",
     "carvers": {
-      "air": [
-        "minecraft:nether_cave"
-      ]
     },
     "features": [
       [],
@@ -40,7 +37,8 @@
       [
         "minecraft:basalt_pillar",
         "minecraft:basalt_pillar",
-        "minecraft:basalt_pillar"
+        "minecraft:basalt_pillar",
+        "inferno:base/scoria"
       ],
       [],
       [],
@@ -61,7 +59,6 @@
         "minecraft:ore_gold_nether",
         "minecraft:ore_quartz_nether",
         "inferno:soul_sand_valley/ore_soul_stone",
-        "inferno:base/scoria",
         "inferno:soul_sand_valley/glowstone_to_moonstone"
       ],
       [
@@ -71,8 +68,7 @@
     ],
     "starts": [
       "minecraft:nether_fossil",
-      "minecraft:bastion_remnant",
-      "minecraft:pillager_outpost"
+      "minecraft:bastion_remnant"
     ],
     "spawners": {
       "monster": [
