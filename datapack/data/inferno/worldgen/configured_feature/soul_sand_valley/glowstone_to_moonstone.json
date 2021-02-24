@@ -23,10 +23,10 @@
               "type": "minecraft:range",
               "config": {
                 "bottom_inclusive": {
-                  "absolute": 0
+                  "above_bottom": 1
                 },
                 "top_inclusive": {
-                  "absolute": 0
+                  "below_top": 1
                 }
               }
             }

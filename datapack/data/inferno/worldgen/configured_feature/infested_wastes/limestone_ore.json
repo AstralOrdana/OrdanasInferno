@@ -1,36 +1,49 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:decorated",
-        "config": {
-          "outer": {
-            "type": "minecraft:count_multilayer",
-            "config": {
-              "count": {
-                "base": 9,
-                "spread": 8
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": 64
+          }
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "above_bottom": 1
+                },
+                "top_inclusive": {
+                  "below_top": 1
+                }
               }
             }
-          },
-          "inner": {
-            "type": "minecraft:square",
-            "config": {}
           }
         }
-      },
-      "feature": {
-        "type": "minecraft:ore",
-        "config": {
-          "state": {
-            "Name": "minecraft:stone"
-          },
-          "size": 32,
-          "target": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:netherrack"
-          }
+      }
+    },
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "state": {
+          "Name": "minecraft:stone"
+        },
+        "size": 32,
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:netherrack"
         }
       }
     }
   }
+}

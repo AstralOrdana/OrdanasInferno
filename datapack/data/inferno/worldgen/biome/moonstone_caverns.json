@@ -15,9 +15,7 @@
   "carvers": {
   },
   "features": [
-    [
-      "minecraft:amethyst_geode"
-    ],
+    [],
     [],
     [],
     [],
@@ -29,14 +27,14 @@
     ],
     [
        "inferno:moonstone_caverns/moonstone_crystals",
+       "inferno:moonstone_caverns/moonstone_geode",
        "inferno:moonstone_caverns/ore_soul_stone"
     ],
-    [
-      "inferno:moonstone_caverns/moonstone_ore"
-    ]
+    []
   ],
   "starts": [
-    "minecraft:bastion_remnant"
+    "minecraft:bastion_remnant",
+    "inferno:island"
   ],
   "spawners": {
     "monster": [],

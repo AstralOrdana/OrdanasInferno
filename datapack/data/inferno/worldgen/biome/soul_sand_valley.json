@@ -68,7 +68,8 @@
     ],
     "starts": [
       "minecraft:nether_fossil",
-      "minecraft:bastion_remnant"
+      "minecraft:bastion_remnant",
+      "inferno:island"
     ],
     "spawners": {
       "monster": [
