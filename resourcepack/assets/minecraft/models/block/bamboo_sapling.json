@@ -4,7 +4,7 @@
 	"ambientocclusion": false,
 	"textures": {
 		"all": "block/bamboo_sapling",
-		"particle": "block/bamboo_particle"
+		"particle": "block/bamboo_sapling"
 	},
 	"elements": [
 		{
