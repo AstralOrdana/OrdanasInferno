@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
 	"parent": "block/block",
 	"textures": {
 		"4": "block/grindstone_leg",
@@ -14,9 +14,9 @@
 			"to": [14, 7, 10],
 			"faces": {
 				"north": {"uv": [2, 9, 4, 16], "texture": "#4"},
-				"east": {"uv": [10, 16, 6, 9], "texture": "#4"},
+				"east": {"uv": [6, 9, 10, 16], "texture": "#4"},
 				"south": {"uv": [12, 9, 14, 16], "texture": "#4"},
-				"west": {"uv": [6, 9, 10, 16], "texture": "#4"},
+				"west": {"uv": [10, 16, 6, 9], "texture": "#4"},
 				"up": {"uv": [0, 0, 0, 0], "texture": "#4"},
 				"down": {"uv": [12, 6, 14, 10], "texture": "#4", "cullface": "down"}
 			}
@@ -39,16 +39,16 @@
 			"faces": {
 				"north": {"uv": [6, 0, 8, 6], "texture": "#pivot"},
 				"east": {"uv": [0, 0, 6, 6], "texture": "#pivot"},
-				"south": {"uv": [6, 0, 8, 6], "texture": "#pivot"},
-				"up": {"uv": [8, 0, 10, 6], "texture": "#pivot"},
-				"down": {"uv": [8, 0, 10, 6], "texture": "#pivot"}
+				"south": {"uv": [8, 0, 6, 6], "texture": "#pivot"},
+				"up": {"uv": [10, 0, 8, 6], "texture": "#pivot"},
+				"down": {"uv": [10, 0, 8, 6], "texture": "#pivot"}
 			}
 		},
 		{
 			"from": [2, 7, 5],
 			"to": [4, 13, 11],
 			"faces": {
-				"north": {"uv": [6, 0, 8, 6], "texture": "#pivot"},
+				"north": {"uv": [8, 0, 6, 6], "texture": "#pivot"},
 				"south": {"uv": [6, 0, 8, 6], "texture": "#pivot"},
 				"west": {"uv": [0, 0, 6, 6], "texture": "#pivot"},
 				"up": {"uv": [8, 0, 10, 6], "texture": "#pivot"},
@@ -68,7 +68,6 @@
 			}
 		}
 	],
-	"display": {},
 	"groups": [
 		{
 			"name": "grindstone",
