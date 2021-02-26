@@ -1,5 +1,6 @@
 ###ORDANA's INFERNO Intro###
-tellraw @a [{"text":"Welcome to ","color":"red"},{"text":"ORDANA'S INFERNO","color":"dark_red","hoverEvent":{"action":"show_text","value":[{"text":"","bold":true}]}},{"text":", In a brief moment you will be teleported to the Nether,  Thank you for choosing us.","hoverEvent":{"action":"show_text","value":[{"text":"","bold":true}]}}]
+execute unless score OrdN_Gr OrdN-G_Disable matches 0.. run schedule function inferno:gamerules 5t
+execute unless score OrdN_Gr OrdN-G_Disable matches 0.. run function inferno:gamerules/default
 
 ###Scoreboards - OrdN-S_000000000###
 scoreboard objectives add OrdN-S_Optimize dummy
@@ -11,6 +12,10 @@ scoreboard objectives add OrdN-S_MossTicks dummy
 scoreboard objectives add OrdN-S_FireTime dummy
 scoreboard objectives add OrdN-S_BoomDist dummy
 scoreboard objectives add OrdN-S_AtkTime dummy
+scoreboard objectives add OrdN-S_Health dummy
+scoreboard objectives add OrdN-G_BossBars dummy
+scoreboard objectives add OrdN-G_Disable dummy
+scoreboard players add OrdN_Gr OrdN-G_Disable 1
 
 
 ###Disable Freeze Damage For mossier moss###

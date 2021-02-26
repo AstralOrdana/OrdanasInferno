@@ -19,3 +19,6 @@ item entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.
 
 ###DEMON IDOL###
 execute as @e[type=villager,tag=Orda-NS-VillagerDemonIdol,nbt=!{HurtTime:0s}] at @s run function inferno:entity/demon/bone_demon/demon_idol_breaking
+
+###Boss Bars###
+execute as @a at @s if entity @e[type=#inferno:bosses,distance=..100] if score OrdN_Gr OrdN-G_BossBars matches 1 run function inferno:gamerules/bbsimp
