@@ -61,7 +61,8 @@
     ],
     "starts": [
       "minecraft:nether_fossil",
-      "minecraft:bastion_remnant"
+      "minecraft:bastion_remnant",
+      "minecraft:mineshaft"
     ],
     "spawners": {
       "monster": [

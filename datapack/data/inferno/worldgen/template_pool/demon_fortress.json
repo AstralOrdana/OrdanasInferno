@@ -1,0 +1,78 @@
+{
+    "name": "inferno:demon_fortress",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 30,
+        "element": {
+          "location": "inferno:demon_fortress/dead_end",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 40,
+        "element": {
+          "location": "inferno:demon_fortress/cross",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 40,
+        "element": {
+          "location": "inferno:demon_fortress/monolith_cross",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 100,
+        "element": {
+          "location": "inferno:demon_fortress/corridor",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 70,
+        "element": {
+          "location": "inferno:demon_fortress/corner",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 55,
+        "element": {
+          "location": "inferno:demon_fortress/t_junction",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 40,
+        "element": {
+          "location": "inferno:demon_fortress/stairway",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 30,
+        "element": {
+          "location": "inferno:demon_fortress/blaze_spawner",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

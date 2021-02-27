@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "config": {
+      "start_pool": "inferno:demon_fortress_start",
+      "size": 6
+    }
+  }

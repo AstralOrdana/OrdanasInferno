@@ -60,6 +60,11 @@
           "spacing": 10,
           "separation": 5,
           "salt": 0
+        },
+        "minecraft:mineshaft": {
+          "spacing": 10,
+          "separation": 5,
+          "salt": 0
         }
       }
     }

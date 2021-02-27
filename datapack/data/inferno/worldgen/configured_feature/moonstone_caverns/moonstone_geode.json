@@ -58,7 +58,7 @@
                       },
                       "Name": "minecraft:small_amethyst_bud"
                     },
-                    {
+                    { 
                       "Properties": {
                         "waterlogged": "false",
                         "lit": "true",
@@ -101,14 +101,12 @@
             },
             "decorator": {
               "config": {
-                "bottom_inclusive": {
-                  "above_bottom": 1
+                "baseline": {
+                  "absolute": 64
                 },
-                "top_inclusive": {
-                  "absolute": 1
-                }
+                "spread": 64
               },
-              "type": "minecraft:range"
+              "type": "minecraft:depth_average"
             }
           },
           "type": "minecraft:decorated"
@@ -122,7 +120,7 @@
     },
     "decorator": {
       "config": {
-        "chance": 8
+        "chance": 4
       },
       "type": "minecraft:chance"
     }

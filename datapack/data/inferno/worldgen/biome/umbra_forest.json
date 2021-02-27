@@ -41,7 +41,8 @@
       "inferno:umbra_forest/umbra_bloom",
       "inferno:umbra_forest/umbra_fungus",
       "inferno:umbra_forest/umbra_roots",
-      "inferno:umbra_forest/umbra_roots_tall"
+      "inferno:umbra_forest/umbra_roots_tall",
+      "inferno:umbra_forest/umbra_vines"
     ],
     [],
     [
@@ -59,11 +60,7 @@
       "inferno:base/scoria"
     ],
     [
-      "minecraft:spring_lava",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:nether_sprouts",
-      "minecraft:twisting_vines"
+      "minecraft:spring_lava"
     ]
   ],
   "starts": [

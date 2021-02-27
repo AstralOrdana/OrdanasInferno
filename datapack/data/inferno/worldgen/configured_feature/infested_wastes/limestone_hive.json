@@ -72,14 +72,12 @@
             },
             "decorator": {
               "config": {
-                "bottom_inclusive": {
-                  "above_bottom": 1
+                "baseline": {
+                  "absolute": 64
                 },
-                "top_inclusive": {
-                  "absolute": 1
-                }
+                "spread": 64
               },
-              "type": "minecraft:range"
+              "type": "minecraft:depth_average"
             }
           },
           "type": "minecraft:decorated"
@@ -93,7 +91,7 @@
     },
     "decorator": {
       "config": {
-        "chance": 8
+        "chance": 2
       },
       "type": "minecraft:chance"
     }

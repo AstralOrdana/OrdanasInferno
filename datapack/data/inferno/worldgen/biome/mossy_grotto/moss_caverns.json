@@ -11,8 +11,6 @@
     "fog_color": 9186398,
     "water_color": 61183,
     "water_fog_color": 116409,
-    "grass_color": 2023450,
-    "foliage_color": 16486030,
     "particle": {
       "options": {
         "type": "minecraft:spore_blossom_air"
@@ -49,7 +47,8 @@
   "carvers": {
     "air": [
       "minecraft:canyon",
-      "minecraft:cave"
+      "minecraft:cave",
+      "minecraft:crack"
     ]
   },
   "features": [

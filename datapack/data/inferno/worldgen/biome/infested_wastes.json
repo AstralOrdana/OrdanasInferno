@@ -66,7 +66,12 @@
         "charge": 1
       }
     },
-    "carvers": {},
+    "carvers": {
+      "air": [
+          "minecraft:crack",
+          "minecraft:canyon"
+      ]
+    },
     "features": [
       [],
       [

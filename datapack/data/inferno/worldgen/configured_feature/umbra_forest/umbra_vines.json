@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": 64
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "outer": {
+                    "type": "minecraft:count_noise_biased",
+                    "config": {
+                      "noise_to_count_ratio": 1,
+                      "noise_factor": 200,
+                      "noise_offset": 0
+                    }
+                  },
+                  "inner": {
+                    "type": "minecraft:range",
+                    "config": {
+                      "bottom_inclusive": {
+                        "above_bottom": 1
+                      },
+                      "top_inclusive": {
+                        "below_top": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "Name": "minecraft:cave_vines_body",
+                "Properties": {
+                  "berries": "false"
+                }
+              },
+              "place_on": [],
+              "place_in": [],
+              "place_under": [
+                {
+                  "Name": "minecraft:netherrack"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
