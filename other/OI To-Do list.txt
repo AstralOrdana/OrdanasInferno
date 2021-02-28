@@ -17,13 +17,13 @@ Create Large Fern texture
 Create Moss Druid texture
 Create Plashfish texture
 Create Pufferfish texture
-finish bone demon
 re write croaker code
 check optimized main for any optimisations that can be done
 Major recipe advancemnet update
 Progression advancements
-re-add nether wastes
 
+[DONE] finish bone demon
+[DONE] re-add nether wastes
 [DONE] Create Mossberry Leaves texture
 [DONE] Create Mossberry Berry Leaves texture
 [DONE] Create Glowing Mossball item texture
