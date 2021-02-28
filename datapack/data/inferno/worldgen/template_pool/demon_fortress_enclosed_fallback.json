@@ -1,11 +1,11 @@
 {
     "name": "inferno:demon_fortress",
-    "fallback": "minecraft:empty",
+    "fallback": "inferno:demon_fortress_enclosed",
     "elements": [
-      {	
-        "weight": 1,
+      {
+        "weight": 10,
         "element": {
-          "location": "inferno:demon_fortress/pit_entrance",
+          "location": "inferno:demon_fortress/enclosed_dead_end",
           "processors": "inferno:fortress_degradation",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
