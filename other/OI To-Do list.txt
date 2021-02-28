@@ -6,21 +6,20 @@ Fix bookshelf variant textures
 Create Glider texture
 Create Glider Blood texture
 Create Glider Feather texture
-Create Treemoss ball item texture
-Create Mossy Marble textures
 Update Polished Marble variants
-Create Mossberry item texture
-Create Mossier Moss texture
-Create Mossberry Bush texture
 Create Fern texture
 Create Large Fern texture
 Create Moss Druid texture
-Create Plashfish texture
 Create Pufferfish texture
 re write croaker code
 check optimized main for any optimisations that can be done
 Major recipe advancemnet update
 Progression advancements
+
+
+[REMOVED] Create Mossy Marble textures
+[REMOVED] Create Mossier Moss texture
+
 
 [DONE] finish bone demon
 [DONE] re-add nether wastes
@@ -36,3 +35,9 @@ Progression advancements
 [DONE] Major lang file update
 [DONE] Major block loot table update
 [DONE] Major recipe update
+[DONE] Create Treemoss ball item texture
+[DONE] Create Mossberry item texture
+[DONE] Create Mossberry Bush texture
+[DONE] Create Plashfish texture
+[DONE] finish bone demon
+[DONE] re-add nether wastes
