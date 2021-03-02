@@ -67,7 +67,7 @@
       ]
     ],
     "starts": [
-      "minecraft:bastion_remnant"
+      "inferno:overgrown_factory"
     ],
     "spawners": {
       "monster": [

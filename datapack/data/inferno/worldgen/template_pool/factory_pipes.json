@@ -1,0 +1,141 @@
+{
+    "name": "inferno:overgrown_factory",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/1h",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/1v",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/2u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/2d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/2h",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/3d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/3u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/4u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/4d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/4h",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/4v",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/5u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/5d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/5v",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:overgrown_factory/6",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
