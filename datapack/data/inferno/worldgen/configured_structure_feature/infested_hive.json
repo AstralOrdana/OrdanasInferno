@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "config": {
+      "start_pool": "inferno:infested_hive_start",
+      "size": 7
+    }
+  }

@@ -36,7 +36,7 @@
       }
     },
     "starts": [
-      "minecraft:bastion_remnant"
+      "inferno:infested_hive"
     ],
     "spawners": {
       "monster": [
