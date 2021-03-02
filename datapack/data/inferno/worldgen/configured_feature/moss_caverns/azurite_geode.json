@@ -76,9 +76,9 @@
             "decorator": {
               "config": {
                 "baseline": {
-                  "absolute": 0
+                  "absolute": 64
                 },
-                "spread": 128
+                "spread": 32
               },
               "type": "minecraft:depth_average"
             }

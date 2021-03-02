@@ -75,7 +75,7 @@
                 "baseline": {
                   "absolute": 64
                 },
-                "spread": 64
+                "spread": 32
               },
               "type": "minecraft:depth_average"
             }
