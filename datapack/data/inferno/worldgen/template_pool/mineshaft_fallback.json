@@ -1,0 +1,15 @@
+{
+    "name": "inferno:mineshaft",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:mineshaft/dead_end",
+          "processors": "inferno:mineshaft_ore",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
