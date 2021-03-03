@@ -1,7 +1,7 @@
 {
     "type": "minecraft:bastion_remnant",
     "config": {
-      "start_pool": "inferno:factory_start",
+      "start_pool": "inferno:pipeline_start",
       "size": 7
     }
   }

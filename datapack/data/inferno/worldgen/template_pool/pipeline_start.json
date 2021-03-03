@@ -1,11 +1,11 @@
 {
-  "name": "inferno:overgrown_factory",
+  "name": "inferno:pipeline",
   "fallback": "minecraft:empty",
   "elements": [
     {	
       "weight": 1,
       "element": {
-        "location": "inferno:overgrown_factory/1h",
+        "location": "inferno:pipeline/1h",
         "processors": "minecraft:empty",
             "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

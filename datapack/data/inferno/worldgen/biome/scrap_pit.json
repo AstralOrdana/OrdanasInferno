@@ -36,7 +36,7 @@
       }
     },
     "starts": [
-      "inferno:overgrown_factory"
+      "inferno:pipeline"
     ],
     "spawners": {
       "monster": [

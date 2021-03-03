@@ -1,11 +1,11 @@
 {
-    "name": "inferno:overgrown_factory",
+    "name": "inferno:pipeline",
     "fallback": "minecraft:empty",
     "elements": [
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/1h",
+          "location": "inferno:pipeline/1h",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/1v",
+          "location": "inferno:pipeline/1v",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/2u",
+          "location": "inferno:pipeline/2u",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/2d",
+          "location": "inferno:pipeline/2d",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/2h",
+          "location": "inferno:pipeline/2h",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -50,7 +50,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/3d",
+          "location": "inferno:pipeline/3d",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -59,7 +59,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/3u",
+          "location": "inferno:pipeline/3u",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -68,7 +68,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/4u",
+          "location": "inferno:pipeline/4u",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -77,7 +77,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/4d",
+          "location": "inferno:pipeline/4d",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -86,7 +86,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/4h",
+          "location": "inferno:pipeline/4h",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -95,7 +95,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/4v",
+          "location": "inferno:pipeline/4v",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -104,7 +104,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/5u",
+          "location": "inferno:pipeline/5u",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -113,7 +113,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/5d",
+          "location": "inferno:pipeline/5d",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -122,7 +122,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/5v",
+          "location": "inferno:pipeline/5v",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
@@ -131,7 +131,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:overgrown_factory/6",
+          "location": "inferno:pipeline/6",
           "processors": "minecraft:empty",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
