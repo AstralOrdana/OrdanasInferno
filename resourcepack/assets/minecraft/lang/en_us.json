@@ -229,6 +229,7 @@
   "block.minecraft.acacia_sign": "Mossberry Sign",
   "block.minecraft.acacia_door": "Mossberry Door",
   "block.minecraft.acacia_trapdoor": "Mossberry Trapdoor",
+  "item.minecraft.acacia_boat": "Mossberry Boat",
 
   "block.minecraft.jungle_log": "Mossberry Log",
   "block.minecraft.jungle_wood": "Mossberry Wood",
@@ -244,6 +245,7 @@
   "block.minecraft.jungle_sign": "Mossy Mossberry Sign",
   "block.minecraft.jungle_door": "Mossy Mossberry Door",
   "block.minecraft.jungle_trapdoor": "Mossy Mossberry Trapdoor",
+  "item.minecraft.jungle_boat": "Mossy Mossberry Boat",
 
   "block.minecraft.granite": "Gear Scraps",
   "block.minecraft.calcite": "Pipe Scraps",
