@@ -1,122 +1,60 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "rolls": 4,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 6,
-            "name": "minecraft:charcoal",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 5
-                },
-                "conditions": [
-                  {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.75
-                  }
-                ]
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 4
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 7,
-            "name": "minecraft:bone",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 6
-                },
-                "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:honey_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
               }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:honey_bottle",
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.25
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 5,
-            "name": "minecraft:brick",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 3
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.5
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 5,
-            "name": "minecraft:gold_ingot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 2
-                },
-                "add": true,
-                "conditions": [
-                  {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.5
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "minecraft:tag",
-            "weight": 6,
-            "name": "inferno:stone_tools",
-            "expand": true,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 1
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.5
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

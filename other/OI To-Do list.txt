@@ -1,5 +1,10 @@
 ***MASTER TO-DO LIST***
 
+
+
+
+**TEXTURES**
+
 Complete Mossberry wood set
 Complete Mossy Mossberry wood set
 Fix bookshelf variant textures
@@ -11,15 +16,61 @@ Create Fern texture
 Create Large Fern texture
 Create Moss Druid texture
 Create Pufferfish texture
+Fix vines texture
+Create lily pad texture
+Finish Demon Eye texture
+Create Demon Laser texture and model
+
+
+
+____________________________________________________________________________________
+**GAME DESIGN & PLANNING**
+
+Determine 6th tier armor and tools
+Decide on details of deleportaion
+Map out boss progression
+Decide use for copper blocks/oxidiation mechanic 
+
+
+
+____________________________________________________________________________________
+**FUNCTIONS AND CODING**
+
 re write croaker code
 check optimized main for any optimisations that can be done
+Code Piglin King boss
+Code Demon Eye boss
+Code Demon Laser item
+Code Carnelium Colossus boss
 Major recipe advancemnet update
 Progression advancements
 
 
-[REMOVED] Create Mossy Marble textures
-[REMOVED] Create Mossier Moss texture
+____________________________________________________________________________________
+**WORLDGEN**
 
+Create Piglin Fortress structure
+Create Overgrown Factory structure
+Rewrite biome layout
+
+
+
+____________________________________________________________________________________
+**BUGS**
+
+double check all custom recipes (carnelium forge, soul forge)
+
+
+
+____________________________________________________________________________________
+**OTHER**
+
+Create Ordana's Inferno branding (logo, in-game title screen, etc)
+
+
+
+____________________________________________________________________________________
+**FINISHED**
 
 [DONE] finish bone demon
 [DONE] re-add nether wastes
@@ -41,3 +92,24 @@ Progression advancements
 [DONE] Create Plashfish texture
 [DONE] finish bone demon
 [DONE] re-add nether wastes
+
+
+
+____________________________________________________________________
+**REMOVED**
+
+[REMOVED] Create Mossy Marble textures
+[REMOVED] Create Mossier Moss texture
+
+
+
+
+
+
+
+
+
+
+
+
+

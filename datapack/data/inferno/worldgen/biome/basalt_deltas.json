@@ -66,9 +66,7 @@
         "minecraft:spring_lava_double"
       ]
     ],
-    "starts": [
-      "inferno:overgrown_factory"
-    ],
+    "starts": [],
     "spawners": {
       "monster": [
         {
