@@ -5,7 +5,7 @@
     {	
       "weight": 1,
       "element": {
-        "location": "inferno:pipeline/1h",
+        "location": "inferno:pipeline/6",
         "processors": "minecraft:empty",
             "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -34,7 +34,7 @@
   ],
   "starts": [
     "minecraft:bastion_remnant",
-    "inferno:island"
+    "inferno:soul_island"
   ],
   "spawners": {
     "monster": [],

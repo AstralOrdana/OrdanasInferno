@@ -5,9 +5,9 @@
       {
         "weight": 100,
         "element": {
-          "location": "inferno:soul_island/soul_island_start",
+          "location": "inferno:soul_island/soul_island_extender",
           "processors": "minecraft:empty",
-          "projection": "rigid",
+              "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
       }
