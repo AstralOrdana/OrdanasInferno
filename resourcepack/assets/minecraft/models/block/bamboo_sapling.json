@@ -1,36 +1,44 @@
 {
 	"credit": "Made with Blockbench, Modeler: DMTHGM",
-	"parent": "block/tinted_cross",
 	"ambientocclusion": false,
 	"textures": {
-		"all": "block/bamboo_sapling",
-		"particle": "block/bamboo_sapling"
+		"cap": "block/bamboo_sapling",
+		"cross": "block/bamboo_sapling_stem",
+		"particle": "block/bamboo_sapling_stem"
 	},
 	"elements": [
 		{
-			"from": [7, 0, 7],
-			"to": [9, 8, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [15, 8, 15]},
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
 			"faces": {
-				"north": {"uv": [11, 8, 13, 16], "texture": "#all"},
-				"east": {"uv": [11, 8, 13, 16], "texture": "#all"},
-				"south": {"uv": [11, 8, 13, 16], "texture": "#all"},
-				"west": {"uv": [11, 8, 13, 16], "texture": "#all"},
-				"up": {"uv": [11, 8, 13, 10], "texture": "#all"},
-				"down": {"uv": [11, 8, 13, 10], "texture": "#all"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
 			}
 		},
 		{
-			"from": [4, 8, 4],
-			"to": [12, 11, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [16, 20.75, 16]},
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
 			"faces": {
-				"north": {"uv": [0, 8, 8, 11], "texture": "#all"},
-				"east": {"uv": [0, 8, 8, 11], "texture": "#all"},
-				"south": {"uv": [0, 8, 8, 11], "texture": "#all"},
-				"west": {"uv": [0, 8, 8, 11], "texture": "#all"},
-				"up": {"uv": [0, 0, 8, 8], "texture": "#all"},
-				"down": {"uv": [8, 0, 16, 8], "texture": "#all"}
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"name": "cap",
+			"from": [4, 10, 4],
+			"to": [12, 13, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 3], "texture": "#cap"},
+				"east": {"uv": [8, 0, 16, 3], "texture": "#cap"},
+				"south": {"uv": [8, 0, 16, 3], "texture": "#cap"},
+				"west": {"uv": [8, 0, 16, 3], "texture": "#cap"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#cap"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#cap"}
 			}
 		}
 	]
