@@ -13,23 +13,30 @@ Create Glider Blood texture
 Create Glider Feather texture
 Update Polished Marble variants
 Create Fern texture
+Fix vines texture
+Create lily pad texture
 Create Large Fern texture
 Create Moss Druid texture
 Create Pufferfish texture
-Fix vines texture
-Create lily pad texture
 Finish Demon Eye texture
 Create Demon Laser texture and model
+Update Colossus texture
+Create Sunstone gemstone texture
+Create Sunstone ore texture (in slate)
+Decite on name for Slate stone type
+Update chiseled slate texture
 
 
 
 ____________________________________________________________________________________
 **GAME DESIGN & PLANNING**
 
-Determine 6th tier armor and tools
-Decide on details of deleportaion
+Determine 6th tier armor and tools, decide how orichalcum works
+Decide on details of teleportaion
 Map out boss progression
 Decide use for copper blocks/oxidiation mechanic 
+Decite place in game for Glider mob
+add fancy boss bars option
 
 
 
@@ -44,6 +51,8 @@ Code Demon Laser item
 Code Carnelium Colossus boss
 Major recipe advancemnet update
 Progression advancements
+Code teleportation system
+Code enchanting system
 
 
 ____________________________________________________________________________________
@@ -52,6 +61,11 @@ ________________________________________________________________________________
 Create Piglin Fortress structure
 Create Overgrown Factory structure
 Rewrite biome layout
+fine-tune sunstone spawnrate
+add ruins to the moss dimension
+Create Overgrown Observatory texture
+Add ladders to pipeline
+Add nihiline rooms to pipeline
 
 
 

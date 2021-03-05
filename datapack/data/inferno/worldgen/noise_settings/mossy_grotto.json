@@ -44,6 +44,12 @@
       }
     },
     "structures": {
-      "structures": {}
+      "structures": {
+        "minecraft:ocean_ruin": {
+          "spacing": 4,
+          "separation": 2,
+          "salt": 0
+        }
+      }
     }
   }

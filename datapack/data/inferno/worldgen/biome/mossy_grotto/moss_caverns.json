@@ -18,7 +18,10 @@
       "probability": 0.001
     }
   },
-  "starts": [],
+  "starts": [
+    "minecraft:ocean_ruin_cold",
+    "minecraft:ocean_ruin_warm"
+  ],
   "spawners": {
     "water_ambient": [
       {
