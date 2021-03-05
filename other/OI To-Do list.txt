@@ -27,6 +27,22 @@ Decite on name for Slate stone type
 Update chiseled slate texture
 
 
+*DONE*
+
+[DONE] Create Mossberry Leaves texture
+[DONE] Create Mossberry Berry Leaves texture
+[DONE] Create Glowing Mossball item texture
+[DONE] Create Glowing Moss Plant item texture
+[DONE] Make Icon for soul schorched effect
+[DONE] Change Scrap Pipe to popped chorus fruit
+[DONE] Change Glider Blood to Ink Sac
+[DONE] Major lang file update
+[DONE] Create Treemoss ball item texture
+[DONE] Create Mossberry item texture
+[DONE] Create Mossberry Bush texture
+[DONE] Create Plashfish texture
+
+
 
 ____________________________________________________________________________________
 **GAME DESIGN & PLANNING**
@@ -35,8 +51,8 @@ Determine 6th tier armor and tools, decide how orichalcum works
 Decide on details of teleportaion
 Map out boss progression
 Decide use for copper blocks/oxidiation mechanic 
-Decite place in game for Glider mob
-add fancy boss bars option
+Decide place in game for Glider mob
+Add fancy boss bars option
 
 
 
@@ -55,6 +71,16 @@ Code teleportation system
 Code enchanting system
 
 
+*DONE*
+
+[DONE] finish bone demon
+[DONE] Add Soul Scorched effect
+[DONE] Add demon idol drop
+[DONE] Major block loot table update
+[DONE] Major recipe update
+
+
+
 ____________________________________________________________________________________
 **WORLDGEN**
 
@@ -63,9 +89,14 @@ Create Overgrown Factory structure
 Rewrite biome layout
 fine-tune sunstone spawnrate
 add ruins to the moss dimension
-Create Overgrown Observatory texture
-Add ladders to pipeline
-Add nihiline rooms to pipeline
+Create Overgrown Observatory structure
+
+
+*DONE*
+
+[DONE] Add nihiline rooms to pipeline
+[DONE] Add ladders to pipeline
+[DONE] re-add nether wastes
 
 
 
@@ -84,32 +115,6 @@ Create Ordana's Inferno branding (logo, in-game title screen, etc)
 
 
 ____________________________________________________________________________________
-**FINISHED**
-
-[DONE] finish bone demon
-[DONE] re-add nether wastes
-[DONE] Create Mossberry Leaves texture
-[DONE] Create Mossberry Berry Leaves texture
-[DONE] Create Glowing Mossball item texture
-[DONE] Create Glowing Moss Plant item texture
-[DONE] Make Icon for soul schorched effect
-[DONE] Change Scrap Pipe to popped chorus fruit
-[DONE] Add Soul Scorched effect
-[DONE] Add demon idol drop
-[DONE] Change Glider Blood to Ink Sac
-[DONE] Major lang file update
-[DONE] Major block loot table update
-[DONE] Major recipe update
-[DONE] Create Treemoss ball item texture
-[DONE] Create Mossberry item texture
-[DONE] Create Mossberry Bush texture
-[DONE] Create Plashfish texture
-[DONE] finish bone demon
-[DONE] re-add nether wastes
-
-
-
-____________________________________________________________________
 **REMOVED**
 
 [REMOVED] Create Mossy Marble textures
