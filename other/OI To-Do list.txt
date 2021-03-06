@@ -5,8 +5,6 @@
 
 **TEXTURES**
 
-[DONE] Complete Mossberry wood set
-[DONE] Complete Mossy Mossberry wood set
 Fix bookshelf variant textures
 Create Glider texture
 Create Glider Blood texture
@@ -18,7 +16,6 @@ Create lily pad texture
 Create Large Fern texture
 Create Moss Druid texture
 Create Pufferfish texture
-[DONE] Finish Demon Eye texture
 Create Demon Laser texture and model
 Update Colossus texture
 Create Sunstone gemstone texture
@@ -41,6 +38,9 @@ Update chiseled slate texture
 [DONE] Create Mossberry item texture
 [DONE] Create Mossberry Bush texture
 [DONE] Create Plashfish texture
+[DONE] Finish Demon Eye texture
+[DONE] Complete Mossberry wood set
+[DONE] Complete Mossy Mossberry wood set
 
 
 

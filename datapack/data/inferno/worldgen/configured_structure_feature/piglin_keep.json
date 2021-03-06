@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "config": {
+      "start_pool": "inferno:piglin_keep_start",
+      "size": 7
+    }
+  }

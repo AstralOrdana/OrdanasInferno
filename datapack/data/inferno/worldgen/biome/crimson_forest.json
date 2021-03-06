@@ -63,7 +63,7 @@
       ]
     ],
     "starts": [
-      "minecraft:bastion_remnant"
+      "inferno:piglin_keep"
     ],
     "spawners": {
       "monster": [

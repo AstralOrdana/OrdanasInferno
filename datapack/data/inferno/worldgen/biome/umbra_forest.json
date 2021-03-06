@@ -69,7 +69,7 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:enderman",
+        "type": "minecraft:cave_spider",
         "weight": 8,
         "minCount": 4,
         "maxCount": 6
@@ -89,7 +89,7 @@
     "misc": []
   },
   "spawn_costs": {
-    "minecraft:enderman": {
+    "minecraft:cave_spider": {
       "energy_budget": 0.12,
       "charge": 1.0
     }
