@@ -37,11 +37,13 @@
       [],
       [],
       [
-        "minecraft:delta",
+        "inferno:basalt_deltas/pumice_piles",
+        "minecraft:delta"
+      ],
+      [
         "minecraft:small_basalt_columns",
         "minecraft:large_basalt_columns"
       ],
-      [],
       [],
       [
         "minecraft:basalt_blobs",
@@ -61,7 +63,6 @@
         "inferno:basalt_deltas/ore_carnelium",
         "inferno:basalt_deltas/ore_carnelium_poor",
         "inferno:basalt_deltas/ore_pumice",
-        "inferno:basalt_deltas/pumice_piles",
         "inferno:base/scoria"
       ],
       [
