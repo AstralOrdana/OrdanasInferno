@@ -68,7 +68,6 @@
     ],
     "starts": [
       "minecraft:nether_fossil",
-      "minecraft:bastion_remnant",
       "inferno:soul_island"
     ],
     "spawners": {

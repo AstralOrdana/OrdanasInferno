@@ -35,9 +35,7 @@
         "probability": 0.01
       }
     },
-    "starts": [
-      "minecraft:bastion_remnant"
-    ],
+    "starts": [],
     "spawners": {
       "monster": [
         {

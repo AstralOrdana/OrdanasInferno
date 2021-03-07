@@ -58,7 +58,6 @@
       ]
     ],
     "starts": [
-      "minecraft:ruined_portal_nether",
       "inferno:demon_fortress"
     ],
     "spawners": {

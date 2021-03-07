@@ -63,9 +63,7 @@
       "minecraft:spring_lava"
     ]
   ],
-  "starts": [
-    "minecraft:bastion_remnant"
-  ],
+  "starts": [],
   "spawners": {
     "monster": [
       {
