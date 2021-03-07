@@ -6,7 +6,6 @@
 **TEXTURES**
 
 Rename Ochre Wood Variants to Cinder
-Fix bookshelf variant textures
 Create Glider texture
 Create Glider Blood texture
 Create Glider Feather texture
@@ -17,7 +16,6 @@ Create lily pad texture
 Create Large Fern texture
 Create Moss Druid texture
 Create Pufferfish texture
-Create Demon Laser texture and model
 Update Colossus texture
 Create Sunstone gemstone texture
 Create Sunstone ore texture (in slate)
@@ -27,6 +25,8 @@ Update chiseled slate texture
 
 *DONE*
 
+[DONE] Fix bookshelf variant textures
+[DONE] Create Demon Laser texture and model
 [DONE] Create Mossberry Leaves texture
 [DONE] Create Mossberry Berry Leaves texture
 [DONE] Create Glowing Mossball item texture
