@@ -2,6 +2,6 @@
     "parent": "block/cube_column",
     "textures": {
         "end": "block/warped_planks",
-        "side": "block/bookshelves/warped_bookshelf_1"
+        "side": "block/bookshelves/warped_bookshelf"
     }
 }

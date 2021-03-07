@@ -2,7 +2,7 @@
   "variants": {
     "": [
       {
-        "model": "minecraft:block/ochre_bookshelf_0"
+        "model": "minecraft:block/cinder_bookshelf"
       }
     ]
   }

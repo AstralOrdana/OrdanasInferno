@@ -1,7 +1,3 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "block/warped_planks",
-        "side": "block/bookshelves/warped_bookshelf_0"
-    }
+  "parent": "minecraft:block/warped_bookshelf"
 }

@@ -2,13 +2,7 @@
   "variants": {
     "": [
       {
-        "model": "minecraft:block/crimson_bookshelf_0"
-      },
-	  {
-        "model": "minecraft:block/crimson_bookshelf_1"
-      },
-	  {
-        "model": "minecraft:block/crimson_bookshelf_2"
+        "model": "minecraft:block/crimson_bookshelf"
       }
     ]
   }

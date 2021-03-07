@@ -2,7 +2,7 @@
   "variants": {
     "": [
       {
-        "model": "minecraft:block/spectre_bookshelf_0"
+        "model": "minecraft:block/spectre_bookshelf"
       }
     ]
   }
