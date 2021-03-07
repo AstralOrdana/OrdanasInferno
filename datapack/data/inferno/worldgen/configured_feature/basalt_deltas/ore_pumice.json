@@ -7,7 +7,7 @@
           "outer": {
             "type": "minecraft:count",
             "config": {
-              "count": 16
+              "count": 64
             }
           },
           "inner": {
@@ -46,9 +46,9 @@
         }
       },
       "feature": {
-        "type": "minecraft:ore",
+        "type": "minecraft:scattered_ore",
         "config": {
-          "size": 64,
+          "size": 48,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {

@@ -5,9 +5,7 @@
 
 **TEXTURES**
 
-Rename Ochre Wood Variants to Cinder
-Rename bales properly
-Rename Pumice
+
 Create Glider texture
 Create Glider Blood texture
 Create Glider Feather texture
@@ -23,6 +21,8 @@ Create Sunstone gemstone texture
 Create Sunstone ore texture (in slate)
 Decite on name for Slate stone type
 Update chiseled slate texture
+Create Seavain blossom texture
+Update golden belt item texture
 
 
 *DONE*
@@ -44,6 +44,9 @@ Update chiseled slate texture
 [DONE] Finish Demon Eye texture
 [DONE] Complete Mossberry wood set
 [DONE] Complete Mossy Mossberry wood set
+[DONE] Rename Pumice
+[DONE] Rename Ochre Wood Variants to Cinder
+[DONE] Rename bales properly
 
 
 
