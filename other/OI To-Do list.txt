@@ -6,6 +6,8 @@
 **TEXTURES**
 
 Rename Ochre Wood Variants to Cinder
+Rename bales properly
+Rename Pumice
 Create Glider texture
 Create Glider Blood texture
 Create Glider Feather texture
@@ -85,7 +87,7 @@ Code enchanting system
 ____________________________________________________________________________________
 **WORLDGEN**
 
-Create Piglin Fortress structure
+Increase green slate generation rate
 Create Overgrown Factory structure
 Rewrite biome layout
 fine-tune sunstone spawnrate
@@ -98,6 +100,8 @@ Create Overgrown Observatory structure
 [DONE] Add nihiline rooms to pipeline
 [DONE] Add ladders to pipeline
 [DONE] re-add nether wastes
+[DONE] Create Piglin Fortress structure
+[DONE] Add naturally generating Pumice
 
 
 
