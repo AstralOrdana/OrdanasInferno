@@ -5,6 +5,7 @@
 
 **TEXTURES**
 
+Rename Ochre Wood Variants to Cinder
 Fix bookshelf variant textures
 Create Glider texture
 Create Glider Blood texture
