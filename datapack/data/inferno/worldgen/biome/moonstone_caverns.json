@@ -23,8 +23,7 @@
     [],
     [
       "minecraft:ore_blackstone",
-      "inferno:base/scoria",
-      "inferno:base/rachite"
+      "inferno:base/scoria"
     ],
     [
        "inferno:moonstone_caverns/moonstone_crystals",
