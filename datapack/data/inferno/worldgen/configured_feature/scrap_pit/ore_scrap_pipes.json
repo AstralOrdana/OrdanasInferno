@@ -28,7 +28,7 @@
                     "above_bottom": 1
                   },
                   "top_inclusive": {
-                    "below_top": 1
+                    "below_top": 5
                   }
                 },
                 "type": "minecraft:range"

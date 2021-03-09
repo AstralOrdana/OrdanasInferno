@@ -90,7 +90,8 @@
       "minecraft:ore_gold_deltas",
       "minecraft:ore_quartz_deltas",
       "inferno:basalt_deltas/ore_redstone",
-      "inferno:basalt_deltas/ore_carnelium"
+      "inferno:basalt_deltas/ore_carnelium",
+      "inferno:base/rachite"
     ],
     [
       "minecraft:spring_lava",

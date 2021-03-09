@@ -41,8 +41,8 @@
         "minecraft:delta"
       ],
       [
-        "minecraft:small_basalt_columns",
-        "minecraft:large_basalt_columns"
+        "inferno:basalt_deltas/small_basalt_columns",
+        "inferno:basalt_deltas/large_basalt_columns"
       ],
       [],
       [
@@ -53,8 +53,6 @@
         "minecraft:patch_soul_fire",
         "minecraft:glowstone_extra",
         "minecraft:glowstone",
-        "minecraft:brown_mushroom_nether",
-        "minecraft:red_mushroom_nether",
         "minecraft:ore_magma",
         "minecraft:spring_closed_double",
         "minecraft:ore_gold_deltas",
@@ -63,7 +61,8 @@
         "inferno:basalt_deltas/ore_carnelium",
         "inferno:basalt_deltas/ore_carnelium_poor",
         "inferno:basalt_deltas/ore_pumice",
-        "inferno:base/scoria"
+        "inferno:base/scoria",
+        "inferno:base/rachite"
       ],
       [
         "minecraft:spring_lava_double"

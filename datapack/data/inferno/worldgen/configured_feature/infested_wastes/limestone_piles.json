@@ -1,46 +1,62 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:count_multilayer",
-        "config": {
-          "count": 64
-        }
-      },
-      "feature": {
-        "type": "minecraft:decorated",
-        "config": {
-          "decorator": {
-            "type": "minecraft:count_noise_biased",
-            "config": {
-              "noise_to_count_ratio": 1,
-              "noise_factor": 150,
-              "noise_offset": -0.3
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count_multilayer",
+          "config": {
+            "count": 64
+          }
+        },
+        "inner": {
+          "type": "minecraft:range",
+          "config": {
+            "bottom_inclusive": {
+              "above_bottom": 0
+            },
+            "top_inclusive": {
+              "below_top": 5
             }
-          },
-          "feature": {
-            "type": "minecraft:block_pile",
-            "config": {
-              "state_provider": {
-                "type": "minecraft:weighted_state_provider",
-                "entries": [
-                  {
-                    "weight": 2,
-                    "data": {
-                      "Name": "minecraft:infested_stone"
-                    }
-                  },
-                  {
-                    "weight": 10,
-                    "data": {
-                      "Name": "minecraft:stone"
-                    }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count_noise_biased",
+          "config": {
+            "noise_to_count_ratio": 1,
+            "noise_factor": 150,
+            "noise_offset": -0.3
+          }
+        },
+        "feature": {
+          "type": "minecraft:block_pile",
+          "config": {
+            "state_provider": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 2,
+                  "data": {
+                    "Name": "minecraft:infested_stone"
                   }
-                ]
-              }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:stone"
+                  }
+                }
+              ]
             }
           }
         }
       }
     }
   }
+}

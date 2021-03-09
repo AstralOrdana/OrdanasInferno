@@ -1,28 +1,42 @@
 {
+  "type": "minecraft:decorated",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-                "probability": 1.0
-              },
-              "type": "minecraft:bamboo"
-        },
-        "decorator": {
-              "config": {},
-              "type": "minecraft:iceberg"
-          },
-          "type": "minecraft:decorated"
-        
-      },
-      "type": "minecraft:decorated"
-    },
     "decorator": {
+      "type": "minecraft:decorated",
       "config": {
-        "count": 64
-      },
-      "type": "minecraft:count_multilayer"
+        "outer": {
+          "type": "minecraft:count_multilayer",
+          "config": {
+            "count": 64
+          }
+        },
+        "inner": {
+          "type": "minecraft:range",
+          "config": {
+            "bottom_inclusive": {
+              "above_bottom": 0
+            },
+            "top_inclusive": {
+              "below_top": 10
+            }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:iceberg",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:bamboo",
+          "config": {
+            "probability": 1
+          }
+        }
+      }
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

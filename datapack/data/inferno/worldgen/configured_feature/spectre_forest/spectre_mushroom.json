@@ -2,9 +2,25 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
-      "type": "minecraft:count_multilayer",
+      "type": "minecraft:decorated",
       "config": {
-        "count": 8
+        "outer": {
+          "type": "minecraft:count_multilayer",
+          "config": {
+            "count": 8
+          }
+        },
+        "inner": {
+          "type": "minecraft:range",
+          "config": {
+            "bottom_inclusive": {
+              "above_bottom": 0
+            },
+            "top_inclusive": {
+              "below_top": 5
+            }
+          }
+        }
       }
     },
     "feature": {

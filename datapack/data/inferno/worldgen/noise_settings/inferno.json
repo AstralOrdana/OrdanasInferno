@@ -1,6 +1,6 @@
 
   {
-    "bedrock_roof_position": 0,
+    "bedrock_roof_position": 144,
     "bedrock_floor_position": 0,
     "aquifers_enabled": false,
     "noise_caves_enabled": true,
@@ -18,7 +18,7 @@
     },
     "noise": {
       "min_y": 0,
-      "height": 128,
+      "height": 144,
       "density_factor": 0,
       "density_offset": 0.019921875,
       "size_horizontal": 1,

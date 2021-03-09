@@ -57,7 +57,9 @@
       "minecraft:ore_blackstone",
       "minecraft:ore_gold_nether",
       "minecraft:ore_quartz_nether",
-      "inferno:base/scoria"
+      "inferno:base/scoria",
+      "inferno:base/rachite",
+      "inferno:umbra_forest/podzol_to_grass_block"
     ],
     [
       "minecraft:spring_lava"

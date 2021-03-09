@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count",
+            "config": {
+              "count": 64
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:range",
+                "config": {
+                  "bottom_inclusive": {
+                    "above_bottom": 112
+                  },
+                  "top_inclusive": {
+                    "below_top": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:netherrack",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:obsidian"
+                    }
+                  }
+                ],
+                "size": 64,
+                "discard_chance_on_air_exposure": 0.0
+          }
+        }
+      }
+    }

@@ -51,7 +51,8 @@
         "minecraft:spring_closed_double",
         "minecraft:ore_gold_deltas",
         "minecraft:ore_quartz_deltas",
-        "inferno:base/scoria"
+        "inferno:base/scoria",
+        "inferno:base/rachite"
       ],
       [
         "minecraft:spring_lava_double",

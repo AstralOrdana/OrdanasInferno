@@ -23,10 +23,10 @@
                 "type": "minecraft:range",
                 "config": {
                   "bottom_inclusive": {
-                    "above_bottom": 1
+                    "above_bottom": 120
                   },
                   "top_inclusive": {
-                    "below_top": 5
+                    "below_top": 0
                   }
                 }
               }
@@ -36,12 +36,18 @@
             "type": "minecraft:netherrack_replace_blobs",
             "config": {
               "state": {
-                "Name": "minecraft:andesite"
+                "Name": "minecraft:grass_block",
+                "Properties": {
+                  "snowy": "false"
+                }
               },
               "target": {
-                "Name": "minecraft:netherrack"
+                "Name": "minecraft:podzol",
+                "Properties": {
+                  "snowy": "false"
+                }
               },
-              "radius": 16
+              "radius": 64
             }
           }
         }

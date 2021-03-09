@@ -50,7 +50,8 @@
         "minecraft:spring_closed",
         "inferno:soul_sand_valley/ore_anirrum",
         "inferno:spectre_forest/ore_soul_stone",
-        "inferno:base/scoria"
+        "inferno:base/scoria",
+        "inferno:base/rachite"
       ],
       [
         "minecraft:spring_lava",
