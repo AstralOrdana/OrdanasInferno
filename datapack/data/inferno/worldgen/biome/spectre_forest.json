@@ -45,22 +45,21 @@
         "minecraft:patch_soul_fire",
         "minecraft:glowstone_extra",
         "minecraft:glowstone",
-        "minecraft:glowstone_extra",
-        "minecraft:glowstone",
         "minecraft:spring_closed",
         "inferno:soul_sand_valley/ore_anirrum",
         "inferno:spectre_forest/ore_soul_stone",
-        "inferno:base/scoria",
-        "inferno:base/rachite"
-      ],
-      [
-        "minecraft:spring_lava",
-        "inferno:spectre_forest/spectre_mushroom",
         "inferno:spectre_forest/spectre_roots",
         "inferno:spectre_forest/spectre_roots_2",
         "inferno:spectre_forest/spectre_roots_3",
         "inferno:spectre_forest/spectre_roots_4",
         "inferno:spectre_forest/spectre_spore",
+        "inferno:base/scoria",
+        "inferno:base/rachite"
+      ],
+      [
+        "minecraft:spring_lava",
+        "inferno:spectre_forest/spectre_fungi",
+        "inferno:spectre_forest/spectre_fungi_ground",
         "inferno:soul_sand_valley/glowstone_to_moonstone"
       ]
     ],

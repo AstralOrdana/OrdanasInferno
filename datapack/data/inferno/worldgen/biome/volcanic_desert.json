@@ -49,15 +49,15 @@
         "minecraft:glowstone",
         "minecraft:ore_magma",
         "minecraft:spring_closed_double",
-        "minecraft:ore_gold_deltas",
-        "minecraft:ore_quartz_deltas",
+        "inferno:base/ore_gold",
+        "inferno:base/ore_quartz",
         "inferno:base/scoria",
         "inferno:base/rachite"
       ],
       [
         "minecraft:spring_lava_double",
-        "inferno:volcanic_desert/ochre_roots",
-        "inferno:volcanic_desert/ochre_fungus"
+        "minecraft:patch_dead_bush",
+        "minecraft:patch_cactus"
       ]
     ],
     "starts": [

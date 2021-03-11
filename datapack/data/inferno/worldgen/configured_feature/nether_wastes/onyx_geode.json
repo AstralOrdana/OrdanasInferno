@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:chance",
       "config": {
-        "chance": 2
+        "chance": 8
       }
     },
     "feature": {
@@ -18,12 +18,14 @@
           "type": "minecraft:decorated",
           "config": {
             "decorator": {
-              "type": "minecraft:depth_average",
+              "type": "minecraft:range",
               "config": {
-                "baseline": {
-                  "absolute": 64
+                "bottom_inclusive": {
+                  "absolute": 92
                 },
-                "spread": 32
+                "top_inclusive": {
+                  "absolute": 128
+                }
               }
             },
             "feature": {
@@ -33,56 +35,78 @@
                   "filling_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:air"
+                      "Name": "minecraft:tinted_glass"
                     }
                   },
                   "inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:honeycomb_block"
+                      "Name": "minecraft:obsidian"
                     }
                   },
                   "alternate_inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:honey_block"
+                      "Name": "minecraft:tinted_glass"
                     }
                   },
                   "middle_layer_provider": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                      "Name": "minecraft:infested_stone"
-                    }
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 2,
+                        "data": {
+                          "Name": "minecraft:obsidian"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:netherrack"
+                        }
+                      }
+                    ]
                   },
                   "outer_layer_provider": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                      "Name": "minecraft:stone"
-                    }
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:obsidian"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:netherrack"
+                        }
+                      }
+                    ]
                   },
                   "inner_placements": [
                     {
-                      "Name": "minecraft:honey_block"
+                      "Name": "minecraft:tinted_glass"
                     }
                   ]
                 },
                 "layers": {
-                  "filling": 1.2,
-                  "inner_layer": 1.2,
-                  "middle_layer": 2.2,
-                  "outer_layer": 3.2
+                  "filling": 1.5,
+                  "inner_layer": 2.9,
+                  "middle_layer": 3.2,
+                  "outer_layer": 4.2
                 },
                 "crack": {
-                  "generate_crack_chance": 0.5,
-                  "base_crack_size": 2,
+                  "generate_crack_chance": 1,
+                  "base_crack_size": 5,
                   "crack_point_offset": 2
                 },
-                "noise_multiplier": 0.4,
+                "noise_multiplier": 0.1,
                 "use_potential_placements_chance": 0.35,
-                "use_alternate_layer0_chance": 0.2,
+                "use_alternate_layer0_chance": 0.083,
                 "placements_require_layer0_alternate": true,
                 "min_outer_wall_distance": 4,
-                "max_outer_wall_distance": 6,
+                "max_outer_wall_distance": 7,
                 "min_distribution_points": 3,
                 "max_distribution_points": 5,
                 "min_point_offset": 1,

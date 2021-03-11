@@ -5,33 +5,28 @@
         {
           "weight": 8,
           "data": {
-            "Name": "minecraft:bamboo",
+            "Name": "minecraft:chorus_plant",
             "Properties": {
-              "age": "1",
-              "leaves": "none",
-              "stage": "0"
-            }
-          }
-        },
-        {
-          "weight": 4,
-          "data": {
-            "Name": "minecraft:bamboo",
-            "Properties": {
-              "age": "1",
-              "leaves": "small",
-              "stage": "0"
+              "north": "false",
+              "south": "false",
+              "east": "false",
+              "west": "false",
+              "up": "true",
+              "down": "true"
             }
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:bamboo",
+            "Name": "minecraft:chorus_plant",
             "Properties": {
-              "age": "1",
-              "leaves": "large",
-              "stage": "0"
+              "north": "false",
+              "south": "false",
+              "east": "false",
+              "west": "false",
+              "up": "true",
+              "down": "true"
             }
           }
         }
@@ -44,18 +39,25 @@
           {
             "weight": 4,
             "data": {
-              "Name": "minecraft:bamboo",
+              "Name": "minecraft:chorus_flower",
               "Properties": {
-                "age": "1",
-                "leaves": "large",
-                "stage": "1"
+                "age": "1"
+              }
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "Name": "minecraft:chorus_flower",
+              "Properties": {
+                "age": "3"
               }
             }
           }
         ],
         "type": "minecraft:weighted_state_provider"
       },
-      "property": "stage",
+      "property": "age",
       "values": {
         "base": 0,
         "spread": 1
@@ -65,20 +67,6 @@
     "allow_water": false,
     "height_distribution": [
       {
-        "weight": 2,
-        "data": {
-          "base": 1,
-          "spread": 9
-        }
-      },
-      {
-        "weight": 1,
-        "data": {
-          "base": 1,
-          "spread": 4
-        }
-      },
-      {
         "weight": 10,
         "data": {
           "base": 1,
@@ -86,7 +74,7 @@
         }
       }
     ],
-    "direction": "up"
+    "direction": "down"
   },
   "type": "minecraft:growing_plant"
 }

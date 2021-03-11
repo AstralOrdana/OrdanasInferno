@@ -39,16 +39,33 @@
                   "inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:cobblestone"
+                      "Name": "minecraft:deepslate_lapis_ore"
                     }
                   },
                   "alternate_inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:deepslate_lapis_ore"
+                      "Name": "minecraft:cobblestone"
                     }
                   },
                   "middle_layer_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 2,
+                        "data": {
+                          "Name": "minecraft:cobblestone"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:netherrack"
+                        }
+                      }
+                    ]
+                  },
+                  "outer_layer_provider": {
                     "type": "minecraft:weighted_state_provider",
                     "entries": [
                       {
@@ -71,57 +88,9 @@
                       }
                     ]
                   },
-                  "outer_layer_provider": {
-                    "type": "minecraft:weighted_state_provider",
-                    "entries": [
-                      {
-                        "weight": 2,
-                        "data": {
-                          "Name": "minecraft:smooth_basalt"
-                        }
-                      },
-                      {
-                        "weight": 1,
-                        "data": {
-                          "Name": "minecraft:netherrack"
-                        }
-                      }
-                    ]
-                  },
                   "inner_placements": [
                     {
-                      "Name": "minecraft:dead_brain_coral_fan",
-                      "Properties": {
-                        "waterlogged": "false"
-                      }
-                    },
-                    {
-                      "Name": "minecraft:dead_brain_coral_wall_fan",
-                      "Properties": {
-                        "waterlogged": "false",
-                        "facing": "north"
-                      }
-                    },
-                    {
-                      "Name": "minecraft:dead_brain_coral_wall_fan",
-                      "Properties": {
-                        "waterlogged": "false",
-                        "facing": "south"
-                      }
-                    },
-                    {
-                      "Name": "minecraft:dead_brain_coral_wall_fan",
-                      "Properties": {
-                        "waterlogged": "false",
-                        "facing": "east"
-                      }
-                    },
-                    {
-                      "Name": "minecraft:dead_brain_coral_wall_fan",
-                      "Properties": {
-                        "waterlogged": "false",
-                        "facing": "west"
-                      }
+                      "Name": "minecraft:deepslate_lapis_ore"
                     }
                   ]
                 },

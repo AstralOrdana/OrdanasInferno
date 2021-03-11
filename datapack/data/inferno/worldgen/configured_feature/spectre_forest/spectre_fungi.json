@@ -6,11 +6,11 @@
           "config": {
             "feature": {
               "config": {
-                "feature": "inferno:umbra_forest/umbra_vine",
+                "feature": "inferno:spectre_forest/spectre_fungus",
                 "decorator": {
                   "config": {
                     "surface": "ceiling",
-                    "floor_to_ceiling_search_range": 16
+                    "floor_to_ceiling_search_range": 64
                   },
                   "type": "minecraft:cave_surface"
                 }
@@ -40,7 +40,7 @@
     },
     "decorator": {
       "config": {
-        "count": 60
+        "count": 48
       },
       "type": "minecraft:count"
     }

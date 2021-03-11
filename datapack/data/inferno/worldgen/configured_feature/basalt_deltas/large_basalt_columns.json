@@ -7,7 +7,7 @@
           "outer": {
             "type": "minecraft:count_multilayer",
             "config": {
-              "count": 2
+              "count": 32
             }
           },
           "inner": {

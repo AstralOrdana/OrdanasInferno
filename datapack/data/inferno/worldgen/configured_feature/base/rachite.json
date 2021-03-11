@@ -21,7 +21,7 @@
               "type": "minecraft:range",
               "config": {
                 "bottom_inclusive": {
-                  "absolute": 104
+                  "absolute": 112
                 },
                 "top_inclusive": {
                   "absolute": 160
