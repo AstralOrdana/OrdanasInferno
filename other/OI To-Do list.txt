@@ -24,9 +24,6 @@ Update chiseled slate texture
 Create Seavain blossom texture
 Update golden belt item texture
 Create Onyx texture
-Create Quartz Crystals texture
-Create Azite texture
-Create Rachite texture
 Rename Quartzite and other new blocks
 
 
@@ -53,6 +50,8 @@ Rename Quartzite and other new blocks
 [DONE] Rename Pumice
 [DONE] Rename Ochre Wood Variants to Cinder
 [DONE] Rename bales properly
+[DONE] Create Quartz Crystals texture
+[DONE] Create Rachite texture
 
 
 
@@ -113,8 +112,12 @@ Add features to the nether ceiling
 [DONE] Create Piglin Fortress structure
 [DONE] Add naturally generating Pumice
 [DONE] Add Rachite to nether ceiling
-[DONE] Add Onyx to nether wastes
+[DONE] Add Onyx geodes to nether wastes
 [DONE] Add Quartzite Geodes to nether wastes
+[DONE] Create new Umbra Fungus feature
+[DONE] Add Umbra Vines to Umbra Forest
+[DONE] Update Spectre fungus
+[DONE] Update all geodes
 
 
 
@@ -137,6 +140,7 @@ ________________________________________________________________________________
 
 [REMOVED] Create Mossy Marble textures
 [REMOVED] Create Mossier Moss texture
+[REMOVED] Create Azite texture
 
 
 
