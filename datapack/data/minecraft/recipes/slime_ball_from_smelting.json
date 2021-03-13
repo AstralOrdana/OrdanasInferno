@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+      "item": "minecraft:bamboo"
+  },
+  "result": "minecraft:slime_ball",
+  "experience": 0.2,
+  "cookingtime": 200
+}
