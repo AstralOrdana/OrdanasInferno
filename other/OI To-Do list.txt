@@ -106,14 +106,13 @@ ________________________________________________________________________________
 **WORLDGEN**
 
 
-Increase green slate generation rate
+
 Create Overgrown Factory structure
 Rewrite biome layout
 fine-tune sunstone spawnrate
 add ruins to the moss dimension
 Create Overgrown Observatory structure
 Add features to the nether ceiling
-fix mossy grotto generation
 
 
 *DONE*
@@ -131,6 +130,8 @@ fix mossy grotto generation
 [DONE] Add Umbra Vines to Umbra Forest
 [DONE] Update Spectre fungus
 [DONE] Update all geodes
+[DONE] Increase green slate generation rate
+[DONE] Fix mossy grotto generation
 
 
 

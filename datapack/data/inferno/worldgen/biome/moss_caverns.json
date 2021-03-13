@@ -61,6 +61,7 @@
       "minecraft:spring_water",
       "minecraft:spring_water",
       "minecraft:spring_water",
+      "inferno:moss_caverns/ore_slate",
       "inferno:moss_caverns/azurite_geode"
     ],
     [
@@ -68,12 +69,11 @@
       "inferno:moss_caverns/mossbloom_tree_vines",
       "inferno:moss_caverns/mossball_tree",
       "inferno:moss_caverns/mossberry_bush",
-      "inferno:moss_caverns/fern",
-      "inferno:moss_caverns/fern_tall",
+      "inferno:moss_caverns/ferns",
       "inferno:moss_caverns/seamoss",
-      "inferno:moss_caverns/tall_seamoss",
       "inferno:moss_caverns/moss_raft",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "minecraft:seagrass_swamp"
     ],
     [
       "inferno:moss_caverns/glow_lichen",

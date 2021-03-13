@@ -1,40 +1,70 @@
-{
+  {
     "type": "minecraft:decorated",
     "config": {
       "decorator": {
-        "type": "minecraft:count_multilayer",
+        "type": "minecraft:count_extra",
         "config": {
-          "count": 48
+          "count": 0,
+          "extra_count": 2048,
+          "extra_chance": 1
         }
       },
       "feature": {
-        "type": "minecraft:simple_block",
+        "type": "minecraft:decorated",
         "config": {
-          "to_place": {
-            "Name": "minecraft:seagrass"
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:range",
+                "config": {
+                  "bottom_inclusive": {
+                    "absolute": 0
+                  },
+                  "top_inclusive": {
+                    "absolute": 128
+                  }
+                }
+              }
+            }
           },
-          "place_on": [
-            {
-              "Name": "minecraft:diorite"
-            }
-          ],
-          "place_in": [
-            {
-              "Name": "minecraft:water",
-              "Properties": {
-                "level": "0"
-              }
-            }
-          ],
-          "place_under": [
-            {
-              "Name": "minecraft:water",
-              "Properties": {
-                "level": "0"
-              }
-            }
-          ]
-        }
+          "feature": {
+            "config": {
+              "to_place": {
+                "entries": [
+                  {
+                    "weight": 50,
+                    "data": {
+                      "Name": "minecraft:seagrass"
+                    }
+                  },
+                  {
+                    "weight": 10,
+                    "data": {
+                      "Name": "minecraft:seagrass"
+                    }
+                  }
+                ],
+                "type": "minecraft:weighted_state_provider"
+              },
+              "place_on": [],
+              "place_in": [
+                {
+                  "Name": "minecraft:water",
+                  "Properties": {
+                    "level": "0"
+                  }
+                }
+              ],
+              "place_under": []
+            },
+            "type": "minecraft:simple_block"    
+          }
+        } 
       }
     }
   }

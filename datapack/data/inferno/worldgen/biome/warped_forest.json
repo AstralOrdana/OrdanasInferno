@@ -38,7 +38,11 @@
       [],
       [],
       [],
-      [],
+      [
+        "inferno:warped_forest/fallen_log_warped_x",
+        "inferno:warped_forest/fallen_log_warped_z",
+        "inferno:warped_forest/warped_deltas"
+      ],
       [
         "minecraft:spring_open",
         "minecraft:patch_fire",
@@ -56,8 +60,6 @@
       ],
       [
         "minecraft:spring_lava",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
         "minecraft:warped_fungi",
         "minecraft:warped_forest_vegetation",
         "minecraft:nether_sprouts",

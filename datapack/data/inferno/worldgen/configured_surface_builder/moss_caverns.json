@@ -7,10 +7,13 @@
         }
           },
       "under_material": {
-        "Name": "minecraft:diorite"
+        "Name": "minecraft:sandstone"
       },
       "underwater_material": {
-        "Name": "minecraft:dark_prismarine"
+        "Name": "minecraft:deepslate",
+        "Properties": {
+          "axis": "y"
+        }
       }
     },
     "type": "minecraft:nether_forest"

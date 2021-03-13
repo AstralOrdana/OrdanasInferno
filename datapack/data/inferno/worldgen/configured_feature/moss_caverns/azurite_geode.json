@@ -21,7 +21,7 @@
                 "blocks": {
                   "middle_layer_provider": {
                     "state": {
-                      "Name": "minecraft:diorite"
+                      "Name": "minecraft:sandstone"
                     },
                     "type": "minecraft:simple_state_provider"
                   },
@@ -42,7 +42,10 @@
                   },
                   "inner_layer_provider": {
                     "state": {
-                      "Name": "minecraft:dark_prismarine"
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
                     },
                     "type": "minecraft:simple_state_provider"
                   },

@@ -39,7 +39,11 @@
       [],
       [],
       [],
-      [],
+      [
+        "inferno:crimson_forest/fallen_log_crimson_x",
+        "inferno:crimson_forest/fallen_log_crimson_z",
+        "inferno:crimson_forest/crimson_deltas"
+      ],
       [
         "minecraft:spring_open",
         "minecraft:patch_fire",
@@ -56,8 +60,6 @@
       ],
       [
         "minecraft:spring_lava",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
         "minecraft:weeping_vines",
         "minecraft:crimson_fungi",
         "minecraft:crimson_forest_vegetation"

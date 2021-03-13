@@ -44,7 +44,7 @@
         },
         "biomes": [
           {
-            "biome": "inferno:mossy_grotto/moss_caverns",
+            "biome": "inferno:moss_caverns",
             "parameters": {
               "altitude": 0,
               "temperature": 0,

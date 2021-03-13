@@ -1,13 +1,13 @@
 {
     "bedrock_roof_position": 384,
     "bedrock_floor_position": 0,
-    "aquifers_enabled": true,
+    "aquifers_enabled": false,
     "noise_caves_enabled": true,
     "deepslate_enabled": false,
     "sea_level": 30,
     "disable_mob_generation": false,
     "default_block": {
-      "Name": "minecraft:diorite"
+      "Name": "minecraft:sandstone"
     },
     "default_fluid": {
       "Name": "minecraft:water",

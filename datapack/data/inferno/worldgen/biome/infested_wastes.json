@@ -101,9 +101,7 @@
         "inferno:infested_wastes/limestone_infestation"
       ],
       [
-        "minecraft:spring_lava",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal"
+        "minecraft:spring_lava"
       ]
     ]
   }
