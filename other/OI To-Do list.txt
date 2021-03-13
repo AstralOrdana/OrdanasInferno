@@ -25,10 +25,13 @@ Create Seavain blossom texture
 Update golden belt item texture
 Create Onyx texture
 Rename Quartzite and other new blocks
+Create Redstone Wire texture
+
 
 
 
 *DONE*
+
 
 [DONE] Fix bookshelf variant textures
 [DONE] Create Demon Laser texture and model
@@ -58,6 +61,7 @@ Rename Quartzite and other new blocks
 ____________________________________________________________________________________
 **GAME DESIGN & PLANNING**
 
+
 Determine 6th tier armor and tools, decide how orichalcum works
 Decide on details of teleportaion
 Map out boss progression
@@ -69,6 +73,7 @@ Add fancy boss bars option
 
 ____________________________________________________________________________________
 **FUNCTIONS AND CODING**
+
 
 re write croaker code
 check optimized main for any optimisations that can be done
@@ -82,18 +87,24 @@ Code teleportation system
 Code enchanting system
 
 
+
+
 *DONE*
+
 
 [DONE] finish bone demon
 [DONE] Add Soul Scorched effect
 [DONE] Add demon idol drop
 [DONE] Major block loot table update
 [DONE] Major recipe update
+[DONE] Create enchanting loot tables
+[DONE] Fix rubber recipe
 
 
 
 ____________________________________________________________________________________
 **WORLDGEN**
+
 
 Increase green slate generation rate
 Create Overgrown Factory structure
@@ -102,9 +113,11 @@ fine-tune sunstone spawnrate
 add ruins to the moss dimension
 Create Overgrown Observatory structure
 Add features to the nether ceiling
+fix mossy grotto generation
 
 
 *DONE*
+
 
 [DONE] Add nihiline rooms to pipeline
 [DONE] Add ladders to pipeline
