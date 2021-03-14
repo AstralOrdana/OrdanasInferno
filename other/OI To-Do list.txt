@@ -14,7 +14,7 @@ Create Fern texture
 Fix vines texture
 Create lily pad texture
 Create Large Fern texture
-Create Moss Druid texture
+[DONE] Create Moss Druid texture
 Create Pufferfish texture
 Update Colossus texture
 Create Sunstone gemstone texture
@@ -22,10 +22,10 @@ Create Sunstone ore texture (in slate)
 Decite on name for Slate stone type
 Update chiseled slate texture
 Create Seavain blossom texture
-Update golden belt item texture
+[DONE] Update golden belt item texture
 Create Onyx texture
 Rename Quartzite and other new blocks
-Create Redstone Wire texture
+[DONE] Create Redstone Wire texture
 
 
 

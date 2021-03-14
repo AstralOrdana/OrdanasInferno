@@ -283,7 +283,7 @@
   "block.minecraft.lapis_block": "Block of Moonstone",
   "block.minecraft.diamond_block": "Nihiline Block",
   "block.minecraft.honey_block": "Coagulated Blood",
-  "block.minecraft.bricks": "Block of Carnelium",
+  "block.minecraft.waxed_copper_block": "Block of Carnelium",
   "block.minecraft.slime_block": "Rubber Block",
 
   "block.minecraft.ender_chest": "Soul Chest",
@@ -319,7 +319,7 @@
   "block.minecraft.iron_bars": "Carnelium Bars",
   "block.minecraft.iron_trapdoor": "Carnelium Trapdoor",
   "block.minecraft.chain": "Carnelium Chain",
-  "block.minecraft.brick_slab": "Carnelium Slab",
+  "block.minecraft.waxed_cut_copper_slab": "Carnelium Slab",
 
   "block.minecraft.dragon_wall_head": "Soul Serpent Wall Head",
   "block.minecraft.dragon_head": "Soul Serpent Head",

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wires/connector",
+  "textures": {
+    "all": "minecraft:block/wires/connector_4"
+  }
+}
