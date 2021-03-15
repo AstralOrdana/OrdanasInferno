@@ -1,21 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#X#",
-    "III"
+    "#C#",
+    "CIC"
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:quartz"
     },
-    "X": {
-      "item": "minecraft:redstone"
+    "C": {
+      "item": "minecraft:slime_ball"
     },
     "I": {
-      "item": "minecraft:polished_basalt"
+      "item": "minecraft:brick"
     }
   },
   "result": {
-    "item": "minecraft:repeater"
+    "item": "minecraft:repeater",
+    "count": 2
   }
 }
