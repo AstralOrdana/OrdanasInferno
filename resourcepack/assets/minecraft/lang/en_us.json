@@ -204,6 +204,13 @@
   "block.minecraft.deepslate_brick_stairs": "Polished Slate Brick Stairs",
   "block.minecraft.deepslate_brick_wall": "Polished Slate Brick Wall",
   "block.minecraft.chiseled_deepslate": "Chiseled Polished Slate",
+
+  "block.minecraft.deepslate_lapis_ore": "Quartz Cluster Block",
+  "block.minecraft.cobblestone": "Quartzite",
+  "block.minecraft.obsidian": "Rachite",
+  "block.minecraft.tinted_glass": "Onyx",
+
+  "item.minecraft.redstone": "Carnelium Node",
   
   "block.minecraft.iron_block": "Colossus Building Block",
   "item.minecraft.ender_eye": "Prototype Energy Core",

@@ -3,7 +3,7 @@
     "ingredient": {
         "item": "minecraft:emerald_block"
     },
-    "result": "minecraft:netherite_scrap",
+    "result": "minecraft:honeycomb",
     "experience": 0.7,
     "cookingtime": 200
 }

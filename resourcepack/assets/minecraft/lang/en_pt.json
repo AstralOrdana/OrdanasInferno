@@ -9,8 +9,8 @@
   "block.minecraft.sand": "Mount Clinker",
   
   "block.minecraft.clay": "Phantom Crumbs",
-  "block.minecraft.iron_ore": "Deposit o' Carnelium on Black Rock",
-  "block.minecraft.coal_ore": "Pitful Deposit o' Carnelium",
+  "block.minecraft.iron_ore": "Deposit o' Carrrnelium on Black Rock",
+  "block.minecraft.coal_ore": "Pitful Deposit o' Carrrnelium",
   "block.minecraft.lapis_ore": "White Rock in Black Rock",
   "block.minecraft.dead_horn_coral_block": "White Rock in Green Rock",
   
@@ -215,7 +215,7 @@
   "block.minecraft.diamond_block": "Nihiline Block",
   "block.minecraft.honey_block": "Coagulated Blood",
   "block.minecraft.blue_ice": "Moonstone",
-  "block.minecraft.bricks": "Block of Carnelium",
+  "block.minecraft.bricks": "Block of Carrrnelium",
   "block.minecraft.emerald_block": "Block of Sunstone",
   "block.minecraft.slime_block": "Rubber Block",
   
@@ -223,7 +223,7 @@
   "block.minecraft.bookshelf": "Crystal Relay",
   
   "block.minecraft.ender_chest": "Soul Chest",
-  "block.minecraft.smoker": "Carnelium Forge",
+  "block.minecraft.smoker": "Carrrnelium Forge",
   "block.minecraft.blast_furnace": "Soul Forge",
   "block.minecraft.enchanting_table": "Enchantment Altar",
   
@@ -249,10 +249,10 @@
   "block.minecraft.carved_pumpkin": "Carved Bone Gourd",
   "block.minecraft.melon": "Nether Melon",
   
-  "block.minecraft.iron_door": "Carnelium Door",
-  "block.minecraft.iron_bars": "Carnelium Bars",
-  "block.minecraft.iron_trapdoor": "Carnelium Trapdoor",
-  "block.minecraft.brick_slab": "Carnelium Slab",
+  "block.minecraft.iron_door": "Carrrnelium Door",
+  "block.minecraft.iron_bars": "Carrrnelium Bars",
+  "block.minecraft.iron_trapdoor": "Carrrnelium Trapdoor",
+  "block.minecraft.brick_slab": "Carrrnelium Slab",
   
   "block.minecraft.dragon_wall_head": "Soul Serpent Wall Head",
   "block.minecraft.dragon_head": "Soul Serpent Head",
@@ -269,14 +269,14 @@
   "item.minecraft.stone_pickaxe": "Blackstone Pickaxe",
   "item.minecraft.stone_hoe": "Blackstone Hoe",
   
-  "item.minecraft.brick": "Carnelium Ingot",
-  "block.minecraft.kelp": "Carnelium Nugget",
-  "block.minecraft.rabbit_hide": "Carnelium Rubble",
-  "item.minecraft.chainmail_helmet": "Carnelium Helmet",
-  "item.minecraft.chainmail_chestplate": "Carnelium Chestplate",
-  "item.minecraft.chainmail_leggings": "Carnelium Leggings",
-  "item.minecraft.chainmail_boots": "Carnelium Boots",
-  "item.minecraft.iron_horse_armor": "Carnelium Horse Armor",
+  "item.minecraft.brick": "Carrrnelium Ingot",
+  "block.minecraft.kelp": "Carrrnelium Nugget",
+  "block.minecraft.rabbit_hide": "Carrrnelium Rubble",
+  "item.minecraft.chainmail_helmet": "Carrrnelium Helmet",
+  "item.minecraft.chainmail_chestplate": "Carrrnelium Chestplate",
+  "item.minecraft.chainmail_leggings": "Carrrnelium Leggings",
+  "item.minecraft.chainmail_boots": "Carrrnelium Boots",
+  "item.minecraft.iron_horse_armor": "Carrrnelium Horse Armor",
   
   "item.minecraft.clay_ball": "Bland Anirrum Shreds",
   "item.minecraft.iron_ingot": "Bullion o' Anirrum",
@@ -382,7 +382,7 @@
   
   "container.enderchest": "Soul Chest",
   "container.blast_furnace": "Soul Forge",
-  "container.smoker": "Carnelium Forge",
+  "container.smoker": "Carrrnelium Forge",
   "container.shulkerBox": "Anirrum Box",
   
   "gui.recipebook.toggleRecipes.blastable": "Showing Hauntable",
@@ -495,7 +495,7 @@
   "subtitles.entity.ender_dragon.shoot": "Soul Serpent shoots",
   
   "subtitles.item.armor.equip_leather": "Leather armor rustles",
-  "subtitles.item.armor.equip_chain": "Carnelium armor clangs",
+  "subtitles.item.armor.equip_chain": "Carrrnelium armor clangs",
   "subtitles.item.armor.equip_iron": "Anirrum armor clanks",
   "subtitles.item.armor.equip_diamond": "Nihiline armor clangs",
   "subtitles.item.armor.equip_netherite": "Netherite armor clanks",
@@ -511,7 +511,7 @@
   
   "subtitles.block.enchantment_table.use": "Enchantment Altar used",
   "subtitles.block.blastfurnace.fire_crackle": "Soul Forge crackles",
-  "subtitles.block.smoker.smoke": "Carnelium Forge Melts",
+  "subtitles.block.smoker.smoke": "Carrrnelium Forge Melts",
   "subtitles.block.shulker_box.close": "Anirrum Box closes",
   "subtitles.block.shulker_box.open": "Anirrum Box opens",
   
@@ -526,7 +526,7 @@
   "death.attack.dragonBreath.player": "%1$s was roasted in serpent fire by %2$s",
   
   "stat.minecraft.interact_with_blast_furnace": "Interactions with Soul Forge",
-  "stat.minecraft.interact_with_smoker": "Interactions with Carnelium Forge",
+  "stat.minecraft.interact_with_smoker": "Interactions with Carrrnelium Forge",
   "stat.minecraft.aviate_one_cm": "Distance by Fly Wings",
   
   "gamerule.disableElytraMovementCheck": "Disable Fly Wings movement check"
