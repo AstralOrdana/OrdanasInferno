@@ -1,12 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:redstone_block"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "#C#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:slime_ball"
+      },
+      "C": {
+        "item": "minecraft:brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:redstone",
+      "count": 8
     }
-  ],
-  "result": {
-    "item": "minecraft:redstone",
-    "count": 9
   }
-}
