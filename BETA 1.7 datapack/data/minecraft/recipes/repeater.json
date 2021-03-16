@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "CIC"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "minecraft:slime_ball"
+    },
+    "I": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 2
+  }
+}

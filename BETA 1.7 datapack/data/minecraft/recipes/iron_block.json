@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "C": {
+      "item": "minecraft:conduit"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_block"
+  }
+}

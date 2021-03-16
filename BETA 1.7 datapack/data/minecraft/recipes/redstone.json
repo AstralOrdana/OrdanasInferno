@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "#C#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:slime_ball"
+      },
+      "C": {
+        "item": "minecraft:brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:redstone",
+      "count": 8
+    }
+  }

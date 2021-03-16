@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": 64
+          }
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "above_bottom": 1
+                },
+                "top_inclusive": {
+                  "below_top": 5
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:block_pile",
+      "config": {
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:granite"
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:calcite"
+              }
+            },
+            {
+              "weight": 16,
+              "data": {
+                "Name": "minecraft:red_sand"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 64
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:count_noise_biased",
+                "config": {
+                  "noise_to_count_ratio": 1,
+                  "noise_factor": 100,
+                  "noise_offset": 0.2
+                }
+              },
+              "feature": {
+                "type": "minecraft:ore",
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "minecraft:stone",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:infested_stone"
+                      }
+                    }
+                  ],
+                  "size": 5,
+                  "discard_chance_on_air_exposure": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }

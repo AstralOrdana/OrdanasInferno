@@ -1,0 +1,49 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": "inferno:umbra_forest/umbra_fungus",
+                "decorator": {
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 16
+                  },
+                  "type": "minecraft:cave_surface"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "bottom_inclusive": {
+                  "above_bottom": 0
+                },
+                "top_inclusive": {
+                  "below_top": 5
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 128
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

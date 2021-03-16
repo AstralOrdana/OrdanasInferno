@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": {
+              "base": 16,
+              "spread": 1
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:depth_average",
+              "config": {
+                "baseline": {
+                  "absolute": 64
+                },
+                "spread": 64
+              }
+            }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "tag": "minecraft:soul_fire_base_blocks",
+              "predicate_type": "minecraft:tag_match"
+            },
+            "state": {
+              "Name": "minecraft:clay"
+            }
+          }
+        ],
+        "size": 16,
+        "discard_chance_on_air_exposure": 0.0
+        }
+      }
+    }
+  }

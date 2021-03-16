@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "minecraft:nether_brick"
+    },
+    "result": "minecraft:brick",
+    "experience": 0.2,
+    "cookingtime": 100
+  }

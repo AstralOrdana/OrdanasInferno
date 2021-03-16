@@ -1,0 +1,105 @@
+{
+  "surface_builder": "inferno:magma_mires",
+  "depth": 0.1,
+  "scale": 0.5,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
+  "effects": {
+    "sky_color": 917761,
+    "fog_color": 7551245,
+    "water_color": 16711680,
+    "water_fog_color": 16711935,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:lava"
+      },
+      "probability": 0.005
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "inferno:magma_mires/magma_columns_large"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:basalt_pillar",
+      "minecraft:basalt_pillar",
+      "inferno:magma_mires/basalt_cluster",
+      "minecraft:spring_delta",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed_double",
+      "inferno:base/ore_gold",
+      "inferno:base/ore_quartz",
+      "inferno:basalt_deltas/ore_redstone",
+      "inferno:basalt_deltas/ore_carnelium",
+      "inferno:base/rachite"
+    ],
+    [
+      "minecraft:spring_lava",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava",
+      "inferno:magma_mires/netherrack_to_scoria",
+      "inferno:basalt_deltas/ore_carnelium_poor",
+      "inferno:magma_mires/magma_pool"
+    ]
+  ]
+}

@@ -1,0 +1,3 @@
+summon minecraft:item ~ ~ ~ {PickupDelay:20,Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"translate":"item.ordana_inferno.fertilizer","italic":false}'},CustomModelData:28003,EntityTag:{Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["Orda-NS-ArmorFertilizer"]}}}}
+playsound minecraft:entity.item.pickup neutral @a ~ ~ ~ 1 1
+data merge entity @s {Age:2000,InLove:0}

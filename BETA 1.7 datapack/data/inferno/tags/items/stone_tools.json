@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_sword",
+      "minecraft:stone_axe"
+    ]
+  }

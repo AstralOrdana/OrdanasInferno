@@ -1,0 +1,14 @@
+{
+    "config": {
+      "top_material": {
+        "Name": "minecraft:granite"
+      },
+      "under_material": {
+        "Name": "minecraft:calcite"
+      },
+      "underwater_material": {
+        "Name": "minecraft:red_sand"
+      }
+    },
+    "type": "minecraft:nether_forest"
+  }

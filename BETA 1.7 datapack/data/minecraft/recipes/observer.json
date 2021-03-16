@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C#C",
+    "RRQ",
+    "C#C"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "C": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer"
+  }
+}

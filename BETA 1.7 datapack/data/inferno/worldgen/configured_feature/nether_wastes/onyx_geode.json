@@ -1,0 +1,124 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 8
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "absolute": 92
+                },
+                "top_inclusive": {
+                  "absolute": 128
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:geode",
+              "config": {
+                "blocks": {
+                  "filling_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:tinted_glass"
+                    }
+                  },
+                  "inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:obsidian"
+                    }
+                  },
+                  "alternate_inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:tinted_glass"
+                    }
+                  },
+                  "middle_layer_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 2,
+                        "data": {
+                          "Name": "minecraft:obsidian"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:netherrack"
+                        }
+                      }
+                    ]
+                  },
+                  "outer_layer_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:obsidian"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:netherrack"
+                        }
+                      }
+                    ]
+                  },
+                  "inner_placements": [
+                    {
+                      "Name": "minecraft:tinted_glass"
+                    }
+                  ]
+                },
+                "layers": {
+                  "filling": 1.5,
+                  "inner_layer": 2.9,
+                  "middle_layer": 3.2,
+                  "outer_layer": 4.2
+                },
+                "crack": {
+                  "generate_crack_chance": 1,
+                  "base_crack_size": 5,
+                  "crack_point_offset": 2
+                },
+                "noise_multiplier": 0.1,
+                "use_potential_placements_chance": 0.35,
+                "use_alternate_layer0_chance": 0.083,
+                "placements_require_layer0_alternate": true,
+                "min_outer_wall_distance": 4,
+                "max_outer_wall_distance": 7,
+                "min_distribution_points": 3,
+                "max_distribution_points": 5,
+                "min_point_offset": 1,
+                "max_point_offset": 3,
+                "min_gen_offset": -16,
+                "max_gen_offset": 16,
+                "invalid_blocks_threshold": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

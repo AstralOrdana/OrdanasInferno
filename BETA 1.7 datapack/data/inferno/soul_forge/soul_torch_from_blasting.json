@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:torch"
+  },
+  "result": "minecraft:soul_torch",
+  "experience": 0.1,
+  "cookingtime": 100
+}
