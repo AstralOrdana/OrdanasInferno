@@ -1,39 +1,24 @@
 {
+  "surface_builder": "inferno:moonstone_caverns",
+  "depth": 0.1,
+  "scale": 0.2,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
+  "player_spawn_friendly": false,
   "effects": {
+    "sky_color": 7254527,
+    "fog_color": 9820156,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
     "particle": {
       "options": {
         "type": "minecraft:end_rod"
       },
       "probability": 0.01428
-    },
-    "sky_color": 7254527,
-    "fog_color": 9820156,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    }
   },
-  "surface_builder": "inferno:moonstone_caverns",
-  "carvers": {
-  },
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:ore_blackstone",
-      "inferno:base/scoria",
-      "inferno:base/rachite"
-    ],
-    [
-       "inferno:moonstone_caverns/moonstone_crystals",
-       "inferno:moonstone_caverns/moonstone_geode",
-       "inferno:moonstone_caverns/ore_soul_stone",
-       "inferno:soul_sand_valley/ore_anirrum"
-    ],
-    []
-  ],
   "starts": [
     "inferno:soul_island"
   ],
@@ -53,10 +38,25 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "none",
-  "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether",
-  "depth": 0.1,
-  "scale": 0.2
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_blackstone",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
+    ],
+    [
+      "inferno:moonstone_caverns/moonstone_crystals",
+      "inferno:moonstone_caverns/moonstone_geode",
+      "inferno:moonstone_caverns/ore_soul_stone",
+      "inferno:soul_sand_valley/ore_anirrum"
+    ],
+    []
+  ]
 }

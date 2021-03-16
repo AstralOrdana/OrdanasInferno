@@ -6,6 +6,7 @@
   "downfall": 0,
   "precipitation": "none",
   "category": "nether",
+  "player_spawn_friendly": false,
   "effects": {
     "sky_color": 917761,
     "fog_color": 7551245,

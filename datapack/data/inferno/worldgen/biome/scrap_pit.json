@@ -1,96 +1,96 @@
 {
-    "surface_builder": "inferno:scrap_pit",
-    "depth": 0.1,
-    "scale": 0.2,
-    "temperature": 2,
-    "downfall": 0,
-    "precipitation": "none",
-    "category": "nether",
-    "effects": {
-      "sky_color": 7254527,
-      "fog_color": 7430012,
-      "water_color": 4159204,
-      "water_fog_color": 4341314,
-      "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
-      "mood_sound": {
-        "sound": "minecraft:ambient.basalt_deltas.mood",
-        "tick_delay": 6000,
-        "block_search_extent": 8,
-        "offset": 2
+  "surface_builder": "inferno:scrap_pit",
+  "depth": 0.1,
+  "scale": 0.2,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 7254527,
+    "fog_color": 7430012,
+    "water_color": 4159204,
+    "water_fog_color": 4341314,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:cloud"
       },
-      "additions_sound": {
-        "sound": "minecraft:ambient.basalt_deltas.additions",
-        "tick_chance": 0.0111
-      },
-      "music": {
-        "sound": "minecraft:music.nether.basalt_deltas",
-        "min_delay": 12000,
-        "max_delay": 24000,
-        "replace_current_music": false
-      },
-      "particle": {
-        "options": {
-          "type": "minecraft:cloud"
-        },
-        "probability": 0.01
+      "probability": 0.01
+    }
+  },
+  "starts": [
+    "inferno:pipeline"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
       }
-    },
-    "starts": [
-      "inferno:pipeline"
     ],
-    "spawners": {
-      "monster": [
-        {
-          "type": "minecraft:creeper",
-          "weight": 20,
-          "minCount": 1,
-          "maxCount": 2
-        }
-      ],
-      "creature": [
-        {
-          "type": "minecraft:strider",
-          "weight": 60,
-          "minCount": 1,
-          "maxCount": 2
-        }
-      ],
-      "ambient": [],
-      "water_creature": [],
-      "water_ambient": [],
-      "misc": []
-    },
-    "spawn_costs": {},
-    "carvers": {
-    },
-    "features": [
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [
-        "inferno:scrap_pit/large_pipe"
-      ],
-      [
-        "inferno:scrap_pit/ore_scrap_gears",
-        "inferno:scrap_pit/ore_scrap_pipes",
-        "inferno:scrap_pit/light_scrap_piles",
-        "inferno:scrap_pit/scrap_piles",
-        "minecraft:patch_fire",
-        "minecraft:ore_magma",
-        "minecraft:spring_closed_double",
-        "inferno:base/ore_gold",
-        "inferno:base/ore_quartz",
-        "inferno:scrap_pit/ore_nihiline",
-        "inferno:base/scoria",
-        "inferno:base/rachite"
-      ],
-      [
-        "minecraft:spring_lava_double",
-        "inferno:scrap_pit/ore_nihiline",
-        "inferno:scrap_pit/scrap_delta"
-      ]
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "inferno:scrap_pit/large_pipe"
+    ],
+    [
+      "inferno:scrap_pit/ore_scrap_gears",
+      "inferno:scrap_pit/ore_scrap_pipes",
+      "inferno:scrap_pit/light_scrap_piles",
+      "inferno:scrap_pit/scrap_piles",
+      "minecraft:patch_fire",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed_double",
+      "inferno:base/ore_gold",
+      "inferno:base/ore_quartz",
+      "inferno:scrap_pit/ore_nihiline",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
+    ],
+    [
+      "minecraft:spring_lava_double",
+      "inferno:scrap_pit/ore_nihiline",
+      "inferno:scrap_pit/scrap_delta"
     ]
-  }
+  ]
+}

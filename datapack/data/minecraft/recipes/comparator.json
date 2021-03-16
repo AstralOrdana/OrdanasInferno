@@ -1,22 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " # ",
-    "#X#",
-    "III"
+    " Q ",
+    "QRQ",
+    "RIR"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
+    "I": {
+      "item": "minecraft:brick"
     },
-    "X": {
+    "Q": {
       "item": "minecraft:quartz"
     },
-    "I": {
-      "item": "minecraft:polished_basalt"
+    "R": {
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {
-    "item": "minecraft:comparator"
+    "item": "minecraft:comparator",
+    "count": 2
   }
 }
