@@ -211,8 +211,8 @@
   "block.minecraft.tinted_glass": "Onyx",
 
   "item.minecraft.redstone": "Carnelium Node",
-  "item.minecraft.repeater": "Carnelium Repeater",
-  "item.minecraft.comparator": "Carnelium Comparator",
+  "block.minecraft.repeater": "Carnelium Repeater",
+  "block.minecraft.comparator": "Carnelium Comparator",
   
   "block.minecraft.iron_block": "Colossus Building Block",
   "item.minecraft.ender_eye": "Prototype Energy Core",
