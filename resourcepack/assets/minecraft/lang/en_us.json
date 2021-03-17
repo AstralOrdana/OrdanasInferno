@@ -213,6 +213,8 @@
   "item.minecraft.redstone": "Carnelium Node",
   "block.minecraft.repeater": "Carnelium Repeater",
   "block.minecraft.comparator": "Carnelium Comparator",
+  "block.minecraft.redstone_torch": "Carnelium Capacitator",
+  "block.minecraft.redstone_block": "Carnelium Power Cell",
   
   "block.minecraft.iron_block": "Colossus Building Block",
   "item.minecraft.ender_eye": "Prototype Energy Core",
@@ -228,6 +230,7 @@
   "block.minecraft.cut_sandstone": "Polished Marble",
   "block.minecraft.cut_sandstone_slab": "Polished Marble Slab",
   "block.minecraft.mossy_cobblestone_stairs": "Polished Marble Stairs",
+  "block.minecraft.diorite_wall": "Polished Marble Wall",
   "block.minecraft.smooth_sandstone": "Polished Marble Bricks",
   "block.minecraft.smooth_sandstone_slab": "Polished Marble Brick Slab",
   "block.minecraft.smooth_sandstone_stairs": "Polished Marble Brick Stairs",

@@ -1,0 +1,77 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"textures": {
+		"particle": "block/wires/capacitator",
+		"capacitator": "block/wires/capacitator",
+		"tendrils": "block/wires/capacitator_tendrils"
+	},
+	"elements": [
+		{
+			"name": "Capacitor",
+			"from": [2, 3, 6],
+			"to": [6, 11, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [4, 3, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 4, 16], "texture": "#capacitator"},
+				"east": {"uv": [0, 8, 4, 16], "texture": "#capacitator"},
+				"south": {"uv": [0, 8, 4, 16], "texture": "#capacitator"},
+				"west": {"uv": [0, 8, 4, 16], "texture": "#capacitator"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#capacitator"},
+				"down": {"uv": [8, 0, 12, 4], "texture": "#capacitator"}
+			}
+		},
+		{
+			"name": "Tendril",
+			"from": [0, 11, 8],
+			"to": [8, 19, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [4, 3, 8]},
+			"faces": {
+				"north": {"uv": [4, 8, 12, 16], "texture": "#tendrils"},
+				"south": {"uv": [4, 8, 12, 16], "texture": "#tendrils"}
+			}
+		},
+		{
+			"name": "Tendril",
+			"from": [4, 11, 4],
+			"to": [4, 19, 12],
+			"rotation": {"angle": 0, "axis": "z", "origin": [4, 3, 8]},
+			"faces": {
+				"east": {"uv": [4, 8, 12, 16], "texture": "#tendrils"},
+				"west": {"uv": [4, 8, 12, 16], "texture": "#tendrils"}
+			}
+		},
+		{
+			"name": "Grip",
+			"from": [0, 4, 5.75],
+			"to": [4, 12, 5.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 5.75]},
+			"faces": {
+				"north": {"uv": [12, 0, 16, 8], "texture": "#tendrils"},
+				"south": {"uv": [16, 0, 12, 8], "texture": "#tendrils"}
+			}
+		},
+		{
+			"name": "Grip",
+			"from": [0, 4, 10.25],
+			"to": [4, 12, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 10.25]},
+			"faces": {
+				"north": {"uv": [12, 0, 16, 8], "texture": "#tendrils"},
+				"south": {"uv": [16, 0, 12, 8], "texture": "#tendrils"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [0,
+		{
+			"name": "Tendrils",
+			"origin": [8, 8, 8],
+			"children": [1, 2]
+		},
+		{
+			"name": "grip",
+			"origin": [0, 7, 10.25],
+			"children": [3, 4]
+		}
+	]
+}

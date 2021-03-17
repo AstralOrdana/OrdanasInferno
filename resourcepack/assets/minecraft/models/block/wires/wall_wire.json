@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench, Modeler: DMTHGM",
 	"textures": {
-		"0": "block/wires/wire",
-		"particle": "block/wires/wire"
+		"wire": "block/wires/wire",
+		"particle": "block/wires/wire_particle"
 	},
 	"elements": [
 		{
@@ -11,12 +11,12 @@
 			"to": [10, 18, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 1]},
 			"faces": {
-				"north": {"uv": [0, 16, 16, 12], "rotation": 90, "texture": "#0"},
-				"east": {"uv": [0, 10, 16, 12], "rotation": 270, "texture": "#0"},
-				"south": {"uv": [0, 16, 16, 12], "rotation": 90, "texture": "#0"},
-				"west": {"uv": [0, 10, 16, 12], "rotation": 90, "texture": "#0"},
-				"up": {"uv": [14, 12, 16, 16], "rotation": 270, "texture": "#0"},
-				"down": {"uv": [14, 12, 16, 16], "rotation": 270, "texture": "#0"}
+				"north": {"uv": [0, 16, 16, 12], "rotation": 90, "texture": "#wire"},
+				"east": {"uv": [0, 10, 16, 12], "rotation": 270, "texture": "#wire"},
+				"south": {"uv": [0, 16, 16, 12], "rotation": 90, "texture": "#wire"},
+				"west": {"uv": [0, 10, 16, 12], "rotation": 90, "texture": "#wire"},
+				"up": {"uv": [14, 12, 16, 16], "rotation": 270, "texture": "#wire"},
+				"down": {"uv": [14, 12, 16, 16], "rotation": 270, "texture": "#wire"}
 			}
 		},
 		{
@@ -25,12 +25,12 @@
 			"to": [10, 2, 5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 2.5]},
 			"faces": {
-				"north": {"uv": [13, 12, 15, 16], "rotation": 270, "texture": "#0"},
-				"east": {"uv": [0, 8, 5, 10], "texture": "#0"},
-				"south": {"uv": [0, 0, 4, 2], "texture": "#0"},
-				"west": {"uv": [5, 8, 0, 10], "texture": "#0"},
-				"up": {"uv": [0, 12, 5, 16], "rotation": 270, "texture": "#0"},
-				"down": {"uv": [0, 12, 5, 16], "rotation": 270, "texture": "#0"}
+				"north": {"uv": [13, 12, 15, 16], "rotation": 270, "texture": "#wire"},
+				"east": {"uv": [0, 8, 5, 10], "texture": "#wire"},
+				"south": {"uv": [0, 0, 4, 2], "texture": "#wire"},
+				"west": {"uv": [5, 8, 0, 10], "texture": "#wire"},
+				"up": {"uv": [0, 12, 5, 16], "rotation": 270, "texture": "#wire"},
+				"down": {"uv": [0, 12, 5, 16], "rotation": 270, "texture": "#wire"}
 			}
 		}
 	]
