@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:slime_ball"
     },
     "X": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

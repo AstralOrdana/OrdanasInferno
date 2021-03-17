@@ -1,13 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "CRC",
+    "CQC",
+    "CRC"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone"
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "minecraft:slime_ball"
+    },
+    "C": {
+      "item": "minecraft:brick"
     }
   },
   "result": {
