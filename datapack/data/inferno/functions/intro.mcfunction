@@ -10,7 +10,14 @@ scoreboard objectives add OrdN-S_FireTime dummy
 scoreboard objectives add OrdN-S_BoomDist dummy
 scoreboard objectives add OrdN-S_AtkTime dummy
 scoreboard objectives add OrdN-S_Health dummy
-scoreboard objectives add OrdN-S_EyeSpawning dummy
+scoreboard objectives add OrdN-S_EyeSpawn dummy
+scoreboard objectives add OrdN-S_MoonCount dummy
+scoreboard objectives add OrdN-S_OnixCount dummy
+scoreboard objectives add OrdN-S_BCount dummy
+scoreboard objectives add OrdN-S_AltarLv dummy
+scoreboard objectives add OrdN-S_Levels level
+scoreboard objectives add OrdN-S_RClick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add OrdN-S_Sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add OrdN-G_BossBars dummy
 scoreboard objectives add OrdN-G_Transform dummy
 scoreboard objectives add OrdN-G_Disable dummy
