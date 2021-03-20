@@ -1,9 +1,6 @@
-execute store result score @s OrdN-S_MoonCount run fill ~-8 ~-2 ~-8 ~8 ~2 ~8 minecraft:structure_void replace minecraft:lapis_block
-fill ~-8 ~-2 ~-8 ~8 ~2 ~8 minecraft:lapis_block replace minecraft:structure_void
-execute store result score @s OrdN-S_OnixCount run fill ~-8 ~-2 ~-8 ~8 ~2 ~8 minecraft:structure_void replace minecraft:tinted_glass
-fill ~-8 ~-2 ~-8 ~8 ~2 ~8 minecraft:tinted_glass replace minecraft:structure_void
-execute store result score @s OrdN-S_BCount run fill ~-8 ~-2 ~-8 ~8 ~2 ~8 minecraft:structure_void replace minecraft:beacon
-fill ~-8 ~-2 ~-8 ~8 ~2 ~8 minecraft:beacon replace minecraft:structure_void
+execute store result score @s OrdN-S_MoonCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~8 ~2 ~-8 filtered minecraft:lapis_block force
+execute store result score @s OrdN-S_OnixCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~8 ~2 ~-8 filtered minecraft:tinted_glass force
+execute store result score @s OrdN-S_BCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~8 ~2 ~-8 filtered minecraft:beacon force
 tag @s add enchantme
 
 
