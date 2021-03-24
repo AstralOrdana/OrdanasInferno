@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 4
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:nope",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:huge_fungus",
+          "config": {
+            "hat_state": {
+              "Name": "minecraft:jungle_leaves",
+              "Properties": {
+                "distance": "1",
+                "persistent": "false"
+              }
+            },
+            "decor_state": {
+              "Name": "minecraft:cobweb"
+            },
+            "stem_state": {
+              "Name": "minecraft:jungle_log",
+              "Properties": {
+                "axis": "y"
+              }
+            },
+            "valid_base_block": {
+              "Name": "minecraft:podzol",
+              "Properties": {
+                "snowy": "false"
+              }
+            },
+            "planted": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "GHG",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "H": {
+      "item": "minecraft:conduit"
+    },
+    "#": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "G": {
+      "item": "minecraft:dead_bubble_coral_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:smoker"
+  }
+}

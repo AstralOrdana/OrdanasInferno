@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:pillager_outpost",
+    "config": {
+      "start_pool": "inferno:test",
+      "size": 6
+    }
+  }

@@ -1,0 +1,106 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"parent": "block/block",
+	"textures": {
+		"crystal": "block/anvil_crystal",
+		"particle": "block/anvil_top",
+		"top": "block/anvil_top",
+		"top_side": "block/anvil_top_side",
+		"middle": "block/anvil_middle",
+		"base": "block/anvil_base"
+	},
+	"elements": [
+		{
+			"name": "Altar Crystal",
+			"from": [5.05, 16.95, 5.05],
+			"to": [10.95, 22.85, 10.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 19.9, 8]},
+			"faces": {
+				"north": {"uv": [5, 5, 11, 11], "texture": "#crystal", "cullface": "up"},
+				"east": {"uv": [5, 5, 11, 11], "texture": "#crystal", "cullface": "up"},
+				"south": {"uv": [5, 5, 11, 11], "texture": "#crystal", "cullface": "up"},
+				"west": {"uv": [5, 5, 11, 11], "texture": "#crystal", "cullface": "up"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#crystal", "cullface": "up"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#crystal", "cullface": "up"}
+			}
+		},
+		{
+			"name": "Altar Top",
+			"from": [1, 12, 0],
+			"to": [15, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 5], "texture": "#top_side"},
+				"east": {"uv": [0, 1, 16, 5], "texture": "#top_side"},
+				"south": {"uv": [1, 1, 15, 5], "texture": "#top_side"},
+				"west": {"uv": [0, 1, 16, 5], "texture": "#top_side"},
+				"up": {"uv": [1, 0, 15, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [1, 0, 15, 16], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Altar Middle",
+			"from": [5, 5, 5],
+			"to": [11, 12, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 8]},
+			"faces": {
+				"north": {"uv": [5, 9, 11, 16], "texture": "#middle"},
+				"east": {"uv": [5, 9, 11, 16], "texture": "#middle"},
+				"south": {"uv": [5, 9, 11, 16], "texture": "#middle"},
+				"west": {"uv": [5, 9, 11, 16], "texture": "#middle"}
+			}
+		},
+		{
+			"name": "Altar Base",
+			"from": [3, 0, 3],
+			"to": [13, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
+			"faces": {
+				"north": {"uv": [3, 11, 13, 16], "texture": "#base"},
+				"east": {"uv": [3, 11, 13, 16], "texture": "#base"},
+				"south": {"uv": [3, 11, 13, 16], "texture": "#base"},
+				"west": {"uv": [3, 11, 13, 16], "texture": "#base"},
+				"up": {"uv": [3, 1, 13, 11], "texture": "#base"},
+				"down": {"uv": [3, 1, 13, 11], "texture": "#base", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -1, 0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"fixed": {
+			"translation": [0, -1.5, -1],
+			"scale": [0.46, 0.46, 0.46]
+		}
+	}
+}

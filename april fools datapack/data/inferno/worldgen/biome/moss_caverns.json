@@ -1,0 +1,85 @@
+{
+  "surface_builder": "inferno:moss_caverns",
+  "depth": 0.125,
+  "scale": 0.06,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "none",
+  "effects": {
+    "sky_color": 11069100,
+    "fog_color": 9186398,
+    "water_color": 61183,
+    "water_fog_color": 116409,
+    "particle": {
+      "options": {
+        "type": "minecraft:spore_blossom_air"
+      },
+      "probability": 0.001
+    }
+  },
+  "starts": [
+    "minecraft:ocean_ruin_cold",
+    "minecraft:ocean_ruin_warm"
+  ],
+  "spawners": {
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pufferfish",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:witch",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave",
+      "minecraft:crack"
+    ]
+  },
+  "features": [
+    [
+      "inferno:moss_caverns/water_pockets",
+      "inferno:moss_caverns/diorite_to_podzol",
+      "minecraft:spring_water",
+      "minecraft:spring_water",
+      "minecraft:spring_water",
+      "inferno:moss_caverns/ore_slate",
+      "inferno:moss_caverns/azurite_geode"
+    ],
+    [
+      "inferno:moss_caverns/mossbloom_tree",
+      "inferno:moss_caverns/mossbloom_tree_vines",
+      "inferno:moss_caverns/mossball_tree",
+      "inferno:moss_caverns/mossberry_bush",
+      "inferno:moss_caverns/ferns",
+      "inferno:moss_caverns/seamoss",
+      "inferno:moss_caverns/moss_raft",
+      "minecraft:kelp_cold",
+      "minecraft:seagrass_swamp"
+    ],
+    [
+      "inferno:moss_caverns/glow_lichen",
+      "inferno:moss_caverns/moss_blobs"
+    ],
+    [],
+    []
+  ]
+}

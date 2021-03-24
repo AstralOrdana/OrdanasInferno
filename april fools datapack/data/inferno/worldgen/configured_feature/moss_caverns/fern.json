@@ -1,0 +1,28 @@
+{
+  "config": {
+    "to_place": {
+      "entries": [
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:fern"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Properties": {
+              "half": "lower"
+            },
+            "Name": "minecraft:large_fern"
+          }
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    },
+    "place_on": [],
+    "place_in": [],
+    "place_under": []
+  },
+  "type": "minecraft:simple_block"
+}

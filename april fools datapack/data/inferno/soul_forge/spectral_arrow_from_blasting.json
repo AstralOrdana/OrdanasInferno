@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:arrow"
+  },
+  "result": "minecraft:spectral_arrow",
+  "experience": 0.1,
+  "cookingtime": 100
+}

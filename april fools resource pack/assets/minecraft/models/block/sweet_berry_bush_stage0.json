@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/mossberry_bush",
+		"bush": "block/mossberry_bush",
+		"cross": "block/mossberry_bush_twigs_stage0"
+	},
+	"elements": [
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"name": "bush",
+			"from": [5, 0, 5],
+			"to": [11, 6, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0.5, 4.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 6], "texture": "#bush"},
+				"east": {"uv": [0, 0, 6, 6], "texture": "#bush"},
+				"south": {"uv": [0, 0, 6, 6], "texture": "#bush"},
+				"west": {"uv": [0, 0, 6, 6], "texture": "#bush"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#bush"}
+			}
+		}
+	]
+}

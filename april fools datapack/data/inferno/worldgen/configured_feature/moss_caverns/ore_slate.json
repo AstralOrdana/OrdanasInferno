@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count",
+            "config": {
+              "count": 4
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:range",
+                "config": {
+                  "bottom_inclusive": {
+                    "absolute": 0
+                  },
+                  "top_inclusive": {
+                    "absolute": 20
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "targets": [
+            {
+              "target": {
+                "block": "minecraft:sandstone",
+                "predicate_type": "minecraft:block_match"
+              },
+              "state": {
+                "Name": "minecraft:deepslate",
+                "Properties":{
+                  "axis": "y"
+                }
+              }
+            }
+          ],
+          "size": 64,
+          "discard_chance_on_air_exposure": 0.0
+          }
+        }
+      }
+    }

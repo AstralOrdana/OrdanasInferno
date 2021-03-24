@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count_multilayer",
+          "config": {
+            "count": 8
+          }
+        },
+        "inner": {
+          "type": "minecraft:range",
+          "config": {
+            "bottom_inclusive": {
+              "above_bottom": 35
+            },
+            "top_inclusive": {
+              "below_top": 5
+            }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:huge_fungus",
+          "config": {
+            "hat_state": {
+              "Name": "minecraft:air"
+            },
+            "decor_state": {
+              "Name": "minecraft:air"
+            },
+            "stem_state": {
+              "Name": "minecraft:purpur_pillar",
+              "Properties": {
+                "axis": "y"
+              }
+            },
+            "valid_base_block": {
+              "Name": "minecraft:granite"
+            },
+            "planted": false
+          }
+        }
+      }
+    }
+  }
+}

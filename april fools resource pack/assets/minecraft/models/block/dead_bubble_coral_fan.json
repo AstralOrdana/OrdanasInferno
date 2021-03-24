@@ -1,0 +1,7 @@
+{
+    "parent": "block/dream_team_template_cluster",
+    "textures": {
+        "all": "block/clusters/moonstone_cluster",
+		"particle": "block/clusters/moonstone_cluster_particle"
+    }
+}

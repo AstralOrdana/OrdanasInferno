@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/withered_ochre_root_bale_top",
+    "side": "minecraft:block/withered_ochre_root_bale"
+  }
+}

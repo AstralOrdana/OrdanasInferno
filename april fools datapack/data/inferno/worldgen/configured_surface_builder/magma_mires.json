@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:nether_forest",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:andesite"
+      },
+      "under_material": {
+        "Name": "minecraft:andesite",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      "underwater_material": {
+        "Name": "minecraft:magma_block",
+        "Properties": {
+            "level": "0"
+        }
+      }
+    }
+  }

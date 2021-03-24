@@ -1,0 +1,150 @@
+{
+    "name": "inferno:pipeline",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/1h",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/1v",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/2u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/2d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/2h",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/3d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/3u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/4u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/4d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/4h",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/4v",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/5u",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/5d",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/5v",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/6",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:pipeline/storage_room",
+          "processors": "minecraft:empty",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

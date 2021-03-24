@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count_multilayer",
+            "config": {
+              "count": 64
+            }
+          },
+          "inner": {
+            "type": "minecraft:range",
+            "config": {
+              "bottom_inclusive": {
+                "above_bottom": 0
+              },
+              "top_inclusive": {
+                "below_top": 5
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:basalt_columns",
+        "config": {
+          "reach": 1,
+          "height": {
+            "base": 1,
+            "spread": 3
+          }
+        }
+      }
+    }
+  }

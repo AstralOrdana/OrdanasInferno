@@ -1,0 +1,128 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 8
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:depth_average",
+              "config": {
+                "baseline": {
+                  "absolute": 64
+                },
+                "spread": 32
+              }
+            },
+            "feature": {
+              "type": "minecraft:geode",
+              "config": {
+                "blocks": {
+                  "filling_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:air"
+                    }
+                  },
+                  "inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:deepslate_lapis_ore"
+                    }
+                  },
+                  "alternate_inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:cobblestone"
+                    }
+                  },
+                  "middle_layer_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 2,
+                        "data": {
+                          "Name": "minecraft:cobblestone"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:netherrack"
+                        }
+                      }
+                    ]
+                  },
+                  "outer_layer_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:cobblestone"
+                        }
+                      },
+                      {
+                        "weight": 3,
+                        "data": {
+                          "Name": "minecraft:netherrack"
+                        }
+                      },
+                      {
+                        "weight": 2,
+                        "data": {
+                          "Name": "minecraft:nether_quartz_ore"
+                        }
+                      }
+                    ]
+                  },
+                  "inner_placements": [
+                    {
+                      "Name": "minecraft:deepslate_lapis_ore"
+                    }
+                  ]
+                },
+                "layers": {
+                  "filling": 1.2,
+                  "inner_layer": 2.9,
+                  "middle_layer": 3.2,
+                  "outer_layer": 4.2
+                },
+                "crack": {
+                  "generate_crack_chance": 0.95,
+                  "base_crack_size": 2,
+                  "crack_point_offset": 2
+                },
+                "noise_multiplier": 0.05,
+                "use_potential_placements_chance": 0.35,
+                "use_alternate_layer0_chance": 0.083,
+                "placements_require_layer0_alternate": true,
+                "min_outer_wall_distance": 4,
+                "max_outer_wall_distance": 7,
+                "min_distribution_points": 3,
+                "max_distribution_points": 5,
+                "min_point_offset": 1,
+                "max_point_offset": 3,
+                "min_gen_offset": -16,
+                "max_gen_offset": 16,
+                "invalid_blocks_threshold": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

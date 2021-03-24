@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"textures": {
+		"wire": "block/wires/wire",
+		"particle": "block/wires/wire_particle"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 0],
+			"to": [10, 2, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 2.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 2], "texture": "#wire"},
+				"east": {"uv": [0, 10, 5, 12], "texture": "#wire"},
+				"south": {"uv": [0, 0, 4, 2], "texture": "#wire"},
+				"west": {"uv": [0, 10, 5, 12], "texture": "#wire"},
+				"up": {"uv": [0, 12, 5, 16], "rotation": 270, "texture": "#wire"},
+				"down": {"uv": [0, 12, 5, 16], "rotation": 270, "texture": "#wire"}
+			}
+		}
+	]
+}

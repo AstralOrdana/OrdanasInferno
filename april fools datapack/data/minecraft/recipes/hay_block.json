@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bales",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sea_pickle"
+    }
+  },
+  "result": {
+    "item": "minecraft:hay_block"
+  }
+}

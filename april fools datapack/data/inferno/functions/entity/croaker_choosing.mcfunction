@@ -1,0 +1,2 @@
+tag @s add Orda-NS-SpawnFound
+execute as @s at @s if predicate inferno:croaker_chance if predicate inferno:warped_biome run summon minecraft:rabbit ~ ~ ~ {DeathLootTable:"inferno:entities/croaker",PersistenceRequired:0b,RabbitType:0,Tags:["Orda-NS-Croaker"]}

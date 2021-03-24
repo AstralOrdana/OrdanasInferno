@@ -1,0 +1,53 @@
+{
+  "config": {
+    "feature": {
+      "name": "ore_nihiline",
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "tag": "minecraft:base_stone_overworld",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:emerald_block"
+                    }
+                  }
+                ],
+                "size": 8,
+                "discard_chance_on_air_exposure": 0.0
+              },
+              "type": "minecraft:scattered_ore"
+            },
+            "decorator": {
+              "config": {
+                "baseline": {
+                  "absolute": 32
+                },
+                "spread": 16
+              },
+              "type": "minecraft:depth_average"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 9
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

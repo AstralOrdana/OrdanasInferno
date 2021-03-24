@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/carnelium_block",
+    "side": "minecraft:block/carnelium_slab"
+  }
+}

@@ -1,0 +1,96 @@
+{
+    "name": "inferno:demon_fortress",
+    "fallback": "inferno:demon_fortress_fallback",
+    "elements": [
+      {
+        "weight": 100,
+        "element": {
+          "location": "inferno:demon_fortress/pit_tube",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "location": "inferno:demon_fortress/dead_end",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/cross",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/monolith_cross",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 100,
+        "element": {
+          "location": "inferno:demon_fortress/corridor",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 80,
+        "element": {
+          "location": "inferno:demon_fortress/corner",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 60,
+        "element": {
+          "location": "inferno:demon_fortress/t_junction",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/stairway",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/blaze_spawner",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 40,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_tower",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

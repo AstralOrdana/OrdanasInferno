@@ -1,0 +1,90 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/granite"
+      },
+	  {
+        "model": "minecraft:block/granite",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/granite",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/granite",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      },
+	  {
+        "model": "minecraft:block/granite_mirrored"
+      },
+	  {
+        "model": "minecraft:block/granite_mirrored",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/granite_mirrored",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/granite_mirrored",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      },
+	  {
+        "model": "minecraft:block/granite_1"
+      },
+	  {
+        "model": "minecraft:block/granite_1",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/granite_1",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/granite_1",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      },
+	  {
+        "model": "minecraft:block/granite_mirrored_1"
+      },
+	  {
+        "model": "minecraft:block/granite_mirrored_1",
+        "y": 90,
+		"x": 90,
+		"z": 90
+      },
+	  {
+        "model": "minecraft:block/granite_mirrored_1",
+        "y": 180,
+		"x": 180,
+		"z": 180
+      },
+      {
+        "model": "minecraft:block/granite_mirrored_1",
+        "y": 270,
+		"x": 270,
+		"z": 270
+      }
+    ]
+  }
+}

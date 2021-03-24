@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count",
+            "config": {
+              "count": 64
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "outer": {
+                    "type": "minecraft:square",
+                    "config": {}
+                  },
+                  "inner": {
+                    "type": "minecraft:count_noise_biased",
+                    "config": {
+                      "noise_to_count_ratio": 1,
+                      "noise_factor": 150,
+                      "noise_offset": 0.2
+                    }
+                  }
+                }
+              },
+              "inner": {
+                "type": "minecraft:range",
+                "config": {
+                  "bottom_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "top_inclusive": {
+                    "below_top": 85
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:scattered_ore",
+        "config": {
+          "size": 48,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:block_match",
+                "block": "minecraft:lava"
+              },
+              "state": {
+                "Name": "minecraft:hay_block",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

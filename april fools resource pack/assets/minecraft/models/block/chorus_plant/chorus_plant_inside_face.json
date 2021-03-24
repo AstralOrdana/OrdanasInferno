@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/chorus_plant_inside"
+	},
+	"elements": [
+		{
+			"from": [4, 12.001, 4],
+			"to": [12, 12.001, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 10, 9]},
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#missing"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#missing"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#missing"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#missing"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 2, 0],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	}
+}

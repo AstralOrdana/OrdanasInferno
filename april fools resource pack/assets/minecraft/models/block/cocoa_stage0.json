@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"ambientocclusion": false,
+	"textures": {
+		"all": "block/mossball",
+		"particle": "block/mossball"
+	},
+	"elements": [
+		{
+			"name": "ball",
+			"from": [7, 7, 14],
+			"to": [10, 10, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8.5, 15]},
+			"faces": {
+				"north": {"uv": [1, 5, 4, 8], "texture": "#all"},
+				"east": {"uv": [1, 5, 3, 8], "texture": "#all"},
+				"south": {"uv": [1, 5, 4, 8], "texture": "#all"},
+				"west": {"uv": [1, 5, 3, 8], "texture": "#all"},
+				"up": {"uv": [1, 2, 4, 4], "texture": "#all"},
+				"down": {"uv": [1, 2, 4, 4], "texture": "#all"}
+			}
+		}
+	]
+}

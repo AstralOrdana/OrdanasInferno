@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": {
+              "base": 8,
+              "spread": 0
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "above_bottom": 1
+                },
+                "top_inclusive": {
+                  "below_top": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:random_patch",
+      "config": {
+        "can_replace": false,
+        "project": false,
+        "need_water": false,
+        "xspread": 18,
+        "yspread": 3,
+        "zspread": 18,
+        "tries": 8,
+        "state_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:sea_pickle",
+            "Properties": {
+              "waterlogged": "false",
+              "pickles": "4"
+            }
+          }
+        },
+        "block_placer": {
+          "type": "minecraft:simple_block_placer"
+        },
+        "whitelist": [
+          {
+            "Name": "minecraft:end_stone"
+          }
+        ],
+        "blacklist": []
+      }
+    }
+  }
+}

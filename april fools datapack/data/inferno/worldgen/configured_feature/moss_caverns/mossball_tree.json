@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 32
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "absolute": 128
+                },
+                "top_inclusive": {
+                  "below_top": 0
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 200,
+                "noise_offset": -0.4
+              }
+            },
+            "feature": {
+              "type": "minecraft:tree",
+              "config": {
+                "ignore_vines": true,
+                "force_dirt": false,
+                "minimum_size": {
+                  "type": "minecraft:two_layers_feature_size"
+                },
+                "dirt_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:podzol",
+                    "Properties": {
+                      "snowy": "false"
+                    }
+                  }
+                },
+                "trunk_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:jungle_log",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  }
+                },
+                "foliage_provider": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "minecraft:jungle_leaves",
+                        "Properties": {
+                          "distance": "1",
+                          "persistent": "false"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:acacia_leaves",
+                        "Properties": {
+                          "distance": "1",
+                          "persistent": "false"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "trunk_placer": {
+                  "type": "minecraft:straight_trunk_placer",
+                  "base_height": 17,
+                  "height_rand_a": 5,
+                  "height_rand_b": 8
+                },
+                "foliage_placer": {
+                  "type": "minecraft:jungle_foliage_placer",
+                  "radius": 3,
+                  "offset": 0,
+                  "height": 3
+                },
+                "decorators": [
+                  {
+                    "type": "minecraft:cocoa",
+                    "probability": 1
+                  },
+                  {
+                    "type": "minecraft:leave_vine"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

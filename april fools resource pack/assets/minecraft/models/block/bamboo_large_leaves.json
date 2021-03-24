@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "block/bamboo_large_leaves",
+		"all": "block/bamboo_large_leaves"
+	},
+	"elements": [
+		{
+			"from": [1, 12, 1],
+			"to": [15, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 8]},
+			"faces": {
+				"north": {"uv": [9, 0, 16, 2], "texture": "#all"},
+				"east": {"uv": [9, 0, 16, 2], "texture": "#all"},
+				"south": {"uv": [9, 0, 16, 2], "texture": "#all"},
+				"west": {"uv": [9, 0, 16, 2], "texture": "#all"},
+				"up": {"uv": [0, 0, 7, 7], "texture": "#all"},
+				"down": {"uv": [0, 7, 7, 14], "texture": "#all"}
+			}
+		}
+	]
+}

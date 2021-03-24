@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/cinder_bookshelf"
+      }
+    ]
+  }
+}

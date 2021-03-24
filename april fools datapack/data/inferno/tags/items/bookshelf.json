@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:stripped_acacia_log",
+      "minecraft:stripped_dark_oak_log",
+      "minecraft:fletching_table",
+      "minecraft:bookshelf",
+      "minecraft:dark_oak_planks",
+      "minecraft:stripped_acacia_wood",
+      "minecraft:stripped_dark_oak_wood"
+    ]
+  }

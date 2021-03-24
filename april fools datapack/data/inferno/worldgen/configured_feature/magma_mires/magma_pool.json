@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 8
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count_noise_biased",
+          "config": {
+            "noise_to_count_ratio": 1,
+            "noise_factor": 100,
+            "noise_offset": 0
+          }
+        },
+        "feature": {
+          "type": "minecraft:delta_feature",
+          "config": {
+            "contents": {
+              "Name": "minecraft:lava",
+              "Properties": {
+                "level": "0"
+              }
+            },
+            "rim": {
+              "Name": "minecraft:magma_block"
+            },
+            "size": {
+              "base": 8,
+              "spread": 3
+            },
+            "rim_size": {
+              "base": 1,
+              "spread": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

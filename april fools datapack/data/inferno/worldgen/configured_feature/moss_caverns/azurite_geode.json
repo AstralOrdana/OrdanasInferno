@@ -1,0 +1,106 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "min_gen_offset": -16,
+                "max_gen_offset": 16,
+                "noise_multiplier": 0.05,
+                "invalid_blocks_threshold": 1,
+                "min_distribution_points": 3,
+                "max_distribution_points": 5,
+                "min_point_offset": 1,
+                "max_point_offset": 3,
+                "use_alternate_layer0_chance": 0.083,
+                "placements_require_layer0_alternate": true,
+                "min_outer_wall_distance": 4,
+                "max_outer_wall_distance": 7,
+                "blocks": {
+                  "middle_layer_provider": {
+                    "state": {
+                      "Name": "minecraft:sandstone"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "outer_layer_provider": {
+                    "state": {
+                      "Name": "minecraft:podzol",
+                      "Properties":{
+                        "snowy": "false"
+                      }
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "filling_provider": {
+                    "state": {
+                      "Name": "minecraft:air"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "inner_layer_provider": {
+                    "state": {
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "alternate_inner_layer_provider": {
+                    "state": {
+                      "Name": "minecraft:sea_lantern"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "inner_placements": [
+                    {
+                      "Name": "minecraft:sea_lantern"
+                    }
+                  ]
+                },
+                "layers": {
+                  "filling": 1.7,
+                  "inner_layer": 2.2,
+                  "middle_layer": 3.2,
+                  "outer_layer": 4.2
+                },
+                "crack": {
+                  "generate_crack_chance": 0.95,
+                  "base_crack_size": 2.0,
+                  "crack_point_offset": 2
+                },
+                "use_potential_placements_chance": 0.35
+              },
+              "type": "minecraft:geode"
+            },
+            "decorator": {
+              "config": {
+                "baseline": {
+                  "absolute": 64
+                },
+                "spread": 32
+              },
+              "type": "minecraft:depth_average"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 4
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

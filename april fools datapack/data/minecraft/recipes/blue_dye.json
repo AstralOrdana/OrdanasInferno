@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "dye",
+    "ingredients": [
+        {
+            "item": "minecraft:warped_fungus"
+        }
+    ],
+    "result": {
+        "item": "minecraft:blue_dye"
+    }
+}

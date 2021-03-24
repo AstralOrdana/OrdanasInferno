@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"textures": {
+		"particle": "block/wires/capacitator",
+		"capacitator": "block/wires/capacitator",
+		"tendrils": "block/wires/capacitator_tendrils"
+	},
+	"elements": [
+		{
+			"name": "Capacitor",
+			"from": [6, 0, 6],
+			"to": [10, 8, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 8], "texture": "#capacitator"},
+				"east": {"uv": [0, 0, 4, 8], "texture": "#capacitator"},
+				"south": {"uv": [0, 0, 4, 8], "texture": "#capacitator"},
+				"west": {"uv": [0, 0, 4, 8], "texture": "#capacitator"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#capacitator"},
+				"down": {"uv": [8, 0, 12, 4], "texture": "#capacitator", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Tendril",
+			"from": [4, 8, 8],
+			"to": [12, 16, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 8], "texture": "#tendrils"},
+				"south": {"uv": [4, 0, 12, 8], "texture": "#tendrils"}
+			}
+		},
+		{
+			"name": "Tendril",
+			"from": [8, 8, 4],
+			"to": [8, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [4, 0, 12, 8], "texture": "#tendrils"},
+				"west": {"uv": [4, 0, 12, 8], "texture": "#tendrils"}
+			}
+		}
+	],
+	"groups": [0,
+		{
+			"name": "Tendrils",
+			"origin": [8, 8, 8],
+			"children": [1, 2]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+  "config": {
+    "feature": {
+      "name": "ore_carnelium",
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:basalt",
+                        "Properties": {
+                          "axis": "y"
+                        },
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:coal_ore"
+                    }
+                  }
+                ],
+                "size": 16,
+                "discard_chance_on_air_exposure": 0.5
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "baseline": {
+                  "absolute": 64
+                },
+                "spread": 32
+              },
+              "type": "minecraft:depth_average"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 32
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

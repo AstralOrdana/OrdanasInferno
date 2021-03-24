@@ -1,0 +1,15 @@
+{
+    "name": "inferno:infested_hive",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:infested_hive/main_hive",
+          "processors": "inferno:infestation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

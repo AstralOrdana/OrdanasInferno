@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "dye",
+    "ingredients": [
+        {
+            "item": "minecraft:brown_mushroom"
+        }
+    ],
+    "result": {
+        "item": "minecraft:lime_dye"
+    }
+}

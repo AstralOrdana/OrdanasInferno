@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Q ",
+    "QRQ",
+    "RIR"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:brick"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 2
+  }
+}

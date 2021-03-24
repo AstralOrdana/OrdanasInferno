@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/emerald"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":28001}, "model": "dream_team_custom/entities/demon/z_oi_demon_horns"},
+		{"predicate": {"custom_model_data":28002}, "model": "dream_team_custom/entities/demon/z_oi_arch_demon_horns"},
+		{"predicate": {"custom_model_data":28003}, "model": "dream_team_custom/entities/soul/z_oi_vex_wandering_soul"},
+		{"predicate": {"custom_model_data":28004}, "model": "dream_team_custom/entities/soul/z_oi_vex_wandering_soul_hurt"},
+		{"predicate": {"custom_model_data":28005}, "model": "dream_team_custom/entities/kinglin/z_oi_piglin_king_head"},
+		{"predicate": {"custom_model_data":28006}, "model": "dream_team_custom/entities/kinglin/z_oi_piglin_king_head_hurt"},
+		{"predicate": {"custom_model_data":28007}, "model": "dream_team_custom/entities/fly/z_oi_fly_eyes"},
+		{"predicate": {"custom_model_data":28008}, "model": "dream_team_custom/entities/z_oi_infestion_rose"}
+	]
+}

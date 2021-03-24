@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_anvil",
+  "textures": {
+    "crystal": "minecraft:block/anvil_crystal_chipped"
+  }
+}

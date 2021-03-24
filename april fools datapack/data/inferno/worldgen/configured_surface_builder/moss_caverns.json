@@ -1,0 +1,20 @@
+{
+    "config": {
+      "top_material": {
+        "Name": "minecraft:podzol",
+        "Properties": {
+          "snowy": "false"
+        }
+          },
+      "under_material": {
+        "Name": "minecraft:sandstone"
+      },
+      "underwater_material": {
+        "Name": "minecraft:deepslate",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "type": "minecraft:nether_forest"
+  }

@@ -1,0 +1,114 @@
+{
+    "name": "inferno:demon_fortress",
+    "fallback": "inferno:demon_fortress_enclosed_fallback",
+    "elements": [
+      {
+        "weight": 50,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_hall",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_hall_balconies",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_dead_end",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_demonic_lobby",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_lava_tube",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_wart_garden",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_crimson_garden",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_armory",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 40,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_cross",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 80,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_corner",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 60,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_t_junction",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 45,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_tower",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

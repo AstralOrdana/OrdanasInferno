@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 16
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:range",
+          "config": {
+            "bottom_inclusive": {
+              "above_bottom": 0
+            },
+            "top_inclusive": {
+              "below_top": 0
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:delta_feature",
+          "config": {
+            "contents": {
+              "Name": "minecraft:water",
+              "Properties": {
+                "level": "0"
+              }
+            },
+            "rim": {
+              "Name": "minecraft:sandstone"
+            },
+            "size": {
+              "base": 3,
+              "spread": 4
+            },
+            "rim_size": {
+              "base": 1,
+              "spread": 2
+            }
+          }
+        }
+      }
+    }
+  }
+}
