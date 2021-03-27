@@ -1,8 +1,11 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "minecraft:block/cube_machine",
   "textures": {
-    "top": "minecraft:block/dropper_top",
-    "front": "minecraft:block/dispenser_front",
-    "side": "minecraft:block/dropper_side"
+    "up": "minecraft:block/dropper_top",
+	"down": "minecraft:block/dropper_top",
+    "north": "minecraft:block/dispenser_front",
+    "south": "minecraft:block/dropper_side",
+	"east": "minecraft:block/dropper_side",
+	"west": "minecraft:block/dropper_side"
   }
 }
