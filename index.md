@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Ordana's Inferno
 
-You can use the [editor on GitHub](https://github.com/AstralOrdana/OrdanasInferno/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ordana's Inferno is a Minecraft Datapack aiming to completely revamp the way you play the game. You spawn in the nether with nothing but your witts and and must survive the countless horrors of the Inferno.
 
 ### Markdown
 
