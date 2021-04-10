@@ -1,0 +1,254 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"texture_size": [64, 32],
+	"textures": {
+		"1": "models/armor/netherite_layer_2",
+		"2": "block/netherite_block",
+		"particle": "models/armor/netherite_layer_1"
+	},
+	"elements": [
+		{
+			"name": "Helmet",
+			"from": [-11, 24, 4],
+			"to": [-3, 32, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 28, 8]},
+			"faces": {
+				"north": {"uv": [2, 4, 4, 8], "texture": "#particle"},
+				"east": {"uv": [0, 4, 2, 8], "texture": "#particle"},
+				"south": {"uv": [6, 4, 8, 8], "texture": "#particle"},
+				"west": {"uv": [4, 4, 6, 8], "texture": "#particle"},
+				"up": {"uv": [2, 0, 4, 4], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [4, 0, 6, 4], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Inverted Helmet",
+			"from": [-3, 32, 12],
+			"to": [-11, 24, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 28, 8]},
+			"faces": {
+				"north": {"uv": [6, 8, 8, 4], "texture": "#particle"},
+				"east": {"uv": [4, 8, 6, 4], "texture": "#particle"},
+				"south": {"uv": [2, 8, 4, 4], "texture": "#particle"},
+				"west": {"uv": [0, 8, 2, 4], "texture": "#particle"},
+				"up": {"uv": [4, 4, 6, 0], "texture": "#particle"},
+				"down": {"uv": [2, 4, 4, 0], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Chestplate",
+			"from": [-11, 12, 6],
+			"to": [-3, 24, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 18, 8]},
+			"faces": {
+				"north": {"uv": [5, 10, 7, 16], "texture": "#particle"},
+				"east": {"uv": [4, 10, 5, 16], "texture": "#particle"},
+				"south": {"uv": [8, 10, 10, 16], "texture": "#particle"},
+				"west": {"uv": [7, 10, 8, 16], "texture": "#particle"},
+				"up": {"uv": [5, 8, 7, 10], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [7, 8, 9, 10], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Inverted Chestplate",
+			"from": [-3, 23, 10],
+			"to": [-11, 11, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 18, 8]},
+			"faces": {
+				"north": {"uv": [8, 16, 10, 10], "texture": "#particle"},
+				"east": {"uv": [7, 16, 8, 10], "texture": "#particle"},
+				"south": {"uv": [5, 16, 7, 10], "texture": "#particle"},
+				"west": {"uv": [4, 16, 5, 10], "texture": "#particle"},
+				"up": {"uv": [7, 8, 9, 10], "texture": "#particle"},
+				"down": {"uv": [5, 10, 7, 8], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [-2.75, 11, 6],
+			"to": [1.25, 23, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14.25, 23, 8]},
+			"faces": {
+				"north": {"uv": [11, 10, 12, 16], "texture": "#particle"},
+				"east": {"uv": [10, 10, 11, 16], "texture": "#particle"},
+				"south": {"uv": [13, 10, 14, 16], "texture": "#particle"},
+				"west": {"uv": [12, 10, 13, 16], "texture": "#particle"},
+				"up": {"uv": [11, 8, 12, 10], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [4, 0, 6, 4], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Inverted Arm",
+			"from": [1.25, 23, 10],
+			"to": [-2.75, 11, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14.25, 23, 8]},
+			"faces": {
+				"north": {"uv": [13, 16, 14, 10], "texture": "#particle"},
+				"east": {"uv": [12, 16, 13, 10], "texture": "#particle"},
+				"south": {"uv": [11, 16, 12, 10], "texture": "#particle"},
+				"west": {"uv": [10, 16, 11, 10], "texture": "#particle"},
+				"up": {"uv": [12, 8, 13, 10], "texture": "#particle"},
+				"down": {"uv": [12, 8, 11, 10], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [-15.75, 11, 6],
+			"to": [-11.75, 23, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.25, 23, 8]},
+			"faces": {
+				"north": {"uv": [12, 10, 11, 16], "texture": "#particle"},
+				"east": {"uv": [13, 10, 12, 16], "texture": "#particle"},
+				"south": {"uv": [14, 10, 13, 16], "texture": "#particle"},
+				"west": {"uv": [11, 10, 10, 16], "texture": "#particle"},
+				"up": {"uv": [12, 8, 11, 10], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [4, 0, 6, 4], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Inverted Arm",
+			"from": [-11.75, 23, 10],
+			"to": [-15.75, 11, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.25, 23, 8]},
+			"faces": {
+				"north": {"uv": [14, 16, 13, 10], "texture": "#particle"},
+				"east": {"uv": [11, 16, 10, 10], "texture": "#particle"},
+				"south": {"uv": [12, 16, 11, 10], "texture": "#particle"},
+				"west": {"uv": [13, 16, 12, 10], "texture": "#particle"},
+				"up": {"uv": [12, 8, 13, 10], "texture": "#particle"},
+				"down": {"uv": [11, 8, 12, 10], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Hip",
+			"from": [-10.75, 11.5, 6.25],
+			"to": [-3.25, 16, 9.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13.5, 8]},
+			"faces": {
+				"north": {"uv": [5, 13.5, 7, 16], "texture": "#1"},
+				"east": {"uv": [4, 13.5, 5, 16], "texture": "#1"},
+				"south": {"uv": [8, 13.5, 10, 16], "texture": "#1"},
+				"west": {"uv": [7, 13.5, 8, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 0.5], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 0.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Leg",
+			"from": [-6.75, -0.75, 6],
+			"to": [-2.75, 11.25, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -0.75, 6]},
+			"faces": {
+				"north": {"uv": [1, 10, 2, 16], "texture": "#1"},
+				"east": {"uv": [0, 10, 1, 16], "texture": "#1"},
+				"south": {"uv": [4, 10, 3, 16], "texture": "#1"},
+				"west": {"uv": [2, 10, 3, 16], "texture": "#1"},
+				"up": {"uv": [1, 8, 2, 10], "texture": "#1"},
+				"down": {"uv": [2, 8, 3, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Inverted Leg",
+			"from": [-2.75, 11.25, 10],
+			"to": [-6.75, -0.75, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 11.25, 10]},
+			"faces": {
+				"north": {"uv": [4, 16, 3, 10], "texture": "#1"},
+				"east": {"uv": [2, 16, 3, 10], "texture": "#1"},
+				"south": {"uv": [1, 16, 2, 10], "texture": "#1"},
+				"west": {"uv": [0, 16, 1, 10], "texture": "#1"},
+				"up": {"uv": [2, 8, 3, 10], "texture": "#1"},
+				"down": {"uv": [1, 8, 2, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Leg",
+			"from": [-11.25, -0.75, 6],
+			"to": [-7.25, 11.25, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.75, -0.75, 6]},
+			"faces": {
+				"north": {"uv": [2, 10, 1, 16], "texture": "#1"},
+				"east": {"uv": [3, 10, 2, 16], "texture": "#1"},
+				"south": {"uv": [3, 10, 4, 16], "texture": "#1"},
+				"west": {"uv": [1, 10, 0, 16], "texture": "#1"},
+				"up": {"uv": [1, 8, 2, 10], "texture": "#1"},
+				"down": {"uv": [2, 8, 3, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Inverted Leg",
+			"from": [-7.25, 11.25, 10],
+			"to": [-11.25, -0.75, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 11.25, 10]},
+			"faces": {
+				"north": {"uv": [4, 16, 3, 10], "texture": "#1"},
+				"east": {"uv": [1, 16, 0, 10], "texture": "#1"},
+				"south": {"uv": [2, 16, 1, 10], "texture": "#1"},
+				"west": {"uv": [3, 16, 2, 10], "texture": "#1"},
+				"up": {"uv": [2, 8, 3, 10], "texture": "#1"},
+				"down": {"uv": [1, 8, 2, 10], "texture": "#1"}
+			}
+		},
+		{
+			"from": [16, 0, 0],
+			"to": [32, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Armor",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "Helmet",
+					"origin": [4, 4, 4],
+					"children": [0, 1]
+				},
+				{
+					"name": "Chestplate",
+					"origin": [4, 4, 4],
+					"children": [2, 3]
+				},
+				{
+					"name": "Arms",
+					"origin": [8, 8, 8],
+					"children": [
+						{
+							"name": "Right Arm",
+							"origin": [4, 4, 4],
+							"children": [4, 5]
+						},
+						{
+							"name": "Left Arm",
+							"origin": [4, 4, 4],
+							"children": [6, 7]
+						}
+					]
+				}, 8,
+				{
+					"name": "Legs",
+					"origin": [8, 8, 8],
+					"children": [
+						{
+							"name": "Right Leg",
+							"origin": [0, 0, 0],
+							"children": [9, 10]
+						},
+						{
+							"name": "Right Leg",
+							"origin": [0, 0, 0],
+							"children": [11, 12]
+						}
+					]
+				}
+			]
+		}, 13]
+}
