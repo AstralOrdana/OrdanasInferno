@@ -1,6 +1,22 @@
 {
+  "type": "minecraft:growing_plant",
   "config": {
+    "direction": "up",
+    "allow_water": false,
+    "height_distribution": [
+      {
+        "weight": 10,
+        "data": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 15
+          }
+        }
+      }
+    ],
     "body_provider": {
+      "type": "minecraft:weighted_state_provider",
       "entries": [
         {
           "weight": 8,
@@ -30,11 +46,20 @@
             }
           }
         }
-      ],
-      "type": "minecraft:weighted_state_provider"
+      ]
     },
     "head_provider": {
+      "type": "minecraft:randomized_int_state_provider",
+      "property": "age",
+      "values": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 1
+        }
+      },
       "source": {
+        "type": "minecraft:weighted_state_provider",
         "entries": [
           {
             "weight": 4,
@@ -54,27 +79,8 @@
               }
             }
           }
-        ],
-        "type": "minecraft:weighted_state_provider"
-      },
-      "property": "age",
-      "values": {
-        "base": 1,
-        "spread": 1
-      },
-      "type": "minecraft:randomized_int_state_provider"
-    },
-    "allow_water": false,
-    "height_distribution": [
-      {
-        "weight": 10,
-        "data": {
-          "base": 1,
-          "spread": 15
-        }
+        ]
       }
-    ],
-    "direction": "up"
-  },
-  "type": "minecraft:growing_plant"
+    }
+  }
 }

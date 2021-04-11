@@ -5,8 +5,11 @@
       "type": "minecraft:count",
       "config": {
         "count": {
-          "base": 1,
-          "spread": 2
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 2
+          }
         }
       }
     },
@@ -36,38 +39,35 @@
               "config": {
                 "floor_to_ceiling_search_range": 64,
                 "column_radius": {
-                  "base": 4,
-                  "spread": 5
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 4,
+                    "max_inclusive": 5
+                  }
                 },
                 "height_scale": {
                   "type": "minecraft:uniform",
                   "value": {
-                    "base": 8,
-                    "spread": 1
+                    "min_inclusive": 8,
+                    "max_exclusive": 9
                   }
                 },
                 "max_column_radius_to_cave_height_ratio": 0.33,
                 "stalactite_bluntness": {
                   "type": "minecraft:uniform",
                   "value": {
-                    "base": 5,
-                    "spread": 1
+                    "min_inclusive": 5,
+                    "max_exclusive": 6
                   }
                 },
                 "stalagmite_bluntness": {
                   "type": "minecraft:uniform",
                   "value": {
-                    "base": 5,
-                    "spread": 1
+                    "min_inclusive": 5,
+                    "max_exclusive": 6
                   }
                 },
-                "wind_speed": {
-                  "type": "minecraft:uniform",
-                  "value": {
-                    "base": 0,
-                    "spread": 0
-                  }
-                },
+                "wind_speed": 0,
                 "min_radius_for_wind": 4,
                 "min_bluntness_for_wind": 0.6
               }

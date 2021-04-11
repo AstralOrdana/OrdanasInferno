@@ -1,23 +1,24 @@
 {
+  "type": "minecraft:decorated",
   "config": {
-    "feature": {
+    "decorator": {
+      "type": "minecraft:count",
       "config": {
+        "count": 16
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
         "feature": {
+          "type": "minecraft:decorated",
           "config": {
-            "feature": {
-              "config": {
-                "feature": "inferno:moss_caverns/fern_patch",
-                "decorator": {
-                  "config": {
-                    "surface": "floor",
-                    "floor_to_ceiling_search_range": 12
-                  },
-                  "type": "minecraft:cave_surface"
-                }
-              },
-              "type": "minecraft:decorated"
-            },
             "decorator": {
+              "type": "minecraft:range",
               "config": {
                 "bottom_inclusive": {
                   "above_bottom": 0
@@ -25,25 +26,24 @@
                 "top_inclusive": {
                   "below_top": 5
                 }
-              },
-              "type": "minecraft:range"
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 12
+                  }
+                },
+                "feature": "inferno:moss_caverns/fern_patch"
+              }
             }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+          }
         }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 16
-      },
-      "type": "minecraft:count"
+      }
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

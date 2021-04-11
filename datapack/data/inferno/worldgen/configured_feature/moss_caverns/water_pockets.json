@@ -34,12 +34,18 @@
               "Name": "minecraft:sandstone"
             },
             "size": {
-              "base": 3,
-              "spread": 4
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 3,
+                "max_inclusive": 4
+              }
             },
             "rim_size": {
-              "base": 1,
-              "spread": 2
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
             }
           }
         }

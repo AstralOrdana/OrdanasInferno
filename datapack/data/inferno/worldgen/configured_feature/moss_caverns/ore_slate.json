@@ -1,57 +1,57 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:decorated",
-        "config": {
-          "outer": {
-            "type": "minecraft:count",
-            "config": {
-              "count": 4
-            }
-          },
-          "inner": {
-            "type": "minecraft:decorated",
-            "config": {
-              "outer": {
-                "type": "minecraft:square",
-                "config": {}
-              },
-              "inner": {
-                "type": "minecraft:range",
-                "config": {
-                  "bottom_inclusive": {
-                    "absolute": 0
-                  },
-                  "top_inclusive": {
-                    "absolute": 20
-                  }
-                }
-              }
-            }
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": 4
           }
-        }
-      },
-      "feature": {
-        "type": "minecraft:ore",
-        "config": {
-          "targets": [
-            {
-              "target": {
-                "block": "minecraft:sandstone",
-                "predicate_type": "minecraft:block_match"
-              },
-              "state": {
-                "Name": "minecraft:deepslate",
-                "Properties":{
-                  "axis": "y"
+        },
+        "inner": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "absolute": 0
+                },
+                "top_inclusive": {
+                  "absolute": 20
                 }
               }
             }
-          ],
-          "size": 64,
-          "discard_chance_on_air_exposure": 0.0
           }
         }
       }
+    },
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "size": 64,
+        "discard_chance_on_air_exposure": 0,
+        "targets": [
+          {
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:sandstone"
+            },
+            "state": {
+              "Name": "minecraft:deepslate",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
+}

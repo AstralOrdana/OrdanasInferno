@@ -1,59 +1,70 @@
 {
+  "type": "minecraft:decorated",
   "config": {
-    "feature": {
+    "decorator": {
+      "type": "minecraft:chance",
       "config": {
+        "chance": 4
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
         "feature": {
+          "type": "minecraft:decorated",
           "config": {
-            "feature": {
+            "decorator": {
+              "type": "minecraft:depth_average",
               "config": {
-                "min_gen_offset": -16,
-                "max_gen_offset": 16,
-                "noise_multiplier": 0.05,
-                "invalid_blocks_threshold": 1,
-                "min_distribution_points": 3,
-                "max_distribution_points": 5,
-                "min_point_offset": 1,
-                "max_point_offset": 3,
-                "use_alternate_layer0_chance": 0.083,
-                "placements_require_layer0_alternate": true,
-                "min_outer_wall_distance": 4,
-                "max_outer_wall_distance": 7,
+                "baseline": {
+                  "absolute": 64
+                },
+                "spread": 32
+              }
+            },
+            "feature": {
+              "type": "minecraft:geode",
+              "config": {
                 "blocks": {
-                  "middle_layer_provider": {
-                    "state": {
-                      "Name": "minecraft:sandstone"
-                    },
-                    "type": "minecraft:simple_state_provider"
-                  },
-                  "outer_layer_provider": {
-                    "state": {
-                      "Name": "minecraft:podzol",
-                      "Properties":{
-                        "snowy": "false"
-                      }
-                    },
-                    "type": "minecraft:simple_state_provider"
-                  },
                   "filling_provider": {
+                    "type": "minecraft:simple_state_provider",
                     "state": {
                       "Name": "minecraft:air"
-                    },
-                    "type": "minecraft:simple_state_provider"
+                    }
                   },
                   "inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
                     "state": {
                       "Name": "minecraft:deepslate",
                       "Properties": {
                         "axis": "y"
                       }
-                    },
-                    "type": "minecraft:simple_state_provider"
+                    }
                   },
                   "alternate_inner_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
                     "state": {
                       "Name": "minecraft:sea_lantern"
-                    },
-                    "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "middle_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:sandstone"
+                    }
+                  },
+                  "outer_layer_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:podzol",
+                      "Properties": {
+                        "snowy": "false"
+                      }
+                    }
                   },
                   "inner_placements": [
                     {
@@ -69,38 +80,27 @@
                 },
                 "crack": {
                   "generate_crack_chance": 0.95,
-                  "base_crack_size": 2.0,
+                  "base_crack_size": 2,
                   "crack_point_offset": 2
                 },
-                "use_potential_placements_chance": 0.35
-              },
-              "type": "minecraft:geode"
-            },
-            "decorator": {
-              "config": {
-                "baseline": {
-                  "absolute": 64
-                },
-                "spread": 32
-              },
-              "type": "minecraft:depth_average"
+                "noise_multiplier": 0.05,
+                "use_potential_placements_chance": 0.35,
+                "use_alternate_layer0_chance": 0.083,
+                "placements_require_layer0_alternate": true,
+                "min_outer_wall_distance": 4,
+                "max_outer_wall_distance": 7,
+                "min_distribution_points": 3,
+                "max_distribution_points": 5,
+                "min_point_offset": 1,
+                "max_point_offset": 3,
+                "min_gen_offset": -16,
+                "max_gen_offset": 16,
+                "invalid_blocks_threshold": 1
+              }
             }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+          }
         }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "chance": 4
-      },
-      "type": "minecraft:chance"
+      }
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

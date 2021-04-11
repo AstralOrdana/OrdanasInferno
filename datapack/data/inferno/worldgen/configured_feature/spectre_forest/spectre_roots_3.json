@@ -8,8 +8,10 @@
           "type": "minecraft:count",
           "config": {
             "count": {
-              "base": 16,
-              "spread": 1
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 8
+              }
             }
           }
         },

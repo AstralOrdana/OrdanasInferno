@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:dream_team_custom/blocks/two_spectre_roots",
+  "textures": {
+    "all": "minecraft:block/spectre_roots"
+  }
+}

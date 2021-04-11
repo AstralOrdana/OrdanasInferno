@@ -1,60 +1,59 @@
 {
-    "type": "minecraft:decorated",
-    "config": {
-      "decorator": {
-        "type": "minecraft:count_extra",
-        "config": {
-          "count": 0,
-          "extra_count": 1000,
-          "extra_chance": 1
-        }
-      },
-      "feature": {
-        "type": "minecraft:decorated",
-        "config": {
-          "decorator": {
-            "type": "minecraft:decorated",
-            "config": {
-              "outer": {
-                "type": "minecraft:square",
-                "config": {}
-              },
-              "inner": {
-                "type": "minecraft:range",
-                "config": {
-                  "bottom_inclusive": {
-                    "above_bottom": 135
-                  },
-                  "top_inclusive": {
-                    "below_top": 5
-                  }
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 0,
+        "extra_count": 1000,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "bottom_inclusive": {
+                  "above_bottom": 135
+                },
+                "top_inclusive": {
+                  "below_top": 5
                 }
               }
             }
-          },
-          "feature": {
-            "type": "minecraft:ore",
-            "config": {
-              "targets": [
-                {
-                  "target": {
-                    "block": "minecraft:sandstone",
-                    "predicate_type": "minecraft:block_match"
-                  },
-                  "state": {
-                    "Name": "minecraft:podzol",
-                    "Properties":{
-                      "snowy": "false"
-                    }
+          }
+        },
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 64,
+            "discard_chance_on_air_exposure": 0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:sandstone"
+                },
+                "state": {
+                  "Name": "minecraft:podzol",
+                  "Properties": {
+                    "snowy": "false"
                   }
                 }
-              ],
-              "size": 64,
-              "discard_chance_on_air_exposure": 0.0
               }
-            }
+            ]
           }
         }
       }
     }
-  
+  }
+}

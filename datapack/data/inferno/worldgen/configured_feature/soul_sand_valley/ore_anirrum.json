@@ -8,8 +8,10 @@
           "type": "minecraft:count",
           "config": {
             "count": {
-              "base": 16,
-              "spread": 1
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 8
+              }
             }
           }
         },
@@ -36,20 +38,20 @@
     "feature": {
       "type": "minecraft:ore",
       "config": {
+        "size": 16,
+        "discard_chance_on_air_exposure": 0,
         "targets": [
           {
             "target": {
-              "tag": "minecraft:soul_fire_base_blocks",
-              "predicate_type": "minecraft:tag_match"
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:soul_fire_base_blocks"
             },
             "state": {
               "Name": "minecraft:clay"
             }
           }
-        ],
-        "size": 16,
-        "discard_chance_on_air_exposure": 0.0
-        }
+        ]
       }
     }
   }
+}

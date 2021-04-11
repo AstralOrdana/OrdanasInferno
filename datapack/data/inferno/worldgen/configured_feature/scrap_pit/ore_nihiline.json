@@ -1,53 +1,52 @@
 {
+  "type": "minecraft:decorated",
   "config": {
-    "feature": {
-      "name": "ore_nihiline",
+    "decorator": {
+      "type": "minecraft:count",
       "config": {
+        "count": 9
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
         "feature": {
+          "type": "minecraft:decorated",
           "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "minecraft:base_stone_overworld",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:emerald_block"
-                    }
-                  }
-                ],
-                "size": 8,
-                "discard_chance_on_air_exposure": 0.0
-              },
-              "type": "minecraft:scattered_ore"
-            },
             "decorator": {
+              "type": "minecraft:depth_average",
               "config": {
                 "baseline": {
                   "absolute": 32
                 },
                 "spread": 16
-              },
-              "type": "minecraft:depth_average"
+              }
+            },
+            "feature": {
+              "type": "minecraft:scattered_ore",
+              "config": {
+                "size": 8,
+                "discard_chance_on_air_exposure": 0,
+                "targets": [
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:tag_match",
+                      "tag": "minecraft:base_stone_overworld"
+                    },
+                    "state": {
+                      "Name": "minecraft:emerald_block"
+                    }
+                  }
+                ]
+              }
             }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+          }
         }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 9
-      },
-      "type": "minecraft:count"
+      }
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

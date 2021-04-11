@@ -1,53 +1,52 @@
 {
+  "type": "minecraft:decorated",
   "config": {
-    "feature": {
-      "name": "ore_carnelium",
+    "decorator": {
+      "type": "minecraft:count",
       "config": {
+        "count": 32
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
         "feature": {
+          "type": "minecraft:decorated",
           "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:blackstone",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:iron_ore"
-                    }
-                  }
-                ],
-                "size": 14,
-                "discard_chance_on_air_exposure": 0.0
-              },
-              "type": "minecraft:ore"
-            },
             "decorator": {
+              "type": "minecraft:depth_average",
               "config": {
                 "baseline": {
                   "absolute": 32
                 },
                 "spread": 16
-              },
-              "type": "minecraft:depth_average"
+              }
+            },
+            "feature": {
+              "type": "minecraft:ore",
+              "config": {
+                "size": 14,
+                "discard_chance_on_air_exposure": 0,
+                "targets": [
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:blackstone"
+                    },
+                    "state": {
+                      "Name": "minecraft:iron_ore"
+                    }
+                  }
+                ]
+              }
             }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+          }
         }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 32
-      },
-      "type": "minecraft:count"
+      }
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }
