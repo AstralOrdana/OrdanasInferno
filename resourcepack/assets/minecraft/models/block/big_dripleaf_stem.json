@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/big_dripleaf_stem",
+		"stem": "block/big_dripleaf_stem"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 10],
+			"to": [11, 16, 10],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 10], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 0, 14, 16], "texture": "#stem"},
+				"south": {"uv": [3, 0, 14, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"from": [5, 0, 10],
+			"to": [11, 16, 10],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 10], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 0, 14, 16], "texture": "#stem"},
+				"south": {"uv": [3, 0, 14, 16], "texture": "#stem"}
+			}
+		}
+	]
+}
