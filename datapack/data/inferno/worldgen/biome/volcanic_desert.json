@@ -38,11 +38,15 @@
       [],
       [],
       [],
-      [],
+      [
+        "inferno:volcanic_desert/sulfur_beaches",
+        "inferno:volcanic_desert/sulfur_columns",
+        "inferno:volcanic_desert/basalt_to_sulfur",
+        "inferno:volcanic_desert/stinkvine"
+      ],
       [
         "inferno:volcanic_desert/blackstone_base",
         "inferno:volcanic_desert/ash_piles",
-        "inferno:basalt_deltas/ore_redstone",
         "minecraft:patch_fire",
         "minecraft:patch_soul_fire",
         "minecraft:glowstone_extra",

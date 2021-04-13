@@ -4,10 +4,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": {
-          "type": "minecraft:constant",
-          "value": 32
-        }
+        "count": 16
       }
     },
     "feature": {
@@ -24,24 +21,33 @@
               "type": "minecraft:depth_average",
               "config": {
                 "baseline": {
-                  "absolute": 64
+                  "absolute": 33
                 },
-                "spread": 32
+                "spread": 1
               }
             },
             "feature": {
               "type": "minecraft:ore",
               "config": {
-                "size": 16,
-                "discard_chance_on_air_exposure": 0.5,
+                "size": 10,
+                "discard_chance_on_air_exposure": 0,
                 "targets": [
                   {
                     "target": {
                       "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:basalt"
+                      "block": "minecraft:sand"
                     },
                     "state": {
-                      "Name": "minecraft:coal_ore"
+                      "Name": "minecraft:clay"
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:blackstone"
+                    },
+                    "state": {
+                      "Name": "minecraft:clay"
                     }
                   }
                 ]

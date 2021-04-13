@@ -4,7 +4,10 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 16
+        "count": {
+          "type": "minecraft:constant",
+          "value": 16
+        }
       }
     },
     "feature": {

@@ -7,7 +7,10 @@
         "outer": {
           "type": "minecraft:count",
           "config": {
-            "count": 4
+            "count": {
+              "type": "minecraft:constant",
+              "value": 4
+            }
           }
         },
         "inner": {

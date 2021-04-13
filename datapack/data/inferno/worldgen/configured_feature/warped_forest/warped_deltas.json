@@ -7,7 +7,10 @@
         "outer": {
           "type": "minecraft:count",
           "config": {
-            "count": 24
+            "count": {
+              "type": "minecraft:constant",
+              "value": 24
+            }
           }
         },
         "inner": {
@@ -46,14 +49,14 @@
               "type": "minecraft:uniform",
               "value": {
                 "min_inclusive": 3,
-                "max_exclusive": 4
+                "max_inclusive": 4
               }
             },
             "rim_size": {
               "type": "minecraft:uniform",
               "value": {
                 "min_inclusive": 0,
-                "max_exclusive": 2
+                "max_inclusive": 2
               }
             }
           }
