@@ -5,8 +5,11 @@
       "type": "minecraft:count",
       "config": {
         "count": {
-          "type": "minecraft:constant",
-          "value": 32
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 16,
+            "max_inclusive": 32
+          }
         }
       }
     },
@@ -21,12 +24,17 @@
           "type": "minecraft:decorated",
           "config": {
             "decorator": {
-              "type": "minecraft:depth_average",
+              "type": "minecraft:range",
               "config": {
-                "baseline": {
-                  "absolute": 32
-                },
-                "spread": 16
+                "height": {
+                  "type": "minecraft:trapezoid",
+                  "min_inclusive": {
+                    "absolute": 16
+                  },
+                  "max_inclusive": {
+                    "absolute": 48
+                  }
+                }
               }
             },
             "feature": {

@@ -5,19 +5,34 @@
       "type": "minecraft:decorated",
       "config": {
         "outer": {
-          "type": "minecraft:count_multilayer",
+          "type": "minecraft:count",
           "config": {
-            "count": 64
+            "count": {
+              "type": "minecraft:constant",
+              "value": 64
+            }
           }
         },
         "inner": {
-          "type": "minecraft:range",
+          "type": "minecraft:decorated",
           "config": {
-            "bottom_inclusive": {
-              "above_bottom": 0
+            "outer": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 1
+                  },
+                  "max_inclusive": {
+                    "below_top": 1
+                  }
+                }
+              }
             },
-            "top_inclusive": {
-              "below_top": 5
+            "inner": {
+              "type": "minecraft:square",
+              "config": {}
             }
           }
         }

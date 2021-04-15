@@ -21,12 +21,17 @@
           "type": "minecraft:decorated",
           "config": {
             "decorator": {
-              "type": "minecraft:depth_average",
+              "type": "minecraft:range",
               "config": {
-                "baseline": {
-                  "absolute": 32
-                },
-                "spread": 16
+                "height": {
+                  "type": "minecraft:trapezoid",
+                  "min_inclusive": {
+                    "absolute": 16
+                  },
+                  "max_inclusive": {
+                    "absolute": 48
+                  }
+                }
               }
             },
             "feature": {

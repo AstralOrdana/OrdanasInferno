@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 16
+        "count": 8
       }
     },
     "feature": {
@@ -18,18 +18,23 @@
           "type": "minecraft:decorated",
           "config": {
             "decorator": {
-              "type": "minecraft:depth_average",
+              "type": "minecraft:range",
               "config": {
-                "baseline": {
-                  "absolute": 33
-                },
-                "spread": 1
+                "height": {
+                  "type": "minecraft:trapezoid",
+                  "min_inclusive": {
+                    "absolute": 28
+                  },
+                  "max_inclusive": {
+                    "absolute": 39
+                  }
+                }
               }
             },
             "feature": {
               "type": "minecraft:ore",
               "config": {
-                "size": 10,
+                "size": 20,
                 "discard_chance_on_air_exposure": 0,
                 "targets": [
                   {

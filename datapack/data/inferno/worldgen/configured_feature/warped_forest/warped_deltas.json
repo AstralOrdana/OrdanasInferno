@@ -2,27 +2,11 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
-      "type": "minecraft:decorated",
+      "type": "minecraft:count",
       "config": {
-        "outer": {
-          "type": "minecraft:count",
-          "config": {
-            "count": {
-              "type": "minecraft:constant",
-              "value": 24
-            }
-          }
-        },
-        "inner": {
-          "type": "minecraft:range",
-          "config": {
-            "bottom_inclusive": {
-              "absolute": 0
-            },
-            "top_inclusive": {
-              "absolute": 40
-            }
-          }
+        "count": {
+          "type": "minecraft:constant",
+          "value": 24
         }
       }
     },
@@ -30,8 +14,27 @@
       "type": "minecraft:decorated",
       "config": {
         "decorator": {
-          "type": "minecraft:square",
-          "config": {}
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 1
+                  },
+                  "max_inclusive": {
+                    "absolute": 40
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:square",
+              "config": {}
+            }
+          }
         },
         "feature": {
           "type": "minecraft:delta_feature",

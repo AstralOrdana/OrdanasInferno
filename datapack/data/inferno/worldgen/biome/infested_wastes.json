@@ -68,8 +68,8 @@
     },
     "carvers": {
       "air": [
-          "minecraft:crack",
-          "minecraft:canyon"
+          "minecraft:prototype_crack",
+          "minecraft:prototype_canyon"
       ]
     },
     "features": [

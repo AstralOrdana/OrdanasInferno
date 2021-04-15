@@ -18,12 +18,17 @@
           "type": "minecraft:decorated",
           "config": {
             "decorator": {
-              "type": "minecraft:depth_average",
+              "type": "minecraft:range",
               "config": {
-                "baseline": {
-                  "absolute": 64
-                },
-                "spread": 32
+                "height": {
+                  "type": "minecraft:trapezoid",
+                  "min_inclusive": {
+                    "absolute": 16
+                  },
+                  "max_inclusive": {
+                    "absolute": 96
+                  }
+                }
               }
             },
             "feature": {
@@ -110,12 +115,27 @@
                 "use_potential_placements_chance": 0.35,
                 "use_alternate_layer0_chance": 0.083,
                 "placements_require_layer0_alternate": true,
-                "min_outer_wall_distance": 5,
-                "max_outer_wall_distance": 8,
-                "min_distribution_points": 4,
-                "max_distribution_points": 6,
-                "min_point_offset": 2,
-                "max_point_offset": 4,
+                "outer_wall_distance": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 5,
+                    "max_inclusive": 8
+                  }
+                },
+                "distribution_points": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 4,
+                    "max_inclusive": 6
+                  }
+                },
+                "point_offset": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 2,
+                    "max_inclusive": 4
+                  }
+                },
                 "min_gen_offset": -16,
                 "max_gen_offset": 16,
                 "invalid_blocks_threshold": 1

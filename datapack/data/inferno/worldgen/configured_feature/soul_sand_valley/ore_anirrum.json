@@ -24,12 +24,17 @@
               "config": {}
             },
             "inner": {
-              "type": "minecraft:depth_average",
+              "type": "minecraft:range",
               "config": {
-                "baseline": {
-                  "absolute": 64
-                },
-                "spread": 64
+                "height": {
+                  "type": "minecraft:trapezoid",
+                  "min_inclusive": {
+                    "absolute": 0
+                  },
+                  "max_inclusive": {
+                    "absolute": 128
+                  }
+                }
               }
             }
           }

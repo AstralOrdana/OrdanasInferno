@@ -14,15 +14,17 @@
           "type": "minecraft:decorated",
           "config": {
             "outer": {
-              "type": "minecraft:range_biased_to_bottom",
+              "type": "minecraft:range",
               "config": {
-                "bottom_inclusive": {
-                  "absolute": 1
-                },
-                "top_inclusive": {
-                  "absolute": 32
-                },
-                "cutoff": 40
+                "height": {
+                  "type": "minecraft:trapezoid",
+                  "min_inclusive": {
+                    "absolute": 28
+                  },
+                  "max_inclusive": {
+                    "absolute": 39
+                  }
+                }
               }
             },
             "inner": {

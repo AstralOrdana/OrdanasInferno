@@ -13,11 +13,14 @@
         "inner": {
           "type": "minecraft:range",
           "config": {
-            "bottom_inclusive": {
-              "above_bottom": 0
-            },
-            "top_inclusive": {
-              "below_top": 5
+            "height": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "absolute": 1
+              },
+              "max_inclusive": {
+                "below_top": 1
+              }
             }
           }
         }

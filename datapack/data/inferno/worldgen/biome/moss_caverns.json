@@ -49,9 +49,9 @@
   "spawn_costs": {},
   "carvers": {
     "air": [
-      "minecraft:canyon",
-      "minecraft:cave",
-      "minecraft:crack"
+      "minecraft:prototype_canyon",
+      "minecraft:prototype_cave",
+      "minecraft:prototype_crack"
     ]
   },
   "features": [
