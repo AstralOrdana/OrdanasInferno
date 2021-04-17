@@ -14,7 +14,6 @@ Create Fern texture
 Fix vines texture
 Create lily pad texture
 Create Large Fern texture
-[DONE] Create Moss Druid texture
 Create Pufferfish texture
 Update Colossus texture
 Create Sunstone gemstone texture
@@ -22,10 +21,6 @@ Create Sunstone ore texture (in slate)
 Decite on name for Slate stone type
 Update chiseled slate texture
 Create Seavain blossom texture
-[DONE] Update golden belt item texture
-Create Onyx texture
-Rename Quartzite and other new blocks
-[DONE] Create Redstone Wire texture
 
 
 
@@ -55,6 +50,11 @@ Rename Quartzite and other new blocks
 [DONE] Rename bales properly
 [DONE] Create Quartz Crystals texture
 [DONE] Create Rachite texture
+[DONE] Create Redstone Wire texture
+[DONE] Update golden belt item texture
+[DONE] Create Moss Druid texture
+[DONE] Create Onyx texture
+[DONE] Rename Quartzite and other new blocks
 
 
 
@@ -62,12 +62,19 @@ ________________________________________________________________________________
 **GAME DESIGN & PLANNING**
 
 
-Determine 6th tier armor and tools, decide how orichalcum works
 Decide on details of teleportaion
 Map out boss progression
 Decide use for copper blocks/oxidiation mechanic 
 Decide place in game for Glider mob
 Add fancy boss bars option
+
+
+
+
+*DONE*
+
+
+[DONE] Determine 6th tier armor and tools, decide how orichalcum works
 
 
 
@@ -84,7 +91,6 @@ Code Carnelium Colossus boss
 Major recipe advancemnet update
 Progression advancements
 Code teleportation system
-Code enchanting system
 
 
 
@@ -99,6 +105,7 @@ Code enchanting system
 [DONE] Major recipe update
 [DONE] Create enchanting loot tables
 [DONE] Fix rubber recipe
+[DONE] Code enchanting system
 
 
 
@@ -145,7 +152,7 @@ double check all custom recipes (carnelium forge, soul forge)
 ____________________________________________________________________________________
 **OTHER**
 
-Create Ordana's Inferno branding (logo, in-game title screen, etc)
+[HALF DONE] Create Ordana's Inferno branding (logo, in-game title screen, etc)
 
 
 
