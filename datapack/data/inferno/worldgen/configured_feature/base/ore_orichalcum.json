@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count",
+            "config": {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 8
+              }
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {
+                      "absolute": 150
+                    },
+                    "max_inclusive": {
+                      "absolute": 155
+                    }
+                  }
+                }
+              },
+              "inner": {
+                "type": "minecraft:square",
+                "config": {}
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:scattered_ore",
+        "config": {
+          "size": 16,
+          "discard_chance_on_air_exposure": 0.3,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:block_match",
+                "block": "minecraft:obsidian"
+              },
+              "state": {
+                "Name": "minecraft:ancient_debris"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

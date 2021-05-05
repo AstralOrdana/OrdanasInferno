@@ -98,7 +98,17 @@
       ]
     },
     "features": [
-      [],
+      [
+        "inferno:base/rachte_terrain_0",
+        "inferno:base/rachte_terrain_1",
+        "inferno:base/rachte_terrain_2",
+        "inferno:base/rachite_spikes",
+        "inferno:base/rachite_spikes",
+        "inferno:base/rachite_spikes",
+        "inferno:base/rachite_spikes_large_base",
+        "inferno:base/rachite_spikes_large",
+        "inferno:base/ore_orichalcum"
+      ],
       [],
       [
         "minecraft:basalt_pillar",

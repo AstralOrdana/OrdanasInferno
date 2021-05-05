@@ -43,7 +43,7 @@
                       "block": "minecraft:sand"
                     },
                     "state": {
-                      "Name": "minecraft:clay"
+                      "Name": "minecraft:dead_brain_coral_block"
                     }
                   },
                   {
@@ -52,7 +52,7 @@
                       "block": "minecraft:blackstone"
                     },
                     "state": {
-                      "Name": "minecraft:clay"
+                      "Name": "minecraft:dead_brain_coral_block"
                     }
                   }
                 ]

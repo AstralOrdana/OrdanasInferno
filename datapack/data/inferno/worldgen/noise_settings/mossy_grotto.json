@@ -3,6 +3,8 @@
     "bedrock_floor_position": 0,
     "sea_level": 30,
     "min_surface_level": 0,
+    "ore_veins_enabled": false,
+    "noodle_caves_enabled": true,
     "aquifers_enabled": false,
     "noise_caves_enabled": true,
     "deepslate_enabled": false,

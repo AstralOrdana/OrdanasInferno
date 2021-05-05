@@ -2,18 +2,22 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 2
+      }
+    },
+    "feature": {
       "type": "minecraft:decorated",
       "config": {
-        "outer": {
-          "type": "minecraft:count",
-          "config": {
-            "count": 32
-          }
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
         },
-        "inner": {
+        "feature": {
           "type": "minecraft:decorated",
           "config": {
-            "outer": {
+            "decorator": {
               "type": "minecraft:range",
               "config": {
                 "height": {
@@ -27,26 +31,38 @@
                 }
               }
             },
-            "inner": {
-              "type": "minecraft:decorated",
+            "feature": {
+              "type": "minecraft:vegetation_patch",
               "config": {
-                "outer": {
-                  "type": "minecraft:square",
-                  "config": {}
+                "surface": "floor",
+                "depth": {
+                  "type": "minecraft:constant",
+                  "value": 1
                 },
-                "inner": {
-                  "type": "minecraft:cave_surface",
-                  "config": {
-                    "surface": "floor",
-                    "floor_to_ceiling_search_range": 16
+                "vertical_range": 6,
+                "extra_bottom_block_chance": 0.5,
+                "extra_edge_column_chance": 0.5,
+                "vegetation_chance": 0.1,
+                "xz_radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 9
                   }
-                }
+                },
+                "replaceable": "inferno:volcanic_terrain",
+                "ground_state": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:dead_brain_coral_block"
+                  }
+                },
+                "vegetation_feature": "minecraft:dripleaf"
               }
             }
           }
         }
       }
-    },
-    "feature": "minecraft:dripleaf"
+    }
   }
 }

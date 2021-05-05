@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count_extra",
+            "config": {
+              "count": 0,
+              "extra_count": 1000,
+              "extra_chance": 1
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:constant",
+                    "value": {
+                      "absolute": 145
+                    }
+                  }
+                }
+              },
+              "inner": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "outer": {
+                    "type": "minecraft:square",
+                    "config": {}
+                  },
+                  "inner": {
+                    "type": "minecraft:count_noise_biased",
+                    "config": {
+                      "noise_to_count_ratio": 1,
+                      "noise_factor": 150,
+                      "noise_offset": -0.2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 16,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:block_match",
+                "block": "minecraft:air"
+              },
+              "state": {
+                "Name": "minecraft:obsidian"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

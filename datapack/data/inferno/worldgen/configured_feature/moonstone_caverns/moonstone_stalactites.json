@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count_extra",
+            "config": {
+              "count": 0,
+              "extra_count": 1000,
+              "extra_chance": 1
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:constant",
+                    "value": {
+                      "absolute": 130
+                    }
+                  }
+                }
+              },
+              "inner": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "outer": {
+                    "type": "minecraft:square",
+                    "config": {}
+                  },
+                  "inner": {
+                    "type": "minecraft:count_noise_biased",
+                    "config": {
+                      "noise_to_count_ratio": 1,
+                      "noise_factor": 150,
+                      "noise_offset": -0.1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:netherrack_replace_blobs",
+        "config": {
+          "state": {
+            "Name": "minecraft:amethyst_block"
+          },
+          "target": {
+            "Name": "minecraft:air"
+          },
+          "radius": 0
+        }
+      }
+    }
+  }

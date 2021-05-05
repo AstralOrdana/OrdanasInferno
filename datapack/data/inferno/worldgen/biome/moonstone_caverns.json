@@ -15,7 +15,17 @@
   "carvers": {
   },
   "features": [
-    [],
+    [
+      "inferno:base/rachte_terrain_0",
+      "inferno:base/rachte_terrain_1",
+      "inferno:base/rachte_terrain_2",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes_large_base",
+      "inferno:base/rachite_spikes_large",
+      "inferno:base/ore_orichalcum"
+    ],
     [],
     [],
     [],
@@ -29,6 +39,7 @@
     [
        "inferno:moonstone_caverns/moonstone_crystals",
        "inferno:moonstone_caverns/moonstone_geode",
+       "inferno:moonstone_caverns/moonstone_stalactites",
        "inferno:moonstone_caverns/ore_soul_stone",
        "inferno:soul_sand_valley/ore_anirrum"
     ],
