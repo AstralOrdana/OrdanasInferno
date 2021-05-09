@@ -1,0 +1,72 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"parent": "block/block",
+	"textures": {
+		"top": "block/small_dripleaf_top",
+		"flower": "block/small_dripleaf_flower",
+		"particle": "block/small_dripleaf_top",
+		"stem": "block/small_dripleaf_stem_top"
+	},
+	"elements": [
+		{
+			"from": [4.5, 0, 8],
+			"to": [11.5, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 0, 14, 16], "texture": "#stem"},
+				"south": {"uv": [3, 0, 14, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"from": [4.5, 0, 8],
+			"to": [11.5, 16, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 0, 14, 16], "texture": "#stem"},
+				"south": {"uv": [3, 0, 14, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "Flower",
+			"from": [2, 16, 2],
+			"to": [14, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 16, 2]},
+			"faces": {
+				"up": {"uv": [2, 2, 14, 14], "texture": "#top"},
+				"down": {"uv": [14, 2, 2, 14], "rotation": 180, "texture": "#top"}
+			}
+		},
+		{
+			"name": "Small Flower",
+			"from": [1, 11, 6],
+			"to": [8, 11, 13],
+			"rotation": {"angle": 45, "axis": "z", "origin": [5.5, 11, 10.5]},
+			"faces": {
+				"up": {"uv": [5, 5, 12, 12], "rotation": 90, "texture": "#flower"},
+				"down": {"uv": [12, 5, 5, 12], "rotation": 90, "texture": "#flower"}
+			}
+		},
+		{
+			"name": "Small Flower",
+			"from": [7, 3.5, 5.5],
+			"to": [14, 10.5, 5.5],
+			"rotation": {"angle": 45, "axis": "x", "origin": [9.5, 8, 5.5]},
+			"faces": {
+				"north": {"uv": [5, 5, 12, 12], "texture": "#flower"},
+				"south": {"uv": [12, 5, 5, 12], "texture": "#flower"}
+			}
+		},
+		{
+			"name": "Small Flower",
+			"from": [5, 0.5, 10.5],
+			"to": [12, 7.5, 10.5],
+			"rotation": {"angle": -45, "axis": "x", "origin": [9.5, 5, 10.5]},
+			"faces": {
+				"north": {"uv": [12, 5, 5, 12], "texture": "#flower"},
+				"south": {"uv": [5, 5, 12, 12], "texture": "#flower"}
+			}
+		}
+	]
+}

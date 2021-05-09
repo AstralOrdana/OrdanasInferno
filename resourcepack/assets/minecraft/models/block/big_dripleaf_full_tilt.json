@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"parent": "block/block",
+	"textures": {
+		"top": "block/big_dripleaf_top",
+		"stem": "block/big_dripleaf_stem",
+		"side": "block/big_dripleaf_side"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 10],
+			"to": [11, 8, 10],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 10], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 8, 14, 16], "texture": "#stem"},
+				"south": {"uv": [3, 8, 14, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"from": [5, 0, 10],
+			"to": [11, 8, 10],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 10], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 8, 14, 16], "texture": "#stem"},
+				"south": {"uv": [3, 8, 14, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "petals",
+			"from": [0, 15, -1],
+			"to": [16, 15, 15],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 15, 16]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#top"}
+			}
+		},
+		{
+			"name": "disk",
+			"from": [5, 14, 4],
+			"to": [11, 16, 10],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 15, 16]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 2], "texture": "#side"},
+				"east": {"uv": [6, 0, 12, 2], "texture": "#side"},
+				"south": {"uv": [6, 0, 12, 2], "texture": "#side"},
+				"west": {"uv": [6, 0, 12, 2], "texture": "#side"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#side"},
+				"down": {"uv": [0, 0, 6, 6], "texture": "#side"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [0, 1,
+		{
+			"name": "Drip",
+			"origin": [8, 15, 16],
+			"children": [2, 3]
+		}
+	]
+}
