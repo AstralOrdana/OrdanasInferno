@@ -11,7 +11,7 @@ Create Glider Blood texture
 Create Glider Feather texture
 Update Polished Marble variants
 Create Fern texture
-Fix vines texture
+Add flowers to vines texture
 Create lily pad texture
 Create Large Fern texture
 Create Pufferfish texture
@@ -21,6 +21,7 @@ Create Sunstone ore texture (in slate)
 Decite on name for Slate stone type
 Update chiseled slate texture
 Create Seavain blossom texture
+Rename Orichalcum set and all other new blocks and items properly
 
 
 
@@ -119,7 +120,9 @@ Rewrite biome layout
 fine-tune sunstone spawnrate
 add ruins to the moss dimension
 Create Overgrown Observatory structure
-Add features to the nether ceiling
+Revamp Scrap Pit
+[Half Done] Revamp Moonstone caverns
+[Half Done] Add features to the nether ceiling
 
 
 *DONE*
@@ -139,6 +142,7 @@ Add features to the nether ceiling
 [DONE] Update all geodes
 [DONE] Increase green slate generation rate
 [DONE] Fix mossy grotto generation
+[DONE] Revamp Volcanic Desert
 
 
 

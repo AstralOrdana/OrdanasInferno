@@ -37,11 +37,13 @@
       "inferno:base/rachite"
     ],
     [
-       "inferno:moonstone_caverns/moonstone_crystals",
-       "inferno:moonstone_caverns/moonstone_geode",
+       "inferno:moonstone_caverns/moonstone_cave_large",
+       "inferno:moonstone_caverns/moonstone_cave_small",
+       "inferno:moonstone_caverns/moonstone_cavern_floor_surface",
+       "inferno:moonstone_caverns/moonstone_cavern_roof_surface",
        "inferno:moonstone_caverns/moonstone_stalactites",
        "inferno:moonstone_caverns/ore_soul_stone",
-       "inferno:soul_sand_valley/ore_anirrum"
+       "inferno:moonstone_caverns/ore_anirrum_moonstone"
     ],
     []
   ],
@@ -68,6 +70,6 @@
   "temperature": 2.0,
   "downfall": 0.0,
   "category": "nether",
-  "depth": 0.1,
+  "depth": 0.3,
   "scale": 0.2
 }

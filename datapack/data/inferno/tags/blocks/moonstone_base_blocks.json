@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:netherrack",
+      "minecraft:terracotta",
+      "minecraft:amethyst_block",
+      "minecraft:budding_amethyst"
+    ]
+  }

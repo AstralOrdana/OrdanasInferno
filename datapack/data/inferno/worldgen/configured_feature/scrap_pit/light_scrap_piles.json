@@ -55,12 +55,6 @@
               "data": {
                 "Name": "minecraft:calcite"
               }
-            },
-            {
-              "weight": 16,
-              "data": {
-                "Name": "minecraft:red_sand"
-              }
             }
           ]
         }

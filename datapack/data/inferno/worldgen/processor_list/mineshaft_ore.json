@@ -8,6 +8,18 @@
             "predicate_type": "minecraft:always_true"
           },
           "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:red_stained_glass"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:blackstone",
             "probability": 0.02

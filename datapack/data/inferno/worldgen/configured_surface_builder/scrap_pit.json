@@ -7,7 +7,7 @@
         "Name": "minecraft:calcite"
       },
       "underwater_material": {
-        "Name": "minecraft:red_sand"
+        "Name": "minecraft:calcite"
       }
     },
     "type": "minecraft:nether_forest"

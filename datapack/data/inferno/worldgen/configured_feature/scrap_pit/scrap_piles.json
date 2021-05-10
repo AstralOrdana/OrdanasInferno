@@ -55,12 +55,6 @@
               "data": {
                 "Name": "minecraft:granite"
               }
-            },
-            {
-              "weight": 8,
-              "data": {
-                "Name": "minecraft:air"
-              }
             }
           ]
         }

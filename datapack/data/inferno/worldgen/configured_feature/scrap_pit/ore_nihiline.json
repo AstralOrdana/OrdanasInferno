@@ -42,8 +42,17 @@
                 "targets": [
                   {
                     "target": {
-                      "predicate_type": "minecraft:tag_match",
-                      "tag": "minecraft:base_stone_overworld"
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:calcite"
+                    },
+                    "state": {
+                      "Name": "minecraft:emerald_block"
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:granite"
                     },
                     "state": {
                       "Name": "minecraft:emerald_block"

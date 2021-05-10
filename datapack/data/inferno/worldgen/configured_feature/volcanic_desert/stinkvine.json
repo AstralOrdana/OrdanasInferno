@@ -54,7 +54,7 @@
                 "ground_state": {
                   "type": "minecraft:simple_state_provider",
                   "state": {
-                    "Name": "minecraft:dead_brain_coral_block"
+                    "Name": "minecraft:red_sand"
                   }
                 },
                 "vegetation_feature": "minecraft:dripleaf"

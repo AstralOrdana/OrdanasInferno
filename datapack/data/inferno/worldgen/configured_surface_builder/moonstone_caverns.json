@@ -7,7 +7,7 @@
         "Name": "minecraft:terracotta"
       },
       "underwater_material": {
-        "Name": "minecraft:budding_amethyst"
+        "Name": "minecraft:terracotta"
       }
     },
     "type": "minecraft:nether_forest"
