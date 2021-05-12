@@ -2,18 +2,17 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 0,
+        "extra_count": 1000,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
       "type": "minecraft:decorated",
       "config": {
-        "outer": {
-          "type": "minecraft:count",
-          "config": {
-            "count": {
-              "type": "minecraft:constant",
-              "value": 64
-            }
-          }
-        },
-        "inner": {
+        "decorator": {
           "type": "minecraft:decorated",
           "config": {
             "outer": {
@@ -35,25 +34,19 @@
               }
             }
           }
-        }
-      }
-    },
-    "feature": {
-      "type": "minecraft:ore",
-      "config": {
-        "size": 64,
-        "discard_chance_on_air_exposure": 0,
-        "targets": [
-          {
-            "target": {
-              "predicate_type": "minecraft:block_match",
-              "block": "minecraft:netherrack"
-            },
+        },
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
             "state": {
               "Name": "minecraft:terracotta"
-            }
+            },
+            "target": {
+              "Name": "minecraft:netherrack"
+            },
+            "radius": 16
           }
-        ]
+        }
       }
     }
   }

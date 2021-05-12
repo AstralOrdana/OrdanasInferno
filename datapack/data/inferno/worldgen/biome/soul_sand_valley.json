@@ -43,7 +43,6 @@
         "inferno:base/rachite_spikes_large",
         "inferno:base/ore_orichalcum"
       ],
-      [],
       [
         "minecraft:basalt_pillar",
         "minecraft:basalt_pillar",
@@ -51,14 +50,8 @@
         "inferno:base/scoria",
         "inferno:base/rachite"
       ],
-      [],
-      [],
-      [],
-      [],
       [
         "minecraft:spring_open",
-        "minecraft:glowstone_extra",
-        "minecraft:glowstone",
         "minecraft:patch_fire",
         "minecraft:patch_soul_fire",
         "minecraft:ore_magma",
@@ -68,8 +61,8 @@
         "minecraft:ore_blackstone",
         "inferno:base/ore_gold",
         "inferno:base/ore_quartz",
-        "inferno:soul_sand_valley/ore_soul_stone",
-        "inferno:soul_sand_valley/glowstone_to_moonstone"
+        "inferno:soul_sand_valley/netherrack_to_soulstone",
+        "inferno:soul_sand_valley/moonstone_stalactites_small"
       ],
       [
         "inferno:soul_sand_valley/ore_anirrum",

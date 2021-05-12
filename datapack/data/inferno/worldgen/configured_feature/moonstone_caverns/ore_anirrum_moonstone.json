@@ -55,6 +55,24 @@
               "state": {
                 "Name": "minecraft:clay"
               }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:block_match",
+                "block": "minecraft:soul_soil"
+              },
+              "state": {
+                "Name": "minecraft:clay"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:block_match",
+                "block": "minecraft:soul_sand"
+              },
+              "state": {
+                "Name": "minecraft:clay"
+              }
             }
           ]
         }

@@ -26,26 +26,21 @@
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum"
     ],
-    [],
-    [],
-    [],
-    [],
-    [],
     [
       "minecraft:ore_blackstone",
       "inferno:base/scoria",
       "inferno:base/rachite"
     ],
     [
-       "inferno:moonstone_caverns/moonstone_cave_large",
-       "inferno:moonstone_caverns/moonstone_cave_small",
-       "inferno:moonstone_caverns/moonstone_cavern_floor_surface",
        "inferno:moonstone_caverns/moonstone_cavern_roof_surface",
+       "inferno:moonstone_caverns/moonstone_stalactites_large",
+       "minecraft:basalt_pillar",
+       "minecraft:basalt_pillar",
+       "minecraft:basalt_pillar",
        "inferno:moonstone_caverns/moonstone_stalactites",
-       "inferno:moonstone_caverns/ore_soul_stone",
+       "inferno:soul_sand_valley/netherrack_to_soulstone",
        "inferno:moonstone_caverns/ore_anirrum_moonstone"
-    ],
-    []
+    ]
   ],
   "starts": [
     "inferno:soul_island"
@@ -70,6 +65,6 @@
   "temperature": 2.0,
   "downfall": 0.0,
   "category": "nether",
-  "depth": 0.3,
-  "scale": 0.2
+  "depth": 0.01,
+  "scale": 0.9
 }
