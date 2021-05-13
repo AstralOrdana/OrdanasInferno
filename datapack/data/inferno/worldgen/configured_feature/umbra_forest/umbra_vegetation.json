@@ -6,7 +6,7 @@
       "config": {
         "count": {
           "type": "minecraft:constant",
-          "value": 64
+          "value": 32
         }
       }
     },

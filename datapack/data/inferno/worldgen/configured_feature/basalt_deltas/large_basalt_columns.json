@@ -5,34 +5,22 @@
       "type": "minecraft:decorated",
       "config": {
         "outer": {
-          "type": "minecraft:count",
+          "type": "minecraft:count_multilayer",
           "config": {
-            "count": {
-              "type": "minecraft:constant",
-              "value": 128
-            }
+            "count": 64
           }
         },
         "inner": {
-          "type": "minecraft:decorated",
+          "type": "minecraft:range",
           "config": {
-            "outer": {
-              "type": "minecraft:range",
-              "config": {
-                "height": {
-                  "type": "minecraft:uniform",
-                  "min_inclusive": {
-                    "absolute": 1
-                  },
-                  "max_inclusive": {
-                    "below_top": 1
-                  }
-                }
+            "height": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "absolute": 1
+              },
+              "max_inclusive": {
+                "below_top": 12
               }
-            },
-            "inner": {
-              "type": "minecraft:square",
-              "config": {}
             }
           }
         }
@@ -44,15 +32,15 @@
         "reach": {
           "type": "minecraft:uniform",
           "value": {
-            "min_inclusive": 1,
-            "max_inclusive": 2
+            "min_inclusive": 2,
+            "max_inclusive": 3
           }
         },
         "height": {
           "type": "minecraft:uniform",
           "value": {
-            "min_inclusive": 1,
-            "max_inclusive": 5
+            "min_inclusive": 5,
+            "max_inclusive": 10
           }
         }
       }

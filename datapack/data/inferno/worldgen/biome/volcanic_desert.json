@@ -51,7 +51,9 @@
       [
         "inferno:volcanic_desert/sulfur_beaches",
         "inferno:volcanic_desert/stinkvine",
-        "inferno:volcanic_desert/sulfur_geode"
+        "inferno:volcanic_desert/sulfur_geode",
+        "inferno:volcanic_desert/ochre_fungus",
+        "inferno:volcanic_desert/ochre_roots"
       ],
       [
         "inferno:volcanic_desert/blackstone_base",
@@ -66,11 +68,6 @@
         "inferno:base/ore_quartz",
         "inferno:base/scoria",
         "inferno:base/rachite"
-      ],
-      [
-        "minecraft:spring_lava_double",
-        "minecraft:patch_dead_bush",
-        "minecraft:patch_cactus"
       ]
     ],
     "starts": [
