@@ -6,15 +6,15 @@ execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 20.. run function
 execute as @e[type=minecraft:armor_stand,tag=Orda-NS-ArmorFertilizer] at @s run function inferno:entity/croaker/fertilizer_placement
 
 #PIGLIN KING#
-item entity @e[type=minecraft:vindicator,nbt={HurtTime:0s}] armor.head replace minecraft:emerald{CustomModelData:28005}
-item entity @e[type=minecraft:vindicator,nbt=!{HurtTime:0s}] armor.head replace minecraft:emerald{CustomModelData:28006}
+item replace entity @e[type=minecraft:vindicator,nbt={HurtTime:0s}] armor.head with minecraft:emerald{CustomModelData:28005}
+item replace entity @e[type=minecraft:vindicator,nbt=!{HurtTime:0s}] armor.head with minecraft:emerald{CustomModelData:28006}
 #WANDERING SOUL#
-item entity @e[type=minecraft:vex,nbt={HurtTime:0s},tag=Orda-NS-SoulVex] armor.head replace minecraft:emerald{CustomModelData:28003}
-item entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.head replace minecraft:emerald{CustomModelData:28004}
+item replace entity @e[type=minecraft:vex,nbt={HurtTime:0s},tag=Orda-NS-SoulVex] armor.head with minecraft:emerald{CustomModelData:28003}
+item replace entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.head with minecraft:emerald{CustomModelData:28004}
 
 ###MOB PARTICLES###
 #BEEPER#
-item entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.head replace minecraft:emerald{CustomModelData:28004}
+item replace entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.head with minecraft:emerald{CustomModelData:28004}
 
 
 ###DEMON IDOL###
