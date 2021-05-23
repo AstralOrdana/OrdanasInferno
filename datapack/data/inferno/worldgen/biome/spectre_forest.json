@@ -69,8 +69,7 @@
       [
         "minecraft:spring_lava",
         "inferno:spectre_forest/spectre_fungi",
-        "inferno:spectre_forest/spectre_fungi_ground",
-        "inferno:soul_sand_valley/glowstone_to_moonstone"
+        "inferno:spectre_forest/spectre_fungi_ground"
       ]
     ],
     "starts": [

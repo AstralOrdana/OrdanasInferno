@@ -46,7 +46,7 @@
         "target": {
           "Name": "minecraft:netherrack"
         },
-        "radius": 16
+        "radius": 12
       }
     }
   }

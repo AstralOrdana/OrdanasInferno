@@ -35,6 +35,7 @@
               "type": "minecraft:geode",
               "config": {
                 "blocks": {
+                  "cannot_replace": "minecraft:features_cannot_replace",
                   "filling_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
