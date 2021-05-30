@@ -1,6 +1,6 @@
-execute store result score @s OrdN-S_MoonCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~8 ~2 ~-8 filtered minecraft:lapis_block force
-execute store result score @s OrdN-S_OnixCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~8 ~2 ~-8 filtered minecraft:tinted_glass force
-execute store result score @s OrdN-S_BCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~8 ~2 ~-8 filtered minecraft:beacon force
+execute store result score @s OrdN-S_MoonCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~-8 ~-2 ~-8 filtered minecraft:lapis_block force
+execute store result score @s OrdN-S_OnixCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~-8 ~-2 ~-8 filtered minecraft:tinted_glass force
+execute store result score @s OrdN-S_BCount run clone ~-8 ~-2 ~-8 ~8 ~2 ~8 ~-8 ~-2 ~-8 filtered minecraft:beacon force
 tag @s add enchantme
 
 
