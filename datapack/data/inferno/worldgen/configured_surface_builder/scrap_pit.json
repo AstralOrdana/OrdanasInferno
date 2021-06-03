@@ -1,13 +1,13 @@
 {
     "config": {
       "top_material": {
-        "Name": "minecraft:granite"
+        "Name": "minecraft:waxed_cut_copper"
       },
       "under_material": {
-        "Name": "minecraft:calcite"
+        "Name": "minecraft:waxed_exposed_cut_copper"
       },
       "underwater_material": {
-        "Name": "minecraft:calcite"
+        "Name": "minecraft:waxed_weathered_cut_copper"
       }
     },
     "type": "minecraft:nether_forest"

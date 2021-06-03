@@ -59,8 +59,6 @@
         "minecraft:ore_soul_sand",
         "minecraft:ore_gravel_nether",
         "minecraft:ore_blackstone",
-        "inferno:base/ore_gold",
-        "inferno:base/ore_quartz",
         "inferno:soul_sand_valley/netherrack_to_soulstone",
         "inferno:soul_sand_valley/moonstone_stalactites_small"
       ],

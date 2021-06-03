@@ -1,35 +1,89 @@
 {
-  "type": "minecraft:decorated",
-  "config": {
-    "decorator": {
-      "type": "minecraft:decorated",
-      "config": {
-        "outer": {
-          "type": "minecraft:count",
-          "config": {
-            "count": {
-              "type": "minecraft:constant",
-              "value": 64
-            }
-          }
-        },
-        "inner": {
-          "type": "minecraft:decorated",
-          "config": {
-            "outer": {
-              "type": "minecraft:square",
-              "config": {}
-            },
-            "inner": {
-              "type": "minecraft:range",
-              "config": {
-                "height": {
-                  "type": "minecraft:uniform",
-                  "min_inclusive": {
-                    "absolute": 1
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": 128
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {
+                      "absolute": 1
+                    },
+                    "max_inclusive": {
+                      "below_top": 12
+                    }
+                  }
+                }
+              },
+              "feature": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "decorator": {
+                    "type": "minecraft:decorated",
+                    "config": {
+                      "outer": {
+                        "type": "minecraft:count_noise_biased",
+                        "config": {
+                          "noise_to_count_ratio": 1,
+                          "noise_factor": 125,
+                          "noise_offset": 0
+                        }
+                      },
+                      "inner": {
+                        "type": "minecraft:nope",
+                        "config": {}
+                      }
+                    }
                   },
-                  "max_inclusive": {
-                    "below_top": 1
+                  "feature": {
+                    "type": "minecraft:block_pile",
+                    "config": {
+                      "state_provider": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                          {
+                            "weight": 5,
+                            "data": {
+                              "Name": "minecraft:waxed_oxidized_cut_copper"
+                            }
+                          },
+                          {
+                            "weight": 10,
+                            "data": {
+                              "Name": "minecraft:waxed_weathered_cut_copper"
+                            }
+                          },
+                          {
+                            "weight": 50,
+                            "data": {
+                              "Name": "minecraft:waxed_exposed_cut_copper"
+                            }
+                          },
+                          {
+                            "weight": 50,
+                            "data": {
+                              "Name": "minecraft:waxed_cut_copper"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 }
               }
@@ -37,28 +91,5 @@
           }
         }
       }
-    },
-    "feature": {
-      "type": "minecraft:block_pile",
-      "config": {
-        "state_provider": {
-          "type": "minecraft:weighted_state_provider",
-          "entries": [
-            {
-              "weight": 1,
-              "data": {
-                "Name": "minecraft:calcite"
-              }
-            },
-            {
-              "weight": 1,
-              "data": {
-                "Name": "minecraft:granite"
-              }
-            }
-          ]
-        }
-      }
     }
   }
-}

@@ -48,15 +48,6 @@
                     "state": {
                       "Name": "minecraft:emerald_block"
                     }
-                  },
-                  {
-                    "target": {
-                      "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:granite"
-                    },
-                    "state": {
-                      "Name": "minecraft:emerald_block"
-                    }
                   }
                 ]
               }

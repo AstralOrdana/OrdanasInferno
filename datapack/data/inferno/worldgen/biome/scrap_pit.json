@@ -73,38 +73,21 @@
         "inferno:base/rachite_spikes",
         "inferno:base/rachite_spikes_large_base",
         "inferno:base/rachite_spikes_large",
-        "inferno:base/ore_orichalcum"
-      ],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [
-        "inferno:scrap_pit/large_pipe"
-      ],
-      [
-        "inferno:scrap_pit/ore_scrap_gears",
-        "inferno:scrap_pit/ore_scrap_pipes",
-        "inferno:scrap_pit/light_scrap_piles",
-        "inferno:scrap_pit/scrap_piles",
-        "inferno:scrap_pit/light_scrap_piles",
-        "inferno:scrap_pit/scrap_piles",
-        "inferno:scrap_pit/light_scrap_piles",
-        "inferno:scrap_pit/scrap_piles",
-        "minecraft:patch_fire",
-        "minecraft:ore_magma",
-        "minecraft:spring_closed_double",
-        "inferno:base/ore_gold",
-        "inferno:base/ore_quartz",
-        "inferno:scrap_pit/ore_nihiline",
+        "inferno:base/ore_orichalcum",
         "inferno:base/scoria",
         "inferno:base/rachite"
       ],
       [
-        "minecraft:spring_lava_double",
-        "inferno:scrap_pit/ore_nihiline",
-        "inferno:scrap_pit/scrap_delta"
+        "inferno:scrap_pit/scrap_piles",
+        "inferno:scrap_pit/scrap_piles",
+        "inferno:scrap_pit/scrap_piles",
+        "inferno:scrap_pit/scrap_piles",
+        "inferno:scrap_pit/scrap_piles"
+      ],
+      [
+        "inferno:scrap_pit/scrap_ceiling",
+        "inferno:scrap_pit/ceiling_pipes",
+        "inferno:scrap_pit/floor_pipes"
       ]
     ]
   }

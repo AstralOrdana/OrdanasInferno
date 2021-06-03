@@ -8,11 +8,8 @@
           "type": "minecraft:count",
           "config": {
             "count": {
-              "type": "minecraft:uniform",
-              "value": {
-                "min_inclusive": 4,
-                "max_inclusive": 8
-              }
+              "type": "minecraft:constant",
+              "value": 64
             }
           }
         },
@@ -27,12 +24,12 @@
               "type": "minecraft:range",
               "config": {
                 "height": {
-                  "type": "minecraft:trapezoid",
+                  "type": "minecraft:uniform",
                   "min_inclusive": {
-                    "absolute": 0
+                    "absolute": 1
                   },
                   "max_inclusive": {
-                    "absolute": 128
+                    "below_top": 1
                   }
                 }
               }
@@ -42,21 +39,25 @@
       }
     },
     "feature": {
-      "type": "minecraft:ore",
+      "type": "minecraft:block_pile",
       "config": {
-        "size": 16,
-        "discard_chance_on_air_exposure": 0,
-        "targets": [
-          {
-            "target": {
-              "predicate_type": "minecraft:tag_match",
-              "tag": "minecraft:soul_fire_base_blocks"
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:calcite"
+              }
             },
-            "state": {
-              "Name": "minecraft:clay"
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:granite"
+              }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   }

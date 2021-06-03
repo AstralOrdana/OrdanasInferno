@@ -16,7 +16,7 @@
             "height": {
               "type": "minecraft:uniform",
               "min_inclusive": {
-                "absolute": 1
+                "absolute": 35
               },
               "max_inclusive": {
                 "below_top": 1
@@ -49,7 +49,7 @@
               }
             },
             "valid_base_block": {
-              "Name": "minecraft:granite"
+              "Name": "minecraft:calcite"
             },
             "planted": false
           }

@@ -1,0 +1,155 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": 8
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {
+                      "absolute": 1
+                    },
+                    "max_inclusive": {
+                      "below_top": 12
+                    }
+                  }
+                }
+              },
+              "feature": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "decorator": {
+                    "type": "minecraft:decorated",
+                    "config": {
+                      "outer": {
+                        "type": "minecraft:count_noise_biased",
+                        "config": {
+                          "noise_to_count_ratio": -1,
+                          "noise_factor": 25,
+                          "noise_offset": 0
+                        }
+                      },
+                      "inner": {
+                        "type": "minecraft:cave_surface",
+                        "config": {
+                          "surface": "floor",
+                          "floor_to_ceiling_search_range": 64
+                        }
+                      }
+                    }
+                  },
+                  "feature": {
+                    "type": "minecraft:growing_plant",
+                    "config": {
+                      "direction": "up",
+                      "allow_water": false,
+                      "height_distribution": [
+                        {
+                          "weight": 1,
+                          "data": {
+                            "type": "minecraft:uniform",
+                            "value": {
+                              "min_inclusive": 1,
+                              "max_inclusive": 32
+                            }
+                          }
+                        },
+                        {
+                          "weight": 5,
+                          "data": {
+                            "type": "minecraft:uniform",
+                            "value": {
+                              "min_inclusive": 5,
+                              "max_inclusive": 10
+                            }
+                          }
+                        },
+                        {
+                          "weight": 10,
+                          "data": {
+                            "type": "minecraft:uniform",
+                            "value": {
+                              "min_inclusive": 6,
+                              "max_inclusive": 8
+                            }
+                          }
+                        }
+                      ],
+                      "body_provider": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                          {
+                            "weight": 1,
+                            "data": {
+                              "Name": "minecraft:purpur_pillar",
+                              "Properties": {
+                                "axis": "y"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "head_provider": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                          {
+                            "weight": 5,
+                            "data": {
+                              "Name": "minecraft:waxed_oxidized_copper"
+                            }
+                          },
+                          {
+                            "weight": 10,
+                            "data": {
+                              "Name": "minecraft:waxed_weathered_copper"
+                            }
+                          },
+                          {
+                            "weight": 50,
+                            "data": {
+                              "Name": "minecraft:waxed_exposed_copper"
+                            }
+                          },
+                          {
+                            "weight": 50,
+                            "data": {
+                              "Name": "minecraft:waxed_copper_block"
+                            }
+                          },
+                          {
+                            "weight": 50,
+                            "data": {
+                              "Name": "minecraft:purpur_pillar",
+                              "Properties": {
+                                "axis": "y"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

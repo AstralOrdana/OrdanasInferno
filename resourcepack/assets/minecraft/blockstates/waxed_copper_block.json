@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/carnelium_block"
+      "model": "minecraft:block/waxed_copper_block"
     }
   }
 }
