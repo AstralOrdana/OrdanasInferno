@@ -22,7 +22,7 @@ function inferno:despawning
 ###DEMON IDOL###
 scoreboard players add @e[type=villager,tag=Orda-NS-VillagerDemonIdolON] OrdN-S_DemonIdo 1
 execute as @e[type=villager,tag=Orda-NS-VillagerDemonIdolON] at @s run particle minecraft:soul_fire_flame ~ ~.5 ~ 0.2 0.2 0.2 0 5
-execute as @e[type=villager,tag=Orda-NS-VillagerDemonIdolON,scores={OrdN-S_DemonIdo=5..}] at @s run function inferno:entity/demon/bone_demon/demon_idol_spawns
+execute as @e[type=villager,tag=Orda-NS-VillagerDemonIdolON,scores={OrdN-S_DemonIdo=5..}] at @s run function inferno:entity/demon/bone_demon/demon_idol_sc
 
 ###BEEPER EFFECTS###
 effect give @e[type=minecraft:creeper] minecraft:slow_falling 2 0 true

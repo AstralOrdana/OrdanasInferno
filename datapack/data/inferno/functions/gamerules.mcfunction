@@ -10,3 +10,4 @@ execute if score OrdN_Gr OrdN-G_BossBars matches 1 run tellraw @p ["",{"text":"B
 
 
 tellraw @p {"text":"[RESET TO DEFAULT SETTINGS]","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"/function inferno:gamerules/default"}}
+scoreboard players set OrdN_Gr OrdN-G_Disable 1
