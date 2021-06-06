@@ -2,8 +2,8 @@
 scoreboard players reset $Ordana-NS-FakePlayer OrdN-S_Optimize
 
 ###LIGHTNING ABOVE ROOF###
-execute if entity @a[y=112,dy=1000] if predicate inferno:lightning_strike_chance run function inferno:lightning/spawn_lightning
-execute unless entity @a[y=112,dy=1000] if predicate inferno:lightning_strike_chance_reduced run function inferno:lightning/spawn_lightning
+execute as @r at @s if entity @s[y=112,dy=1000] if predicate inferno:lightning_strike_chance run function inferno:lightning/spawn_lightning
+execute as @r at @s if entity @s[y=0,dy=112] if predicate inferno:lightning_strike_chance_reduced run function inferno:lightning/spawn_lightning
 
 ###Bone Demon###
 execute as @e[tag=Orda-NS-BoneDemon] at @s run function inferno:entity/demon/bone_demon/aicontroller
