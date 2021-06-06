@@ -1,10 +1,13 @@
 {
     "config": {
       "top_material": {
-        "Name": "minecraft:stone"
+        "Name": "minecraft:mycelium",
+        "Properties": {
+          "snowy": "false"
+        }
       },
       "under_material": {
-        "Name": "minecraft:netherrack"
+        "Name": "minecraft:stone"
       },
       "underwater_material": {
         "Name": "minecraft:infested_stone"

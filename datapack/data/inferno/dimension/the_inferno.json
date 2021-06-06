@@ -3,6 +3,7 @@
   "generator": {
     "type": "minecraft:noise",
     "seed": 69,
+    "settings": "inferno:inferno",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "seed": 0,
@@ -46,96 +47,196 @@
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
-            "offset": 0.3
+            "offset": 0.1
           }
         },
         {
-          "biome": "inferno:infested_wastes",
+          "biome": "inferno:nether_wastes",
           "parameters": {
-            "altitude": 0,
-            "temperature": 0.1,
+            "altitude": 0.2,
+            "temperature": 0.2,
             "humidity": 0,
             "weirdness": 0,
-            "offset": 0.4
+            "offset": 0.1
           }
         },
         {
-          "biome": "inferno:crimson_forest",
+          "biome": "inferno:nether_wastes",
           "parameters": {
             "altitude": 0.2,
+            "temperature": -0.2,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "inferno:nether_wastes",
+          "parameters": {
+            "altitude": -0.2,
             "temperature": 0,
-            "humidity": -0.5,
-            "weirdness": -0.5,
-            "offset": 0
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
           }
         },
         {
-          "biome": "inferno:warped_forest",
+          "biome": "inferno:nether_wastes",
           "parameters": {
-            "altitude": 0.2,
-            "temperature": 0.3,
-            "humidity": -0.5,
-            "weirdness": -0.5,
+            "altitude": 0,
+            "temperature": 0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "inferno:nether_wastes",
+          "parameters": {
+            "altitude": 0,
+            "temperature": -0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "inferno:nether_wastes",
+          "parameters": {
+            "altitude": -0.6,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "inferno:nether_wastes",
+          "parameters": {
+            "altitude": 0,
+            "temperature": 0.8,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "inferno:nether_wastes",
+          "parameters": {
+            "altitude": 0,
+            "temperature": -0.8,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "inferno:nether_wastes",
+          "parameters": {
+            "altitude": -0.8,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "inferno:umbra_forest",
+          "parameters": {
+            "altitude": 0.9,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
             "offset": 0
           }
         },
         {
           "biome": "inferno:umbra_forest",
           "parameters": {
-            "altitude": 0.2,
-            "temperature": 0.6,
-            "humidity": -0.5,
-            "weirdness": -0.5,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "inferno:moonstone_caverns",
-          "parameters": {
-            "altitude": -0.2,
-            "temperature": -0.3,
-            "humidity": 0.3,
-            "weirdness": 0.5,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "inferno:soul_sand_valley",
-          "parameters": {
-            "altitude": -0.2,
+            "altitude": 0.7,
             "temperature": 0,
-            "humidity": 0.5,
-            "weirdness": 0.2,
+            "humidity": 0,
+            "weirdness": 0,
             "offset": 0
           }
         },
         {
-          "biome": "inferno:spectre_forest",
+          "biome": "inferno:warped_forest",
           "parameters": {
-            "altitude": -0.2,
-            "temperature": -0.2,
-            "humidity": 0.5,
-            "weirdness": 0.5,
+            "altitude": 0.6,
+            "temperature": -0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:warped_forest",
+          "parameters": {
+            "altitude": 0.4,
+            "temperature": -0.3,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:crimson_forest",
+          "parameters": {
+            "altitude": 0.6,
+            "temperature": 0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:crimson_forest",
+          "parameters": {
+            "altitude": 0.4,
+            "temperature": 0.3,
+            "humidity": 0,
+            "weirdness": 0,
             "offset": 0
           }
         },
         {
           "biome": "inferno:scrap_pit",
           "parameters": {
-            "altitude": -0.2,
-            "temperature": -0.3,
-            "humidity": 0.1,
-            "weirdness": 0.2,
-            "offset": 0.1
+            "altitude": -0.7,
+            "temperature": -0.7,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
           }
         },
         {
-          "biome": "inferno:volcanic_desert",
+          "biome": "inferno:scrap_pit",
           "parameters": {
-            "altitude": -0.3,
-            "temperature": -0.3,
-            "humidity": 0.4,
-            "weirdness": 0.1,
+            "altitude": -0.6,
+            "temperature": -0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:magma_mires",
+          "parameters": {
+            "altitude": -0.4,
+            "temperature": -0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:magma_mires",
+          "parameters": {
+            "altitude": -0.6,
+            "temperature": -0.8,
+            "humidity": 0,
+            "weirdness": 0,
             "offset": 0
           }
         },
@@ -143,24 +244,113 @@
           "biome": "inferno:basalt_deltas",
           "parameters": {
             "altitude": -0.3,
-            "temperature": -0.2,
-            "humidity": 0.1,
-            "weirdness": 0.2,
+            "temperature": -0.3,
+            "humidity": 0,
+            "weirdness": 0,
             "offset": 0
           }
         },
         {
-          "biome": "inferno:magma_mires",
+          "biome": "inferno:volcanic_desert",
           "parameters": {
-            "altitude": -0.2,
-            "temperature": -0.3,
-            "humidity": 0.2,
-            "weirdness": 0.1,
+            "altitude": -0.6,
+            "temperature": -0.4,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:volcanic_desert",
+          "parameters": {
+            "altitude": -0.8,
+            "temperature": -0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:soul_sand_valley",
+          "parameters": {
+            "altitude": -0.8,
+            "temperature": 0.4,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:soul_sand_valley",
+          "parameters": {
+            "altitude": -0.4,
+            "temperature": 0.3,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:spectre_forest",
+          "parameters": {
+            "altitude": -0.4,
+            "temperature": 0.8,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:spectre_forest",
+          "parameters": {
+            "altitude": -0.3,
+            "temperature": 0.4,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:moonstone_caverns",
+          "parameters": {
+            "altitude": -0.4,
+            "temperature": 0.4,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:moonstone_caverns",
+          "parameters": {
+            "altitude": -0.6,
+            "temperature": 0.6,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:moonstone_caverns",
+          "parameters": {
+            "altitude": -0.7,
+            "temperature": 0.7,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "inferno:moonstone_caverns",
+          "parameters": {
+            "altitude": -0.8,
+            "temperature": 0.8,
+            "humidity": 0,
+            "weirdness": 0,
             "offset": 0
           }
         }
       ]
-    },
-    "settings": "inferno:inferno"
+    }
   }
-} 
+}

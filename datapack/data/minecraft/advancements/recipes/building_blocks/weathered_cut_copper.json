@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oxidized_copper"
+            "items": ["minecraft:oxidized_copper"]
           }
         ]
       }

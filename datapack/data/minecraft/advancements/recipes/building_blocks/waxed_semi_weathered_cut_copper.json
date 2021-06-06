@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:waxed_weathered_copper"
+            "items": ["minecraft:waxed_weathered_copper"]
           }
         ]
       }

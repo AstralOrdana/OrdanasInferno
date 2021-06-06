@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:mutton"
+            "items": ["minecraft:mutton"]
           }
         ]
       }

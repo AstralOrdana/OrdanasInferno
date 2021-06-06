@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:redstone"
+            "items": ["minecraft:redstone"]
           }
         ]
       }
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:hay_block"
+            "items": ["minecraft:hay_block"]
           }
         ]
       }

@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:crying_obsidian"
+            "items": ["minecraft:crying_obsidian"]
           }
         ]
       }

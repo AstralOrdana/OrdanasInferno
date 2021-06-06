@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:chance",
       "config": {
-        "chance": 2
+        "chance": 4
       }
     },
     "feature": {
@@ -21,12 +21,12 @@
               "type": "minecraft:range",
               "config": {
                 "height": {
-                  "type": "minecraft:trapezoid",
+                  "type": "minecraft:uniform",
                   "min_inclusive": {
-                    "absolute": 0
+                    "above_bottom": 30
                   },
                   "max_inclusive": {
-                    "absolute": 112
+                    "below_top": 30
                   }
                 }
               }
@@ -74,32 +74,32 @@
                   "invalid_blocks": "minecraft:geode_invalid_blocks"
                 },
                 "layers": {
-                  "filling": 1.2,
-                  "inner_layer": 1.2,
-                  "middle_layer": 2.2,
-                  "outer_layer": 3.2
+                  "filling": 0.2,
+                  "inner_layer": 0.2,
+                  "middle_layer": 1.2,
+                  "outer_layer": 2.2
                 },
                 "crack": {
                   "generate_crack_chance": 0.5,
                   "base_crack_size": 2,
                   "crack_point_offset": 2
                 },
-                "noise_multiplier": 0.4,
+                "noise_multiplier": 0.3,
                 "use_potential_placements_chance": 0.35,
                 "use_alternate_layer0_chance": 0.2,
                 "placements_require_layer0_alternate": true,
                 "outer_wall_distance": {
                   "type": "minecraft:uniform",
                   "value": {
-                    "min_inclusive": 4,
-                    "max_inclusive": 6
+                    "min_inclusive": 1,
+                    "max_inclusive": 3
                   }
                 },
                 "distribution_points": {
                   "type": "minecraft:uniform",
                   "value": {
-                    "min_inclusive": 3,
-                    "max_inclusive": 5
+                    "min_inclusive": 2,
+                    "max_inclusive": 4
                   }
                 },
                 "point_offset": {

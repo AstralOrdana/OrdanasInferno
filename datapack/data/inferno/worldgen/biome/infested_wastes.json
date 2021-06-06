@@ -30,7 +30,7 @@
       },
       "particle": {
         "options": {
-          "type": "minecraft:warped_spore"
+          "type": "minecraft:spore"
         },
         "probability": 0.01628
       }
@@ -87,14 +87,13 @@
         "inferno:infested_wastes/limestone_ore",
         "inferno:infested_wastes/limestone_piles",
         "inferno:infested_wastes/limestone_hive",
+        "inferno:infested_wastes/leechblood_fungi",
+        "inferno:infested_wastes/blood_ceiling",
+        "inferno:infested_wastes/blood_pools",
+        "inferno:infested_wastes/blood_drips",
         "inferno:base/scoria",
         "inferno:base/rachite"
       ],
-      [],
-      [],
-      [],
-      [],
-      [],
       [
         "minecraft:spring_open",
         "minecraft:patch_fire",
