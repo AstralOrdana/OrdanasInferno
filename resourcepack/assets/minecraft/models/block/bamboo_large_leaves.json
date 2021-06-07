@@ -3,8 +3,7 @@
 	"textures": {
 		"top": "block/bamboo_large_leaves_top",
 		"side": "block/bamboo_large_leaves_side",
-		"bottom": "block/bamboo_large_bottom",
-		"particle": "block/bamboo_large_leaves_bottom"
+		"bottom": "block/bamboo_large_bottom"
 	},
 	"elements": [
 		{
