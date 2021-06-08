@@ -107,7 +107,8 @@
         "inferno:base/rachite_spikes",
         "inferno:base/rachite_spikes_large_base",
         "inferno:base/rachite_spikes_large",
-        "inferno:base/ore_orichalcum"
+        "inferno:base/ore_orichalcum",
+        "inferno:base/orichalcum_cluster"
       ],
       [],
       [

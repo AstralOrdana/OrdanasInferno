@@ -39,21 +39,19 @@
         }
       },
       "feature": {
-        "type": "minecraft:scattered_ore",
+        "type": "minecraft:block_pile",
         "config": {
-          "size": 16,
-          "discard_chance_on_air_exposure": 0.3,
-          "targets": [
-            {
-              "target": {
-                "predicate_type": "minecraft:block_match",
-                "block": "minecraft:obsidian"
-              },
-              "state": {
-                "Name": "minecraft:crying_obsidian"
+          "state_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:lightning_rod",
+              "Properties": {
+                "facing": "up",
+                "powered": "false",
+                "waterlogged": "false"
               }
             }
-          ]
+          }
         }
       }
     }
