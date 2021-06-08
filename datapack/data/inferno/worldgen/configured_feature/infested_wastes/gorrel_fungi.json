@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 256
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 10
+                  },
+                  "max_inclusive": {
+                    "below_top": 12
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 50,
+                    "noise_offset": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:huge_red_mushroom",
+          "config": {
+            "cap_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:red_mushroom_block",
+                "Properties": {
+                  "west": "true",
+                  "up": "true",
+                  "south": "true",
+                  "north": "true",
+                  "east": "true",
+                  "down": "false"
+                }
+              }
+            },
+            "stem_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:mushroom_stem",
+                "Properties": {
+                  "up": "false",
+                  "down": "false",
+                  "north": "true",
+                  "south": "true",
+                  "east": "true",
+                  "west": "true"
+                }
+              }
+            },
+            "foliage_radius": 1
+          }
+        }
+      }
+    }
+  }
+}
