@@ -279,13 +279,19 @@
   "block.minecraft.jungle_leaves": "Mossberry Leaves",
   "item.minecraft.jungle_boat": "Mossy Mossberry Boat",
 
+  "block.minecraft.cut_copper": "Scrap Metal",
+  "block.minecraft.exposed_cut_copper": "Exposed Scrap Metal",
+  "block.minecraft.weathered_cut_copper": "Weathered Scrap Metal",
+  "block.minecraft.oxidized_cut_copper": "Nihiline Scrap",
+  
+  "block.minecraft.waxed_cut_copper": "Waxed Scrap Metal",
+  "block.minecraft.waxed_exposed_cut_copper": "Waxed Exposed Scrap Metal",
+  "block.minecraft.waxed_weathered_cut_copper": "Waxed Weathered Scrap Metal",
+  "block.minecraft.waxed_oxidized_cut_copper": "Waxed Nihiline Scrap",
+  
   "block.minecraft.granite": "Gear Scraps",
-  "block.minecraft.calcite": "Pipe Scraps",
-  "block.minecraft.red_sand": "Loose Scraps",
-  "block.minecraft.emerald_block": "Nihiline Scraps",
 
   "block.minecraft.purpur_pillar": "Pipe Block",
-  "block.minecraft.dead_fire_coral_block": "Metal Plate Block",
   "block.minecraft.purpur_block": "Pipeline Block",
   "block.minecraft.dead_bubble_coral_block": "Clockwork Block",
   "block.minecraft.dark_oak_trapdoor": "Vent Grate",
@@ -349,6 +355,7 @@
   "item.minecraft.stone_pickaxe": "Blackstone Pickaxe",
   "item.minecraft.stone_hoe": "Blackstone Hoe",
 
+  "item.minecraft.raw_copper": "Raw Carnelium",
   "item.minecraft.brick": "Carnelium Ingot",
   "item.minecraft.shulker_shell": "Carnelium Nugget",
   "item.minecraft.rabbit_hide": "Carnelium Rubble",
@@ -360,7 +367,7 @@
 
   "block.minecraft.end_rod": "Anirrum Chain",
 
-  "item.minecraft.clay_ball": "Inert Anirrum Scrap",
+  "item.minecraft.raw_iron": "Inert Anirrum Scrap",
   "item.minecraft.iron_ingot": "Anirrum Ingot",
   "item.minecraft.iron_nugget": "Anirrum Nugget",
   "item.minecraft.iron_helmet": "Anirrum Helmet",
