@@ -39,7 +39,7 @@
           "type": "minecraft:netherrack_replace_blobs",
           "config": {
             "state": {
-              "Name": "minecraft:andesite"
+              "Name": "minecraft:cobblestone"
             },
             "target": {
               "Name": "minecraft:netherrack"

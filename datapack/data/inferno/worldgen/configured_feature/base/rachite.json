@@ -64,7 +64,7 @@
           {
             "target": {
               "predicate_type": "minecraft:block_match",
-              "block": "minecraft:andesite"
+              "block": "minecraft:cobblestone"
             },
             "state": {
               "Name": "minecraft:obsidian"

@@ -14,7 +14,7 @@
         "max_inclusive": 5
       }
     },
-    "replaceable": "minecraft:lush_plants_replaceable",
+    "replaceable": "minecraft:base_stone_nether",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

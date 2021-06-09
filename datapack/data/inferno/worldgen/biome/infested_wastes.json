@@ -66,11 +66,7 @@
         "charge": 1
       }
     },
-    "carvers": {
-      "air": [
-          "minecraft:prototype_canyon"
-      ]
-    },
+    "carvers": {},
     "features": [
       [
         "inferno:base/rachte_terrain_0",

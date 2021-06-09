@@ -52,7 +52,7 @@
                   "alternate_inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:cobblestone"
+                      "Name": "minecraft:andesite"
                     }
                   },
                   "middle_layer_provider": {
@@ -61,7 +61,7 @@
                       {
                         "weight": 2,
                         "data": {
-                          "Name": "minecraft:cobblestone"
+                          "Name": "minecraft:andesite"
                         }
                       },
                       {
@@ -78,7 +78,7 @@
                       {
                         "weight": 1,
                         "data": {
-                          "Name": "minecraft:cobblestone"
+                          "Name": "minecraft:andesite"
                         }
                       },
                       {

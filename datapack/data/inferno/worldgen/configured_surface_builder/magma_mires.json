@@ -2,10 +2,10 @@
     "type": "minecraft:nether_forest",
     "config": {
       "top_material": {
-        "Name": "minecraft:andesite"
+        "Name": "minecraft:cobblestone"
       },
       "under_material": {
-        "Name": "minecraft:andesite",
+        "Name": "minecraft:cobblestone",
         "Properties": {
           "axis": "y"
         }
