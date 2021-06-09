@@ -7,10 +7,10 @@
     "precipitation": "none",
     "category": "nether",
     "effects": {
-      "sky_color": 37314,
-      "fog_color": 2333555,
-      "water_color": 2333555,
-      "water_fog_color": 1205064,
+      "sky_color": 13683878,
+      "fog_color": 13683878,
+      "water_color": 13683878,
+      "water_fog_color": 13683878,
       "ambient_sound": "minecraft:ambient.warped_forest.loop",
       "mood_sound": {
         "sound": "minecraft:ambient.warped_forest.mood",
@@ -30,9 +30,9 @@
       },
       "particle": {
         "options": {
-          "type": "minecraft:spore"
+          "type": "minecraft:mycelium"
         },
-        "probability": 0.01628
+        "probability": 0.1
       }
     },
     "starts": [
@@ -88,6 +88,7 @@
         "inferno:infested_wastes/limestone_ore",
         "inferno:infested_wastes/limestone_piles",
         "inferno:infested_wastes/limestone_hive",
+        "inferno:infested_wastes/small_mushrooms",
         "inferno:infested_wastes/leechblood_fungi",
         "inferno:infested_wastes/gorrel_fungi",
         "inferno:infested_wastes/blood_ceiling",

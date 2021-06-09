@@ -12,6 +12,7 @@
   "block.minecraft.clay": "Anirrum Scraps",
   "block.minecraft.iron_ore": "Carnelium Ore",
   "block.minecraft.coal_ore": "Poor Carnelium Ore",
+  "block.minecraft.crying_obsidian": "Orichalcum ore",
 
   "block.minecraft.amethyst_block": "Moonstone Cluster Block",
 
@@ -214,6 +215,7 @@
   "block.minecraft.deepslate_lapis_ore": "Quartz Cluster Block",
   "block.minecraft.andesite": "Quartzite",
   "block.minecraft.obsidian": "Rachite",
+  "block.minecraft.ancient_debris": "Rachite Bricks",
   "block.minecraft.tinted_glass": "Onyx",
 
   "item.minecraft.redstone": "Carnelium Node",
@@ -317,6 +319,7 @@
   "block.minecraft.slime_block": "Rubber Block",
   "block.minecraft.honey_block": "Coagulated Blood",
 
+  "block.minecraft.dried_kelp_block": "Scorched Soul Sand",
   "block.minecraft.ender_chest": "Soul Chest",
   "block.minecraft.smoker": "Carnelium Forge",
   "block.minecraft.blast_furnace": "Soul Forge",
