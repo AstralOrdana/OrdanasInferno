@@ -10,34 +10,34 @@
   "block.minecraft.hay_block": "Pumice",
 
   "block.minecraft.clay": "Anirrum Scraps",
-  "block.minecraft.lapis_ore": "Moonstone Ore",
   "block.minecraft.iron_ore": "Carnelium Ore",
   "block.minecraft.coal_ore": "Poor Carnelium Ore",
 
-  "block.minecraft.amethyst_cluster": "Moonstone Cluster",
-  "block.minecraft.small_amethyst_bud": "Small Moonstone Bud",
-  "block.minecraft.medium_amethyst_bud": "Medium Moonstone Bud",
-  "block.minecraft.large_amethyst_bud": "Large Moonstone Bud",
+  "block.minecraft.amethyst_block": "Moonstone Cluster Block",
 
-  "block.minecraft.amethyst_block": "Moonstone",
-  "block.minecraft.budding_amethyst": "Budding Moonstone",
+  "block.minecraft.amethyst_cluster": "Sulfur Cluster",
+  "block.minecraft.small_amethyst_bud": "Small Sulfur Bud",
+  "block.minecraft.medium_amethyst_bud": "Medium Sulfur Bud",
+  "block.minecraft.large_amethyst_bud": "Large Sulfur Bud",
+  "block.minecraft.red_sand": "Powdered Sulfur",
+  "block.minecraft.budding_amethyst": "Sulfur Cluster Block",
+  "block.minecraft.small_dripleaf": "Small Cinderlily",
+  "block.minecraft.big_dripleaf": "Big Cinderlily",
+  "block.minecraft.cactus": "Cindercap Fungus",
+  "block.minecraft.dead_bush": "Withered Cinder Roots",
+  "item.minecraft.cooked_mutton": "Grilled Cindercap",
 
   "block.minecraft.end_stone": "Spectre Nylium",
   "block.minecraft.chorus_flower": "Spectre Fungus",
   "block.minecraft.chorus_plant": "Spectre Stem",
   "block.minecraft.sea_pickle": "Spectre Roots",
-  "block.minecraft.red_mushroom": "Spectre Spore",
-
-  "block.minecraft.cactus": "Cindercap Fungus",
-  "block.minecraft.dead_bush": "Withered Cinder Roots",
-  "item.minecraft.cooked_mutton": "Grilled Cindercap",
 
   "block.minecraft.grass_block": "Umbra Nylium",
   "block.minecraft.bamboo": "Umbra Fungus",
   "block.minecraft.grass": "Umbra Roots",
   "block.minecraft.tall_grass": "Tall Umbra Roots",
-  "block.minecraft.brown_mushroom": "Umbra Spore",
   "block.minecraft.dandelion": "Umbrabloom",
+  "item.minecraft.glow_berries": "Shadow Berries",
 
   "block.minecraft.dark_oak_leaves": "Spectre Root Bale",
   "block.minecraft.spruce_leaves": "Umbra Root Bale",
@@ -45,9 +45,13 @@
   "block.minecraft.birch_leaves": "Warped Root Bale",
   "block.minecraft.oak_leaves": "Withered Cinder Root Bale",
 
-  "block.minecraft.mushroom_stem": "Spore stem",
-  "block.minecraft.red_mushroom_block": "Spectre Wartspore",
-  "block.minecraft.brown_mushroom_block": "Umbra Wartspore",
+  "block.minecraft.mycelium": "Vile Nylium",
+  "block.minecraft.red_mushroom": "Gorrel Mushroom",
+  "block.minecraft.brown_mushroom": "Leechblood Mushroom",
+
+  "block.minecraft.mushroom_stem": "Mushroom Stem",
+  "block.minecraft.red_mushroom_block": "Gorrel Mushroom Block",
+  "block.minecraft.brown_mushroom_block": "Leechblood Mushroom Block",
 
   "block.minecraft.bookshelf": "Mossy Mossberry Bookshelf",
   "block.minecraft.fletching_table": "Mossberry Bookshelf",
@@ -176,10 +180,10 @@
   "block.minecraft.infested_chiseled_stone_bricks": "Chiseled Limestone Nest",
 
   "block.minecraft.dripstone_block": "Basalt",
-  "block.minecraft.pointed_dripstone": "Basalt Pillar",
+  "block.minecraft.pointed_dripstone": "Basalt Column",
 
-  "block.minecraft.andesite": "Scoria",
-  "block.minecraft.andesite_slab": "Scoria Slab",
+  "block.minecraft.cobblestone": "Scoria",
+  "block.minecraft.cobblestone_slab": "Scoria Slab",
   "block.minecraft.andesite_stairs": "Scoria Stairs",
   "block.minecraft.andesite_wall": "Scoria Wall",
   "block.minecraft.polished_andesite": "Polished Scoria",
@@ -191,6 +195,8 @@
   "block.minecraft.polished_granite_stairs": "Polished Scoria Brick Stairs",
   "block.minecraft.mossy_cobblestone_wall": "Polished Scoria Brick Wall",
   "block.minecraft.end_stone_bricks": "Chiseled Polished Scoria",
+  "block.minecraft.end_stone_brick_slab": "Slider Block",
+  "block.minecraft.end_stone_brick_stairs": "Stairider Block",
   
   "block.minecraft.deepslate": "Slate",
   "block.minecraft.cobbled_deepslate_slab": "Slate Slab",
@@ -206,7 +212,7 @@
   "block.minecraft.chiseled_deepslate": "Chiseled Polished Slate",
 
   "block.minecraft.deepslate_lapis_ore": "Quartz Cluster Block",
-  "block.minecraft.cobblestone": "Quartzite",
+  "block.minecraft.andesite": "Quartzite",
   "block.minecraft.obsidian": "Rachite",
   "block.minecraft.tinted_glass": "Onyx",
 
@@ -278,31 +284,38 @@
   "block.minecraft.jungle_trapdoor": "Mossy Mossberry Trapdoor",
   "block.minecraft.jungle_leaves": "Mossberry Leaves",
   "item.minecraft.jungle_boat": "Mossy Mossberry Boat",
-
-  "block.minecraft.cut_copper": "Scrap Metal",
-  "block.minecraft.exposed_cut_copper": "Exposed Scrap Metal",
-  "block.minecraft.weathered_cut_copper": "Weathered Scrap Metal",
-  "block.minecraft.oxidized_cut_copper": "Nihiline Scrap",
-  
-  "block.minecraft.waxed_cut_copper": "Waxed Scrap Metal",
-  "block.minecraft.waxed_exposed_cut_copper": "Waxed Exposed Scrap Metal",
-  "block.minecraft.waxed_weathered_cut_copper": "Waxed Weathered Scrap Metal",
-  "block.minecraft.waxed_oxidized_cut_copper": "Waxed Nihiline Scrap",
   
   "block.minecraft.granite": "Gear Scraps",
-
-  "block.minecraft.purpur_pillar": "Pipe Block",
+  "block.minecraft.purpur_pillar": "Carnelium Pipe",
   "block.minecraft.purpur_block": "Pipeline Block",
   "block.minecraft.dead_bubble_coral_block": "Clockwork Block",
   "block.minecraft.dark_oak_trapdoor": "Vent Grate",
 
-
-  "block.minecraft.prismarine": "Block of Anirrum",
+  "block.minecraft.copper_block": "Block of Carnelium",
   "block.minecraft.lapis_block": "Block of Moonstone",
-  "block.minecraft.diamond_block": "Nihiline Block",
-  "block.minecraft.honey_block": "Coagulated Blood",
-  "block.minecraft.waxed_copper_block": "Block of Carnelium",
+  "block.minecraft.prismarine": "Block of Anirrum",
+  "block.minecraft.diamond_block": "Block of Nihiline",
+  "block.minecraft.netherite_block": "Block of Orichalcum",
+
+  "block.minecraft.exposed_copper": "Exposed Carnelium",
+  "block.minecraft.weathered_copper": "Weathered Carnelium",
+  "block.minecraft.oxidized_copper": "Corroded Carnelium",
+  "block.minecraft.waxed_copper_block": "Sealed Carnelium",
+  "block.minecraft.waxed_exposed_copper": "Sealed Exposed Carnelium",
+  "block.minecraft.waxed_weathered_copper": "Sealed Weathered Carnelium",
+  "block.minecraft.waxed_oxidized_copper": "Sealed Corroded Carnelium",
+
+  "block.minecraft.cut_copper_block": "Scrap Metal",
+  "block.minecraft.exposed_cut_copper": "Dirty Scrap Metal",
+  "block.minecraft.weathered_cut_copper": "Changing Scrap Metal",
+  "block.minecraft.oxidized_cut_copper": "Altered Scrap Metal",
+  "block.minecraft.waxed_cut_copper_block": "Sealed Scrap Metal",
+  "block.minecraft.waxed_exposed_cut_copper": "Sealed Dirty Scrap Metal",
+  "block.minecraft.waxed_weathered_cut_copper": "Sealed Changing Scrap Metal",
+  "block.minecraft.waxed_oxidized_cut_copper": "Sealed Altered Scrap Metal",
+
   "block.minecraft.slime_block": "Rubber Block",
+  "block.minecraft.honey_block": "Coagulated Blood",
 
   "block.minecraft.ender_chest": "Soul Chest",
   "block.minecraft.smoker": "Carnelium Forge",
@@ -338,7 +351,6 @@
   "block.minecraft.iron_trapdoor": "Carnelium Trapdoor",
   "block.minecraft.chain": "Carnelium Chain",
   "block.minecraft.waxed_cut_copper_slab": "Carnelium Slab",
-  "block.minecraft.waxed_cut_copper": "Cut Carnelium",
 
   "block.minecraft.dragon_wall_head": "Soul Serpent Wall Head",
   "block.minecraft.dragon_head": "Soul Serpent Head",
@@ -356,6 +368,7 @@
   "item.minecraft.stone_hoe": "Blackstone Hoe",
 
   "item.minecraft.raw_copper": "Raw Carnelium",
+  "block.minecraft.raw_copper_block": "Block of Raw Carnelium",
   "item.minecraft.brick": "Carnelium Ingot",
   "item.minecraft.shulker_shell": "Carnelium Nugget",
   "item.minecraft.rabbit_hide": "Carnelium Rubble",
@@ -366,6 +379,7 @@
   "item.minecraft.iron_horse_armor": "Carnelium Horse Armor",
 
   "block.minecraft.end_rod": "Anirrum Chain",
+  "block.minecraft.raw_iron_block": "Block of Anirrum Scrap",
 
   "item.minecraft.raw_iron": "Inert Anirrum Scrap",
   "item.minecraft.iron_ingot": "Anirrum Ingot",
@@ -393,6 +407,22 @@
   "item.minecraft.diamond_pickaxe": "Nihiline Pickaxe",
   "item.minecraft.diamond_axe": "Nihiline Axe",
   "item.minecraft.diamond_hoe": "Nihiline Hoe",
+
+  "block.minecraft.raw_gold_block": "Block of Raw Orichalcum",
+  "block.minecraft.lightning_rod": "Orichalcum Cluster",
+
+  "item.minecraft.netherite_scrap": "Raw Orichalcum",
+  "item.minecraft.netherite_ingot": "Orichalcum Ingot",
+  "item.minecraft.netherite_helmet": "Orichalcum Helmet",
+  "item.minecraft.netherite_chestplate": "Orichalcum Chestplate",
+  "item.minecraft.netherite_leggings": "Orichalcum Leggings",
+  "item.minecraft.netherite_boots": "Orichalcum Boots",
+
+  "item.minecraft.netherite_sword": "Orichalcum Sword",
+  "item.minecraft.netherite_shovel": "Orichalcum Shovel",
+  "item.minecraft.netherite_pickaxe": "Orichalcum Pickaxe",
+  "item.minecraft.netherite_axe": "Orichalcum Axe",
+  "item.minecraft.netherite_hoe": "Orichalcum Hoe",
 
   "item.minecraft.golden_helmet": "Golden Crown",
   "item.minecraft.golden_chestplate": "Golden Amulet",
@@ -427,8 +457,8 @@
   "item.minecraft.wheat_seeds": "Turnip seeds",
 
   "item.minecraft.charcoal": "Magmatic Rock",
-  "item.minecraft.lapis_lazuli": "Moonstone Crystal",
-  "item.minecraft.enchanted_book": "Enchanted Moonstone Crystal",
+  "item.minecraft.lapis_lazuli": "Moonstone",
+  "item.minecraft.enchanted_book": "Enchanted Moonstone",
 
   "item.minecraft.feather": "Wither Leaf",
   "item.minecraft.stick": "Stem Fiber",
@@ -589,7 +619,7 @@
   "subtitles.item.armor.equip_chain": "Carnelium armor clangs",
   "subtitles.item.armor.equip_iron": "Anirrum armor clanks",
   "subtitles.item.armor.equip_diamond": "Nihiline armor clangs",
-  "subtitles.item.armor.equip_netherite": "Netherite armor clanks",
+  "subtitles.item.armor.equip_netherite": "Orichalcum armor clanks",
   "subtitles.item.armor.equip_elytra": "Fly Wings rustle",
   "subtitles.item.armor.equip_gold": "Gold accesory clinks",
 
