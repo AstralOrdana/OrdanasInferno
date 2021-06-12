@@ -27,3 +27,6 @@ execute as @a at @s if entity @e[type=#inferno:bosses,distance=..100] if score O
 execute as @a[scores={OrdN-S_RClick=1..,OrdN-S_Sneak=1..}] at @s unless entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{custom:1b}}}] anchored eyes run function inferno:moonstone_wand
 scoreboard players set @a OrdN-S_Sneak 0
 scoreboard players set @a OrdN-S_RClick 0
+
+###PIPE SPEED###
+execute as @a at @s run function inferno:pipespeed/base

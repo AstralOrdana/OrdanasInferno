@@ -22,6 +22,7 @@ scoreboard objectives add OrdN-S_Sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add OrdN-G_BossBars dummy
 scoreboard objectives add OrdN-G_Transform dummy
 scoreboard objectives add OrdN-G_Disable dummy
+scoreboard objectives add OrdN-S_PipeSuc dummy
 
 ###ORDANA's INFERNO Intro###
 execute unless score OrdN_Gr OrdN-G_Disable matches 0.. run schedule function inferno:gamerules 6t
