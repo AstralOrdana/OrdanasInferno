@@ -7,10 +7,10 @@
     "precipitation": "none",
     "category": "nether",
     "effects": {
-      "sky_color": 7254527,
-      "fog_color": 7430012,
-      "water_color": 4159204,
-      "water_fog_color": 4341314,
+      "sky_color": 7364424,
+      "fog_color": 7364424,
+      "water_color": 7364424,
+      "water_fog_color": 7364424,
       "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
       "mood_sound": {
         "sound": "minecraft:ambient.basalt_deltas.mood",
@@ -32,7 +32,7 @@
         "options": {
           "type": "minecraft:cloud"
         },
-        "probability": 0.01
+        "probability": 0.007
       }
     },
     "starts": [

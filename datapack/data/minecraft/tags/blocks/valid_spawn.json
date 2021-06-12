@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:podzol",
+    "minecraft:soul_sand",
+    "minecraft:netherrack",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:terracotta"
+  ]
+}

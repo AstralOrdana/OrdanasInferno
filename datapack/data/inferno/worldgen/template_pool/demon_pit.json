@@ -5,7 +5,7 @@
       {	
         "weight": 1,
         "element": {
-          "location": "inferno:demon_fortress/pit",
+          "location": "inferno:demon_fortress/demon_pit",
           "processors": "inferno:fortress_degradation",
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
