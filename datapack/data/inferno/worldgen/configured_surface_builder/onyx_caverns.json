@@ -1,0 +1,14 @@
+{
+  "config": {
+      "top_material": {
+        "Name": "minecraft:tinted_glass"
+        },
+    "under_material": {
+      "Name": "minecraft:terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:terracotta"
+    }
+  },
+  "type": "minecraft:soul_sand_valley"
+}

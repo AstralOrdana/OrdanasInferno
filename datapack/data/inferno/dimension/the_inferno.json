@@ -411,7 +411,7 @@
           }
         },
         {
-          "biome": "inferno:moonstone_caverns",
+          "biome": "inferno:onyx_caverns",
           "parameters": {
             "altitude": 0,
             "temperature": -0.9,
@@ -421,7 +421,7 @@
           }
         },
         {
-          "biome": "inferno:moonstone_caverns",
+          "biome": "inferno:onyx_caverns",
           "parameters": {
             "altitude": 0,
             "temperature": -0.8,
