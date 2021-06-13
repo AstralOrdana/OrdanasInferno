@@ -49,7 +49,7 @@
       [],
       [
         "inferno:basalt_deltas/pumice_piles",
-        "minecraft:delta"
+        "inferno:basalt_deltas/basalt_delta"
       ],
       [
         "inferno:basalt_deltas/small_basalt_columns",
@@ -57,8 +57,8 @@
       ],
       [],
       [
-        "minecraft:basalt_blobs",
-        "minecraft:blackstone_blobs",
+        "inferno:basalt_deltas/basalt_blobs",
+        "inferno:basalt_deltas/blackstone_blobs",
         "minecraft:spring_delta",
         "minecraft:patch_fire",
         "minecraft:patch_soul_fire",

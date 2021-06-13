@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": 40
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {
+                      "above_bottom": 30
+                    },
+                    "max_inclusive": {
+                      "below_top": 10
+                    }
+                  }
+                }
+              },
+              "inner": {
+                "type": "minecraft:square",
+                "config": {}
+              }
+            }
+          },
+          "feature": {
+            "type": "minecraft:delta_feature",
+            "config": {
+              "contents": {
+                "Name": "minecraft:lava",
+                "Properties": {
+                  "level": "0"
+                }
+              },
+              "rim": {
+                "Name": "minecraft:magma_block"
+              },
+              "size": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 3,
+                  "max_inclusive": 7
+                }
+              },
+              "rim_size": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
