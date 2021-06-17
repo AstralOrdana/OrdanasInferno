@@ -1,0 +1,69 @@
+{
+    "name": "inferno:piglin_keep",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:piglin_keep/piglin_keep_dungeon_hog_sty",
+          "processors": "inferno:keep_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:piglin_keep/piglin_keep_dungeon_corner",
+          "processors": "inferno:keep_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 8,
+        "element": {
+          "location": "inferno:piglin_keep/piglin_keep_dungeon_corridor",
+          "processors": "inferno:keep_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 5,
+        "element": {
+          "location": "inferno:piglin_keep/piglin_keep_dungeon_long_corridor",
+          "processors": "inferno:keep_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 5,
+        "element": {
+          "location": "inferno:piglin_keep/piglin_keep_dungeon_crops",
+          "processors": "inferno:crop_age",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 5,
+        "element": {
+          "location": "inferno:piglin_keep/piglin_keep_dungeon_lava_cross",
+          "processors": "inferno:keep_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "inferno:piglin_keep/piglin_keep_dungeon_dead_end",
+          "processors": "inferno:keep_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

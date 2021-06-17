@@ -1,0 +1,307 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:potatoes",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:potatoes",
+              "Properties": {
+                "age": "1"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:potatoes",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:potatoes",
+              "Properties": {
+                "age": "2"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:potatoes",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:potatoes",
+              "Properties": {
+                "age": "3"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:potatoes",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:potatoes",
+              "Properties": {
+                "age": "4"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:potatoes",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:potatoes",
+              "Properties": {
+                "age": "5"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:potatoes",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:potatoes",
+              "Properties": {
+                "age": "6"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:potatoes",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:potatoes",
+              "Properties": {
+                "age": "7"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:nether_wart",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:nether_wart",
+              "Properties": {
+                "age": "1"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:nether_wart",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:nether_wart",
+              "Properties": {
+                "age": "2"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:nether_wart",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:nether_wart",
+              "Properties": {
+                "age": "3"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:wheat",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:wheat",
+              "Properties": {
+                "age": "1"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:wheat",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:wheat",
+              "Properties": {
+                "age": "2"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:wheat",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:wheat",
+              "Properties": {
+                "age": "3"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:wheat",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:wheat",
+              "Properties": {
+                "age": "4"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:wheat",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:wheat",
+              "Properties": {
+                "age": "5"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:wheat",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:wheat",
+              "Properties": {
+                "age": "6"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:wheat",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:wheat",
+              "Properties": {
+                "age": "7"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:blackstone",
+              "probability": 0.3
+            },
+            "output_state": {
+              "Name": "minecraft:cracked_polished_blackstone_bricks"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:blackstone",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:polished_blackstone_bricks"
+            }
+          }
+        ]
+      }
+    ]
+  }
