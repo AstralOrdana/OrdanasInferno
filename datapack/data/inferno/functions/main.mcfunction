@@ -30,3 +30,7 @@ scoreboard players set @a OrdN-S_RClick 0
 
 ###PIPE SPEED###
 execute as @a at @s run function inferno:pipespeed/base
+
+###BRAMBLES###
+execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ blue_orchid run effect give @s poison 2 0
+execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ blue_orchid run effect give @s weakness 10 0
