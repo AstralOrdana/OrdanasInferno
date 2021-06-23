@@ -44,7 +44,8 @@
     ]
   ],
   "starts": [
-    "inferno:soul_island"
+    "inferno:soul_island",
+    "inferno:soul_temple"
   ],
   "spawners": {
     "monster": [],

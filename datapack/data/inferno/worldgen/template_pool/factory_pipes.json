@@ -136,15 +136,6 @@
               "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
-      },
-      {	
-        "weight": 1,
-        "element": {
-          "location": "inferno:pipeline/storage_room",
-          "processors": "inferno:pipe_degradation",
-              "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
       }
     ]
   }

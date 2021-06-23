@@ -1,13 +1,13 @@
 {
     "config": {
         "top_material": {
-          "Name": "minecraft:amethyst_block"
+          "Name": "minecraft:sea_lantern"
           },
       "under_material": {
         "Name": "minecraft:terracotta"
       },
       "underwater_material": {
-        "Name": "minecraft:budding_amethyst"
+        "Name": "minecraft:sea_lantern"
       }
     },
     "type": "minecraft:nether_forest"

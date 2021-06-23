@@ -70,7 +70,8 @@
     ],
     "starts": [
       "minecraft:nether_fossil",
-      "inferno:soul_island"
+      "inferno:soul_island",
+      "inferno:soul_temple"
     ],
     "spawners": {
       "monster": [

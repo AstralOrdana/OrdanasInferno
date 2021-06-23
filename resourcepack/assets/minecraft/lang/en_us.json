@@ -14,7 +14,7 @@
   "block.minecraft.coal_ore": "Poor Carnelium Ore",
   "block.minecraft.crying_obsidian": "Orichalcum ore",
 
-  "block.minecraft.amethyst_block": "Moonstone Cluster Block",
+  "block.minecraft.sea_lantern": "Moonstone Cluster Block",
 
   "block.minecraft.amethyst_cluster": "Sulfur Cluster",
   "block.minecraft.small_amethyst_bud": "Small Sulfur Bud",
@@ -307,11 +307,11 @@
   "block.minecraft.waxed_weathered_copper": "Sealed Weathered Carnelium",
   "block.minecraft.waxed_oxidized_copper": "Sealed Corroded Carnelium",
 
-  "block.minecraft.cut_copper_block": "Scrap Metal",
+  "block.minecraft.cut_copper": "Scrap Metal",
   "block.minecraft.exposed_cut_copper": "Dirty Scrap Metal",
   "block.minecraft.weathered_cut_copper": "Changing Scrap Metal",
   "block.minecraft.oxidized_cut_copper": "Altered Scrap Metal",
-  "block.minecraft.waxed_cut_copper_block": "Sealed Scrap Metal",
+  "block.minecraft.waxed_cut_copper": "Sealed Scrap Metal",
   "block.minecraft.waxed_exposed_cut_copper": "Sealed Dirty Scrap Metal",
   "block.minecraft.waxed_weathered_cut_copper": "Sealed Changing Scrap Metal",
   "block.minecraft.waxed_oxidized_cut_copper": "Sealed Altered Scrap Metal",
@@ -353,7 +353,6 @@
   "block.minecraft.iron_bars": "Carnelium Bars",
   "block.minecraft.iron_trapdoor": "Carnelium Trapdoor",
   "block.minecraft.chain": "Carnelium Chain",
-  "block.minecraft.waxed_cut_copper_slab": "Carnelium Slab",
 
   "block.minecraft.dragon_wall_head": "Soul Serpent Wall Head",
   "block.minecraft.dragon_head": "Soul Serpent Head",

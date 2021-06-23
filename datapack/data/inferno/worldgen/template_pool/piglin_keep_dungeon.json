@@ -3,7 +3,7 @@
     "fallback": "minecraft:empty",
     "elements": [
       {	
-        "weight": 1,
+        "weight": 9,
         "element": {
           "location": "inferno:piglin_keep/piglin_keep_dungeon_hog_sty",
           "processors": "inferno:keep_degradation",
@@ -12,7 +12,7 @@
         }
       },
       {	
-        "weight": 1,
+        "weight": 5,
         "element": {
           "location": "inferno:piglin_keep/piglin_keep_dungeon_corner",
           "processors": "inferno:keep_degradation",
@@ -30,7 +30,7 @@
         }
       },
       {	
-        "weight": 5,
+        "weight": 7,
         "element": {
           "location": "inferno:piglin_keep/piglin_keep_dungeon_long_corridor",
           "processors": "inferno:keep_degradation",
@@ -39,7 +39,7 @@
         }
       },
       {	
-        "weight": 5,
+        "weight": 3,
         "element": {
           "location": "inferno:piglin_keep/piglin_keep_dungeon_crops",
           "processors": "inferno:crop_age",
@@ -48,7 +48,7 @@
         }
       },
       {	
-        "weight": 5,
+        "weight": 3,
         "element": {
           "location": "inferno:piglin_keep/piglin_keep_dungeon_lava_cross",
           "processors": "inferno:keep_degradation",

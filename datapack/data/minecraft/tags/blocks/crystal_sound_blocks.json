@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-      "minecraft:amethyst_block",
+      "minecraft:sea_lantern",
       "minecraft:lapis_block"
     ]
   }

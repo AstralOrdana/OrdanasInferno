@@ -94,13 +94,13 @@
                     "body_provider": {
                       "type": "minecraft:simple_state_provider",
                       "state": {
-                        "Name": "minecraft:amethyst_block"
+                        "Name": "minecraft:sea_lantern"
                       }
                     },
                     "head_provider": {
                       "type": "minecraft:simple_state_provider",
                       "state": {
-                        "Name": "minecraft:amethyst_block",
+                        "Name": "minecraft:sea_lantern",
                         "Properties": {
                           "waterlogged": "false"
                         }

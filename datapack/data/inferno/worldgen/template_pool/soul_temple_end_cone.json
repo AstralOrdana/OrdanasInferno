@@ -1,0 +1,24 @@
+{
+    "name": "inferno:island",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 33,
+        "element": {
+          "location": "inferno:soul_temple/soul_temple_top_cone",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 66,
+        "element": {
+          "location": "inferno:soul_temple/soul_temple_cap_cone",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

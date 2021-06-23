@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:amethyst_block",
+              "name": "minecraft:sea_lantern",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
