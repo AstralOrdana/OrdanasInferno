@@ -30,7 +30,7 @@
         }
       },
       {
-        "weight": 9,
+        "weight": 13,
         "element": {
           "location": "inferno:soul_temple/soul_temple_stairs_tunnel",
           "processors": "minecraft:empty",

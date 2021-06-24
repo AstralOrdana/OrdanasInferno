@@ -12,7 +12,7 @@
         }
       },
       {
-        "weight": 3,
+        "weight": 5,
         "element": {
           "location": "inferno:soul_temple/soul_temple_cross_hub",
           "processors": "minecraft:empty",
@@ -21,7 +21,7 @@
         }
       },
       {
-        "weight": 5,
+        "weight": 3,
         "element": {
           "location": "inferno:soul_temple/soul_temple_side_tower",
           "processors": "minecraft:empty",
