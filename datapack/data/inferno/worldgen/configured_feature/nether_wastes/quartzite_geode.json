@@ -82,7 +82,7 @@
                         }
                       },
                       {
-                        "weight": 3,
+                        "weight": 6,
                         "data": {
                           "Name": "minecraft:netherrack"
                         }
@@ -91,6 +91,12 @@
                         "weight": 2,
                         "data": {
                           "Name": "minecraft:nether_quartz_ore"
+                        }
+                      },
+                      {
+                        "weight": 2,
+                        "data": {
+                          "Name": "minecraft:lapis_ore"
                         }
                       }
                     ]
