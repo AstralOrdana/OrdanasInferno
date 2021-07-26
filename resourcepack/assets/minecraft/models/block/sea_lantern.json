@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/sea_lantern_top",
-    "side": "minecraft:block/sea_lantern"
-  }
-}
