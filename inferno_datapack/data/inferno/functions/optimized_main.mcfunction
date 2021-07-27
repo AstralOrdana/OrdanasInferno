@@ -75,3 +75,8 @@ execute as @e[type=minecraft:vindicator,tag=Orda-NS-Kinglin] run data merge enti
 ###soul schorched###
 execute as @e[type=#inferno:scorchable] at @s if block ~ ~0.25 ~ minecraft:soul_fire run function inferno:soulfire
 execute as @e[nbt=!{ActiveEffects:[{Id:26b}]}, type=#inferno:scorchable] run function inferno:soulfirent
+
+###soul heart
+#dread effect
+execute as @e[tag=soulheart] at @s run function inferno:dread/main
+execute as @a[scores={OrdN-S_Dread=1..}] run function inferno:dread/remove_dread
