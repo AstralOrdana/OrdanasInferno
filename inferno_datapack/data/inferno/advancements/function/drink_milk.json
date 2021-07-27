@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "inferno:dread/drink_milk"
+  }
+}
