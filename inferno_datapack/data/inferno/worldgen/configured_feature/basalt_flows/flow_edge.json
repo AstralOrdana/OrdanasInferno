@@ -1,0 +1,109 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": 16
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "outer": {
+                    "type": "minecraft:count_noise_biased",
+                    "config": {
+                      "noise_to_count_ratio": 1,
+                      "noise_factor": 75,
+                      "noise_offset": 0.4
+                    }
+                  },
+                  "inner": {
+                    "type": "minecraft:count_noise_biased",
+                    "config": {
+                      "noise_to_count_ratio": -1,
+                      "noise_factor": 75,
+                      "noise_offset": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:decorated",
+                "config": {
+                  "outer": {
+                    "type": "minecraft:decorated",
+                    "config": {
+                      "outer": {
+                        "type": "minecraft:range",
+                        "config": {
+                          "height": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": {
+                              "above_bottom": 0
+                            },
+                            "max_inclusive": {
+                              "below_top": 0
+                            }
+                          }
+                        }
+                      },
+                      "inner": {
+                        "type": "minecraft:nope",
+                        "config": {}
+                      }
+                    }
+                  },
+                  "inner": {
+                    "type": "minecraft:cave_surface",
+                    "config": {
+                      "surface": "floor",
+                      "floor_to_ceiling_search_range": 16
+                    }
+                  }
+                }
+              },
+              "feature": {
+                "type": "minecraft:block_pile",
+                "config": {
+                  "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 75,
+                        "data": {
+                          "Name": "minecraft:andesite"
+                        }
+                      },
+                      {
+                        "weight": 25,
+                        "data": {
+                          "Name": "minecraft:smooth_basalt"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

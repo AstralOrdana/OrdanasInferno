@@ -401,7 +401,7 @@
           }
         },
         {
-          "biome": "inferno:moonstone_caverns",
+          "biome": "inferno:basalt_flows",
           "parameters": {
             "altitude": 0,
             "temperature": 0.8,
@@ -411,7 +411,7 @@
           }
         },
         {
-          "biome": "inferno:moonstone_caverns",
+          "biome": "inferno:basalt_flows",
           "parameters": {
             "altitude": 0,
             "temperature": -0.9,
