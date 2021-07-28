@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-	      "functions": [
+              "functions": [
                 {
                   "function": "minecraft:set_count",
                   "count": {
@@ -37,13 +37,13 @@
                     "type": "minecraft:uniform"
                   }
                 }
-	      ],
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:rabbit_hide"
+              "name": "minecraft:shulker_shell"
             }
           ]
         }

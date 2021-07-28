@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "GGG",
+    "OGO",
     "GSG",
     "OOO"
   ],
   "key": {
     "S": {
-      "item": "minecraft:nether_star"
+      "item": "minecraft:emerald"
     },
     "G": {
       "item": "minecraft:glass"
     },
     "O": {
-      "item": "minecraft:crying_obsidian"
+      "item": "minecraft:clay_ball"
     }
   },
   "result": {

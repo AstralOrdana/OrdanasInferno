@@ -20,6 +20,7 @@
   "block.minecraft.small_amethyst_bud": "Small Sulfur Bud",
   "block.minecraft.medium_amethyst_bud": "Medium Sulfur Bud",
   "block.minecraft.large_amethyst_bud": "Large Sulfur Bud",
+  "item.minecraft.popped_chorus_fruit": "Sulfur",
   "block.minecraft.red_sand": "Powdered Sulfur",
   "block.minecraft.budding_amethyst": "Sulfur Cluster Block",
   "block.minecraft.small_dripleaf": "Small Cinderlily",
@@ -214,9 +215,13 @@
 
   "block.minecraft.deepslate_lapis_ore": "Quartz Cluster Block",
   "block.minecraft.andesite": "Quartzite",
+
+  "item.minecraft.clay_ball": "Demon Quartz",
+  "block.minecraft.tinted_glass": "Block of Demon Quartz",
+  "block.minecraft.lapis_ore": "Demon Quartz Ore",
+
   "block.minecraft.obsidian": "Rachite",
   "block.minecraft.ancient_debris": "Rachite Bricks",
-  "block.minecraft.tinted_glass": "Onyx",
 
   "item.minecraft.redstone": "Carnelium Node",
   "block.minecraft.repeater": "Carnelium Repeater",
@@ -460,7 +465,7 @@
   "item.minecraft.lapis_lazuli": "Moonstone",
   "item.minecraft.enchanted_book": "Enchanted Moonstone",
 
-  "item.minecraft.feather": "Wither Leaf",
+  "item.minecraft.feather": "Feather",
   "item.minecraft.stick": "Stem Fiber",
   "item.minecraft.slime_ball": "Rubber ball",
   "item.minecraft.fermented_spider_eye": "Maggot Eggs",
@@ -473,7 +478,6 @@
 
   "item.minecraft.nautilus_shell": "Scrap Gear",
   "item.minecraft.scute": "Scrap Plate",
-  "item.minecraft.popped_chorus_fruit": "Scrap Pipe",
   "item.minecraft.ink_sac": "Glider Blood",
 
   "item.minecraft.slime_spawn_egg": "Spawn Ghost Cocoon",

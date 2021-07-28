@@ -26,7 +26,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:brick",
+          "name": "minecraft:copper_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",

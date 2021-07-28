@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " S ",
-    "SGS",
-    " S "
+    "CCC",
+    "CCC",
+    "CCC"
   ],
   "key": {
-    "G": {
-      "item": "minecraft:glass"
-    },
-    "S": {
-      "item": "minecraft:ink_sac"
+    "C": {
+      "item": "minecraft:clay_ball"
     }
   },
   "result": {
     "item": "minecraft:tinted_glass",
-    "count": 2
+    "count": 1
   }
 }

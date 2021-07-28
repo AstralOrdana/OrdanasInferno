@@ -2,28 +2,28 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:copper_ingot"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:copper_ingot"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:copper_ingot"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:copper_ingot"
     },
     {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:amethyst_shard"
     },
     {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:amethyst_shard"
     },
     {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:amethyst_shard"
     },
     {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:amethyst_shard"
     }
   ],
   "result": {

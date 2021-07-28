@@ -6,11 +6,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:bricks"
+            "item": "minecraft:copper_block"
         }
     },
     "result": {
-        "item": "minecraft:brick",
+        "item": "minecraft:copper_ingot",
         "count": 9
     }
 }

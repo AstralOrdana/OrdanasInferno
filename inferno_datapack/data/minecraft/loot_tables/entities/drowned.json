@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brick"
+          "name": "minecraft:copper_ingot"
         }
       ],
       "conditions": [
