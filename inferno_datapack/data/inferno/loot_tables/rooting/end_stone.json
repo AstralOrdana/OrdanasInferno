@@ -30,6 +30,11 @@
           },
           {
             "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:lapis_lazuli"
+          },
+          {
+            "type": "minecraft:item",
             "weight": 10,
             "name": "minecraft:soul_sand"
           },

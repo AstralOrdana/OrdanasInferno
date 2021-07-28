@@ -177,6 +177,7 @@
   "block.minecraft.stone_brick_stairs": "Polished Limestone Brick Stairs",
   "block.minecraft.stone_brick_wall": "Polished Limestone Brick Wall",
   "block.minecraft.chiseled_stone_bricks": "Chiseled Polished Limestone",
+  "block.minecraft.honeycomb_block": "Flesh Block",
 
   "block.minecraft.infested_stone": "Limestone Nest",
   "block.minecraft.infested_mossy_stone_bricks": "Polished Limestone Nest",
@@ -452,8 +453,8 @@
   "item.minecraft.baked_potato": "Toasted Crimson Yam",
   "item.minecraft.poisonous_potato": "Rotten Yam",
   "item.minecraft.pumpkin_pie": "Truffles",
-  "item.minecraft.wheat_seeds": "Umbra Turnip",
-  "item.minecraft.beetroot_soup": "Turnip Soup",
+  "item.minecraft.wheat_seeds": "Umbra Fennel",
+  "item.minecraft.beetroot_soup": "Fennel Soup",
   "item.minecraft.honey_bottle": "Bottle of Demon Blood",
   "item.minecraft.chicken": "Raw Croaker",
   "item.minecraft.cooked_chicken": "Cooked Croaker",

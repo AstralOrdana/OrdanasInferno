@@ -15,6 +15,11 @@
           },
           {
             "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:fermented_spider_eye"
+          },
+          {
+            "type": "minecraft:item",
             "weight": 20,
             "name": "minecraft:dirt"
           },

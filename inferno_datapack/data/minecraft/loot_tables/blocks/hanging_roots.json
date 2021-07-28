@@ -16,7 +16,7 @@
               }
             }
           ],
-          "name": "minecraft:grass"
+          "name": "minecraft:hanging_roots"
         },
         {
           "type": "minecraft:item",
@@ -39,7 +39,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "minecraft:wheat_seeds"
+          "name": "minecraft:beetroot"
         }
       ]
     }
