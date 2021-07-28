@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
   "pattern": [
     "#",
-    "X",
-    "X"
+    "W",
+    "W"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:glass_pane"
+    "W": {
+      "item": "minecraft:copper_ingot"
     },
-    "X": {
-      "item": "minecraft:gold_ingot"
+    "#": {
+      "item": "minecraft:tinted_glass"
     }
   },
   "result": {
-    "item": "minecraft:spyglass"
+    "item": "minecraft:spyglass",
+    "count": 1
   }
 }

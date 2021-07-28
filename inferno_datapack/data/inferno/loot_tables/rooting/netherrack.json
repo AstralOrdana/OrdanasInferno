@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "minecraft:netherrack"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "minecraft:dirt"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:beetroot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:carrot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:potato"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:wheat_seeds"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:gold_nugget"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    ]
+  }
+  

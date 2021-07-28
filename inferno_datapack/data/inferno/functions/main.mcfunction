@@ -34,3 +34,6 @@ execute as @a at @s run function inferno:pipespeed/base
 ###BRAMBLES###
 execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ blue_orchid run effect give @s poison 2 0
 execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ blue_orchid run effect give @s weakness 10 0
+
+execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ dead_bush run effect give @s wither 2 0
+execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ dead_bush run effect give @s weakness 10 0
