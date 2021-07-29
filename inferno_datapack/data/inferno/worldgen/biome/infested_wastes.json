@@ -92,7 +92,8 @@
         "inferno:infested_wastes/blood_drips",
         "inferno:infested_wastes/blood_veins",
         "inferno:base/scoria",
-        "inferno:base/rachite"
+        "inferno:base/rachite",
+        "inferno:base/ore_blackstone"
       ],
       [
         "minecraft:spring_open",

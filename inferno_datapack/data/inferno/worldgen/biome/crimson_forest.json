@@ -107,7 +107,8 @@
       "inferno:crimson_forest/ore_gold",
       "inferno:base/ore_quartz",
       "inferno:base/scoria",
-      "inferno:base/rachite"
+      "inferno:base/rachite",
+      "inferno:base/ore_blackstone"
     ],
     [
       "minecraft:spring_lava",

@@ -40,7 +40,7 @@
               "Name": "minecraft:slime_block"
             },
             "rim": {
-              "Name": "minecraft:waxed_exposed_copper"
+              "Name": "minecraft:waxed_oxidized_cut_copper"
             },
             "size": {
               "type": "minecraft:uniform",

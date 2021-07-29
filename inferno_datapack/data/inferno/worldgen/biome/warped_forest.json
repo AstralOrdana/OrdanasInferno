@@ -44,11 +44,6 @@
         "inferno:base/ore_orichalcum",
         "inferno:base/orichalcum_cluster"
       ],
-      [],
-      [],
-      [],
-      [],
-      [],
       [
         "inferno:warped_forest/warped_deltas"
       ],
@@ -65,7 +60,8 @@
         "inferno:base/ore_gold",
         "inferno:base/ore_quartz",
         "inferno:base/scoria",
-        "inferno:base/rachite"
+        "inferno:base/rachite",
+        "inferno:base/ore_blackstone"
       ],
       [
         "minecraft:spring_lava",

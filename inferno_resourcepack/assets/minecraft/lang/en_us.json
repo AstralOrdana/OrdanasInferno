@@ -231,6 +231,7 @@
   "block.minecraft.comparator": "Carnelium Comparator",
   "block.minecraft.redstone_torch": "Carnelium Capacitator",
   "block.minecraft.redstone_block": "Carnelium Power Cell",
+  "block.minecraft.sculk_sensor": "Carnelium Resonator",
   
   "block.minecraft.iron_block": "Colossus Building Block",
   "item.minecraft.ender_eye": "Prototype Energy Core",
@@ -378,7 +379,7 @@
 
   "item.minecraft.raw_copper": "Raw Carnelium",
   "block.minecraft.raw_copper_block": "Block of Raw Carnelium",
-  "item.minecraft.brick": "Carnelium Ingot",
+  "item.minecraft.copper_ingot": "Carnelium Ingot",
   "item.minecraft.shulker_shell": "Carnelium Nugget",
   "item.minecraft.rabbit_hide": "Carnelium Rubble",
   "item.minecraft.chainmail_helmet": "Carnelium Helmet",
@@ -464,7 +465,7 @@
   "item.minecraft.pumpkin_seeds": "Bone Gourd Seeds",
   "item.minecraft.melon_seeds": "Nether Melon Seeds",
 
-  "item.minecraft.charcoal": "Magmatic Rock",
+  "item.minecraft.coal": "Magmatic Rock",
   "item.minecraft.lapis_lazuli": "Moonstone",
   "item.minecraft.enchanted_book": "Enchanted Moonstone",
 

@@ -53,7 +53,8 @@
       "inferno:nether_wastes/quartzite_geode",
       "inferno:base/scoria",
       "inferno:nether_wastes/scoria",
-      "inferno:base/rachite"
+      "inferno:base/rachite",
+      "inferno:base/ore_blackstone"
     ],
     [
       "minecraft:spring_lava"

@@ -54,8 +54,8 @@
         "salt": 0
       },
       "minecraft:bastion_remnant": {
-        "spacing": 14,
-        "separation": 4,
+        "spacing": 8,
+        "separation": 2,
         "salt": 0
       },
       "minecraft:pillager_outpost": {
