@@ -1,7 +1,7 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "block/polished_andesite",
+        "particle": "block/blackstone",
         "base": "block/blackstone",
         "lever": "block/lever"
     },

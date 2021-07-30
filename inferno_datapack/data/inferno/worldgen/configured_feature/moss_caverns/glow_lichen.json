@@ -41,6 +41,12 @@
               },
               {
                 "Name": "minecraft:sandstone"
+              },
+              {
+                "Name": "minecraft:deepslate",
+                "Properties": {
+                  "axis": "y"
+                }
               }
             ]
           }

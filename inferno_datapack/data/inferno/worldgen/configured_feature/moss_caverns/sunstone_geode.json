@@ -55,7 +55,7 @@
                   "alternate_inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:sea_lantern"
+                      "Name": "minecraft:deepslate_diamond_ore"
                     }
                   },
                   "middle_layer_provider": {
@@ -75,7 +75,7 @@
                   },
                   "inner_placements": [
                     {
-                      "Name": "minecraft:sea_lantern"
+                      "Name": "minecraft:deepslate_diamond_ore"
                     }
                   ]
                 },

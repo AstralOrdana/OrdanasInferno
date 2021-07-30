@@ -18,10 +18,7 @@
       "probability": 0.001
     }
   },
-  "starts": [
-    "minecraft:ocean_ruin_cold",
-    "minecraft:ocean_ruin_warm"
-  ],
+  "starts": [],
   "spawners": {
     "water_ambient": [
       {
@@ -55,28 +52,21 @@
   },
   "features": [
     [
-      "inferno:moss_caverns/water_pockets",
-      "inferno:moss_caverns/diorite_to_podzol",
       "minecraft:spring_water",
       "minecraft:spring_water",
       "minecraft:spring_water",
-      "inferno:moss_caverns/ore_slate",
-      "inferno:moss_caverns/azurite_geode"
-    ],
-    [
-      "inferno:moss_caverns/mossbloom_tree",
-      "inferno:moss_caverns/mossbloom_tree_vines",
-      "inferno:moss_caverns/mossball_tree",
-      "inferno:moss_caverns/mossberry_bush",
+      "inferno:moss_caverns/sunstone_geode",
+      "inferno:moss_caverns/ore_terradite",
+      "inferno:moss_caverns/mossberry_tree",
       "inferno:moss_caverns/ferns",
+      "inferno:moss_caverns/glow_lichen",
       "inferno:moss_caverns/seamoss",
-      "inferno:moss_caverns/moss_raft",
-      "minecraft:kelp_cold",
-      "minecraft:seagrass_swamp"
+      "minecraft:seagrass_swamp",
+      "inferno:moss_caverns/large_mossberry_tree"
     ],
     [
-      "inferno:moss_caverns/glow_lichen",
-      "inferno:moss_caverns/moss_blobs"
+      "inferno:moss_caverns/kelp",
+      "minecraft:kelp_cold"
     ],
     [],
     []

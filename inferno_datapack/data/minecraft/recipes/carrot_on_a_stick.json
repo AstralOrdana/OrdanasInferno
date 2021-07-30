@@ -1,18 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# ",
-    " X"
+    "Q",
+    "C",
+    "R"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:fishing_rod"
+    "Q": {
+      "item": "minecraft:lapis_lazuli"
     },
-    "X": {
-      "item": "minecraft:carrot"
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
     }
   },
   "result": {
-    "item": "minecraft:carrot_on_a_stick"
+    "item": "minecraft:carrot_on_a_stick",
+    "count": 1
   }
 }

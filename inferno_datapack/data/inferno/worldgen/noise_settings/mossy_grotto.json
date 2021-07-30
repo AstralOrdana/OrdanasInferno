@@ -1,58 +1,61 @@
 {
-    "bedrock_roof_position": 384,
-    "bedrock_floor_position": 0,
-    "sea_level": 30,
-    "min_surface_level": 0,
-    "ore_veins_enabled": false,
-    "noodle_caves_enabled": true,
-    "aquifers_enabled": false,
-    "noise_caves_enabled": true,
-    "deepslate_enabled": false,
-    "disable_mob_generation": false,
-    "default_block": {
-      "Name": "minecraft:sandstone"
+  "bedrock_roof_position": 384,
+  "bedrock_floor_position": 0,
+  "sea_level": 30,
+  "min_surface_level": 0,
+  "disable_mob_generation": false,
+  "noise_caves_enabled": true,
+  "noodle_caves_enabled": true,
+  "aquifers_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false,
+  "default_block": {
+    "Name": "minecraft:deepslate",
+    "Properties": {
+      "axis": "y"
+    }
+  },
+  "default_fluid": {
+    "Name": "minecraft:water",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "min_y": 0,
+    "height": 144,
+    "density_factor": 0,
+    "density_offset": 0.001,
+    "size_horizontal": 2,
+    "size_vertical": 2,
+    "simplex_surface_noise": false,
+    "random_density_offset": false,
+    "island_noise_override": false,
+    "amplified": false,
+    "sampling": {
+      "xz_scale": 2,
+      "y_scale": 3,
+      "xz_factor": 150,
+      "y_factor": 50
     },
-    "default_fluid": {
-      "Name": "minecraft:water",
-      "Properties": {
-        "level": "0"
-      }
+    "bottom_slide": {
+      "target": 300,
+      "size": 1,
+      "offset": 0
     },
-    "noise": {
-      "min_y": 0,
-      "height": 144,
-      "density_factor": 0,
-      "density_offset": 0.001,
-      "size_horizontal": 2,
-      "size_vertical": 2,
-      "simplex_surface_noise": false,
-      "random_density_offset": false,
-      "island_noise_override": false,
-      "amplified": false,
-      "sampling": {
-        "xz_scale": 2,
-        "y_scale": 3,
-        "xz_factor": 150,
-        "y_factor": 50
-      },
-      "bottom_slide": {
-        "target": 300,
-        "size": 1,
-        "offset": 0
-      },
-      "top_slide": {
-        "target": -120,
-        "size": 1,
-        "offset": 0
-      }
-    },
+    "top_slide": {
+      "target": -120,
+      "size": 1,
+      "offset": 0
+    }
+  },
+  "structures": {
     "structures": {
-      "structures": {
-        "minecraft:ocean_ruin": {
-          "spacing": 4,
-          "separation": 2,
-          "salt": 0
-        }
+      "minecraft:ocean_ruin": {
+        "spacing": 4,
+        "separation": 2,
+        "salt": 0
       }
     }
   }
+}
