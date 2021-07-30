@@ -3,25 +3,21 @@
     "": [
       {
         "model": "minecraft:block/kelp_plant",
-        "weight": 10
+        "weight": 40
+      },
+      {
+        "model": "minecraft:block/kelp_plant_alternate"
       },
       {
         "model": "minecraft:block/kelp_plant_alternate",
-        "weight": 2
-      },
-      {
-        "model": "minecraft:block/kelp_plant_alternate",
-        "weight": 2,
         "y": 90
       },
       {
         "model": "minecraft:block/kelp_plant_alternate",
-        "weight": 2,
         "y": 180
       },
       {
         "model": "minecraft:block/kelp_plant_alternate",
-        "weight": 2,
         "y": 270
       }
     ]
