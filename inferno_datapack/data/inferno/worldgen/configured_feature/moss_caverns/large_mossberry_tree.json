@@ -5,37 +5,21 @@
       "type": "minecraft:decorated",
       "config": {
         "outer": {
-          "type": "minecraft:count_multilayer",
-          "config": {
-            "count": 32
-          }
-        },
-        "inner": {
           "type": "minecraft:decorated",
           "config": {
             "outer": {
-              "type": "minecraft:count_noise_biased",
+              "type": "minecraft:count",
               "config": {
-                "noise_to_count_ratio": 1,
-                "noise_factor": 52,
-                "noise_offset": -0.12
+                "count": 8
               }
             },
             "inner": {
-              "type": "minecraft:cave_surface",
-              "config": {
-                "surface": "floor",
-                "floor_to_ceiling_search_range": 32
-              }
+              "type": "minecraft:square",
+              "config": {}
             }
           }
-        }
-      }
-    },
-    "feature": {
-      "type": "minecraft:decorated",
-      "config": {
-        "decorator": {
+        },
+        "inner": {
           "type": "minecraft:range",
           "config": {
             "height": {
@@ -48,6 +32,31 @@
               }
             }
           }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:cave_surface",
+              "config": {
+                "surface": "floor",
+                "floor_to_ceiling_search_range": 32
+              }
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 52,
+                "noise_offset": -0.12
+              }
+            }
+          }
         },
         "feature": {
           "type": "minecraft:tree",
@@ -55,12 +64,12 @@
             "force_dirt": true,
             "minimum_size": {
               "type": "minecraft:three_layers_feature_size",
-              "min_clipped_height": 32,
-              "limit": 32,
-              "upper_limit": 24,
-              "lower_size": 8,
-              "middle_size": 12,
-              "upper_size": 16
+              "min_clipped_height": 0,
+              "limit": 0,
+              "upper_limit": 0,
+              "lower_size": 0,
+              "middle_size": 0,
+              "upper_size": 0
             },
             "dirt_provider": {
               "type": "minecraft:simple_state_provider",
@@ -149,7 +158,7 @@
               },
               {
                 "type": "minecraft:cocoa",
-                "probability": 0.5
+                "probability": 1
               }
             ]
           }

@@ -1,10 +1,22 @@
 {
+  "surface_builder": "inferno:umbra_forest",
+  "depth": 0.1,
+  "scale": 0.2,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
   "effects": {
+    "sky_color": 37314,
+    "fog_color": 789773,
+    "water_color": 2333555,
+    "water_fog_color": 1205064,
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.warped_forest.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "additions_sound": {
       "sound": "minecraft:ambient.warped_forest.additions",
@@ -21,16 +33,38 @@
         "type": "minecraft:warped_spore"
       },
       "probability": 0.01428
-    },
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
-    "sky_color": 37314,
-    "fog_color": 789773,
-    "water_color": 2333555,
-    "water_fog_color": 1205064
+    }
   },
-  "surface_builder": "inferno:umbra_forest",
-  "carvers": {
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
   },
+  "spawn_costs": {
+    "minecraft:cave_spider": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
+  "carvers": {},
   "features": [
     [
       "inferno:base/rachte_terrain_0",
@@ -68,40 +102,5 @@
     [
       "minecraft:spring_lava"
     ]
-  ],
-  "starts": [],
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:cave_spider",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "weight": 60,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "ambient": [],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {
-    "minecraft:cave_spider": {
-      "energy_budget": 0.12,
-      "charge": 1.0
-    }
-  },
-  "precipitation": "none",
-  "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether",
-  "depth": 0.1,
-  "scale": 0.2
+  ]
 }

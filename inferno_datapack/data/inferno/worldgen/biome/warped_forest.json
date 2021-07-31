@@ -1,111 +1,110 @@
 {
-    "effects": {
-      "mood_sound": {
-        "sound": "minecraft:ambient.warped_forest.mood",
-        "tick_delay": 6000,
-        "block_search_extent": 8,
-        "offset": 2.0
-      },
-      "additions_sound": {
-        "sound": "minecraft:ambient.warped_forest.additions",
-        "tick_chance": 0.0111
-      },
-      "music": {
-        "sound": "minecraft:music.nether.warped_forest",
-        "min_delay": 12000,
-        "max_delay": 24000,
-        "replace_current_music": false
-      },
-      "particle": {
-        "options": {
-          "type": "minecraft:warped_spore"
-        },
-        "probability": 0.01428
-      },
-      "ambient_sound": "minecraft:ambient.warped_forest.loop",
-      "sky_color": 7254527,
-      "fog_color": 1705242,
-      "water_color": 4159204,
-      "water_fog_color": 329011
+  "surface_builder": "inferno:warped_forest",
+  "depth": 0.1,
+  "scale": 0.2,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
+  "effects": {
+    "sky_color": 7254527,
+    "fog_color": 1705242,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
     },
-    "surface_builder": "inferno:warped_forest",
-    "carvers": {
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.0111
     },
-    "features": [
-      [
-        "inferno:base/rachte_terrain_0",
-        "inferno:base/rachte_terrain_1",
-        "inferno:base/rachte_terrain_2",
-        "inferno:base/rachite_spikes",
-        "inferno:base/rachite_spikes",
-        "inferno:base/rachite_spikes",
-        "inferno:base/rachite_spikes_large_base",
-        "inferno:base/rachite_spikes_large",
-        "inferno:base/ore_orichalcum",
-        "inferno:base/orichalcum_cluster"
-      ],
-      [
-        "inferno:warped_forest/warped_deltas"
-      ],
-      [
-        "minecraft:spring_open",
-        "minecraft:patch_fire",
-        "minecraft:patch_soul_fire",
-        "minecraft:glowstone_extra",
-        "minecraft:glowstone",
-        "minecraft:ore_magma",
-        "minecraft:spring_closed",
-        "minecraft:ore_gravel_nether",
-        "minecraft:ore_blackstone",
-        "inferno:base/ore_gold",
-        "inferno:base/ore_quartz",
-        "inferno:base/scoria",
-        "inferno:base/rachite",
-        "inferno:base/ore_blackstone"
-      ],
-      [
-        "minecraft:spring_lava",
-        "minecraft:warped_fungi",
-        "minecraft:warped_forest_vegetation",
-        "minecraft:nether_sprouts",
-        "minecraft:twisting_vines"
-      ]
-    ],
-    "starts": [
-      "minecraft:bastion_remnant"
-    ],
-    "spawners": {
-      "monster": [
-        {
-          "type": "minecraft:enderman",
-          "weight": 8,
-          "minCount": 4,
-          "maxCount": 6
-        }
-      ],
-      "creature": [
-        {
-          "type": "minecraft:strider",
-          "weight": 60,
-          "minCount": 1,
-          "maxCount": 2
-        }
-      ],
-      "ambient": [],
-      "water_creature": [],
-      "water_ambient": [],
-      "misc": []
+    "music": {
+      "sound": "minecraft:music.nether.warped_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
     },
-    "spawn_costs": {
-      "minecraft:enderman": {
-        "energy_budget": 0.12,
-        "charge": 1.0
+    "particle": {
+      "options": {
+        "type": "minecraft:warped_spore"
+      },
+      "probability": 0.01428
+    }
+  },
+  "starts": [
+    "minecraft:bastion_remnant"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 6
       }
-    },
-    "precipitation": "none",
-    "temperature": 2.0,
-    "downfall": 0.0,
-    "category": "nether",
-    "depth": 0.1,
-    "scale": 0.2
-  }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
+  "carvers": {},
+  "features": [
+    [
+      "inferno:base/rachte_terrain_0",
+      "inferno:base/rachte_terrain_1",
+      "inferno:base/rachte_terrain_2",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes_large_base",
+      "inferno:base/rachite_spikes_large",
+      "inferno:base/ore_orichalcum",
+      "inferno:base/orichalcum_cluster"
+    ],
+    [
+      "inferno:warped_forest/warped_deltas"
+    ],
+    [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "inferno:base/ore_gold",
+      "inferno:base/ore_quartz",
+      "inferno:base/scoria",
+      "inferno:base/rachite",
+      "inferno:base/ore_blackstone"
+    ],
+    [
+      "minecraft:spring_lava",
+      "minecraft:warped_fungi",
+      "minecraft:warped_forest_vegetation",
+      "minecraft:nether_sprouts",
+      "minecraft:twisting_vines"
+    ]
+  ]
+}

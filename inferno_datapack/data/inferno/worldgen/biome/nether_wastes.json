@@ -1,11 +1,23 @@
 {
+  "surface_builder": "minecraft:nether",
+  "depth": 0.1,
   "scale": 0.2,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
+  "player_spawn_friendly": false,
   "effects": {
+    "sky_color": 7254527,
+    "fog_color": 3344392,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "additions_sound": {
       "sound": "minecraft:ambient.nether_wastes.additions",
@@ -16,50 +28,8 @@
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
-    },
-    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
-    "sky_color": 7254527,
-    "fog_color": 3344392,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    }
   },
-  "surface_builder": "minecraft:nether",
-  "carvers": {
-  },
-  "features": [
-    [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
-      "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
-    ],
-    [
-      "minecraft:spring_open",
-      "minecraft:patch_fire",
-      "minecraft:glowstone_extra",
-      "minecraft:glowstone",
-      "minecraft:ore_magma",
-      "minecraft:spring_closed",
-      "minecraft:ore_gravel_nether",
-      "minecraft:ore_blackstone",
-      "inferno:base/ore_gold",
-      "inferno:base/ore_quartz",
-      "inferno:nether_wastes/quartzite_geode",
-      "inferno:base/scoria",
-      "inferno:nether_wastes/scoria",
-      "inferno:base/rachite",
-      "inferno:base/ore_blackstone"
-    ],
-    [
-      "minecraft:spring_lava"
-    ]
-  ],
   "starts": [
     "inferno:demon_fortress"
   ],
@@ -110,10 +80,39 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "none",
-  "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether",
-  "depth": 0.1
+  "carvers": {},
+  "features": [
+    [
+      "inferno:base/rachte_terrain_0",
+      "inferno:base/rachte_terrain_1",
+      "inferno:base/rachte_terrain_2",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes",
+      "inferno:base/rachite_spikes_large_base",
+      "inferno:base/rachite_spikes_large",
+      "inferno:base/ore_orichalcum",
+      "inferno:base/orichalcum_cluster"
+    ],
+    [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "inferno:base/ore_gold",
+      "inferno:base/ore_quartz",
+      "inferno:nether_wastes/quartzite_geode",
+      "inferno:base/scoria",
+      "inferno:nether_wastes/scoria",
+      "inferno:base/rachite",
+      "inferno:base/ore_blackstone"
+    ],
+    [
+      "minecraft:spring_lava"
+    ]
+  ]
 }

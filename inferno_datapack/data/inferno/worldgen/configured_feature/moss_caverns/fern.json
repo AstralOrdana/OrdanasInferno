@@ -5,6 +5,15 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:sweet_berry_bush",
+            "Properties": {
+              "age": "1"
+            }
+          }
+        },
+        {
           "weight": 5,
           "data": {
             "Name": "minecraft:fern"
