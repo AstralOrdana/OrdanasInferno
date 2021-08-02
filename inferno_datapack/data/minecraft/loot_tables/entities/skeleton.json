@@ -12,7 +12,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Bone Idol",
+                "text": "Beast Idol",
                 "italic": false,
                 "hoverEvent": {
                   "action": "show_text"

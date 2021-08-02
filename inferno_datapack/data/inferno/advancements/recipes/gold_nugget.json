@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:golden_carrot",
+        "minecraft:gold_ingot_from_nuggets"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:gold_nugget"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:gold_ingot_from_nuggets"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

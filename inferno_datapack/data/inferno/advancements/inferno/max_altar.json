@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanted_book"
+      },
+      "title": {
+        "text": "Absolute Lunacy"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/moonstone_altar",
+    "criteria": {
+      "enchant": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "enchantments": [
+                {
+                  "levels": 6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "enchant"
+      ]
+    ]
+  }
+  

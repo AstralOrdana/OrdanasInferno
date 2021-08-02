@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:nether_bricks",
+        "minecraft:chiseled_nether_bricks",
+        "minecraft:cracked_nether_bricks",
+        "minecraft:nether_brick_stairs",
+        "minecraft:nether_brick_slab",
+        "minecraft:nether_brick_wall",
+        "minecraft:nether_brick_fence",
+        "minecraft:red_nether_bricks"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:nether_brick"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:nether_bricks"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

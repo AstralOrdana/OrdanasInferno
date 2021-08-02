@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:infested_stone"
+      },
+      "title": {
+        "text": "What's the Buzz?"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/carnelium_armor",
+    "criteria": {
+      "grove": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:infested_wastes"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "grove"
+      ]
+    ]
+  }
+  

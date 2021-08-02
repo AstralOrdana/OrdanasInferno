@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:iron_nugget",
+        "minecraft:end_rod",
+        "minecraft:iron_sword",
+        "minecraft:iron_axe",
+        "minecraft:iron_shovel",
+        "minecraft:iron_hoe",
+        "minecraft:iron_pickaxe",
+        "minecraft:iron_helmet",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_leggings",
+        "minecraft:iron_boots",
+        "minecraft:shulker_box",
+        "minecraft:soul_lantern"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:iron_ingot"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:iron_nugget"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:warped_stairs",
+        "minecraft:warped_slab",
+        "minecraft:warped_pressure_plate",
+        "minecraft:warped_sign",
+        "minecraft:warped_door",
+        "minecraft:warped_trapdoor",
+        "minecraft:warped_button",
+        "minecraft:warped_fence",
+        "minecraft:warped_fence_gate",
+        "minecraft:stripped_dark_oak_wood"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:warped_planks"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:warped_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

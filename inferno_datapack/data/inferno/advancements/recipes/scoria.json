@@ -1,0 +1,52 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:andesite_stairs",
+        "minecraft:andesite_wall",
+        "minecraft:cobblestone_slab",
+        "minecraft:end_stone_bricks",
+        "minecraft:polished_andesite",
+        "minecraft:polished_andesite_stairs",
+        "minecraft:granite_wall",
+        "minecraft:polished_andesite_slab",
+        "minecraft:polished_granite",
+        "minecraft:polished_granite_stairs",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:polished_granite_slab",
+
+        "minecraft:cracked_polished_blackstone_bricks",
+        "minecraft:polished_blackstone_button",
+        "minecraft:polished_blackstone_pressure_plate",
+        "minecraft:lodestone",
+        "minecraft:grindstone",
+        "minecraft:furnace",
+        "minecraft:stonecutter"
+        
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:cobblestone"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:andesite_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:anvil"
+      },
+      "title": {
+        "text": "Fly me to the Moon"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/demon_quartz",
+    "criteria": {
+      "enchant": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:anvil"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "enchant"
+      ]
+    ]
+  }
+  

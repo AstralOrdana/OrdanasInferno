@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lightning_rod"
+      },
+      "title": {
+        "text": "Hypercharged",
+        "color": "gold",
+        "bold": true
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_nihiline",
+    "criteria": {
+      "orichalcum": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:netherite_ingot"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "orichalcum"
+      ]
+    ]
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:shulker_box"
+      },
+      "title": {
+        "text": "Basically Backpacks"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_anirrum",
+    "criteria": {
+      "box": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:shulker_box"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "box"
+      ]
+    ]
+  }
+  

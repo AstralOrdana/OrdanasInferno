@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chiseled_nether_bricks"
+      },
+      "title": {
+        "text": "Demon Courts"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/carnelium_armor",
+    "criteria": {
+      "fortress": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:nether_wastes",
+            "feature": "bastion_remnant"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "fortress"
+      ]
+    ]
+  }
+  

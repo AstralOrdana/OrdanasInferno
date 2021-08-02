@@ -1,0 +1,66 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:copper_nugget",
+        "minecraft:redstone_block",
+        "minecraft:copper_block",
+        "minecraft:redstone_torch",
+        "minecraft:repeater",
+        "minecraft:comparator",
+        "minecraft:redstone",
+        "minecraft:sculk_sensor",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:observer",
+        "minecraft:tripwire_hook",
+        "minecraft:hopper",
+        "minecraft:compass",
+        "minecraft:iron_door",
+        "minecraft:iron_trapdoor",
+        "minecraft:iron_horse_armor",
+        "minecraft:minecart",
+        "minecraft:bucket",
+        "minecraft:flint_and_steel",
+        "minecraft:spyglass",
+        "minecraft:shield",
+        "minecraft:lantern",
+        "minecraft:cauldron",
+        "minecraft:iron_bars",
+        "minecraft:chain",
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:shears",
+        "inferno:carnelium_boots",
+        "inferno:carnelium_helmet",
+        "inferno:carnelium_chestplate",
+        "inferno:carnelium_leggings",
+        "minecraft:piston",
+        "minecraft:sticky_piston",
+        "minecraft:purpur_pillar"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:copper_ingot"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:copper_block"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

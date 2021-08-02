@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:quartz",
+        "minecraft:quartz_bricks",
+        "minecraft:quartz_pillar",
+        "minecraft:chiseled_quartz_block",
+        "minecraft:smooth_quartz",
+        "minecraft:quartz_slab",
+        "minecraft:smooth_quartz_slab",
+        "minecraft:quartz_stairs",
+        "minecraft:smooth_quartz_stairs"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:quartz_block"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:quartz"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

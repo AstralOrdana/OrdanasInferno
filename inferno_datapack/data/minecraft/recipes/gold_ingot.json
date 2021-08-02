@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "minecraft:gold_ores"
+    "item": "minecraft:raw_gold"
   },
   "result": "minecraft:gold_ingot",
   "experience": 1.0,

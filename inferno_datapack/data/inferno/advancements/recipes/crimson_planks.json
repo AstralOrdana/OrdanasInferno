@@ -1,0 +1,41 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:crimson_stairs",
+        "minecraft:crimson_slab",
+        "minecraft:crimson_pressure_plate",
+        "minecraft:crimson_sign",
+        "minecraft:crimson_door",
+        "minecraft:crimson_trapdoor",
+        "minecraft:crimson_button",
+        "minecraft:crimson_fence",
+        "minecraft:crimson_fence_gate",
+        "minecraft:stripped_acacia_wood"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:crimson_planks"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:crimson_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

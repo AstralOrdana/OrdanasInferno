@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ender_chest"
+      },
+      "title": {
+        "text": "Extradimensional Storage"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/demon_quartz",
+    "criteria": {
+      "chest": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:ender_chest"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "chest"
+      ]
+    ]
+  }
+  

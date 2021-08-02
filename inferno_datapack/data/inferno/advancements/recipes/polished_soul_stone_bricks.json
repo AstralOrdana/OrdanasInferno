@@ -1,0 +1,47 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:red_concrete",
+        "minecraft:orange_concrete",
+        "minecraft:yellow_concrete",
+        "minecraft:lime_concrete",
+        "minecraft:green_concrete",
+        "minecraft:cyan_concrete",
+        "minecraft:light_blue_concrete",
+        "minecraft:blue_concrete",
+        "minecraft:purple_concrete",
+        "minecraft:magenta_concrete",
+        "minecraft:pink_concrete",
+        "minecraft:brown_concrete",
+        "minecraft:gray_concrete",
+        "minecraft:light_gray_concrete",
+        "minecraft:black_concrete",
+        "minecraft:white_concrete"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:smooth_red_sandstone"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:red_concrete"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

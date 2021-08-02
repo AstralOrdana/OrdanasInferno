@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:respawn_anchor"
+      },
+      "title": {
+        "text": "Anchors Away"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/demon_quartz",
+    "criteria": {
+      "anchor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:respawn_anchor"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "anchor"
+      ]
+    ]
+  }
+  

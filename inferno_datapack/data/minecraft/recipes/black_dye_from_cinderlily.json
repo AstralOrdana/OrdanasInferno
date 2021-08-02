@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "dye",
+    "ingredients": [
+        {
+            "item": "minecraft:big_dripleaf"
+        }
+    ],
+    "result": {
+        "item": "minecraft:black_dye"
+    }
+}

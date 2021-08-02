@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "minecraft:charcoal",
+          "name": "minecraft:coal",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -73,7 +73,7 @@
         },
         {
           "type": "minecraft:tag",
-          "weight": 3,
+          "weight": 2,
           "name": "inferno:stone_tools",
           "expand": true,
           "functions": [

@@ -1,0 +1,58 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:oak_planks",
+                "minecraft:spruce_planks",
+                "minecraft:birch_planks",
+                "minecraft:jungle_planks",
+                "minecraft:acacia_planks",
+                "minecraft:crimson_planks",
+                "minecraft:warped_planks"
+              ]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:target"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "minecraft:chest",
+        "minecraft:crafting_table",
+        "minecraft:jukebox",
+        "minecraft:note_block",
+        "minecraft:lectern",
+        "minecraft:barrel",
+        "minecraft:composter",
+        "minecraft:loom",
+        "minecraft:trapped_chest",
+        "minecraft:stick",
+        "minecraft:bowl",
+        "minecraft:wooden_sword",
+        "minecraft:wooden_axe",
+        "minecraft:wooden_pickaxe",
+        "minecraft:wooden_hoe",
+        "minecraft:wooden_shovel",
+        "minecraft:campfire",
+        "minecraft:soul_campfire"
+      ]
+    }
+  }
+  

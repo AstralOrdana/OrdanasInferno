@@ -1,13 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "XRX",
+    "XQX",
+    "X#X"
   ],
   "key": {
     "#": {
       "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

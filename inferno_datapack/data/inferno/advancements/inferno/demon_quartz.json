@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:clay_ball"
+      },
+      "title": {
+        "text": "Demon Quartz"
+      },
+      "description": {
+        "text": "Description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/carnelium_armor",
+    "criteria": {
+      "quartz": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:clay_ball"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "quartz"
+      ]
+    ]
+  }
+  

@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:sandstone_stairs",
+        "minecraft:sandstone_wall",
+        "minecraft:sandstone_slab",
+        "minecraft:chiseled_sandstone",
+        "minecraft:cut_sandstone",
+        "minecraft:mossy_cobblestone_stairs",
+        "minecraft:diorite_wall",
+        "minecraft:cut_sandstone_slab",
+        "minecraft:smooth_sandstone",
+        "minecraft:smooth_sandstone_stairs",
+        "minecraft:end_stone_brick_wall",
+        "minecraft:smooth_sandstone_slab"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:sandstone"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:sandstone_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

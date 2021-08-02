@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:jungle_stairs",
+        "minecraft:jungle_slab",
+        "minecraft:jungle_pressure_plate",
+        "minecraft:jungle_sign",
+        "minecraft:jungle_door",
+        "minecraft:jungle_trapdoor",
+        "minecraft:jungle_button",
+        "minecraft:jungle_fence",
+        "minecraft:jungle_fence_gate",
+        "minecraft:jungle_boat",
+        "minecraft:bookshelf"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:jungle_planks"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:jungle_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

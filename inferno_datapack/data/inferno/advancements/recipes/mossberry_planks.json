@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:acacia_stairs",
+        "minecraft:acacia_slab",
+        "minecraft:acacia_pressure_plate",
+        "minecraft:acacia_sign",
+        "minecraft:acacia_door",
+        "minecraft:acacia_trapdoor",
+        "minecraft:acacia_button",
+        "minecraft:acacia_fence",
+        "minecraft:acacia_fence_gate",
+        "minecraft:acacia_boat",
+        "minecraft:fletching_table"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:acacia_planks"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:acacia_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

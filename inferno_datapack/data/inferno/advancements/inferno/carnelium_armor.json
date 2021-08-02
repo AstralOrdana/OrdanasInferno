@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chainmail_chestplate"
+      },
+      "title": {
+        "text": "So Put on All Your Clothes"
+      },
+      "description": {
+        "text": "Craft a full set of Carnelium Armor."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_carnelium",
+    "criteria": {
+      "armor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:chainmail_boots",
+                "minecraft:chainmail_chestplate",
+                "minecraft:chainmail_helmet",
+                "minecraft:chainmail_leggings"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "armor"
+      ]
+    ]
+  }
+  

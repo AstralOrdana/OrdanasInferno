@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:birch_stairs",
+        "minecraft:birch_slab",
+        "minecraft:birch_pressure_plate",
+        "minecraft:birch_sign",
+        "minecraft:birch_door",
+        "minecraft:birch_trapdoor",
+        "minecraft:birch_button",
+        "minecraft:birch_fence",
+        "minecraft:birch_fence_gate",
+        "minecraft:stripped_acacia_log"
+
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:birch_planks"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:birch_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

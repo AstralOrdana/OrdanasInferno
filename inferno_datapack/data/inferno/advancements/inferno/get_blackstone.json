@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:blackstone"
+      },
+      "title": {
+        "text": "Back in Blackstone"
+      },
+      "description": {
+        "text": "Harvest Blackstone to make an upgraded set of tools. Blackstone is found just above lava level and in Basalt Deltas."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_stem",
+    "criteria": {
+      "blackstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:blackstone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "blackstone"
+      ]
+    ]
+  }
+  

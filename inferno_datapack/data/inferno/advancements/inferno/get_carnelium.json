@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:copper_ingot"
+      },
+      "title": {
+        "text": "It's Getting Hot in Here"
+      },
+      "description": {
+        "text": "Mine Carnelium Ore in the Basalt Deltas to obtain Raw Carnelium and Carnelium Nuggets. Carnelium can be used to make armor and mechanical blocks."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_blackstone",
+    "criteria": {
+      "ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:copper_ingot"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "ingot"
+      ]
+    ]
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "inferno:soul_torch_from_blasting",
+        "inferno:soul_lantern_from_blasting",
+        "inferno:soul_campfire_from_blasting",
+        "inferno:spectral_arrow_from_blasting",
+        "inferno:iron_ingot_from_blasting",
+        "inferno:dried_kelp_block_from_blasting",
+        "inferno:demon_quartz_from_blasting"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:blast_furnace"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:iron_ingot_from_blasting"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

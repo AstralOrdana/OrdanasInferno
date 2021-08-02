@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_ingot"
+      },
+      "title": {
+        "text": "Spectral Steel"
+      },
+      "description": {
+        "text": "Inert Anirrum can be found in Soul Soil. Build a Soul Forge with Scorched Soul Sand to melt the scrap down into Anirrum Ingots."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/fight_beast",
+    "criteria": {
+      "ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "ingot"
+      ]
+    ]
+  }
+  

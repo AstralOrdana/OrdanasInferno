@@ -6,14 +6,9 @@
     "S"
   ],
   "key": {
-    "X": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
+    "X": {
+      "item": "minecraft:charcoal"
+    },
     "#": {
       "item": "minecraft:stick"
     },

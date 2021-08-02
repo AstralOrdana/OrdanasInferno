@@ -1,0 +1,63 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:ladder",
+        "minecraft:torch",
+        "minecraft:soul_torch",
+        "minecraft:painting",
+        "minecraft:item_frame",
+        "minecraft:armor_stand",
+        "minecraft:lever",
+        "minecraft:stone_sword",
+        "minecraft:stone_pickaxe",
+        "minecraft:stone_shovel",
+        "minecraft:stone_axe",
+        "minecraft:stone_hoe",
+        "minecraft:fishing_rod",
+        "minecraft:arrow",
+        "minecraft:bow",
+        "minecraft:red_banner",
+        "minecraft:orange_banner",
+        "minecraft:yellow_banner",
+        "minecraft:lime_banner",
+        "minecraft:green_banner",
+        "minecraft:cyan_banner",
+        "minecraft:light_blue_banner",
+        "minecraft:blue_banner",
+        "minecraft:purple_banner",
+        "minecraft:magenta_banner",
+        "minecraft:pink_banner",
+        "minecraft:brown_banner",
+        "minecraft:gray_banner",
+        "minecraft:light_gray_banner",
+        "minecraft:black_banner",
+        "minecraft:white_banner",
+        "minecraft:banner_duplicate"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:stick"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:ladder"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

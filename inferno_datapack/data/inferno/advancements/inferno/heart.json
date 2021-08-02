@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:heart_of_the_sea"
+      },
+      "title": {
+        "text": "Heart Breaker",
+        "color": "dark_aqua",
+        "bold": true
+      },
+      "description": {
+        "text": "Find a Ziggurat in a soul biome and brave the challenges within. Defeat the Heart of the temple and escape with your prize.",
+        "color": "white",
+        "bold": false
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_nihiline",
+    "criteria": {
+      "heart": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:heart_of_the_sea"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "heart"
+      ]
+    ]
+  }
+  

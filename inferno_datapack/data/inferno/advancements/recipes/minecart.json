@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:furnace_minecart",
+        "minecraft:hopper_minecart",
+        "minecraft:tnt_minecart",
+        "minecraft:chest_minecart",
+        "minecraft:activator_rail",
+        "minecraft:powered_rail",
+        "minecraft:detector_rail",
+        "minecraft:rail"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:minecart"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:chest_minecart"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

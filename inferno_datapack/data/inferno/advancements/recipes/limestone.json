@@ -1,0 +1,47 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:stone_stairs",
+        "minecraft:cobblestone_wall",
+        "minecraft:stone_slab",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:mossy_stone_brick_stairs",
+        "minecraft:mossy_stone_brick_wall",
+        "minecraft:mossy_stone_brick_slab",
+        "minecraft:stone_bricks",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_brick_slab",
+
+        "minecraft:stone_button",
+        "minecraft:stone_pressure_plate"
+        
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:stone"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:stone_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

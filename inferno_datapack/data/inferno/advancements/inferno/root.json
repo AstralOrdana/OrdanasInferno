@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter the Inferno",
+            "color": "dark_red",
+            "bold": true
+        },
+        "description": {
+            "text": "Abandon all hope, ye who enter here.",
+            "color": "dark_red"
+        },
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/root.png"
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:location"
+        }
+    },
+    "requirements": [
+        [
+            "root"
+        ]
+    ]
+}

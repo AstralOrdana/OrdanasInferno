@@ -1,0 +1,49 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:glass_pane",
+        "minecraft:glass_bottle",
+        "minecraft:red_stained_glass",
+        "minecraft:orange_stained_glass",
+        "minecraft:yellow_stained_glass",
+        "minecraft:lime_stained_glass",
+        "minecraft:green_stained_glass",
+        "minecraft:cyan_stained_glass",
+        "minecraft:light_blue_stained_glass",
+        "minecraft:blue_stained_glass",
+        "minecraft:purple_stained_glass",
+        "minecraft:magenta_stained_glass",
+        "minecraft:pink_stained_glass",
+        "minecraft:brown_stained_glass",
+        "minecraft:gray_stained_glass",
+        "minecraft:light_gray_stained_glass",
+        "minecraft:black_stained_glass",
+        "minecraft:white_stained_glass"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:glass"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:glass_pane"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

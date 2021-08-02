@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:red_sandstone_stairs",
+        "minecraft:red_sandstone_wall",
+        "minecraft:red_sandstone_slab",
+        "minecraft:chiseled_red_sandstone",
+        "minecraft:cut_red_sandstone",
+        "minecraft:cobblestone_stairs",
+        "minecraft:prismarine_wall",
+        "minecraft:cut_red_sandstone_slab",
+        "minecraft:smooth_red_sandstone",
+        "minecraft:smooth_red_sandstone_stairs",
+        "minecraft:brick_wall",
+        "minecraft:smooth_red_sandstone_slab"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:terracotta"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:red_sandstone_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

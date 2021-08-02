@@ -1,9 +1,15 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:nether_quartz_ore"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    }
   },
-  "result": "minecraft:quartz",
-  "experience": 0.2,
-  "cookingtime": 200
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 9
+  }
 }

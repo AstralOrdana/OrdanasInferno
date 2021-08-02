@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:purpur_pillar"
+      },
+      "title": {
+        "text": "The Pit of Despair"
+      },
+      "description": {
+        "text": "Find a pipeline structure within a Scrap Pit biome and claim the power source within to create a more powerful forge."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_anirrum",
+    "criteria": {
+      "conduit": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:conduit"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "conduit"
+      ]
+    ]
+  }
+  

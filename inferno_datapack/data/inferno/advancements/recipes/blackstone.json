@@ -1,0 +1,52 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:blackstone_stairs",
+        "minecraft:blackstone_wall",
+        "minecraft:blackstone_slab",
+        "minecraft:chiseled_polished_blackstone",
+        "minecraft:polished_blackstone",
+        "minecraft:polished_blackstone_stairs",
+        "minecraft:polished_blackstone_wall",
+        "minecraft:polished_blackstone_slab",
+        "minecraft:polished_blackstone_bricks",
+        "minecraft:polished_blackstone_brick_stairs",
+        "minecraft:polished_blackstone_brick_wall",
+        "minecraft:polished_blackstone_brick_slab",
+
+        "minecraft:cracked_polished_blackstone_bricks",
+        "minecraft:polished_blackstone_button",
+        "minecraft:polished_blackstone_pressure_plate",
+        "minecraft:lodestone",
+        "minecraft:grindstone",
+        "minecraft:furnace",
+        "minecraft:stonecutter"
+        
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:blackstone"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:blackstone_stairs"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

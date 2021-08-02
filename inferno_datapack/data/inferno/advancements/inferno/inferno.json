@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "The Inferno",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "On second thought, do you even want to leave?"
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "end": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "end"
+        ]
+    ],
+    "parent": "inferno:inferno/dragon"
+}

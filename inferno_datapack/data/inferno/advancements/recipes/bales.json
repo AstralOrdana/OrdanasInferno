@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:oak_leaves",
+                "minecraft:spruce_leaves",
+                "minecraft:birch_leaves",
+                "minecraft:dark_oak_leaves",
+                "minecraft:azalea_leaves"
+              ]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:target"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "minecraft:target"
+      ]
+    }
+  }
+  

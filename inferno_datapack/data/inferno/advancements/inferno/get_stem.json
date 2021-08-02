@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:crimson_stem"
+      },
+      "title": {
+        "text": "Getting Stem"
+      },
+      "description": {
+        "text": "Obtain stem blocks by harvesting a giant fungus."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/root",
+    "criteria": {
+      "crimsonstem": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "minecraft:logs"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "crimsonstem"
+      ]
+    ]
+  }
+  
