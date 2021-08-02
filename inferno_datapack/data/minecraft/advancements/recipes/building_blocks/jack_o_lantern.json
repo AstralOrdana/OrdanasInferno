@@ -1,32 +1,12 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "minecraft:jack_o_lantern"
-    ]
-  },
   "criteria": {
-    "has_carved_pumpkin": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:carved_pumpkin"]
-          }
-        ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:jack_o_lantern"
-      }
+    "impossible": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
     [
-      "has_carved_pumpkin",
-      "has_the_recipe"
+      "impossible"
     ]
   ]
 }

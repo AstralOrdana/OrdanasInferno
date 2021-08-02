@@ -1,32 +1,12 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "minecraft:chiseled_red_sandstone_from_red_sandstone_stonecutting"
-    ]
-  },
   "criteria": {
-    "has_red_sandstone": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:red_sandstone"]
-          }
-        ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:chiseled_red_sandstone_from_red_sandstone_stonecutting"
-      }
+    "impossible": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
     [
-      "has_red_sandstone",
-      "has_the_recipe"
+      "impossible"
     ]
   ]
 }

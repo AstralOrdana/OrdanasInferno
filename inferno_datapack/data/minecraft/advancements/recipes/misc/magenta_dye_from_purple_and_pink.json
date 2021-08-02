@@ -1,43 +1,12 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "minecraft:magenta_dye_from_purple_and_pink"
-    ]
-  },
   "criteria": {
-    "has_pink_dye": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:pink_dye"]
-          }
-        ]
-      }
-    },
-    "has_purple_dye": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:purple_dye"]
-          }
-        ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:magenta_dye_from_purple_and_pink"
-      }
+    "impossible": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
     [
-      "has_pink_dye",
-      "has_purple_dye",
-      "has_the_recipe"
+      "impossible"
     ]
   ]
 }
