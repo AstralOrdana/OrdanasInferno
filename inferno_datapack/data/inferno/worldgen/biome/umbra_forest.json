@@ -81,7 +81,8 @@
     [
       "inferno:umbra_forest/umbra_vines",
       "inferno:umbra_forest/umbra_fungi",
-      "inferno:umbra_forest/umbra_vegetation"
+      "inferno:umbra_forest/umbra_vegetation",
+      "inferno:umbra_forest/umbra_wood_piles"
     ],
     [
       "minecraft:spring_open",

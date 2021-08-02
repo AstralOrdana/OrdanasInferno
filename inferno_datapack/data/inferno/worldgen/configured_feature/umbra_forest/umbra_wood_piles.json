@@ -5,11 +5,8 @@
       "type": "minecraft:count",
       "config": {
         "count": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 2,
-            "max_inclusive": 8
-          }
+          "type": "minecraft:constant",
+          "value": 8
         }
       }
     },
@@ -29,30 +26,38 @@
                 "height": {
                   "type": "minecraft:uniform",
                   "min_inclusive": {
-                    "absolute": 0
+                    "absolute": 1
                   },
                   "max_inclusive": {
-                    "absolute": 60
+                    "below_top": 1
                   }
                 }
               }
             },
             "feature": {
-              "type": "minecraft:ore",
+              "type": "minecraft:decorated",
               "config": {
-                "size": 32,
-                "discard_chance_on_air_exposure": 0,
-                "targets": [
-                  {
-                    "target": {
-                      "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:netherrack"
-                    },
-                    "state": {
-                      "Name": "minecraft:blackstone"
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 12
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:block_pile",
+                  "config": {
+                    "state_provider": {
+                      "type": "minecraft:rotated_block_provider",
+                      "state": {
+                        "Name": "minecraft:spruce_wood",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      }
                     }
                   }
-                ]
+                }
               }
             }
           }
