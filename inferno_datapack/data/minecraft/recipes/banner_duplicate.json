@@ -1,11 +1,3 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
-    ],
-    "result": {
-        "item": "minecraft:bedrock"
-    }
+  "type": "minecraft:crafting_special_bannerduplicate"
 }

@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "minecraft:warped_planks",
     "minecraft:crimson_planks",

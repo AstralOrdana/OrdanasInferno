@@ -55,6 +55,10 @@
       "minecraft:spring_water",
       "minecraft:spring_water",
       "minecraft:spring_water",
+      "inferno:moss_caverns/lake",
+      "minecraft:kelp_cold"
+    ],
+    [
       "inferno:moss_caverns/moss_layer",
       "inferno:moss_caverns/sunstone_geode",
       "inferno:moss_caverns/ore_terradite",
@@ -65,12 +69,9 @@
       "inferno:moss_caverns/ferns",
       "inferno:moss_caverns/glow_lichen",
       "inferno:moss_caverns/seamoss",
-      "minecraft:seagrass_swamp"
-    ],
-    [
-      "minecraft:kelp_cold"
-    ],
-    [],
-    []
+      "minecraft:seagrass_swamp",
+      "inferno:moss_caverns/moss_raft",
+      "inferno:moss_caverns/sugarcane"
+    ]
   ]
 }

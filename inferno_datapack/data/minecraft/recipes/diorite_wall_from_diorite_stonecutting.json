@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:diorite"
+    "item": "minecraft:sandstone"
   },
   "result": "minecraft:diorite_wall",
   "count": 1

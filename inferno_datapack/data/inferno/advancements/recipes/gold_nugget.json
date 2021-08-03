@@ -3,7 +3,9 @@
     "rewards": {
       "recipes": [
         "minecraft:golden_carrot",
-        "minecraft:gold_ingot_from_nuggets"
+        "minecraft:gold_ingot_from_nuggets",
+        "minecraft:chorus_fruit",
+        "minecraft:glistering_melon_slice"
       ]
     },
     "criteria": {

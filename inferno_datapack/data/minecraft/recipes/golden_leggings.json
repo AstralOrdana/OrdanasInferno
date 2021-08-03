@@ -5,6 +5,7 @@
             "item": "minecraft:bedrock"
         }
     ],
+    "group": "bedrock",
     "result": {
         "item": "minecraft:bedrock"
     }

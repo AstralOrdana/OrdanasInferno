@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "minecraft:golden_carrot",
+          "name": "minecraft:potato",
           "functions": [
             {
               "function": "minecraft:set_count",

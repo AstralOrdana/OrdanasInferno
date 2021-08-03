@@ -3,8 +3,9 @@
   "values": [
     "minecraft:stone",
     "minecraft:blackstone",
-    "minecraft:diorite",
+    "minecraft:terracotta",
     "minecraft:cobblestone",
-    "minecraft:dark_prismarine"
+    "minecraft:sandstone",
+    "minecraft:deepslate"
   ]
 }

@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "III",
-    "IXI",
-    "###"
+    "I I",
+    "#X#"
   ],
   "key": {
     "#": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:cut_red_sandstone"
     },
     "X": {
       "item": "minecraft:dried_kelp_block"

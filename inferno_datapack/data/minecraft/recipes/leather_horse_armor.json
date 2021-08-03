@@ -1,13 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X X",
-    "XXX",
-    "X X"
+    "CXX",
+    "SXC"
   ],
   "key": {
     "X": {
       "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "C": {
+      "item": "minecraft:chain"
     }
   },
   "result": {

@@ -2,15 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "~~ ",
-    "~O ",
+    "~~ ",
     "  ~"
   ],
   "key": {
     "~": {
       "item": "minecraft:string"
-    },
-    "O": {
-      "item": "minecraft:honey_bottle"
     }
   },
   "result": {

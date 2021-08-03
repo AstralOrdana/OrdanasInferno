@@ -1,17 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "bales",
-    "pattern": [
-      "###",
-      "###",
-      "###"
-    ],
-    "key": {
-      "#": {
-        "item": "minecraft:crimson_roots"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:bedrock"
       }
-    },
-    "result": {
-      "item": "minecraft:dried_kelp_block"
-    }
+  ],
+  "group": "bedrock",
+  "result": {
+      "item": "minecraft:bedrock"
   }
+}

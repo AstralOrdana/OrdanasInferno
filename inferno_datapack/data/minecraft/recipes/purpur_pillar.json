@@ -7,10 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:scute"
+      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "minecraft:purpur_pillar"
+    "item": "minecraft:purpur_pillar",
+    "count": 3
   }
 }

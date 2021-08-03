@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:dark_prismarine"
+    "item": "minecraft:sandstone"
   },
   "result": "minecraft:cut_sandstone",
   "count": 1

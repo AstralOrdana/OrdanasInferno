@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:chance",
+        "config": {
+          "chance": 4
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {
+                      "above_bottom": 25
+                    },
+                    "max_inclusive": {
+                      "below_top": 0
+                    }
+                  }
+                }
+              },
+              "feature": {
+                "type": "minecraft:lake",
+                "config": {
+                  "state": {
+                    "Name": "minecraft:water",
+                    "Properties": {
+                      "level": "0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

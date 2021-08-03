@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "minecraft:golden_carrot",
+          "name": "minecraft:potato",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -21,7 +21,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:spider_eye"
         },
         {
           "type": "minecraft:item",
@@ -46,7 +46,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:golden_helmet",
+          "name": "minecraft:warped_fungus",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

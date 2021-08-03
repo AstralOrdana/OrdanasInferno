@@ -27,7 +27,7 @@
               },
               {
                 "type": "minecraft:item",
-                "name": "minecraft:beetroot",
+                "name": "minecraft:wheat_seeds",
                 "functions": [
                   {
                     "function": "minecraft:set_count",
