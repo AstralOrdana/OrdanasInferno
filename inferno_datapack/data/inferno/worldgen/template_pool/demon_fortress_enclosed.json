@@ -102,7 +102,7 @@
         }
       },
       {	
-        "weight": 45,
+        "weight": 30,
         "element": {
           "location": "inferno:demon_fortress/enclosed_tower",
           "processors": "inferno:fortress_degradation",

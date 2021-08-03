@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "minecraft:stone",
     "minecraft:granite",
@@ -325,6 +325,7 @@
     "#minecraft:anvil",
     "#minecraft:cauldrons",
     "#minecraft:rails",
-    "minecraft:hay_block"
+    "minecraft:hay_block",
+    "minecraft:glowstone"
   ]
 }

@@ -7,7 +7,7 @@
           {
             "type": "minecraft:item",
             "weight": 6,
-            "name": "minecraft:charcoal",
+            "name": "minecraft:coal_block",
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -26,14 +26,14 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 7,
-            "name": "minecraft:bone",
+            "weight": 3,
+            "name": "minecraft:skeleton_skull",
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 1,
-                  "max": 6
+                  "max": 2
                 },
                 "add": true
               }
@@ -47,13 +47,29 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:honey_bottle"
+            "weight": 5,
+            "name": "minecraft:gilded_blackstone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 8
+                },
+                "add": true
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.75
+              }
+            ]
           },
           {
             "type": "minecraft:item",
             "weight": 3,
-            "name": "minecraft:copper_ingot",
+            "name": "minecraft:gold_ingot",
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -72,23 +88,23 @@
             ]
           },
           {
-            "type": "minecraft:tag",
-            "weight": 1,
-            "name": "inferno:stone_tools",
-            "expand": true,
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:golden_chestplate",
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 0,
                   "max": 1
-                }
+                },
+                "add": true
               }
             ],
             "conditions": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.25
+                "chance": 0.5
               }
             ]
           }

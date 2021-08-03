@@ -2,7 +2,8 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:stripped_birch_wood"
+        "minecraft:stripped_birch_wood",
+        "minecraft:birch_planks"
       ]
     },
     "criteria": {

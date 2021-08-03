@@ -5,7 +5,8 @@
         "minecraft:cooked_salmon",
         "minecraft:cooked_chicken",
         "minecraft:baked_potato",
-        "minecraft:cooked_mutton"
+        "minecraft:cooked_mutton",
+        "minecraft:charcoal"
       ]
     },
     "criteria": {

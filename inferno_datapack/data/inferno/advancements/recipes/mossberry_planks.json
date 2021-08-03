@@ -12,7 +12,8 @@
         "minecraft:acacia_fence",
         "minecraft:acacia_fence_gate",
         "minecraft:acacia_boat",
-        "minecraft:fletching_table"
+        "minecraft:fletching_table",
+        "minecraft:jungle_planks"
       ]
     },
     "criteria": {

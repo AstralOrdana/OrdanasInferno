@@ -47,6 +47,19 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:blackstone",
+            "probability": 0.005
+          },
+          "output_state": {
+            "Name": "minecraft:coal_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:rail",
             "probability": 0.4
           },

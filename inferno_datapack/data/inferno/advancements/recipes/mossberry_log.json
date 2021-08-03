@@ -2,8 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:acacia_planks",
-        "minecraft:jungle_wood"
+        "minecraft:acacia_planks"
       ]
     },
     "criteria": {

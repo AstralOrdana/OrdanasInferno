@@ -1,9 +1,9 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "minecraft:acacia_log",
-    "minecraft:acacia_wood",
-    "minecraft:stripped_acacia_log",
-    "minecraft:stripped_acacia_wood"
+    "minecraft:jungle_log",
+    "minecraft:jungle_wood",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_jungle_wood"
   ]
 }

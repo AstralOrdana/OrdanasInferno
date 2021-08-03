@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:basalt_deltas",
+    "type": "minecraft:swamp",
     "config": {
       "top_material": {
         "Name": "minecraft:blackstone"

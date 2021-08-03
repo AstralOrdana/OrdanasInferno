@@ -438,7 +438,7 @@
 
   "item.minecraft.golden_helmet": "Golden Crown",
   "item.minecraft.golden_chestplate": "Golden Amulet",
-  "item.minecraft.golden_leggings": "Golden belt",
+  "item.minecraft.golden_leggings": "Golden Belt",
   "item.minecraft.golden_boots": "Golden Anklet",
 
   "item.minecraft.elytra": "Fly Wings",
@@ -468,11 +468,16 @@
   "item.minecraft.pumpkin_seeds": "Bone Gourd Seeds",
   "item.minecraft.melon_seeds": "Nether Melon Seeds",
 
+  "item.minecraft.charcoal": "Charcoal",
+  "block.minecraft.coal_block": "Block of Charcoal",
+
   "item.minecraft.coal": "Magmatic Rock",
   "item.minecraft.lapis_lazuli": "Moonstone",
   "item.minecraft.enchanted_book": "Enchanted Moonstone",
 
   "item.minecraft.feather": "Feather",
+  "item.minecraft.ink_sac": "Lanothrope Blood",
+  "item.minecraft.bundle": "Lanothrope Bladder",
   "item.minecraft.stick": "Stem Fiber",
   "item.minecraft.slime_ball": "Rubber ball",
   "item.minecraft.fermented_spider_eye": "Maggot Eggs",
@@ -482,10 +487,6 @@
 
   "item.minecraft.heart_of_the_sea": "Soul Heart",
   "block.minecraft.conduit": "Energy Core",
-
-  "item.minecraft.nautilus_shell": "Scrap Gear",
-  "item.minecraft.scute": "Scrap Plate",
-  "item.minecraft.ink_sac": "Glider Blood",
 
   "item.minecraft.slime_spawn_egg": "Spawn Ghost Cocoon",
   "item.minecraft.bee_spawn_egg": "Fly Spawn Egg",
@@ -502,13 +503,14 @@
   "item.minecraft.vindicator_spawn_egg": "Piglin King Spawn Egg",
   "item.minecraft.rabbit_spawn_egg": "Croaker Spawn Egg",
   "item.minecraft.creeper_spawn_egg": "Beeper Spawn Egg",
+  "item.minecraft.goat_spawn_egg": "Lanothrope Spawn Egg",
 
   "entity.minecraft.vindicator": "Piglin King",
 
   "item.ordana_inferno.demon_idol": "Demon Idol",
   "item.ordana_inferno.fertilizer": "Fertilizer",
 
-  "container.enderchest": "Soul Chest",
+  "container.enderchest": "Demon Chest",
   "container.blast_furnace": "Soul Forge",
   "container.smoker": "Carnelium Forge",
   "container.shulkerBox": "Anirrum Box",
@@ -534,6 +536,7 @@
   "entity.minecraft.skeleton_horse": "Vanilla Skeleton Horse",
   "entity.minecraft.rabbit": "Croaker",
   "entity.minecraft.creeper": "Beeper",
+  "entity.minecraft.goat": "Lanothrope",
 
   "entity.minecraft.ender_dragon": "Soul Serpent",
   "entity.minecraft.dragon_fireball": "Soul Serpent Fireball",
@@ -625,6 +628,16 @@
   "subtitles.entity.ender_dragon.growl": "Soul Serpent growls",
   "subtitles.entity.ender_dragon.hurt": "Soul Serpent hurts",
   "subtitles.entity.ender_dragon.shoot": "Soul Serpent shoots",
+  "subtitles.entity.goat.ambient": "Lanothrope bleats",
+  "subtitles.entity.goat.screaming.ambient": "Lanothrope bellows",
+  "subtitles.entity.goat.death": "Lanothrope dies",
+  "subtitles.entity.goat.eat": "Lanothrope eats",
+  "subtitles.entity.goat.hurt":  "Lanothrope hurts",
+  "subtitles.entity.goat.long_jump": "Lanothrope leaps",
+  "subtitles.entity.goat.milk": "Lanothrope gets milked",
+  "subtitles.entity.goat.prepare_ram":  "Lanothrope stomps",
+  "subtitles.entity.goat.ram_impact": "Lanothrope rams",
+  "subtitles.entity.goat.step": "Lanothrope steps",
 
   "subtitles.item.armor.equip_leather": "Leather armor rustles",
   "subtitles.item.armor.equip_chain": "Carnelium armor clangs",

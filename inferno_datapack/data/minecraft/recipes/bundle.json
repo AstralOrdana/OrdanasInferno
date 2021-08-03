@@ -1,19 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "-#-",
-    "# #",
-    "###"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:bedrock"
+      }
   ],
-  "key": {
-    "#": {
-      "item": "minecraft:leather"
-    },
-    "-": {
-      "item": "minecraft:string"
-    }
-  },
+  "group": "bedrock",
   "result": {
-    "item": "minecraft:bundle"
+      "item": "minecraft:bedrock"
   }
 }

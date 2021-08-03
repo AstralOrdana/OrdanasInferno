@@ -2,7 +2,8 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:stripped_spruce_wood"
+        "minecraft:stripped_spruce_wood",
+        "minecraft:spruce_planks"
       ]
     },
     "criteria": {

@@ -1,10 +1,12 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "minecraft:warped_planks",
     "minecraft:crimson_planks",
     "minecraft:birch_planks",
     "minecraft:spruce_planks",
-    "minecraft:oak_planks"
+    "minecraft:oak_planks",
+    "minecraft:acacia_planks",
+    "minecraft:jungle_planks"
   ]
 }

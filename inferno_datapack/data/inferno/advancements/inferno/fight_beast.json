@@ -7,7 +7,7 @@
         "text": "Beast Mode"
       },
       "description": {
-        "text": "Find a Beast Idol in a Demon Fortress and use it to awaken a Bone Beast. The beast will scorch the Soul Sand around itself, creating a useful resource."
+        "text": "Find a Beast Idol in a Demon Fortress and use it to awaken a Bone Beast. The beast will scorch any Soul Sand around itself, creating a useful resource."
       },
       "frame": "task",
       "show_toast": true,
@@ -17,11 +17,15 @@
     "parent": "inferno:inferno/carnelium_armor",
     "criteria": {
       "idol": {
-        "trigger": "minecraft:player_interacted_with_entity",
+        "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "entity": {
-            "type": "minecraft:armor_stand"
-          }
+          "items": [
+            {
+              "items": [
+                "minecraft:dried_kelp_block"
+              ]
+            }
+          ]
         }
       }
     },
@@ -31,4 +35,3 @@
       ]
     ]
   }
-  

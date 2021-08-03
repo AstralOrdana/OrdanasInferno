@@ -1,12 +1,16 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
     ],
-    "group": "bedrock",
+    "key": {
+      "#": {
+        "item": "minecraft:charcoal"
+      }
+    },
     "result": {
-        "item": "minecraft:bedrock"
+      "item": "minecraft:coal_block"
     }
-}
+  }

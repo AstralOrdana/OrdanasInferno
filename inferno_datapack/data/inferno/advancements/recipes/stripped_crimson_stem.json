@@ -2,7 +2,8 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:stripped_crimson_hyphae"
+        "minecraft:stripped_crimson_hyphae",
+        "minecraft:crimson_planks"
       ]
     },
     "criteria": {

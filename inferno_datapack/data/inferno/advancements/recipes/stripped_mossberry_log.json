@@ -2,7 +2,8 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:stripped_jungle_wood"
+        "minecraft:stripped_jungle_wood",
+        "minecraft:acacia_planks"
       ]
     },
     "criteria": {
@@ -11,7 +12,7 @@
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:jungle_log"]
+              "items": ["minecraft:stripped_jungle_log"]
             }
           ]
         }

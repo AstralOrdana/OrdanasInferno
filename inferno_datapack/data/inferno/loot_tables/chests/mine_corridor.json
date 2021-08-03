@@ -47,13 +47,71 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:honey_bottle"
+            "weight": 5,
+            "name": "minecraft:blackstone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 16
+                },
+                "add": true
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.75
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:popped_chorus_fruit",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 24
+                },
+                "add": true
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.75
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:red_sand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 12
+                },
+                "add": true
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.75
+              }
+            ]
           },
           {
             "type": "minecraft:item",
             "weight": 3,
-            "name": "minecraft:copper_ingot",
+            "name": "minecraft:bone_block",
             "functions": [
               {
                 "function": "minecraft:set_count",
