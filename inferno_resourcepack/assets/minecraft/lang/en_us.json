@@ -504,6 +504,7 @@
   "item.minecraft.rabbit_spawn_egg": "Croaker Spawn Egg",
   "item.minecraft.creeper_spawn_egg": "Beeper Spawn Egg",
   "item.minecraft.goat_spawn_egg": "Lanothrope Spawn Egg",
+  "item.minecraft.panda_spawn_egg": "Snorthog Spawn Egg",
 
   "entity.minecraft.vindicator": "Piglin King",
 
@@ -537,6 +538,7 @@
   "entity.minecraft.rabbit": "Croaker",
   "entity.minecraft.creeper": "Beeper",
   "entity.minecraft.goat": "Lanothrope",
+  "entity.minecraft.panda": "Snorthog",
 
   "entity.minecraft.ender_dragon": "Soul Serpent",
   "entity.minecraft.dragon_fireball": "Soul Serpent Fireball",
@@ -638,6 +640,17 @@
   "subtitles.entity.goat.prepare_ram":  "Lanothrope stomps",
   "subtitles.entity.goat.ram_impact": "Lanothrope rams",
   "subtitles.entity.goat.step": "Lanothrope steps",
+  "subtitles.entity.panda.aggressive_ambient": "Snorthog snorts",
+  "subtitles.entity.panda.ambient": "Snorthog snuffs",
+  "subtitles.entity.panda.bite": "Snorthog bites",
+  "subtitles.entity.panda.cant_breed": "Snorthog bleats",
+  "subtitles.entity.panda.death": "Snorthog dies",
+  "subtitles.entity.panda.eat": "Snorthog eats",
+  "subtitles.entity.panda.hurt": "Snorthog hurts",
+  "subtitles.entity.panda.pre_sneeze": "Snorthog sniffs",
+  "subtitles.entity.panda.sneeze": "Snorthog sneezes",
+  "subtitles.entity.panda.step": "Snorthog steps",
+  "subtitles.entity.panda.worried_ambient": "Snorthog whimpers",
 
   "subtitles.item.armor.equip_leather": "Leather armor rustles",
   "subtitles.item.armor.equip_chain": "Carnelium armor clangs",
