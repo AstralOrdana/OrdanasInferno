@@ -4,7 +4,8 @@
 	"textures": {
 		"top": "block/big_dripleaf_top",
 		"stem": "block/big_dripleaf_stem",
-		"side": "block/big_dripleaf_side"
+		"side": "block/big_dripleaf_side",
+		"particle": "block/big_dripleaf_top"
 	},
 	"elements": [
 		{

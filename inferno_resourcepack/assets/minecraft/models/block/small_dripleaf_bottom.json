@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench, Modeler: DMTHGM",
 	"parent": "block/block",
 	"textures": {
-		"stem": "block/small_dripleaf_stem_bottom"
+		"stem": "block/small_dripleaf_stem_bottom",
+		"particle": "block/small_dripleaf_stem_bottom"
 	},
 	"elements": [
 		{
