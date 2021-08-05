@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, Modeler: DMTHGM",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"particle": "block/bamboo_stalk",
 		"all": "block/bamboo_stalk"
@@ -10,7 +10,7 @@
 			"to": [9.5, 16, 9.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
 			"faces": {
-				"up": {"uv": [13, 5, 16, 8], "texture": "#all"}
+				"up": {"uv": [13, 0, 16, 3], "texture": "#all"}
 			}
 		}
 	]

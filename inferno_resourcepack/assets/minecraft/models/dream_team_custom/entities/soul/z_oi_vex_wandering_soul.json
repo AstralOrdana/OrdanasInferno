@@ -1,63 +1,47 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [48, 40],
+	"texture_size": [48, 16],
 	"textures": {
-		"soul": "entity/z-orda-ns-entities/soul/wandering_soul",
-		"particle": "block/soul_sand"
+		"particle": "entity/z-orda-ns-entities/soul/wandering_soul",
+		"soul": "entity/z-orda-ns-entities/soul/wandering_soul"
 	},
 	"elements": [
 		{
 			"name": "Head",
-			"from": [2, 0, 2],
-			"to": [14, 12, 14],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"from": [4, 6, 4],
+			"to": [12, 14, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 8]},
 			"faces": {
-				"north": {"uv": [2.66667, 3.2, 5.33333, 6.4], "texture": "#soul"},
-				"east": {"uv": [0, 3.2, 2.66667, 6.4], "texture": "#soul"},
-				"south": {"uv": [8, 3.2, 10.66667, 6.4], "texture": "#soul"},
-				"west": {"uv": [5.33333, 3.2, 8, 6.4], "texture": "#soul"},
-				"up": {"uv": [2.66667, 0, 5.33333, 3.2], "texture": "#soul"},
-				"down": {"uv": [5.33333, 0, 8, 3.2], "texture": "#soul"}
+				"north": {"uv": [2.66667, 8, 5.33333, 16], "texture": "#soul", "tintindex": 0},
+				"east": {"uv": [0, 8, 2.66667, 16], "texture": "#soul", "tintindex": 0},
+				"south": {"uv": [8, 8, 10.66667, 16], "texture": "#soul", "tintindex": 0},
+				"west": {"uv": [5.33333, 8, 8, 16], "texture": "#soul", "tintindex": 0},
+				"up": {"uv": [2.66667, 0, 5.33333, 8], "texture": "#soul", "tintindex": 0},
+				"down": {"uv": [5.33333, 0, 8, 8], "texture": "#soul", "tintindex": 0}
 			}
 		},
 		{
-			"name": "Cloth North",
-			"from": [3, -15.5, 3.5],
-			"to": [13, 0.5, 3.5],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 0.5, 3]},
+			"name": "Cloth",
+			"from": [5, 0, 4],
+			"to": [11, 8, 10],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 7]},
 			"faces": {
-				"north": {"uv": [13.33333, 0, 16, 6.4], "texture": "#soul"},
-				"south": {"uv": [16, 0, 13.33333, 6.4], "texture": "#soul"}
+				"north": {"uv": [14, 0, 16, 8], "texture": "#soul", "tintindex": 0},
+				"east": {"uv": [12, 0, 14, 8], "texture": "#soul", "tintindex": 0},
+				"south": {"uv": [14, 8, 16, 16], "texture": "#soul", "tintindex": 0},
+				"west": {"uv": [14, 0, 12, 8], "texture": "#soul", "tintindex": 0}
 			}
 		},
 		{
-			"name": "Cloth South",
-			"from": [3, -11.8, 12.65],
-			"to": [13, 4.2, 12.65],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 12]},
+			"name": "Inverted Cloth",
+			"from": [11, 8, 10],
+			"to": [5, 0, 4],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 7]},
 			"faces": {
-				"north": {"uv": [16, 0, 13.33333, 6.4], "texture": "#soul"},
-				"south": {"uv": [13.33333, 0, 16, 6.4], "texture": "#soul"}
-			}
-		},
-		{
-			"name": "Cloth West",
-			"from": [3, -13.5, 3.15],
-			"to": [3, 2.5, 13.15],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 2.5, 8]},
-			"faces": {
-				"east": {"uv": [16, 0, 13.33333, 6.4], "texture": "#soul"},
-				"west": {"uv": [13.33333, 0, 16, 6.4], "texture": "#soul"}
-			}
-		},
-		{
-			"name": "Cloth East",
-			"from": [13, -13.5, 3.15],
-			"to": [13, 2.5, 13.15],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [14, 2.5, 8]},
-			"faces": {
-				"east": {"uv": [13.33333, 0, 16, 6.4], "texture": "#soul"},
-				"west": {"uv": [16, 0, 13.33333, 6.4], "texture": "#soul"}
+				"north": {"uv": [14, 16, 16, 8], "texture": "#soul", "tintindex": 0},
+				"east": {"uv": [14, 8, 12, 0], "texture": "#soul", "tintindex": 0},
+				"south": {"uv": [14, 8, 16, 0], "texture": "#soul", "tintindex": 0},
+				"west": {"uv": [12, 8, 14, 0], "texture": "#soul", "tintindex": 0}
 			}
 		}
 	],
@@ -73,35 +57,30 @@
 			"scale": [0.375, 0.375, 0.375]
 		},
 		"firstperson_righthand": {
-			"rotation": [-45, 120, 0],
-			"translation": [0, 3, 0],
+			"rotation": [-26, 140, 0],
+			"translation": [0, 1.5, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-45, 120, 0],
-			"translation": [0, 3, 0],
+			"rotation": [-25, 140, 0],
+			"translation": [0, 1.5, 0],
 			"scale": [0.4, 0.4, 0.4]
-		},
-		"ground": {
-			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [0, 1.5, 0],
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"head": {
-			"scale": [2, 2, 2]
-		},
-		"fixed": {
-			"scale": [0.5, 0.5, 0.5]
+			"rotation": [-1, 0, 0],
+			"scale": [1.85, 1.85, 1.85]
 		}
 	},
 	"groups": [0,
 		{
-			"name": "cloth",
-			"origin": [8, 6, 8],
-			"children": [1, 2, 3, 4]
+			"name": "Cloth",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1, 2]
 		}
 	]
 }
