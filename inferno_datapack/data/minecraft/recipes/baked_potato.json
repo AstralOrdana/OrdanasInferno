@@ -1,12 +1,9 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
-    ],
-    "group": "bedrock",
-    "result": {
-        "item": "minecraft:bedrock"
-    }
-}
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:potato"
+    },
+    "result": "minecraft:baked_potato",
+    "experience": 0.35,
+    "cookingtime": 200
+  }
