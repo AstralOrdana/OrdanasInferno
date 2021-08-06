@@ -47,7 +47,8 @@
   "carvers": {
     "air": [
       "minecraft:prototype_canyon",
-      "minecraft:prototype_cave"
+      "minecraft:prototype_cave",
+      "minecraft:prototype_crevice"
     ]
   },
   "features": [

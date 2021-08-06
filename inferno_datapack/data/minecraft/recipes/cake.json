@@ -1,12 +1,35 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
+      {
+        "tag": "inferno:berry"
+      },
+      {
+        "tag": "inferno:berry"
+      },
+      {
+        "tag": "inferno:berry"
+      },
+      {
+        "tag": "inferno:berry"
+      },
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "minecraft:milk_bucket"
+      }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+      "item": "minecraft:cake"
     }
-}
+  }

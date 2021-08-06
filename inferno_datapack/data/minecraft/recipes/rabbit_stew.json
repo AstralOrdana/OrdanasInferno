@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "rabbit_stew",
   "ingredients": [
     {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:bamboo"
+      "item": "minecraft:crimson_fungus"
     },
     {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:cooked_salmon"
+    },
+    {
+      "item": "minecraft:honey_bottle"
     },
     {
       "item": "minecraft:bowl"

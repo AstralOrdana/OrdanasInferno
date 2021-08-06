@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:cooked_mutton"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "minecraft:golden_carrot"
+      },
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "minecraft:pumpkin_pie"
+      },
+      {
+        "item": "minecraft:cooked_chicken"
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  }

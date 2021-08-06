@@ -5,7 +5,8 @@
         "minecraft:respawn_anchor",
         "minecraft:ender_chest",
         "minecraft:tinted_glass",
-        "minecraft:anvil"
+        "minecraft:anvil",
+        "minecraft:golden_carrot"
       ]
     },
     "criteria": {

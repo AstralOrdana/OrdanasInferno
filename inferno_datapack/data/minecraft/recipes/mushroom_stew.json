@@ -2,10 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "inferno:mushrooms"
+      "item": "minecraft:spider_eye"
     },
     {
-      "tag": "inferno:mushrooms"
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
     },
     {
       "item": "minecraft:bowl"

@@ -23,7 +23,20 @@
     "inferno:soul_ziggurat"
   ],
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "weight": 15,
+        "minCount": 5,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:ghast",
+        "weight": 50,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:strider",

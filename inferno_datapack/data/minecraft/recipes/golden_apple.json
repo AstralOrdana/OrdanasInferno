@@ -1,12 +1,26 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
+      {
+        "item": "minecraft:crimson_fungus"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      },
+      {
+        "item": "minecraft:glistering_melon_slice"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:golden_carrot"
+      },
+      {
+        "item": "minecraft:cooked_mutton"
+      }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+      "item": "minecraft:golden_apple"
     }
-}
+  }

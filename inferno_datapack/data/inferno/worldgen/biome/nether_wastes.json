@@ -45,19 +45,7 @@
         "type": "minecraft:zombified_piglin",
         "weight": 100,
         "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:magma_cube",
-        "weight": 2,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
+        "maxCount": 7
       },
       {
         "type": "minecraft:piglin",

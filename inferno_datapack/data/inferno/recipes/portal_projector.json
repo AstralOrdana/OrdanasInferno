@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "#W#",
+		"MMM"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:cut_sandstone"
+        },
+        "X": {
+            "item": "minecraft:nautilus_shell"
+        },
+        "#": {
+            "item": "minecraft:deepslate"
+        },
+        "W": {
+            "item": "minecraft:scute"
+        }
+    },
+    "result": {
+        "item": "minecraft:nautilus_shell"
+    }
+}

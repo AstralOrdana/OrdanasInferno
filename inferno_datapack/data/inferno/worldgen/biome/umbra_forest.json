@@ -51,6 +51,12 @@
         "weight": 60,
         "minCount": 1,
         "maxCount": 2
+      },
+      {
+        "type": "minecraft:panda",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [],
@@ -60,6 +66,10 @@
   },
   "spawn_costs": {
     "minecraft:cave_spider": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:panda": {
       "energy_budget": 0.12,
       "charge": 1
     }

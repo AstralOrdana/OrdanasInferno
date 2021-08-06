@@ -1,12 +1,22 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#T#",
+      "TXT",
+      "#T#"
     ],
-    "group": "bedrock",
+    "key": {
+      "#": {
+        "item": "minecraft:clay_ball"
+      },
+      "X": {
+        "item": "minecraft:emerald"
+      },
+      "T": {
+        "item": "minecraft:deepslate"
+      }
+    },
     "result": {
-        "item": "minecraft:bedrock"
+      "item": "minecraft:ender_eye"
     }
-}
+  }

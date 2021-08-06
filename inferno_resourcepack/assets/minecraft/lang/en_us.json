@@ -210,6 +210,7 @@
   "block.minecraft.polished_deepslate": "Polished Terradite",
   "block.minecraft.polished_deepslate_slab": "Polished Terradite Slab",
   "block.minecraft.polished_deepslate_stairs": "Polished Terradite Stairs",
+  "block.minecraft.polished_deepslate_wall": "Polished Terradite Wall",
   "block.minecraft.deepslate_bricks": "Polished Terradite Bricks",
   "block.minecraft.deepslate_brick_slab": "Polished Terradite Brick Slab",
   "block.minecraft.deepslate_brick_stairs": "Polished Terradite Brick Stairs",
@@ -235,10 +236,16 @@
   "block.minecraft.sculk_sensor": "Carnelium Resonator",
   
   "block.minecraft.iron_block": "Colossus Building Block",
-  "item.minecraft.ender_eye": "Prototype Energy Core",
+  
   "block.minecraft.end_portal_frame": "Prototype Inter-dimensional Transportation Station",
-  "block.minecraft.emerald_ore":"Sunstone Ore",
-  "item.minecraft.emerald": "Sunstone Crystal",
+  "block.minecraft.deepslate_diamond_ore":"Sunstone Ore",
+  "item.minecraft.emerald": "Sunstone",
+  "block.minecraft.emerald_block": "Sunstone Block",
+  "item.minecraft.nautilus_shell": "Portal Projector Surface",
+  "block.minecraft.conduit": "Teleporter Logic Circuit",
+  "item.minecraft.ender_eye": "Prototype Energy Core",
+
+  "item.minecraft.scute": "Iridine Power Core",
 
   "block.minecraft.sandstone": "Marble",
   "block.minecraft.sandstone_slab": "Marble Slab",
@@ -413,6 +420,7 @@
   "item.minecraft.diamond_chestplate": "Nihiline Chestplate",
   "item.minecraft.diamond_leggings": "Nihiline Leggings",
   "item.minecraft.diamond_boots": "Nihiline Boots",
+  "item.minecraft.diamond_horse_armor": "Nihiline Horse Armor",
 
   "item.minecraft.diamond_sword": "Nihiline Sword",
   "item.minecraft.diamond_shovel": "Nihiline Shovel",
@@ -446,24 +454,29 @@
 
   "item.minecraft.apple": "Weeping Candy",
   "item.minecraft.cod": "Wart Bundle",
-  "item.minecraft.cooked_cod": "Wart Loaf",
   "item.minecraft.beetroot": "Placeholder",
   "item.minecraft.beetroot_seeds": "Spectre Garlic",
-  "item.minecraft.glistering_melon_slice": "Glittering Garlic",
+  "item.minecraft.glistering_melon_slice": "Gilded Garlic",
   "item.minecraft.carrot": "Warped Parsnip",
   "item.minecraft.chorus_fruit": "Golden Parsnip",
   "item.minecraft.potato": "Crimson Yam",
   "item.minecraft.baked_potato": "Toasted Crimson Yam",
   "item.minecraft.spider_eye": "Rotten Yam",
   "item.minecraft.wheat_seeds": "Umbra Fennel",
-  "item.minecraft.golden_carrot": "Gilded Fennel",
+  "item.minecraft.golden_carrot": "Crystal Fennel",
   "item.minecraft.pumpkin_pie": "Truffles",
-  "item.minecraft.beetroot_soup": "Fennel Soup",
   "item.minecraft.honey_bottle": "Bottle of Demon Blood",
   "item.minecraft.chicken": "Raw Croaker",
   "item.minecraft.cooked_chicken": "Cooked Croaker",
   "item.minecraft.rabbit_foot": "Croaker's Foot",
-  "item.minecraft.rabbit_stew": "Croaker Stew",
+
+  "item.minecraft.cooked_cod": "Cheese",
+  "item.minecraft.beetroot_soup": "Garlic Yam Soup",
+  "item.minecraft.mushroom_stew": "Putrid Stew",
+  "item.minecraft.golden_apple": "Mushroom and Veggie Salad",
+  "block.minecraft.cake": "Fruitcake",
+  "item.minecraft.rabbit_stew": "Yam and Fish Stew",
+  "item.minecraft.enchanted_golden_apple": "Inferno Special",
 
   "item.minecraft.pumpkin_seeds": "Bone Gourd Seeds",
   "item.minecraft.melon_seeds": "Nether Melon Seeds",
@@ -486,7 +499,6 @@
   "item.minecraft.dragon_breath": "Soul in a Bottle",
 
   "item.minecraft.heart_of_the_sea": "Soul Heart",
-  "block.minecraft.conduit": "Energy Core",
 
   "item.minecraft.slime_spawn_egg": "Spawn Ghost Cocoon",
   "item.minecraft.bee_spawn_egg": "Fly Spawn Egg",

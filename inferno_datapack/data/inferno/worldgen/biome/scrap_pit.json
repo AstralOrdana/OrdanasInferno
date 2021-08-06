@@ -53,6 +53,12 @@
         "weight": 60,
         "minCount": 1,
         "maxCount": 2
+      },
+      {
+        "type": "minecraft:iron_golem",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [],

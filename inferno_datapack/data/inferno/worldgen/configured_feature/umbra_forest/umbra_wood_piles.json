@@ -48,13 +48,46 @@
                   "type": "minecraft:block_pile",
                   "config": {
                     "state_provider": {
-                      "type": "minecraft:rotated_block_provider",
-                      "state": {
-                        "Name": "minecraft:spruce_wood",
-                        "Properties": {
-                          "axis": "y"
+                      "type": "minecraft:weighted_state_provider",
+                      "entries": [
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:spruce_wood",
+                            "Properties": {
+                              "axis": "z"
+                            }
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:spruce_wood",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:spruce_wood",
+                            "Properties": {
+                              "axis": "x"
+                            }
+                          }
+                        },
+                        {
+                          "weight": 2,
+                          "data": {
+                            "Name": "minecraft:spruce_leaves",
+                            "Properties": {
+                              "distance": "1",
+                              "persistent": "true"
+                            }
+                          }
                         }
-                      }
+                      ]
                     }
                   }
                 }
