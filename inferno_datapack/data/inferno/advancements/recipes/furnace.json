@@ -2,7 +2,6 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:cooked_salmon",
         "minecraft:cooked_chicken",
         "minecraft:baked_potato",
         "minecraft:cooked_mutton",
