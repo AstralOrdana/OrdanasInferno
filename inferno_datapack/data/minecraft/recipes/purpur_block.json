@@ -1,15 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "FF",
-    "FF"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:bedrock"
+      }
   ],
-  "key": {
-    "F": {
-      "item": "minecraft:popped_chorus_fruit"
-    }
-  },
+  "group": "bedrock",
   "result": {
-    "item": "minecraft:purpur_block"
+      "item": "minecraft:bedrock"
   }
 }
