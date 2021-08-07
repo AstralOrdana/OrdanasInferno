@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:podzol"
+      },
+      "title": {
+        "text": "Land of the Mossed"
+      },
+      "description": {
+        "text": "Welcome to the Moss Dimension, I hope you know how to get back..."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/moss.png"
+    },
+    "criteria": {
+      "root": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "dimension": "inferno:mossy_grotto"
+        }
+      }
+    },
+    "rewards": {},
+    "requirements": [
+      [
+        "root"
+      ]
+    ]
+  }
+  

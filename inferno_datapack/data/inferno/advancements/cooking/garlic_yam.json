@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:beetroot_soup"
+      },
+      "title": {
+        "text": "Your First Steps"
+      },
+      "description": {
+        "text": "Advance your cooking skills by combining ingredients to make more complicated and healthy dishes. Make some Garlic and Yam Soup."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:cooking/root",
+    "criteria": {
+      "quartz": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:beetroot_soup"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:mushroom_stew",
+            "minecraft:cooked_cod"
+        ]
+    },
+    "experience": 20,
+    "requirements": [
+      [
+        "quartz"
+      ]
+    ]
+  }
+  

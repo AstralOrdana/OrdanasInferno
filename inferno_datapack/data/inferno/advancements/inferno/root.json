@@ -16,7 +16,7 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/gui/advancements/backgrounds/root.png"
+        "background": "minecraft:textures/gui/advancements/backgrounds/inferno.png"
     },
     "criteria": {
         "root": {

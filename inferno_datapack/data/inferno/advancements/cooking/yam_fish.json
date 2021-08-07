@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:rabbit_stew"
+      },
+      "title": {
+        "text": "A Hearty Supper"
+      },
+      "description": {
+        "text": "Combine a bunch of high quality ingredients to make Yam and Fish stew, a favorite of the Piglins."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:cooking/mushroom_veggie",
+    "criteria": {
+      "quartz": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:rabbit_stew"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:enchanted_golden_apple"
+        ]
+    },
+    "experience": 50,
+    "requirements": [
+      [
+        "quartz"
+      ]
+    ]
+  }
+  

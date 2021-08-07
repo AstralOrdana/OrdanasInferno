@@ -1,39 +1,43 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:heart_of_the_sea"
+        "item": "minecraft:golden_apple"
       },
       "title": {
-        "text": "Heart Breaker",
-        "color": "dark_aqua",
-        "bold": true
+        "text": "Spice Things Up"
       },
       "description": {
-        "text": "Find a Ziggurat in a soul biome and brave the challenges within. Defeat the Heart of the temple and escape with your prize."
+        "text": "Combine ingredients from all over the world to make a Mushroom and Veggie Salad, a real superfood."
       },
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "inferno:inferno/get_nihiline",
+    "parent": "inferno:cooking/putrid_stew",
     "criteria": {
-      "heart": {
+      "quartz": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:heart_of_the_sea"
+                "minecraft:golden_apple"
               ]
             }
           ]
         }
       }
     },
+    "rewards": {
+        "recipes": [
+            "minecraft:rabbit_stew"
+        ]
+    },
+    "experience": 40,
     "requirements": [
       [
-        "heart"
+        "quartz"
       ]
     ]
   }

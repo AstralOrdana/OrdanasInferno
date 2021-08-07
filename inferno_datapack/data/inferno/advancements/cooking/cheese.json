@@ -1,39 +1,43 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:heart_of_the_sea"
+        "item": "minecraft:cooked_cod"
       },
       "title": {
-        "text": "Heart Breaker",
-        "color": "dark_aqua",
-        "bold": true
+        "text": "It aint Easy Being Cheesy"
       },
       "description": {
-        "text": "Find a Ziggurat in a soul biome and brave the challenges within. Defeat the Heart of the temple and escape with your prize."
+        "text": "Harvest some Milk from a Lanothrope and cook it to make Cheese, a tasty treat and a useful ingredient."
       },
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "inferno:inferno/get_nihiline",
+    "parent": "inferno:cooking/garlic_yam",
     "criteria": {
-      "heart": {
+      "quartz": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:heart_of_the_sea"
+                "minecraft:cooked_cod"
               ]
             }
           ]
         }
       }
     },
+    "rewards": {
+        "recipes": [
+            "minecraft:cake"
+        ]
+    },
+    "experience": 30,
     "requirements": [
       [
-        "heart"
+        "quartz"
       ]
     ]
   }

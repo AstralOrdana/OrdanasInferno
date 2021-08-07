@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": {
+            "text": "CHEESE GOD",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Combine several cheese into a BIG cheese."
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "inferno:cooking/cheese",
+    "criteria": {
+        "quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cake"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100,
+        "requirements": [
+            [
+                "quartz"
+            ]
+        ]
+    }
+}

@@ -1,39 +1,42 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:heart_of_the_sea"
+        "item": "minecraft:enchanted_golden_apple"
       },
       "title": {
-        "text": "Heart Breaker",
-        "color": "dark_aqua",
+        "text": "Spice Things Up",
+        "color": "dark_purple",
         "bold": true
       },
       "description": {
-        "text": "Find a Ziggurat in a soul biome and brave the challenges within. Defeat the Heart of the temple and escape with your prize."
+        "text": "You have nearly reached the summit, it's time to cook your greatest masterpiece, the Inferno Special"
       },
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "inferno:inferno/get_nihiline",
+    "parent": "inferno:cooking/yam_fish",
     "criteria": {
-      "heart": {
+      "quartz": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:heart_of_the_sea"
+                "minecraft:enchanted_golden_apple"
               ]
             }
           ]
         }
       }
     },
+    "rewards": {
+        "experience": 250
+    },
     "requirements": [
       [
-        "heart"
+        "quartz"
       ]
     ]
   }
