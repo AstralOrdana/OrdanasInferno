@@ -18,7 +18,9 @@
       "probability": 0.001
     }
   },
-  "starts": [],
+  "starts": [
+    "inferno:power_plant"
+  ],
   "spawners": {
     "water_ambient": [
       {

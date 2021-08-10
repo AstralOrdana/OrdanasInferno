@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "values": [
       "minecraft:stone",
       "minecraft:granite",
@@ -10,6 +10,8 @@
       "minecraft:blackstone",
       "minecraft:netherrack",
       "minecraft:terracotta",
-      "minecraft:sea_lantern"
+      "minecraft:sea_lantern",
+      "minecraft:cobbled_deepslate",
+      "minecraft:sandstone"
     ]
   }

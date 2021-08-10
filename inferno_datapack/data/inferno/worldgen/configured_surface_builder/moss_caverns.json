@@ -10,7 +10,7 @@
         "Name": "minecraft:sandstone"
       },
       "underwater_material": {
-        "Name": "minecraft:deepslate",
+        "Name": "minecraft:cobbled_deepslate",
         "Properties": {
           "axis": "y"
         }

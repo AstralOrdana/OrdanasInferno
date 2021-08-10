@@ -10,7 +10,7 @@
   "deepslate_enabled": false,
   "ore_veins_enabled": false,
   "default_block": {
-    "Name": "minecraft:deepslate",
+    "Name": "minecraft:cobbled_deepslate",
     "Properties": {
       "axis": "y"
     }
@@ -51,9 +51,14 @@
   },
   "structures": {
     "structures": {
-      "minecraft:ocean_ruin": {
-        "spacing": 4,
-        "separation": 2,
+      "minecraft:bastion_remnant": {
+        "spacing": 8,
+        "separation": 6,
+        "salt": 0
+      },
+      "minecraft:village": {
+        "spacing": 30,
+        "separation": 15,
         "salt": 0
       }
     }

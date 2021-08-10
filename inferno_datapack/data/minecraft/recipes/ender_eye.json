@@ -13,7 +13,7 @@
         "item": "minecraft:emerald"
       },
       "T": {
-        "item": "minecraft:deepslate"
+        "item": "minecraft:cobbled_deepslate"
       }
     },
     "result": {

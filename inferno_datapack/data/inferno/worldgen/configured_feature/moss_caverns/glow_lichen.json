@@ -43,7 +43,7 @@
                 "Name": "minecraft:sandstone"
               },
               {
-                "Name": "minecraft:deepslate",
+                "Name": "minecraft:cobbled_deepslate",
                 "Properties": {
                   "axis": "y"
                 }

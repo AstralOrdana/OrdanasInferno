@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:village",
+    "config": {
+      "start_pool": "inferno:power_plant_central_tower",
+      "size": 7
+    }
+  }
