@@ -1,0 +1,159 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_boots",
+        "nbt": "{Damage:0}"
+      },
+      "title": {
+        "text": "World Traveler ",
+        "color": "dark_red",
+        "bold": true
+      },
+      "description": "Visit every biome the Inferno dimension has to offer.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/root",
+    "criteria": {
+      "minecraft:birch_forest_hills": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:nether_wastes"
+          }
+        }
+      },
+      "minecraft:river": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:crimson_forest"
+          }
+        }
+      },
+      "minecraft:swamp": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:warped_forest"
+          }
+        }
+      },
+      "minecraft:desert": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:umbra_forest"
+          }
+        }
+      },
+      "minecraft:wooded_hills": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:infested_wastes"
+          }
+        }
+      },
+      "minecraft:giant_tree_taiga_hills": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:spectre_forest"
+          }
+        }
+      },
+      "minecraft:snowy_taiga": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:soul_sand_valley"
+          }
+        }
+      },
+      "minecraft:badlands": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:moonstone_caverns"
+          }
+        }
+      },
+      "minecraft:forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:magma_mires"
+          }
+        }
+      },
+      "minecraft:stone_shore": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:basalt_deltas"
+          }
+        }
+      },
+      "minecraft:snowy_tundra": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:volcanic_desert"
+          }
+        }
+      },
+      "minecraft:taiga_hills": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "inferno:scrap_pit"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:birch_forest_hills"
+      ],
+      [
+        "minecraft:river"
+      ],
+      [
+        "minecraft:swamp"
+      ],
+      [
+        "minecraft:desert"
+      ],
+      [
+        "minecraft:wooded_hills"
+      ],
+      [
+        "minecraft:giant_tree_taiga_hills"
+      ],
+      [
+        "minecraft:snowy_taiga"
+      ],
+      [
+        "minecraft:badlands"
+      ],
+      [
+        "minecraft:forest"
+      ],
+      [
+        "minecraft:stone_shore"
+      ],
+      [
+        "minecraft:snowy_tundra"
+      ],
+      [
+        "minecraft:taiga_hills"
+      ]
+    ],
+    "rewards": {
+      "experience": 500
+    }
+  }
+  

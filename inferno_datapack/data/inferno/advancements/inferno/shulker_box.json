@@ -7,7 +7,7 @@
         "text": "Basically Backpacks"
       },
       "description": {
-        "text": "Description"
+        "text": "Using Anirrum, craft yourself a box that you can put items in and then pick up and take with you."
       },
       "frame": "task",
       "show_toast": true,

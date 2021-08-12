@@ -5,7 +5,7 @@
             "color": "dark_red"
         },
         "description": {
-            "text": "On second thought, do you even want to leave?"
+            "text": "Congradulations! You've made it to the end of beta 1.8, feel free to keep exploring, try to get every advancement! Look forward to the full release."
         },
         "icon": {
             "item": "minecraft:netherrack"
@@ -30,5 +30,5 @@
             "end"
         ]
     ],
-    "parent": "inferno:inferno/dragon"
+    "parent": "inferno:inferno/heart"
 }

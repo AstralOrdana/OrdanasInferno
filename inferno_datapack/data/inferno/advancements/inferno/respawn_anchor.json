@@ -7,7 +7,7 @@
         "text": "Anchors Away"
       },
       "description": {
-        "text": "Description"
+        "text": "Using Demon Quartz and Glowstone, create a Respawn Anchor so that you may set your spawnpoint."
       },
       "frame": "task",
       "show_toast": true,

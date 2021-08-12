@@ -7,7 +7,7 @@
         "text": "Fly me to the Moon"
       },
       "description": {
-        "text": "Description"
+        "text": "Craft a Moonstone Altar on which you can combine your tools with magical Moonstones to make them more powerful."
       },
       "frame": "task",
       "show_toast": true,

@@ -7,7 +7,7 @@
         "text": "What's the Buzz?"
       },
       "description": {
-        "text": "Description"
+        "text": "Find an Infested Wastes biome."
       },
       "frame": "task",
       "show_toast": true,

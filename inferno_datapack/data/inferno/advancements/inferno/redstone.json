@@ -1,49 +1,72 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:comparator"
-      },
-      "title": {
-        "text": "Mechanical Genius"
-      },
-      "description": {
-        "text": "Description"
-      },
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:comparator"
     },
-    "parent": "inferno:inferno/get_carnelium",
-    "criteria": {
-      "redstone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:sculk_sensor",
-                "minecraft:redstone_torch",
-                "minecraft:redstone_block",
-                "minecraft:hopper",
-                "minecraft:dispenser",
-                "minecraft:dropper",
-                "minecraft:sticky_piston",
-                "minecraft:piston",
-                "minecraft:observer",
-                "minecraft:comparator",
-                "minecraft:repeater",
-                "minecraft:redstone"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "text": "Mechanical Genius"
+    },
+    "description": {
+      "text": "With Carnelium, Rubber, and Quartz, craft all of the mechanical components needed for most mechanical contraptions."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "inferno:inferno/get_carnelium",
+  "criteria": {
+    "redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:comparator"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:repeater"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:observer"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:sticky_piston"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:redstone_block"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:redstone_torch"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:sculk_sensor"
+            ]
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "redstone"
-      ]
+    }
+  },
+  "requirements": [
+    [
+      "redstone"
     ]
-  }
-  
+  ]
+}
