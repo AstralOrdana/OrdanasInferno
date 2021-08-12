@@ -29,6 +29,7 @@ scoreboard objectives add OrdN-S_Dread dummy
 scoreboard objectives add OrdN-S_BrapLv dummy
 scoreboard objectives add OrdN-S_BrapTm dummy
 scoreboard objectives add OrdN-S_BrapDl dummy
+scoreboard objectives add OrdN-S_BrapCt dummy
 
 ###ORDANA's INFERNO Intro###
 execute unless score OrdN_Gr OrdN-G_Disable matches 0.. run schedule function inferno:gamerules 6t
