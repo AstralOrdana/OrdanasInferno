@@ -11,5 +11,6 @@ execute if block ~ ~-1 ~ soul_sand run loot spawn ~ ~ ~ loot inferno:rooting/sou
 execute if block ~ ~-1 ~ soul_soil run loot spawn ~ ~ ~ loot inferno:rooting/soul_soil
 execute if block ~ ~-1 ~ warped_nylium run loot spawn ~ ~ ~ loot inferno:rooting/warped_nylium
 execute unless block ~ ~-1 ~ #inferno:valid_root run particle minecraft:angry_villager ~ ~ ~ 1 1 1 0 10
+playsound minecraft:block.gravel.break block @a ~ ~ ~ 0.7 0.75
 
 function inferno:entity/braphog/jump
