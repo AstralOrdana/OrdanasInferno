@@ -8,7 +8,6 @@ item replace entity @s weapon.offhand with air
 ###GEAR CHANCE###
 execute as @s at @s if predicate inferno:demon/demon_cloth run item replace entity @s armor.chest with leather_chestplate
 execute as @s at @s if predicate inferno:demon/demon_cloth run item replace entity @s armor.legs with leather_leggings
-execute as @s at @s if predicate inferno:demon/demon_offhand run item replace entity @s weapon.offhand with glowstone_dust
 
 ###DEMON LANCER [TRIDENT] ###
 execute as @s at @s if predicate inferno:demon/arch_demon unless entity @s[nbt={IsBaby:1b}] run function inferno:entity/demon/arch_demon_transformation
