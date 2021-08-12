@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " Q ",
-    "CRC",
+    "CQC",
     "RCR"
   ],
   "key": {
     "Q": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:clay_ball"
     },
     "R": {
       "item": "minecraft:slime_ball"
