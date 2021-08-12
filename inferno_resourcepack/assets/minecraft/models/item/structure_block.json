@@ -1,15 +1,16 @@
 {
-  "parent": "minecraft:block/structure_block"
-  	},
+  "parent": "minecraft:block/structure_block",
 	
 	"overrides": [
 		{"predicate": {"custom_model_data":1}, "model": "entity/demon_horns"},
 		{"predicate": {"custom_model_data":2}, "model": "entity/arch_demon_head"},
-		{"predicate": {"custom_model_data":3}, "model": "entity/wandering_soul"},
-		{"predicate": {"custom_model_data":4}, "model": "entity/wandering_soul_hurt"},
-		{"predicate": {"custom_model_data":5}, "model": "entity/piglin_king_head"},
-		{"predicate": {"custom_model_data":6}, "model": "entity/piglin_king_head_hurt"},
-		{"predicate": {"custom_model_data":7}, "model": "entity/fly_eyes"}
+		{"predicate": {"custom_model_data":3}, "model": "entity/arch_demon_head_hurt"},
+		{"predicate": {"custom_model_data":4}, "model": "entity/demon_cultist_head"},
+		{"predicate": {"custom_model_data":5}, "model": "entity/demon_cultist_head_hurt"},
+		{"predicate": {"custom_model_data":6}, "model": "entity/wandering_soul"},
+		{"predicate": {"custom_model_data":7}, "model": "entity/wandering_soul_hurt"},
+		{"predicate": {"custom_model_data":8}, "model": "entity/piglin_king_head"},
+		{"predicate": {"custom_model_data":9}, "model": "entity/piglin_king_head_hurt"},
+		{"predicate": {"custom_model_data":10}, "model": "entity/fly_eyes"}
 	]
-}
 }

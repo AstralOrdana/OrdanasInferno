@@ -4,7 +4,7 @@
 		"2": "block/wires/carnelium_resonator_side",
 		"4": "block/wires/carnelium_resonator_top",
 		"5": "block/wires/carnelium_resonator_crystal",
-		"particle": "block/wires/repeater_bulb"
+		"particle": "block/wires/carnelium_resonator_top"
 	},
 	"elements": [
 		{
@@ -104,6 +104,5 @@
 				"down": {"uv": [6, 4, 10, 8], "texture": "#2"}
 			}
 		}
-	],
-	"display": {}
+	]
 }
