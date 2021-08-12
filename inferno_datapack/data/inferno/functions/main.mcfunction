@@ -11,6 +11,10 @@ item replace entity @e[type=minecraft:vindicator,nbt=!{HurtTime:0s}] armor.head 
 #WANDERING SOUL#
 item replace entity @e[type=minecraft:vex,nbt={HurtTime:0s},tag=Orda-NS-SoulVex] armor.head with minecraft:emerald{CustomModelData:28003}
 item replace entity @e[type=minecraft:vex,nbt=!{HurtTime:0s},tag=Orda-NS-SoulVex] armor.head with minecraft:emerald{CustomModelData:28004}
+#DEMON CULTIST
+item replace entity @e[type=minecraft:pillager,nbt={HurtTime:0s}] armor.head with minecraft:structure_block{CustomModelData:4}
+item replace entity @e[type=minecraft:pillager,nbt=!{HurtTime:0s}] armor.head with minecraft:structure_block{CustomModelData:5}
+
 
 ###MOB PARTICLES###
 #BEEPER#
