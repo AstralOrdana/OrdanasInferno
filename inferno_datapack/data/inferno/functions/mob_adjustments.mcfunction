@@ -5,6 +5,9 @@ execute as @e[type=minecraft:vex,tag=!Orda-NS-GhostVex,tag=!Orda-NS-SoulVex] run
 #Demon#
 execute as @e[type=minecraft:drowned,tag=!Orda-NS-Demon] run function inferno:entity/demon/demon_transformation
 
+#Demon Cultist
+execute as @e[type=minecraft:pillager,tag=!Orda-NS-Cultist] run function inferno:entity/demon/demon_cultist_transformation
+
 #Flymen#
 execute as @e[type=minecraft:zombie,tag=!Orda-NS-Flyman] run function inferno:entity/fly/flyman_transformation
 
