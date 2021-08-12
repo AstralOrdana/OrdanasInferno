@@ -37,3 +37,10 @@ execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as
 
 execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ dead_bush run effect give @s wither 2 0
 execute if score $Ordana-NS-FakePlayer OrdN-S_Optimize matches 10 run execute as @a at @s if block ~ ~ ~ dead_bush run effect give @s weakness 10 0
+
+## BRAPHOG
+# what it do?
+execute as @e[type=panda] at @s run function inferno:entity/braphog/tick
+execute as @a if score @s OrdN-S_Sneak2 matches 1.. run scoreboard players set @s OrdN-S_Sneak3 4
+scoreboard players reset @a OrdN-S_Sneak2
+execute as @a if score @s OrdN-S_Sneak3 matches 1.. run scoreboard players remove @s OrdN-S_Sneak3 1
