@@ -88,7 +88,7 @@ execute as @e[type=panda] run scoreboard players add #BRAPCOUNT OrdN-S_BrapCt 1
 #Mob cap limit is in entity/braphog/spawn function
 
 ## Spawning
-execute as @e[type=piglin,tag=!BraphogFound] if predicate inferno:biomes/umbra_biome run function inferno:entity/braphog/spawn
+execute as @e[type=piglin,tag=!BraphogFound] at @s if predicate inferno:biomes/umbra_biome run function inferno:entity/braphog/spawn
 tag @e[type=piglin,tag=!BraphogFound] add BraphogFound
 execute as @e[type=panda,tag=!BraphogFound] run data merge entity @s {MainGene:"aggressive",HiddenGene:"aggressive"}
 tag @e[type=panda,tag=!BraphogFound] add BraphogFound
