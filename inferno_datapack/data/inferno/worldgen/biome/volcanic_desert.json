@@ -37,8 +37,7 @@
   },
   "starts": [
     "minecraft:nether_fossil",
-    "inferno:mineshaft",
-    "minecraft:mineshaft"
+    "inferno:mineshaft"
   ],
   "spawners": {
     "monster": [

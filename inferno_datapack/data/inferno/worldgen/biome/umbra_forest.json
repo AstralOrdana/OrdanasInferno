@@ -43,6 +43,12 @@
         "weight": 8,
         "minCount": 4,
         "maxCount": 6
+      },
+      {
+        "type": "minecraft:piglin",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
       }
     ],
     "creature": [

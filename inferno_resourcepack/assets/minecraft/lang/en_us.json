@@ -518,6 +518,8 @@
   "item.minecraft.creeper_spawn_egg": "Beeper Spawn Egg",
   "item.minecraft.goat_spawn_egg": "Lanothrope Spawn Egg",
   "item.minecraft.panda_spawn_egg": "Snorthog Spawn Egg",
+  "item.minecraft.cave_spider_spawn_egg": "Lightcrawler Spawn Egg",
+  "item.minecraft.stray_spawn_egg": "Ancient Warrior Spawn Egg",
 
   "entity.minecraft.vindicator": "Piglin King",
 
@@ -552,6 +554,8 @@
   "entity.minecraft.creeper": "Beeper",
   "entity.minecraft.goat": "Lanothrope",
   "entity.minecraft.panda": "Snorthog",
+  "entity.minecraft.cave_spider": "Lightcrawler",
+  "entity.minecraft.stray": "Ancient Warrior",
 
   "entity.minecraft.ender_dragon": "Soul Serpent",
   "entity.minecraft.dragon_fireball": "Soul Serpent Fireball",
@@ -664,6 +668,12 @@
   "subtitles.entity.panda.sneeze": "Snorthog sneezes",
   "subtitles.entity.panda.step": "Snorthog steps",
   "subtitles.entity.panda.worried_ambient": "Snorthog whimpers",
+  "subtitles.entity.spider.ambient": "Lightcrawler hisses",
+  "subtitles.entity.spider.death": "Lightcrawler dies",
+  "subtitles.entity.spider.hurt": "Lightcrawler hurts",
+  "subtitles.entity.stray.ambient": "Rattler clanks",
+  "subtitles.entity.stray.death": "Rattler dies",
+  "subtitles.entity.stray.hurt": "Rattler hurts",
 
   "subtitles.item.armor.equip_leather": "Leather armor rustles",
   "subtitles.item.armor.equip_chain": "Carnelium armor clangs",
