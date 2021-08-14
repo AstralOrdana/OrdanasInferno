@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "inferno:inferno/carnelium_armor",
+    "parent": "inferno:inferno/get_blackstone",
     "criteria": {
       "fortress": {
         "trigger": "minecraft:location",

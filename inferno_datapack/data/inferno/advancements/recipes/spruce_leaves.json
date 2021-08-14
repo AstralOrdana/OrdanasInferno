@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:grass"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:spruce_leaves"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:grass"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bamboo"
+      },
+      "title": {
+        "text": "Hog Wild"
+      },
+      "description": {
+        "text": "Crouch and feed an Umbra Fungus to a Snorthog and it will root around in the block below it to find you a gift as thanks."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/get_stem",
+    "criteria": {
+      "crimsonstem": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "crimsonstem"
+      ]
+    ]
+  }
+  

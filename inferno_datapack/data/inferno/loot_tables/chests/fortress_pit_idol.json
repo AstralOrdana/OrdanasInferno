@@ -52,7 +52,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:rabbit_stew",
+          "name": "minecraft:clay_ball",
           "functions": [
             {
               "function": "minecraft:set_count",

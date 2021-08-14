@@ -36,7 +36,8 @@
         "inferno:carnelium_leggings",
         "minecraft:piston",
         "minecraft:sticky_piston",
-        "minecraft:purpur_pillar"
+        "minecraft:purpur_pillar",
+        "minecraft:lodestone"
       ]
     },
     "criteria": {

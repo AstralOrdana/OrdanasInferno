@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "inferno:inferno/get_blackstone",
+    "parent": "inferno:inferno/get_stem",
     "criteria": {
       "ingot": {
         "trigger": "minecraft:inventory_changed",

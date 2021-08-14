@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": {
+      "text": "Vampirism"
+    },
+    "description": {
+      "text": "Kill a demon, harvest its blood and then drink it. You might feel like a monster but at least it can cure poison!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "inferno:inferno/get_blackstone",
+  "criteria": {
+    "ingot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ingot"
+    ]
+  ]
+}

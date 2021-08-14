@@ -1,12 +1,16 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
     ],
-    "group": "bedrock",
+    "key": {
+      "X": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
     "result": {
-        "item": "minecraft:bedrock"
+      "item": "minecraft:netherite_block"
     }
-}
+  }

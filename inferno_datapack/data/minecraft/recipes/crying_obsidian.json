@@ -1,9 +1,12 @@
 {
-    "type": "minecraft:blasting",
-    "ingredient": {
-      "item": "minecraft:obsidian"
-    },
-    "result": "minecraft:crying_obsidian",
-    "experience": 0.1,
-    "cookingtime": 100
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:bedrock"
+      }
+  ],
+  "group": "bedrock",
+  "result": {
+      "item": "minecraft:bedrock"
   }
+}

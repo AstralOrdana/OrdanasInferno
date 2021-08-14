@@ -49,37 +49,12 @@
       ]
     },
     "head_provider": {
-      "type": "minecraft:randomized_int_state_provider",
-      "property": "age",
-      "values": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 1
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:chorus_flower",
+        "Properties": {
+          "age": "5"
         }
-      },
-      "source": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "weight": 4,
-            "data": {
-              "Name": "minecraft:chorus_flower",
-              "Properties": {
-                "age": "1"
-              }
-            }
-          },
-          {
-            "weight": 4,
-            "data": {
-              "Name": "minecraft:chorus_flower",
-              "Properties": {
-                "age": "3"
-              }
-            }
-          }
-        ]
       }
     }
   }
