@@ -15,6 +15,7 @@ scoreboard objectives add OrdN-S_EyeSpawn dummy
 scoreboard objectives add OrdN-S_MoonCount dummy
 scoreboard objectives add OrdN-S_OnixCount dummy
 scoreboard objectives add OrdN-S_BCount dummy
+scoreboard objectives add OrdN-S_LCount dummy
 scoreboard objectives add OrdN-S_AltarLv dummy
 scoreboard objectives add OrdN-S_Levels level
 scoreboard objectives add OrdN-S_RClick minecraft.used:minecraft.carrot_on_a_stick
