@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lapis_block"
+      },
+      "title": {
+        "text": "Journeyman Wizard"
+      },
+      "description": {
+        "text": "Place two Blocks of Moonstone near your Altar to obtain slightly more potent Enchanted Moonstones. The types of enchantments you recieve depends on the biome in which the altar is placed."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/altar_lvl_1",
+    "criteria": {
+      "enchant": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "enchant"
+      ]
+    ]
+  }
+  

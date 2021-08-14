@@ -1,15 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:deepslate_tiles"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bedrock"
+        }
+    ],
+    "group": "bedrock",
+    "result": {
+        "item": "minecraft:bedrock"
     }
-  },
-  "result": {
-    "item": "minecraft:deepslate_tile_slab",
-    "count": 6
-  }
 }

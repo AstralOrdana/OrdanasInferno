@@ -2,11 +2,23 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:honey_block"
         }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:honey_bottle",
+        "count": 4
     }
 }

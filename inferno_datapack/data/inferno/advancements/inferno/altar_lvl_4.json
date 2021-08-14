@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:beacon"
+      },
+      "title": {
+        "text": "Acomplished Witch"
+      },
+      "description": {
+        "text": "Place two Sunstone Beacons, four more Blocks of Moonstone and two more Blocks of Demon Quartz around your altar to be able to obtain the next level of enchantments."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/altar_lvl_3",
+    "criteria": {
+      "enchant": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "enchant"
+      ]
+    ]
+  }
+  

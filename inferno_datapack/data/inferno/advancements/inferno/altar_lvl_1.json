@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "title": {
+        "text": "Novice Magician"
+      },
+      "description": {
+        "text": "Throw a Moonstone onto a Moonstone Altar, crouch and activate the altar with the Moonstone Wand, the Moonstone will be enchanted at the cost of exp."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/moonstone_wand",
+    "criteria": {
+      "enchant": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "enchant"
+      ]
+    ]
+  }
+  

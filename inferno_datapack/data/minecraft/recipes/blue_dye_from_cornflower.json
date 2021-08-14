@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "blue_dye",
-  "ingredients": [
-    {
-      "item": "minecraft:cornflower"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bedrock"
+        }
+    ],
+    "group": "bedrock",
+    "result": {
+        "item": "minecraft:bedrock"
     }
-  ],
-  "result": {
-    "item": "minecraft:blue_dye"
-  }
 }

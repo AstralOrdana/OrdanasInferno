@@ -1,16 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "XX",
-      "XX"
-    ],
-    "key": {
-      "X": {
-        "item": "minecraft:waxed_copper_block"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:bedrock"
       }
-    },
-    "result": {
-      "item": "minecraft:waxed_cut_copper",
-      "count": 4
-    }
+  ],
+  "group": "bedrock",
+  "result": {
+      "item": "minecraft:bedrock"
   }
+}

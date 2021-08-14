@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick"
+      },
+      "title": {
+        "text": "Let me Play Among the Stars"
+      },
+      "description": {
+        "text": "Craft a Moonstone Wand."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/moonstone_altar",
+    "criteria": {
+      "enchant": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "enchant"
+      ]
+    ]
+  }
+  

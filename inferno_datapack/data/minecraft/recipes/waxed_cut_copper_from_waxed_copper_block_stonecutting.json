@@ -1,8 +1,12 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:waxed_copper_block"
-  },
-  "result": "minecraft:waxed_cut_copper",
-  "count": 1
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bedrock"
+        }
+    ],
+    "group": "bedrock",
+    "result": {
+        "item": "minecraft:bedrock"
+    }
 }

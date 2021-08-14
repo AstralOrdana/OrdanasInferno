@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tinted_glass"
+      },
+      "title": {
+        "text": "Experienced Sorcerer"
+      },
+      "description": {
+        "text": "Place your alter near four Blocks of Moonstone and two Blocks of Demon quartz to gain more powerful enchantments. "
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "inferno:inferno/altar_lvl_2",
+    "criteria": {
+      "enchant": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "enchant"
+      ]
+    ]
+  }
+  

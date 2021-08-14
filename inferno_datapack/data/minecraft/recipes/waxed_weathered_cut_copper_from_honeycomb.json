@@ -2,11 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:weathered_cut_copper"
+        },
+        {
+            "item": "minecraft:honeycomb"
         }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:waxed_weathered_cut_copper"
     }
 }

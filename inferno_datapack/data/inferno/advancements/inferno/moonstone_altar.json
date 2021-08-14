@@ -7,7 +7,7 @@
         "text": "Fly me to the Moon"
       },
       "description": {
-        "text": "Craft a Moonstone Altar on which you can combine your tools with magical Moonstones to make them more powerful."
+        "text": "Craft a Moonstone Altar or find one in a soul biome guarded by cultists. You can use it to enhance your tools with Enchanted Moonstones."
       },
       "frame": "task",
       "show_toast": true,

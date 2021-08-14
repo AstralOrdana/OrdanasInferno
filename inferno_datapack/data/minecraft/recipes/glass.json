@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:soul_sand"
+    "item": "minecraft:sand"
   },
   "result": "minecraft:glass",
   "experience": 0.1,
