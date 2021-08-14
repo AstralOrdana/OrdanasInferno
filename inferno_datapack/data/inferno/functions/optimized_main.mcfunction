@@ -92,3 +92,12 @@ execute as @e[type=piglin,tag=!BraphogFound] at @s if predicate inferno:biomes/u
 tag @e[type=piglin,tag=!BraphogFound] add BraphogFound
 execute as @e[type=panda,tag=!BraphogFound] run data merge entity @s {MainGene:"aggressive",HiddenGene:"aggressive"}
 tag @e[type=panda,tag=!BraphogFound] add BraphogFound
+
+### LANOTHROPE SPAWNING
+## Lano Mobcount
+scoreboard players reset #LANOCOUNT OrdN-S_LanoCt
+execute as @e[type=goat] run scoreboard players add #LANOCOUNT OrdN-S_LanoCt 1
+#Mob cap limit is in entity/lano/spawn function
+
+execute as @e[type=zombified_piglin,tag=!LanoFound] at @s if predicate inferno:biomes/wastes_biome if predicate inferno:20_chance run function inferno:entity/lano/spawn
+tag @e[type=zombified_piglin] add LanoFound
