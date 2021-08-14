@@ -14,3 +14,4 @@ execute unless block ~ ~-1 ~ #inferno:valid_root run particle minecraft:angry_vi
 playsound minecraft:block.gravel.break block @a ~ ~ ~ 0.7 0.75
 
 function inferno:entity/braphog/jump
+advancement grant @a[distance=..12] only inferno:inferno/hog_root
