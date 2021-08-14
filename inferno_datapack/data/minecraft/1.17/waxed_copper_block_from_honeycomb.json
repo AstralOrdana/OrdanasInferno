@@ -1,15 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "waxed_copper_block",
-  "ingredients": [
-    {
-      "item": "minecraft:copper_block"
-    },
-    {
-      "item": "minecraft:honeycomb"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bedrock"
+        }
+    ],
+    "group": "bedrock",
+    "result": {
+        "item": "minecraft:bedrock"
     }
-  ],
-  "result": {
-    "item": "minecraft:waxed_copper_block"
-  }
 }

@@ -1,10 +1,12 @@
 {
-  "type": "minecraft:blasting",
-  "group": "lapis_lazuli",
-  "ingredient": {
-    "item": "minecraft:lapis_ore"
-  },
-  "result": "minecraft:lapis_lazuli",
-  "experience": 0.2,
-  "cookingtime": 100
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bedrock"
+        }
+    ],
+    "group": "bedrock",
+    "result": {
+        "item": "minecraft:bedrock"
+    }
 }

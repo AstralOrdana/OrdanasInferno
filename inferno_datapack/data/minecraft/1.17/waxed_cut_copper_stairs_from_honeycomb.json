@@ -1,15 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "waxed_cut_copper_stairs",
-  "ingredients": [
-    {
-      "item": "minecraft:cut_copper_stairs"
-    },
-    {
-      "item": "minecraft:honeycomb"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bedrock"
+        }
+    ],
+    "group": "bedrock",
+    "result": {
+        "item": "minecraft:bedrock"
     }
-  ],
-  "result": {
-    "item": "minecraft:waxed_cut_copper_stairs"
-  }
 }
