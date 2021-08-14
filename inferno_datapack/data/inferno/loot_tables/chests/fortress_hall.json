@@ -78,11 +78,16 @@
           "expand": true,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.15,
+                "max": 0.8
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "conditions": [

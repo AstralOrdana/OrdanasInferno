@@ -2,10 +2,6 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:cooked_chicken",
-        "minecraft:baked_potato",
-        "minecraft:cooked_mutton",
-        "minecraft:charcoal",
         "minecraft:glass"
       ]
     },
@@ -15,7 +11,7 @@
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:furnace"]
+              "items": ["minecraft:sand"]
             }
           ]
         }
@@ -23,7 +19,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "minecraft:cooked_salmon"
+          "recipe": "minecraft:glass"
         }
       }
     },

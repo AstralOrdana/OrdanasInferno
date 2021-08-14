@@ -20,6 +20,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:spider_eye",
           "functions": [

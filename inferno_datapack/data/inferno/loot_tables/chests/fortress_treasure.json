@@ -52,6 +52,20 @@
               "condition": "minecraft:random_chance",
               "chance": 0.25
             }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.15,
+                "max": 0.8
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
           ]
         }
       ]

@@ -1,219 +1,228 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "rolls": 4,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 6,
-            "name": "minecraft:charcoal",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 5
-                },
-                "conditions": [
-                  {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.75
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 5,
-            "name": "minecraft:red_sand",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 2,
-                  "max": 12
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:amethyst_cluster",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 2,
-                  "max": 12
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:gilded_blackstone",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 2
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 6,
-            "name": "minecraft:blackstone",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 8,
-                  "max": 32
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 4,
-            "name": "minecraft:oak_leaves",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 2
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:cooked_mutton",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 2
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 7,
-            "name": "minecraft:bone",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 6
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:gold_nugget",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 16
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.5
-              }
-            ]
-          },
-          {
-            "type": "minecraft:tag",
-            "weight": 1,
-            "name": "inferno:stone_tools",
-            "expand": true,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 1
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:charcoal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.75
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:red_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 12
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:amethyst_cluster",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 12
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:gilded_blackstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:blackstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:oak_leaves",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:cooked_mutton",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 16
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 1,
+          "name": "inferno:stone_tools",
+          "expand": true,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
               }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.25
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 1
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
