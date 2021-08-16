@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:blaze_rod"
         }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:blaze_powder",
+        "count": 2
     }
 }

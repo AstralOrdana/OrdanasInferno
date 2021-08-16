@@ -1,98 +1,138 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "rolls": 4,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 6,
-            "name": "minecraft:charcoal",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 5
-                },
-                "conditions": [
-                  {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.75
-                  }
-                ]
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 7,
-            "name": "minecraft:bone",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 6
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.75
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:honey_bottle"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:copper_ingot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 2
-                },
-                "add": true
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.5
-              }
-            ]
-          },
-          {
-            "type": "minecraft:tag",
-            "weight": 3,
-            "name": "inferno:stone_tools",
-            "expand": true,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 1
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:looting",
+                "minecraft:loyalty",
+                "minecraft:channeling",
+                "minecraft:impaling",
+                "minecraft:frost_walker",
+                "minecraft:mending",
+                "minecraft:unbreaking",
+                "minecraft:soul_speed"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Beast Idol",
+                "italic": false,
+                "hoverEvent": {
+                  "action": "show_text"
                 }
               }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.25
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:28001,EntityTag:{Tags:[\"Orda-NS-ArmorDemonIdol\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:mending",
+                "minecraft:unbreaking"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.99
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:amethyst_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 8
+              },
+              "add": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
