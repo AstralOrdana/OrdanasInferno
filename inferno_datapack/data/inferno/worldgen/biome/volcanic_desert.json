@@ -54,10 +54,10 @@
         "maxCount": 5
       },
       {
-        "type": "minecraft:husk",
-        "weight": 45,
+        "type": "minecraft:wither_skeleton",
+        "weight": 20,
         "minCount": 2,
-        "maxCount": 5
+        "maxCount": 3
       }
     ],
     "creature": [

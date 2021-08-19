@@ -1,0 +1,51 @@
+{
+    "name": "inferno:demon_fortress",
+    "fallback": "inferno:demon_fortress_enclosed_fallback",
+    "elements": [
+      {
+        "weight": 4,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_hall",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 4,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_hall_balconies",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 6,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_cross",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_corner",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+          "location": "inferno:demon_fortress/enclosed_t_junction",
+          "processors": "inferno:fortress_degradation",
+              "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

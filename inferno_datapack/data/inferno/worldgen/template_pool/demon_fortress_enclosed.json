@@ -3,7 +3,7 @@
     "fallback": "inferno:demon_fortress_enclosed_fallback",
     "elements": [
       {
-        "weight": 50,
+        "weight": 5,
         "element": {
           "location": "inferno:demon_fortress/enclosed_hall",
           "processors": "inferno:fortress_degradation",
@@ -12,7 +12,7 @@
         }
       },
       {
-        "weight": 50,
+        "weight": 5,
         "element": {
           "location": "inferno:demon_fortress/enclosed_hall_balconies",
           "processors": "inferno:fortress_degradation",
@@ -21,7 +21,7 @@
         }
       },
       {
-        "weight": 5,
+        "weight": 3,
         "element": {
           "location": "inferno:demon_fortress/enclosed_dead_end",
           "processors": "inferno:fortress_degradation",
@@ -30,7 +30,7 @@
         }
       },
       {
-        "weight": 20,
+        "weight": 2,
         "element": {
           "location": "inferno:demon_fortress/enclosed_demonic_lobby",
           "processors": "inferno:fortress_degradation",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "weight": 20,
+        "weight": 2,
         "element": {
           "location": "inferno:demon_fortress/enclosed_lava_tube",
           "processors": "inferno:fortress_degradation",
@@ -48,7 +48,7 @@
         }
       },
       {
-        "weight": 20,
+        "weight": 2,
         "element": {
           "location": "inferno:demon_fortress/enclosed_wart_garden",
           "processors": "inferno:fortress_degradation",
@@ -57,7 +57,7 @@
         }
       },
       {
-        "weight": 20,
+        "weight": 2,
         "element": {
           "location": "inferno:demon_fortress/enclosed_crimson_garden",
           "processors": "inferno:fortress_degradation",
@@ -66,7 +66,7 @@
         }
       },
       {
-        "weight": 20,
+        "weight": 2,
         "element": {
           "location": "inferno:demon_fortress/enclosed_armory",
           "processors": "inferno:fortress_degradation",
@@ -75,7 +75,7 @@
         }
       },
       {	
-        "weight": 40,
+        "weight": 4,
         "element": {
           "location": "inferno:demon_fortress/enclosed_cross",
           "processors": "inferno:fortress_degradation",
@@ -84,7 +84,7 @@
         }
       },
       {
-        "weight": 80,
+        "weight": 8,
         "element": {
           "location": "inferno:demon_fortress/enclosed_corner",
           "processors": "inferno:fortress_degradation",
@@ -93,7 +93,7 @@
         }
       },
       {
-        "weight": 60,
+        "weight": 6,
         "element": {
           "location": "inferno:demon_fortress/enclosed_t_junction",
           "processors": "inferno:fortress_degradation",
@@ -102,7 +102,7 @@
         }
       },
       {	
-        "weight": 30,
+        "weight": 2,
         "element": {
           "location": "inferno:demon_fortress/enclosed_tower",
           "processors": "inferno:fortress_degradation",
