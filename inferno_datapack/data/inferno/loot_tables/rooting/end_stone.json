@@ -31,7 +31,7 @@
           {
             "type": "minecraft:item",
             "weight": 5,
-            "name": "minecraft:lapis_lazuli"
+            "name": "minecraft:book"
           },
           {
             "type": "minecraft:item",

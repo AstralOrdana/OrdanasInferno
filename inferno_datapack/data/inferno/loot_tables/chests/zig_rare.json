@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "minecraft:lapis_lazuli",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:set_count",

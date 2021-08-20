@@ -43,7 +43,7 @@
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:lapis_lazuli",
+            "name": "minecraft:book",
             "functions": [
               {
                 "function": "minecraft:set_count",

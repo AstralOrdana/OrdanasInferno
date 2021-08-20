@@ -14,7 +14,7 @@
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:lapis_lazuli"]
+              "items": ["minecraft:book"]
             }
           ]
         }
