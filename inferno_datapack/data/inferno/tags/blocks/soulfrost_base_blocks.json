@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:terracotta",
+      "minecraft:netherrack",
+      "minecraft:gravel",
+      "minecraft:cobblestone",
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ]
+  }

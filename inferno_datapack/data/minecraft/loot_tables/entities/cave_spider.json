@@ -26,6 +26,22 @@
           "name": "minecraft:glow_berries"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\"}"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ]
     }
   ]
 }
