@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 8
+        "count": 32
       }
     },
     "feature": {
@@ -26,7 +26,7 @@
                     "absolute": 0
                   },
                   "max_inclusive": {
-                    "absolute": 39
+                    "absolute": 50
                   }
                 }
               }
@@ -39,22 +39,22 @@
                   "type": "minecraft:constant",
                   "value": 1
                 },
-                "vertical_range": 4,
+                "vertical_range": 7,
                 "extra_bottom_block_chance": 0.5,
                 "extra_edge_column_chance": 0.5,
                 "vegetation_chance": 0.01,
                 "xz_radius": {
                   "type": "minecraft:uniform",
                   "value": {
-                    "min_inclusive": 3,
+                    "min_inclusive": 2,
                     "max_inclusive": 9
                   }
                 },
-                "replaceable": "inferno:soulfrost_base_blocks",
+                "replaceable": "inferno:magmabeach_base_blocks",
                 "ground_state": {
                   "type": "minecraft:simple_state_provider",
                   "state": {
-                    "Name": "minecraft:blue_ice"
+                    "Name": "minecraft:magma_block"
                   }
                 },
                 "vegetation_feature": {
@@ -63,16 +63,6 @@
                     "direction": "up",
                     "allow_water": false,
                     "height_distribution": [
-                      {
-                        "weight": 2,
-                        "data": {
-                          "type": "minecraft:uniform",
-                          "value": {
-                            "min_inclusive": 5,
-                            "max_inclusive": 7
-                          }
-                        }
-                      },
                       {
                         "weight": 1,
                         "data": {

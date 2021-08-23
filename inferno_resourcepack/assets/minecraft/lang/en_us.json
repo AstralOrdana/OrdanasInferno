@@ -11,6 +11,7 @@
 
   "block.minecraft.clay": "Anirrum Scraps",
   "block.minecraft.iron_ore": "Carnelium Ore",
+  "block.minecraft.copper_ore": "Carnelium Ore",
   "block.minecraft.coal_ore": "Poor Carnelium Ore",
   "block.minecraft.crying_obsidian": "Orichalcum ore",
 
@@ -185,6 +186,7 @@
   "block.minecraft.infested_chiseled_stone_bricks": "Chiseled Limestone Nest",
 
   "block.minecraft.dripstone_block": "Basalt",
+  "block.minecraft.granite": "Blackstone",
   "block.minecraft.pointed_dripstone": "Basalt Column",
 
   "block.minecraft.cobblestone": "Scoria",
@@ -303,7 +305,6 @@
   "block.minecraft.jungle_leaves": "Mossberry Leaves",
   "item.minecraft.jungle_boat": "Mossy Mossberry Boat",
   
-  "block.minecraft.granite": "Gear Scraps",
   "block.minecraft.purpur_pillar": "Carnelium Pipe",
   "block.minecraft.purpur_block": "Pipeline Block",
   "block.minecraft.dead_bubble_coral_block": "Clockwork Block",

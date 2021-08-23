@@ -39,7 +39,7 @@
                   "type": "minecraft:constant",
                   "value": 1
                 },
-                "vertical_range": 4,
+                "vertical_range": 3,
                 "extra_bottom_block_chance": 0.5,
                 "extra_edge_column_chance": 0.5,
                 "vegetation_chance": 0.01,
@@ -50,12 +50,41 @@
                     "max_inclusive": 9
                   }
                 },
-                "replaceable": "inferno:soulfrost_base_blocks",
+                "replaceable": "inferno:scrap_base_blocks",
                 "ground_state": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:blue_ice"
-                  }
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:air"
+                      }
+                    },
+                    {
+                      "weight": 100,
+                      "data": {
+                        "Name": "minecraft:waxed_cut_copper"
+                      }
+                    },
+                    {
+                      "weight": 50,
+                      "data": {
+                        "Name": "minecraft:waxed_exposed_cut_copper"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "minecraft:waxed_oxidized_cut_copper"
+                      }
+                    },
+                    {
+                      "weight": 25,
+                      "data": {
+                        "Name": "minecraft:waxed_weathered_cut_copper"
+                      }
+                    }
+                  ]
                 },
                 "vegetation_feature": {
                   "type": "minecraft:growing_plant",
@@ -87,20 +116,46 @@
                     "body_provider": {
                       "type": "minecraft:simple_state_provider",
                       "state": {
-                        "Name": "minecraft:bone_block",
+                        "Name": "minecraft:purpur_pillar",
                         "Properties": {
                           "axis": "y"
                         }
                       }
                     },
                     "head_provider": {
-                      "type": "minecraft:simple_state_provider",
-                      "state": {
-                        "Name": "minecraft:bone_block",
-                        "Properties": {
-                          "axis": "y"
+                      "type": "minecraft:weighted_state_provider",
+                      "entries": [
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:air"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:waxed_copper_block"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:waxed_exposed_copper"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:waxed_oxidized_copper"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:waxed_weathered_copper"
+                          }
                         }
-                      }
+                      ]
                     }
                   }
                 }
