@@ -4,7 +4,7 @@
   "scale": 0.2,
   "temperature": 2,
   "downfall": 16,
-  "precipitation": "rain",
+  "precipitation": "none",
   "category": "nether",
   "effects": {
     "sky_color": 7254527,
