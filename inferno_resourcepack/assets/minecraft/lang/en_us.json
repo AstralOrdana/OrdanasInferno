@@ -58,6 +58,7 @@
   "block.minecraft.red_mushroom_block": "Gorrel Mushroom Block",
   "block.minecraft.brown_mushroom_block": "Leechblood Mushroom Block",
 
+  "item.minecraft.lapis_lazuli": "Book",
   "block.minecraft.bookshelf": "Mossy Mossberry Bookshelf",
   "block.minecraft.fletching_table": "Mossberry Bookshelf",
   "block.minecraft.dark_oak_planks": "Umbra Bookshelf",
@@ -488,7 +489,7 @@
   "block.minecraft.coal_block": "Block of Charcoal",
 
   "item.minecraft.coal": "Magmatic Rock",
-  "item.minecraft.lapis_lazuli": "Moonstone",
+  "item.minecraft.book": "Moonstone",
   "item.minecraft.enchanted_book": "Enchanted Moonstone",
 
   "item.minecraft.feather": "Feather",
