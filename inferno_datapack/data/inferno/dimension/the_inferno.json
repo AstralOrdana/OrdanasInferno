@@ -391,7 +391,7 @@
           }
         },
         {
-          "biome": "inferno:moonstone_caverns",
+          "biome": "inferno:crimson_valley",
           "parameters": {
             "altitude": 0,
             "temperature": 0.9,
@@ -401,7 +401,7 @@
           }
         },
         {
-          "biome": "inferno:moonstone_caverns",
+          "biome": "inferno:crimson_valley",
           "parameters": {
             "altitude": 0,
             "temperature": 0.8,

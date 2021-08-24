@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 2
+        "count": 16
       }
     },
     "feature": {
@@ -49,7 +49,7 @@
                       "config": {
                         "noise_to_count_ratio": 1,
                         "noise_factor": 70,
-                        "noise_offset": -0.1
+                        "noise_offset": 0.1
                       }
                     }
                   }
@@ -66,14 +66,20 @@
                     "xz_radius": {
                       "type": "minecraft:uniform",
                       "value": {
-                        "min_inclusive": 2,
-                        "max_inclusive": 5
+                        "min_inclusive": 4,
+                        "max_inclusive": 7
                       }
                     },
                     "replaceable": "minecraft:soul_fire_base_blocks",
                     "ground_state": {
                       "type": "minecraft:weighted_state_provider",
                       "entries": [
+                        {
+                          "weight": 5,
+                          "data": {
+                            "Name": "minecraft:crimson_nylium"
+                          }
+                        },
                         {
                           "weight": 5,
                           "data": {
@@ -89,7 +95,13 @@
                         {
                           "weight": 5,
                           "data": {
-                            "Name": "minecraft:terracotta"
+                            "Name": "minecraft:netherrack"
+                          }
+                        },
+                        {
+                          "weight": 6,
+                          "data": {
+                            "Name": "minecraft:netherrack"
                           }
                         }
                       ]
@@ -111,11 +123,23 @@
                             {
                               "weight": 1,
                               "data": {
-                                "Name": "minecraft:crimson_roots"
+                                "Name": "minecraft:crimson_fungus"
                               }
                             },
                             {
                               "weight": 1,
+                              "data": {
+                                "Name": "minecraft:nether_wart_block"
+                              }
+                            },
+                            {
+                              "weight": 1,
+                              "data": {
+                                "Name": "minecraft:crimson_roots"
+                              }
+                            },
+                            {
+                              "weight": 2,
                               "data": {
                                 "Name": "minecraft:nether_wart",
                                 "Properties": {
@@ -124,7 +148,7 @@
                               }
                             },
                             {
-                              "weight": 1,
+                              "weight": 2,
                               "data": {
                                 "Name": "minecraft:nether_wart",
                                 "Properties": {
@@ -133,7 +157,7 @@
                               }
                             },
                             {
-                              "weight": 1,
+                              "weight": 2,
                               "data": {
                                 "Name": "minecraft:nether_wart",
                                 "Properties": {
