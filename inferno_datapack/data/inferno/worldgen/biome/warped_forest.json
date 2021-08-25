@@ -81,7 +81,13 @@
       "inferno:base/orichalcum_cluster"
     ],
     [
-      "inferno:warped_forest/warped_deltas"
+      "inferno:warped_forest/warped_deltas",
+      "inferno:warped_forest/warped_fungi_large",
+      "inferno:warped_forest/warped_fungi_small",
+      "minecraft:spring_lava",
+      "minecraft:warped_forest_vegetation",
+      "minecraft:nether_sprouts",
+      "inferno:warped_forest/twisting_vines"
     ],
     [
       "minecraft:spring_open",
@@ -100,11 +106,7 @@
       "inferno:base/ore_blackstone"
     ],
     [
-      "minecraft:spring_lava",
-      "minecraft:warped_fungi",
-      "minecraft:warped_forest_vegetation",
-      "minecraft:nether_sprouts",
-      "minecraft:twisting_vines"
+      "inferno:warped_forest/dirt_to_netherrack"
     ]
   ]
 }

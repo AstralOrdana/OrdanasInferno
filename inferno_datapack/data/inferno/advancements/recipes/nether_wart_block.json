@@ -1,32 +1,32 @@
 {
-    "parent": "minecraft:recipes/root",
-    "rewards": {
-      "recipes": [
-        "minecraft:nether_wart"
-      ]
-    },
-    "criteria": {
-      "has_blaze_rod": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:nether_wart_block"]
-            }
-          ]
-        }
-      },
-      "has_the_recipe": {
-        "trigger": "minecraft:recipe_unlocked",
-        "conditions": {
-          "recipe": "minecraft:nether_wart"
-        }
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:nether_wart"
+    ]
+  },
+  "criteria": {
+    "has_blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:flowering_azalea_leaves"]
+          }
+        ]
       }
     },
-    "requirements": [
-      [
-        "has_blaze_rod",
-        "has_the_recipe"
-      ]
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:nether_wart"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blaze_rod",
+      "has_the_recipe"
     ]
-  }
+  ]
+}
