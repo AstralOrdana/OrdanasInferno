@@ -87,7 +87,10 @@
       "minecraft:spring_lava",
       "minecraft:warped_forest_vegetation",
       "minecraft:nether_sprouts",
-      "inferno:warped_forest/twisting_vines"
+      "inferno:warped_forest/twisting_vines_wart_block",
+      "inferno:warped_forest/twisting_vines_nylium",
+      "inferno:warped_forest/wartspore",
+      "inferno:warped_forest/rare_huge_fungus"
     ],
     [
       "minecraft:spring_open",
