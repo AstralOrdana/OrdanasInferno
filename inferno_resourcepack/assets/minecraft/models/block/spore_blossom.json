@@ -1,0 +1,129 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/spore_blossom_bulb",
+		"1": "block/spore_roots",
+		"2": "block/warped_wart_block_3",
+		"particle": "block/spore_blossom_bulb"
+	},
+	"elements": [
+		{
+			"name": "Bulb",
+			"from": [3, 10, 3],
+			"to": [13, 16, 13],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [3, 0, 13, 6], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 6], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 6], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 6], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [3, 6, 13, 16], "rotation": 180, "texture": "#2", "cullface": "up"},
+				"down": {"uv": [3, 6, 13, 16], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [13, 4, 3],
+			"to": [13, 16, 13],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [13, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"east": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"west": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [3, 4, 3],
+			"to": [3, 16, 13],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [3, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"east": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"west": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [3, 4, 3],
+			"to": [13, 16, 3],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 16, 3]},
+			"faces": {
+				"north": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"south": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 0], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 0], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [3, 4, 13],
+			"to": [13, 16, 13],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 16, 13]},
+			"faces": {
+				"north": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"south": {"uv": [3, 0, 13, 12], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 0], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 0], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, 14.25, 0]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [0,
+		{
+			"name": "Roots",
+			"origin": [8, 16, 13],
+			"color": 0,
+			"shade": false,
+			"children": [1, 2, 3, 4]
+		}
+	]
+}
