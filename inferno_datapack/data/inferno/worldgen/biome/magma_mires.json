@@ -41,16 +41,10 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:blaze",
-        "weight": 40,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
         "type": "minecraft:magma_cube",
         "weight": 100,
         "minCount": 2,
-        "maxCount": 5
+        "maxCount": 6
       }
     ],
     "creature": [
