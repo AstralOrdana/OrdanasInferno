@@ -8,7 +8,7 @@
   "category": "nether",
   "effects": {
     "sky_color": 37314,
-    "fog_color": 789773,
+    "fog_color": 331535,
     "water_color": 2333555,
     "water_fog_color": 1205064,
     "ambient_sound": "minecraft:ambient.warped_forest.loop",
