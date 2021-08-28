@@ -2,12 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:cooked_chicken",
-        "minecraft:baked_potato",
-        "minecraft:cooked_mutton",
-        "minecraft:cooked_beef",
-        "minecraft:charcoal",
-        "minecraft:glass"
+        "minecraft:apple"
       ]
     },
     "criteria": {
@@ -16,7 +11,7 @@
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:furnace"]
+              "items": ["minecraft:poisonous_potato"]
             }
           ]
         }
@@ -24,7 +19,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "minecraft:cooked_salmon"
+          "recipe": "minecraft:apple"
         }
       }
     },

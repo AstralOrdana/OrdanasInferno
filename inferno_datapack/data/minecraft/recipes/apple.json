@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "result": "minecraft:apple",
+    "experience": 0.15,
+    "cookingtime": 200
+  }

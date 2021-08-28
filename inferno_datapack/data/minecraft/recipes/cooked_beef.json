@@ -1,12 +1,9 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
-    ],
-    "group": "bedrock",
-    "result": {
-        "item": "minecraft:bedrock"
-    }
-}
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:beef"
+    },
+    "result": "minecraft:cooked_beef",
+    "experience": 0.35,
+    "cookingtime": 200
+  }
