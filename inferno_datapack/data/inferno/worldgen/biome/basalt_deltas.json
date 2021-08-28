@@ -77,7 +77,9 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
     ],
     [
       "inferno:basalt_deltas/pumice_piles",
@@ -102,9 +104,7 @@
       "inferno:base/ore_quartz",
       "inferno:basalt_deltas/ore_carnelium",
       "inferno:basalt_deltas/ore_carnelium_poor",
-      "inferno:basalt_deltas/ore_pumice",
-      "inferno:base/scoria",
-      "inferno:base/rachite"
+      "inferno:basalt_deltas/ore_pumice"
     ],
     [
       "minecraft:spring_lava_double"

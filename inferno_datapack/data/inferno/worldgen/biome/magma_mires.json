@@ -73,7 +73,9 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
     ],
     [
       "inferno:magma_mires/magma_columns_large"
@@ -89,11 +91,9 @@
       "minecraft:glowstone",
       "minecraft:ore_magma",
       "minecraft:spring_closed_double",
-      "inferno:base/ore_gold",
-      "inferno:base/ore_quartz",
       "inferno:basalt_deltas/ore_carnelium",
-      "inferno:magma_mires/magma_veins",
-      "inferno:base/rachite"
+      "inferno:basalt_deltas/ore_carnelium_poor",
+      "inferno:magma_mires/magma_veins"
     ],
     [
       "minecraft:spring_lava",

@@ -13,7 +13,7 @@
     "water_fog_color": 116409,
     "particle": {
       "options": {
-        "type": "minecraft:spore_blossom_air"
+        "type": "minecraft:warped_spore"
       },
       "probability": 0.001
     }

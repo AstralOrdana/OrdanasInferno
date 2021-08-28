@@ -8,7 +8,7 @@
           "type": "minecraft:uniform",
           "value": {
             "min_inclusive": 2,
-            "max_inclusive": 10
+            "max_inclusive": 4
           }
         }
       }
@@ -29,10 +29,10 @@
                 "height": {
                   "type": "minecraft:uniform",
                   "min_inclusive": {
-                    "absolute": 64
+                    "absolute": 0
                   },
                   "max_inclusive": {
-                    "absolute": 128
+                    "absolute": 64
                   }
                 }
               }
@@ -46,10 +46,10 @@
                   {
                     "target": {
                       "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:netherrack"
+                      "block": "minecraft:blackstone"
                     },
                     "state": {
-                      "Name": "minecraft:nether_gold_ore"
+                      "Name": "minecraft:iron_ore"
                     }
                   }
                 ]

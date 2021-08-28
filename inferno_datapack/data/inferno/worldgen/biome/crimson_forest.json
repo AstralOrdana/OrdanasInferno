@@ -85,13 +85,10 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
     ],
-    [],
-    [],
-    [],
-    [],
-    [],
     [
       "inferno:crimson_forest/crimson_deltas"
     ],
@@ -106,8 +103,7 @@
       "minecraft:ore_blackstone",
       "inferno:crimson_forest/ore_gold",
       "inferno:base/ore_quartz",
-      "inferno:base/scoria",
-      "inferno:base/rachite",
+      "inferno:base/ore_gold",
       "inferno:base/ore_blackstone"
     ],
     [

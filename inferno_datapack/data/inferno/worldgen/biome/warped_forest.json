@@ -30,7 +30,7 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:warped_spore"
+        "type": "minecraft:spore_blossom_air"
       },
       "probability": 0.01428
     }
@@ -78,7 +78,9 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
     ],
     [
       "inferno:warped_forest/warped_deltas",
@@ -104,8 +106,6 @@
       "minecraft:ore_blackstone",
       "inferno:base/ore_gold",
       "inferno:base/ore_quartz",
-      "inferno:base/scoria",
-      "inferno:base/rachite",
       "inferno:base/ore_blackstone"
     ],
     [

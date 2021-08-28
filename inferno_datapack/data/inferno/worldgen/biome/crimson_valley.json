@@ -114,14 +114,14 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
     ],
     [
       "minecraft:basalt_pillar",
       "minecraft:basalt_pillar",
       "minecraft:basalt_pillar",
-      "inferno:base/scoria",
-      "inferno:base/rachite",
       "inferno:crimson_valley/wart_patch",
       "inferno:crimson_valley/rare_huge_fungus"
     ],

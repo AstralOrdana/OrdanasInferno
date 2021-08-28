@@ -86,7 +86,9 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
     ],
     [
       "minecraft:spring_open",
@@ -100,9 +102,6 @@
       "inferno:base/ore_gold",
       "inferno:base/ore_quartz",
       "inferno:nether_wastes/quartzite_geode",
-      "inferno:base/scoria",
-      "inferno:nether_wastes/scoria",
-      "inferno:base/rachite",
       "inferno:base/ore_blackstone"
     ],
     [

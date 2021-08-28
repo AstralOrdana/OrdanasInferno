@@ -79,7 +79,9 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/scoria",
+      "inferno:base/rachite"
     ],
     [
       "minecraft:spring_open",
@@ -89,9 +91,7 @@
       "inferno:spectre_forest/ore_anirrum",
       "inferno:spectre_forest/netherrack_to_soulstone",
       "inferno:spectre_forest/spectre_roots",
-      "inferno:spectre_forest/patch_gourds",
-      "inferno:base/scoria",
-      "inferno:base/rachite"
+      "inferno:spectre_forest/patch_gourds"
     ],
     [
       "minecraft:spring_lava",

@@ -112,6 +112,7 @@
       "minecraft:ore_blackstone",
       "inferno:base/ore_gold",
       "inferno:base/ore_quartz",
+      "inferno:umbra_forest/ore_quartz",
       "inferno:base/scoria",
       "inferno:base/rachite",
       "inferno:base/ore_blackstone"
