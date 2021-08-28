@@ -32,6 +32,11 @@
             "type": "minecraft:item",
             "weight": 10,
             "name": "minecraft:brown_mushroom"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:poisonous_potato"
           }
         ]
       }

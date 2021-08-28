@@ -1,3 +1,46 @@
 {
-  "type": "minecraft:entity"
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:poisonous_potato",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance_with_looting",
+                  "chance": 0.33,
+                  "looting_multiplier": 0.5
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:apple",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance_with_looting",
+                  "chance": 0.33,
+                  "looting_multiplier": 0.5
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

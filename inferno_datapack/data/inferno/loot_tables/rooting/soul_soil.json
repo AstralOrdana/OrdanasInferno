@@ -21,6 +21,11 @@
           {
             "type": "minecraft:item",
             "weight": 3,
+            "name": "minecraft:nether_wart"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
             "name": "minecraft:ender_pearl"
           },
           {

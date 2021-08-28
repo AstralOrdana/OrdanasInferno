@@ -2,11 +2,17 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
         }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:wheat",
+        "count": 1
     }
 }

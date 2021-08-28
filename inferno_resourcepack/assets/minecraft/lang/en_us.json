@@ -57,6 +57,7 @@
   "item.minecraft.honeycomb": "Wax",
 
   "block.minecraft.nether_wart_block": "Crimson Wartcap",
+  "block.minecraft.wheat": "Wart Bundle",
   "item.minecraft.beef": "Raw Azlethorn",
   "item.minecraft.cooked_beef": "Cooked Azlethorn",
 
@@ -467,7 +468,6 @@
   "item.minecraft.elytra": "Fly Wings",
   "item.minecraft.trident": "Pitchfork",
 
-  "item.minecraft.cod": "Wart Bundle",
   "item.minecraft.beetroot": "Ginger",
   "item.minecraft.beetroot_seeds": "Spectre Garlic",
   "item.minecraft.glistering_melon_slice": "Gilded Garlic",
