@@ -78,7 +78,8 @@
       "inferno:base/rachite"
     ],
     [
-      "inferno:magma_mires/magma_columns_large"
+      "inferno:magma_mires/magma_columns_large",
+      "inferno:magma_mires/magmelon_tree"
     ],
     [
       "minecraft:basalt_pillar",
@@ -93,7 +94,12 @@
       "minecraft:spring_closed_double",
       "inferno:basalt_deltas/ore_carnelium",
       "inferno:basalt_deltas/ore_carnelium_poor",
-      "inferno:magma_mires/magma_veins"
+      "inferno:magma_mires/magma_veins",
+      "inferno:magma_mires/magmelon_vines",
+      "inferno:magma_mires/magmelon_vines",
+      "inferno:magma_mires/magmelon_vines",
+      "inferno:magma_mires/magmelon_vines",
+      "inferno:magma_mires/magmelon_vines"
     ],
     [
       "minecraft:spring_lava",

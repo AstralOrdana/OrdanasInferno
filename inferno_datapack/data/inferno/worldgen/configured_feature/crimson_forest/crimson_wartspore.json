@@ -4,7 +4,7 @@
       "decorator": {
         "type": "minecraft:count",
         "config": {
-          "count": 75
+          "count": 40
         }
       },
       "feature": {
@@ -26,28 +26,37 @@
                       "above_bottom": 0
                     },
                     "max_inclusive": {
-                      "below_top": 30
+                      "below_top": 20
                     }
                   }
                 }
               },
               "feature": {
-                "type": "minecraft:netherrack_replace_blobs",
+                "type": "minecraft:decorated",
                 "config": {
-                  "state": {
-                    "Name": "minecraft:basalt",
-                    "Properties": {
-                      "axis": "y"
+                  "decorator": {
+                    "type": "minecraft:cave_surface",
+                    "config": {
+                      "surface": "floor",
+                      "floor_to_ceiling_search_range": 128
                     }
                   },
-                  "target": {
-                    "Name": "minecraft:netherrack"
-                  },
-                  "radius": {
-                    "type": "minecraft:uniform",
-                    "value": {
-                      "min_inclusive": 3,
-                      "max_inclusive": 7
+                  "feature": {
+                    "type": "minecraft:simple_block",
+                    "config": {
+                      "to_place": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                          "Name": "minecraft:nether_sprouts"
+                        }
+                      },
+                      "place_on": [
+                        {
+                          "Name": "minecraft:crimson_nylium"
+                        }
+                      ],
+                      "place_in": [],
+                      "place_under": []
                     }
                   }
                 }
@@ -58,3 +67,4 @@
       }
     }
   }
+  

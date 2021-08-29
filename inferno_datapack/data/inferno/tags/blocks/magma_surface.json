@@ -2,6 +2,8 @@
     "replace": false,
     "values": [
       "minecraft:cobblestone",
+      "minecraft:magma_block",
+      "minecraft:dripstone_block",
       "minecraft:netherrack"
     ]
   }
