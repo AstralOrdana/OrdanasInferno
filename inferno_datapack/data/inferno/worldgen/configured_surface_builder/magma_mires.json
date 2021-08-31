@@ -2,19 +2,13 @@
     "type": "minecraft:nether_forest",
     "config": {
       "top_material": {
-        "Name": "minecraft:cobblestone"
+        "Name": "minecraft:dirt"
       },
       "under_material": {
-        "Name": "minecraft:cobblestone",
-        "Properties": {
-          "axis": "y"
-        }
+        "Name": "minecraft:cobblestone"
       },
       "underwater_material": {
-        "Name": "minecraft:magma_block",
-        "Properties": {
-            "level": "0"
-        }
+        "Name": "minecraft:magma_block"
       }
     }
   }

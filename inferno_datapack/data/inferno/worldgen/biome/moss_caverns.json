@@ -10,10 +10,10 @@
     "sky_color": 11069100,
     "fog_color": 9186398,
     "water_color": 61183,
-    "water_fog_color": 116409,
+    "water_fog_color": 80952,
     "particle": {
       "options": {
-        "type": "minecraft:warped_spore"
+        "type": "minecraft:spore_blossom_air"
       },
       "probability": 0.001
     }
@@ -24,10 +24,16 @@
   "spawners": {
     "water_ambient": [
       {
+        "type": "minecraft:tropical_fish",
+        "weight": 5,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
         "type": "minecraft:salmon",
         "weight": 10,
         "minCount": 2,
-        "maxCount": 4
+        "maxCount": 8
       },
       {
         "type": "minecraft:pufferfish",
@@ -42,6 +48,14 @@
         "weight": 1,
         "minCount": 1,
         "maxCount": 2
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
       }
     ]
   },
@@ -59,7 +73,8 @@
       "minecraft:spring_water",
       "minecraft:spring_water",
       "inferno:moss_caverns/lake",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "minecraft:warm_ocean_vegetation"
     ],
     [
       "inferno:moss_caverns/moss_layer",

@@ -106,6 +106,7 @@
       "minecraft:spring_lava",
       "minecraft:spring_lava",
       "inferno:magma_mires/netherrack_to_scoria",
+      "inferno:magma_mires/dirt_to_scoria",
       "inferno:basalt_deltas/ore_carnelium_poor",
       "inferno:magma_mires/magma_pool"
     ]
