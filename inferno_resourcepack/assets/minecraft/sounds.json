@@ -10593,25 +10593,61 @@
   },
   "entity.vex.ambient": {
     "sounds": [
-      "mob/vex/idle1",
-      "mob/vex/idle2",
-      "mob/vex/idle3",
-      "mob/vex/idle4"
+      {
+        "name": "mob/vex/idle1",
+        "volume": 0.8,
+        "pitch": 1.3
+      },
+      {
+        "name": "mob/vex/idle2",
+        "volume": 0.8,
+        "pitch": 1.3
+      },
+      {
+        "name": "mob/vex/idle3",
+        "volume": 0.8,
+        "pitch": 1.3
+      },
+      {
+        "name": "mob/vex/idle4",
+        "volume": 0.8,
+        "pitch": 1.3
+      }
     ],
     "subtitle": "subtitles.entity.vex.ambient"
   },
   "entity.vex.charge": {
     "sounds": [
-      "mob/vex/charge1",
-      "mob/vex/charge2",
-      "mob/vex/charge3"
+      {
+        "name": "mob/vex/charge1",
+        "volume": 0.9,
+        "pitch": 1.5
+      },
+      {
+        "name": "mob/vex/charge2",
+        "volume": 0.9,
+        "pitch": 1.5
+      },
+      {
+        "name": "mob/vex/charge3",
+        "volume": 0.9,
+        "pitch": 1.5
+      }
     ],
     "subtitle": "subtitles.entity.vex.charge"
   },
   "entity.vex.death": {
     "sounds": [
-      "mob/vex/death1",
-      "mob/vex/death2"
+      {
+        "name": "mob/vex/death1",
+        "volume": 0.8,
+        "pitch": 1.6
+      },
+      {
+        "name": "mob/vex/death2",
+        "volume": 0.8,
+        "pitch": 1.6
+      }
     ],
     "subtitle": "subtitles.entity.vex.death"
   },
