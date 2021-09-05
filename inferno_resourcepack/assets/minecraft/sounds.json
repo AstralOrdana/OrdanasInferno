@@ -7040,35 +7040,43 @@
     "sounds": [
       {
         "name": "mob/ravager/idle1",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/idle2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/idle3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/idle4",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/ravager/idle5",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/ravager/idle6",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/ravager/idle7",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.7
       },
       {
         "name": "mob/ravager/idle8",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.7
       }
     ],
     "subtitle": "subtitles.entity.ravager.ambient"
@@ -7107,15 +7115,18 @@
     "sounds": [
       {
         "name": "mob/ravager/death1",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/death2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/ravager/death3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.7
       }
     ],
     "subtitle": "subtitles.entity.ravager.death"
@@ -7124,19 +7135,23 @@
     "sounds": [
       {
         "name": "mob/ravager/hurt1",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/hurt2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/hurt3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/hurt4",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       }
     ],
     "subtitle": "subtitles.entity.ravager.hurt"
@@ -7145,23 +7160,28 @@
     "sounds": [
       {
         "name": "mob/ravager/step1",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/step2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/step3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/step4",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.5
       },
       {
         "name": "mob/ravager/step5",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       }
     ],
     "subtitle": "subtitles.entity.ravager.step"
