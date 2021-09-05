@@ -92,7 +92,9 @@
       "inferno:base/rachite_spikes_large_base",
       "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
-      "inferno:base/orichalcum_cluster"
+      "inferno:base/orichalcum_cluster",
+      "inferno:base/rachite_cap",
+      "inferno:base/rachite_sparse"
     ],
     [
       "inferno:umbra_forest/umbra_vines",

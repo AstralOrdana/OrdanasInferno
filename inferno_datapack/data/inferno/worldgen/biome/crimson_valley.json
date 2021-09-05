@@ -55,12 +55,6 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:hoglin",
-        "weight": 6,
-        "minCount": 4,
-        "maxCount": 2
-      },
-      {
         "type": "minecraft:enderman",
         "weight": 7,
         "minCount": 4,
@@ -96,10 +90,6 @@
     "minecraft:strider": {
       "energy_budget": 0.15,
       "charge": 0.7
-    },
-    "minecraft:hoglin": {
-      "energy_budget": 0.15,
-      "charge": 0.7
     }
   },
   "carvers": {},
@@ -116,26 +106,27 @@
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
-      "inferno:base/rachite"
+      "inferno:base/rachite",
+      "inferno:base/rachite_cap",
+      "inferno:base/rachite_sparse"
     ],
     [
       "minecraft:basalt_pillar",
       "minecraft:basalt_pillar",
       "minecraft:basalt_pillar",
       "inferno:crimson_valley/wart_patch",
+      "inferno:crimson_valley/wart_patch_roof",
+      "inferno:crimson_valley/wart_patch_roof_vines",
       "inferno:crimson_valley/rare_huge_fungus"
     ],
     [
       "minecraft:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
-      "minecraft:ore_magma",
       "minecraft:spring_closed",
       "minecraft:ore_soul_sand",
-      "minecraft:ore_gravel_nether",
       "minecraft:ore_blackstone",
-      "inferno:crimson_valley/netherrack_to_soulstone",
-      "inferno:crimson_valley/moonstone_stalactites_small"
+      "inferno:crimson_valley/netherrack_to_soulstone"
     ],
     [
       "inferno:crimson_valley/ore_anirrum",

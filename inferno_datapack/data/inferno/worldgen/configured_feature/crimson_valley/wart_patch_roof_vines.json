@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 2
+        "count": 4
       }
     },
     "feature": {
@@ -40,7 +40,7 @@
                     "outer": {
                       "type": "minecraft:cave_surface",
                       "config": {
-                        "surface": "floor",
+                        "surface": "ceiling",
                         "floor_to_ceiling_search_range": 128
                       }
                     },
@@ -49,7 +49,7 @@
                       "config": {
                         "noise_to_count_ratio": 1,
                         "noise_factor": 70,
-                        "noise_offset": 0.1
+                        "noise_offset": 0
                       }
                     }
                   }
@@ -57,23 +57,29 @@
                 "feature": {
                   "type": "minecraft:vegetation_patch",
                   "config": {
-                    "surface": "floor",
+                    "surface": "ceiling",
                     "depth": 1,
                     "vertical_range": 3,
                     "extra_bottom_block_chance": 0,
                     "extra_edge_column_chance": 0.5,
-                    "vegetation_chance": 0.1,
+                    "vegetation_chance": 0.01,
                     "xz_radius": {
                       "type": "minecraft:uniform",
                       "value": {
-                        "min_inclusive": 2,
-                        "max_inclusive": 5
+                        "min_inclusive": 4,
+                        "max_inclusive": 7
                       }
                     },
                     "replaceable": "minecraft:soul_fire_base_blocks",
                     "ground_state": {
                       "type": "minecraft:weighted_state_provider",
                       "entries": [
+                        {
+                          "weight": 5,
+                          "data": {
+                            "Name": "minecraft:nether_wart_block"
+                          }
+                        },
                         {
                           "weight": 5,
                           "data": {
@@ -89,7 +95,7 @@
                         {
                           "weight": 5,
                           "data": {
-                            "Name": "minecraft:terracotta"
+                            "Name": "minecraft:netherrack"
                           }
                         }
                       ]
@@ -97,65 +103,33 @@
                     "vegetation_feature": {
                       "type": "minecraft:growing_plant",
                       "config": {
-                        "direction": "up",
+                        "direction": "down",
                         "allow_water": false,
                         "height_distribution": [
                           {
                             "weight": 1,
-                            "data": 2
+                            "data": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 5,
+                                "max_inclusive": 20
+                              }
+                            }
                           }
                         ],
                         "body_provider": {
-                          "type": "minecraft:weighted_state_provider",
-                          "entries": [
-                            {
-                              "weight": 1,
-                              "data": {
-                                "Name": "minecraft:crimson_roots"
-                              }
-                            },
-                            {
-                              "weight": 1,
-                              "data": {
-                                "Name": "minecraft:nether_wart",
-                                "Properties": {
-                                  "age": "0"
-                                }
-                              }
-                            },
-                            {
-                              "weight": 1,
-                              "data": {
-                                "Name": "minecraft:nether_wart",
-                                "Properties": {
-                                  "age": "1"
-                                }
-                              }
-                            },
-                            {
-                              "weight": 1,
-                              "data": {
-                                "Name": "minecraft:nether_wart",
-                                "Properties": {
-                                  "age": "2"
-                                }
-                              }
-                            },
-                            {
-                              "weight": 1,
-                              "data": {
-                                "Name": "minecraft:nether_wart",
-                                "Properties": {
-                                  "age": "3"
-                                }
-                              }
-                            }
-                          ]
+                          "type": "minecraft:simple_state_provider",
+                          "state": {
+                            "Name": "minecraft:weeping_vines_plant"
+                          }
                         },
                         "head_provider": {
                           "type": "minecraft:simple_state_provider",
                           "state": {
-                            "Name": "minecraft:air"
+                            "Name": "minecraft:weeping_vines",
+                            "Properties": {
+                              "age": "20"
+                            }
                           }
                         }
                       }

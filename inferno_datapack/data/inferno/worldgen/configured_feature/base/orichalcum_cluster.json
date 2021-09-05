@@ -9,7 +9,7 @@
             "config": {
               "count": {
                 "type": "minecraft:constant",
-                "value": 8
+                "value": 16
               }
             }
           },

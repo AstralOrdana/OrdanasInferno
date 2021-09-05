@@ -9,7 +9,7 @@
             "config": {
               "count": {
                 "type": "minecraft:constant",
-                "value": 8
+                "value": 16
               }
             }
           },
@@ -22,7 +22,7 @@
                   "height": {
                     "type": "minecraft:uniform",
                     "min_inclusive": {
-                      "absolute": 150
+                      "absolute": 135
                     },
                     "max_inclusive": {
                       "absolute": 175

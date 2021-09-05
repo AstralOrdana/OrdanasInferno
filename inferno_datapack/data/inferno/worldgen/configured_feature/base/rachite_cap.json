@@ -16,21 +16,8 @@
           "type": "minecraft:decorated",
           "config": {
             "outer": {
-              "type": "minecraft:decorated",
-              "config": {
-                "outer": {
-                  "type": "minecraft:square",
-                  "config": {}
-                },
-                "inner": {
-                  "type": "minecraft:count_noise_biased",
-                  "config": {
-                    "noise_to_count_ratio": 1,
-                    "noise_factor": 150,
-                    "noise_offset": 0
-                  }
-                }
-              }
+              "type": "minecraft:square",
+              "config": {}
             },
             "inner": {
               "type": "minecraft:range",
@@ -38,7 +25,7 @@
                 "height": {
                   "type": "minecraft:uniform",
                   "min_inclusive": {
-                    "absolute": 112
+                    "absolute": 145
                   },
                   "max_inclusive": {
                     "absolute": 160

@@ -88,7 +88,9 @@
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
-      "inferno:base/rachite"
+      "inferno:base/rachite",
+      "inferno:base/rachite_cap",
+      "inferno:base/rachite_sparse"
     ],
     [
       "inferno:volcanic_desert/sulfur_beaches",
