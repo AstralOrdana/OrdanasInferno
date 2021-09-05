@@ -5355,22 +5355,37 @@
   },
   "entity.creeper.death": {
     "sounds": [
-      "mob/creeper/death"
+      {
+        "name": "entity/creeper/death",
+        "pitch": 0.8
+      }
     ],
     "subtitle": "subtitles.entity.creeper.death"
   },
   "entity.creeper.hurt": {
     "sounds": [
-      "mob/creeper/say1",
-      "mob/creeper/say2",
-      "mob/creeper/say3",
-      "mob/creeper/say4"
+      {
+        "name": "entity/creeper/say1",
+        "pitch": 1.1
+      },
+      {
+        "name": "entity/creeper/say1",
+        "pitch": 1
+      },
+      {
+        "name": "entity/creeper/say1",
+        "pitch": 0.9
+      },
+      {
+        "name": "entity/creeper/say1",
+        "pitch": 0.8
+      }
     ],
     "subtitle": "subtitles.entity.creeper.hurt"
   },
   "entity.creeper.primed": {
     "sounds": [
-      "random/fuse"
+      "mob/creeper/fuse"
     ],
     "subtitle": "subtitles.entity.creeper.primed"
   },
@@ -9458,19 +9473,19 @@
     "sounds": [
       {
         "name": "mob/rabbit/idle1",
-        "volume": 0.25
+        "volume": 0.33
       },
       {
         "name": "mob/rabbit/idle2",
-        "volume": 0.25
+        "volume": 0.33
       },
       {
         "name": "mob/rabbit/idle3",
-        "volume": 0.25
+        "volume": 0.33
       },
       {
         "name": "mob/rabbit/idle4",
-        "volume": 0.25
+        "volume": 0.33
       }
     ],
     "subtitle": "subtitles.entity.rabbit.ambient"
@@ -9488,7 +9503,8 @@
     "sounds": [
       {
         "name": "mob/rabbit/bunnymurder",
-        "volume": 0.5
+        "volume": 0.5,
+        "pitch": 1.2
       }
     ],
     "subtitle": "subtitles.entity.rabbit.death"
