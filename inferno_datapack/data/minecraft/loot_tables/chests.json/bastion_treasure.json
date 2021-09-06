@@ -106,18 +106,6 @@
             }
           ],
           "name": "minecraft:cake"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1.0,
-              "add": false
-            }
-          ],
-          "name": "minecraft:chorus_fruit"
         }
       ]
     },
@@ -166,21 +154,6 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 5.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:copper_block"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
                 "min": 3.0,
                 "max": 9.0
               },
@@ -188,21 +161,6 @@
             }
           ],
           "name": "minecraft:gold_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 9.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:copper_ingot"
         },
         {
           "type": "minecraft:item",

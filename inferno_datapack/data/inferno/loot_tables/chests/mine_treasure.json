@@ -27,6 +27,27 @@
           {
             "type": "minecraft:item",
             "weight": 3,
+            "name": "minecraft:raw_copper",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 13
+                },
+                "add": true
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
             "name": "minecraft:skeleton_skull",
             "functions": [
               {

@@ -26,7 +26,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:copper_ingot",
+          "name": "minecraft:shulker_shell",
           "functions": [
             {
               "function": "minecraft:set_count",

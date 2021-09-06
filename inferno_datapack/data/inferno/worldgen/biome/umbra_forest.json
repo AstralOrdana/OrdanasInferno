@@ -11,15 +11,15 @@
     "fog_color": 331535,
     "water_color": 2333555,
     "water_fog_color": 1205064,
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "ambient_sound": "minecraft:ambient.umbra_forest.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest.mood",
+      "sound": "minecraft:ambient.umbra_forest.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
+      "sound": "minecraft:ambient.umbra_forest.additions",
       "tick_chance": 0.0111
     },
     "music": {

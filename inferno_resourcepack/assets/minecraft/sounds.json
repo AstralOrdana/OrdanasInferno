@@ -770,6 +770,225 @@
       }
     ]
   },
+  "ambient.umbra_forest.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/umbra_forest/ambience",
+        "stream": true,
+        "volume": 0.87,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.umbra_forest.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/umbra_forest/addition1",
+        "weight": 1,
+        "volume": 0.4,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/addition2",
+        "weight": 1,
+        "volume": 0.4,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/addition3",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/help1",
+        "weight": 5,
+        "volume": 0.67,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/help2",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/here2",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/here3",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/particles1",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/umbra_forest/particles2",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/umbra_forest/particles3",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground1",
+        "weight": 3,
+        "volume": 0.25
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground2",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground3",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground4",
+        "weight": 1,
+        "volume": 0.4
+      }
+    ]
+  },
+  "ambient.umbra_forest.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/umbra_forest/mood1",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/mood2",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/mood3",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/mood4",
+        "volume": 1,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.moonstone_caverns.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/moonstone_caverns/ambience",
+        "stream": true,
+        "volume": 0.87,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.moonstone_caverns.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/moonstone_caverns/voices1",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/voices2",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/voices3",
+        "weight": 1,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/voices4",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/voices5",
+        "weight": 1,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/with1",
+        "weight": 1,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/with2",
+        "weight": 1,
+        "volume": 0.5,
+        "pitch": 1.3
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/shine1",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/shine2",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/shine3",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/sand1",
+        "weight": 2,
+        "volume": 0.25
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/sand2",
+        "weight": 2,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/sand3",
+        "weight": 2,
+        "volume": 0.4
+      }
+    ]
+  },
+  "ambient.moonstone_caverns.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/moonstone_caverns/mood1",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/mood2",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/mood3",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/moonstone_caverns/mood4",
+        "volume": 1,
+        "pitch": 1.2
+      }
+    ]
+  },
   "ambient.underwater.enter": {
     "sounds": [
       {
