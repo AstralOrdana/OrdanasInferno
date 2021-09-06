@@ -7823,19 +7823,23 @@
     "sounds": [
       {
         "name": "mob/panda/idle1",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.4
       },
       {
         "name": "mob/panda/idle2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.4
       },
       {
         "name": "mob/panda/idle3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.4
       },
       {
         "name": "mob/panda/idle4",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.4
       },
       {
         "name": "mob/panda/nosebreath1",
@@ -7881,23 +7885,28 @@
     "sounds": [
       {
         "name": "mob/panda/cant_breed1",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/panda/cant_breed2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/panda/cant_breed3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/panda/cant_breed4",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       },
       {
         "name": "mob/panda/cant_breed5",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.6
       }
     ],
     "subtitle": "subtitles.entity.panda.cant_breed"
@@ -7906,19 +7915,23 @@
     "sounds": [
       {
         "name": "mob/panda/death1",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.6
       },
       {
         "name": "mob/panda/death2",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.6
       },
       {
         "name": "mob/panda/death3",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.6
       },
       {
         "name": "mob/panda/death4",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.4
       }
     ],
     "subtitle": "subtitles.entity.panda.death"
@@ -8005,27 +8018,33 @@
     "sounds": [
       {
         "name": "mob/panda/aggressive/aggressive1",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/aggressive/aggressive2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/aggressive/aggressive3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/aggressive/aggressive4",
-        "volume": 0.8
+        "volume": 0.8,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/nosebreath2",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.9
       },
       {
         "name": "mob/panda/nosebreath3",
-        "volume": 1
+        "volume": 1,
+        "pitch": 0.9
       },
       {
         "name": "mob/panda/pant1",
@@ -8071,27 +8090,33 @@
     "sounds": [
       {
         "name": "mob/panda/hurt1",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/hurt2",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/hurt3",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/hurt4",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/hurt5",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.3
       },
       {
         "name": "mob/panda/hurt6",
-        "volume": 0.82
+        "volume": 0.82,
+        "pitch": 0.3
       }
     ],
     "subtitle": "subtitles.entity.panda.hurt"
@@ -9779,22 +9804,22 @@
     "sounds": [
       {
         "name": "mob/silverfish/say1",
-        "volume": 0.8,
+        "volume": 1.2,
         "pitch": 1.3
       },
       {
         "name": "mob/silverfish/say2",
-        "volume": 0.8,
+        "volume": 1.2,
         "pitch": 1.3
       },
       {
         "name": "mob/silverfish/say3",
-        "volume": 0.8,
+        "volume": 1.2,
         "pitch": 1.2
       },
       {
         "name": "mob/silverfish/say4",
-        "volume": 0.8,
+        "volume": 1.2,
         "pitch": 1.2
       }
     ],
@@ -9804,7 +9829,7 @@
     "sounds": [
       {
         "name": "mob/silverfish/kill",
-        "volume": 0.8,
+        "volume": 1.6,
         "pitch": 1.8
       }
     ],
@@ -9814,17 +9839,17 @@
     "sounds": [
       {
         "name": "mob/silverfish/hit1",
-        "volume": 1,
+        "volume": 1.4,
         "pitch": 1.6
       },
       {
         "name": "mob/silverfish/hit2",
-        "volume": 1,
+        "volume": 1.4,
         "pitch": 1.6
       },
       {
         "name": "mob/silverfish/hit3",
-        "volume": 1,
+        "volume": 1.4,
         "pitch": 1.6
       }
     ],
