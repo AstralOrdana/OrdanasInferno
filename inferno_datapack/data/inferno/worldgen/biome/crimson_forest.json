@@ -104,6 +104,8 @@
       "minecraft:ore_gravel_nether",
       "minecraft:ore_blackstone",
       "inferno:crimson_forest/ore_gold",
+      "inferno:crimson_forest/gold_cluster_block",
+      "inferno:crimson_forest/gold_cluster_ore",
       "inferno:base/ore_quartz",
       "inferno:base/ore_gold",
       "inferno:base/ore_blackstone"
