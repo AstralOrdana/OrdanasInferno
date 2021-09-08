@@ -11,15 +11,15 @@
     "fog_color": 14519309,
     "water_color": 4159204,
     "water_fog_color": 4341314,
-    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "ambient_sound": "minecraft:ambient.volcanic_desert.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "sound": "minecraft:ambient.volcanic_desert.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "sound": "minecraft:ambient.volcanic_desert.additions",
       "tick_chance": 0.0111
     },
     "music": {

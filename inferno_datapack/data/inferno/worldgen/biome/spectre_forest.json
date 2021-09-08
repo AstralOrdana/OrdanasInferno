@@ -11,19 +11,19 @@
     "fog_color": 13890559,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "ambient_sound": "minecraft:ambient.spectre_forest.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest.mood",
+      "sound": "minecraft:ambient.spectre_forest.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
+      "sound": "minecraft:ambient.spectre_forest.additions",
       "tick_chance": 0.0111
     },
     "music": {
-      "sound": "minecraft:music.nether.warped_forest",
+      "sound": "minecraft:music.nether.soul_sand_valley",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
