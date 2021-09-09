@@ -263,6 +263,41 @@
         "name": "ambient/nether/scrap_pit/poof4",
         "weight": 1,
         "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/scrap_pit/poof1",
+        "weight": 1,
+        "volume": 0.9,
+        "pitch": 1.3
+      },
+      {
+        "name": "ambient/nether/scrap_pit/poof2",
+        "weight": 1,
+        "volume": 0.9,
+        "pitch": 1.3
+      },
+      {
+        "name": "ambient/nether/scrap_pit/poof3",
+        "weight": 1,
+        "volume": 0.9,
+        "pitch": 1.3
+      },
+      {
+        "name": "ambient/nether/scrap_pit/poof4",
+        "weight": 1,
+        "volume": 0.9,
+        "pitch": 1.3
+      },
+      {
+        "name": "ambient/nether/scrap_pit/clank1",
+        "weight": 2,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/scrap_pit/clank1",
+        "weight": 2,
+        "volume": 0.9,
+        "pitch": 1.3
       }
     ]
   },

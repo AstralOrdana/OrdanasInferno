@@ -8,7 +8,7 @@
   "category": "nether",
   "effects": {
     "sky_color": 6052956,
-    "fog_color": 4210752,
+    "fog_color": 4538427,
     "water_color": 7237230,
     "water_fog_color": 7368816,
     "ambient_sound": "minecraft:ambient.scrap_pit.loop",
@@ -20,7 +20,7 @@
     },
     "additions_sound": {
       "sound": "minecraft:ambient.scrap_pit.additions",
-      "tick_chance": 0.0111
+      "tick_chance": 0.008
     },
     "music": {
       "sound": "minecraft:music.nether.basalt_deltas",
@@ -32,7 +32,7 @@
       "options": {
         "type": "minecraft:cloud"
       },
-      "probability": 0.007
+      "probability": 0.005
     }
   },
   "starts": [

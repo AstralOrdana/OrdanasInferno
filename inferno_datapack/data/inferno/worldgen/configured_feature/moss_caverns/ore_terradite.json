@@ -50,10 +50,7 @@
               "block": "minecraft:sandstone"
             },
             "state": {
-              "Name": "minecraft:cobbled_deepslate",
-              "Properties": {
-                "axis": "y"
-              }
+              "Name": "minecraft:cobbled_deepslate"
             }
           }
         ]
