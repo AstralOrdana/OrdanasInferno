@@ -23,6 +23,16 @@
     ],
     "subtitle": "subtitles.ambient.cave"
   },
+  "ambient.basalt_deltas.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/basalt_deltas/ambience",
+        "stream": true,
+        "volume": 0.87,
+        "pitch": 1.2
+      }
+    ]
+  },
   "ambient.basalt_deltas.additions": {
     "sounds": [
       {
@@ -192,6 +202,113 @@
       },
       {
         "name": "ambient/nether/nether_wastes/mood5",
+        "volume": 1
+      }
+    ]
+  },
+  "ambient.magma_mires.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/magma_mires/ambience",
+        "stream": true,
+        "volume": 0.87,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.magma_mires.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/magma_mires/addition1",
+        "weight": 40,
+        "volume": 0.35
+      }
+    ]
+  },
+  "ambient.magma_mires.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/magma_mires/mood1",
+        "volume": 1
+      }
+    ]
+  },
+  "ambient.scrap_pit.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/scrap_pit/ambience",
+        "stream": true,
+        "volume": 0.87
+      }
+    ]
+  },
+  "ambient.scrap_pit.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/scrap_pit/poof1",
+        "weight": 1,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/scrap_pit/poof2",
+        "weight": 1,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/scrap_pit/poof3",
+        "weight": 1,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/scrap_pit/poof4",
+        "weight": 1,
+        "volume": 0.9
+      }
+    ]
+  },
+  "ambient.scrap_pit.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/scrap_pit/mood1",
+        "volume": 1
+      },
+      {
+        "name": "ambient/nether/scrap_pit/mood2",
+        "volume": 1
+      },
+      {
+        "name": "ambient/nether/scrap_pit/mood3",
+        "volume": 1
+      },
+      {
+        "name": "ambient/nether/scrap_pit/mood4",
+        "volume": 1
+      }
+    ]
+  },
+  "ambient.volcanic_desert.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/volcanic_desert/ambience",
+        "stream": true,
+        "volume": 0.87,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.volcanic_desert.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/volcanic_desert/addition1",
+        "weight": 40,
+        "volume": 0.35
+      }
+    ]
+  },
+  "ambient.volcanic_desert.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/volcanic_desert/mood1",
         "volume": 1
       }
     ]
@@ -495,6 +612,150 @@
       }
     ]
   },
+  "ambient.umbra_forest.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/umbra_forest/ambience",
+        "stream": true,
+        "volume": 0.87,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.umbra_forest.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/umbra_forest/addition1",
+        "weight": 1,
+        "volume": 0.4,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/addition2",
+        "weight": 1,
+        "volume": 0.4,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/addition3",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/help1",
+        "weight": 5,
+        "volume": 0.67,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/help2",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/here2",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/here3",
+        "weight": 1,
+        "volume": 0.3,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/particles1",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/umbra_forest/particles2",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/umbra_forest/particles3",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground1",
+        "weight": 3,
+        "volume": 0.25
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground2",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground3",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground4",
+        "weight": 1,
+        "volume": 0.4
+      }
+    ]
+  },
+  "ambient.umbra_forest.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/umbra_forest/mood1",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/mood2",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/mood3",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "ambient/nether/umbra_forest/mood4",
+        "volume": 1,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.infested_wastes.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/infested_wastes/ambience",
+        "stream": true,
+        "volume": 0.87,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.infested_wastes.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/infested_wastes/addition1",
+        "weight": 1,
+        "volume": 0.4,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.infested_wastes.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/infested_wastes/mood1",
+        "volume": 1,
+        "pitch": 1.2
+      }
+    ]
+  },
   "ambient.soul_sand_valley.loop": {
     "sounds": [
       {
@@ -663,223 +924,57 @@
       }
     ]
   },
-  "ambient.nether_wastes.loop": {
+  "ambient.crimson_valley.loop": {
     "sounds": [
       {
-        "name": "ambient/nether/nether_wastes/ambience",
-        "stream": true,
-        "volume": 0.77
-      }
-    ]
-  },
-  "ambient.nether_wastes.additions": {
-    "sounds": [
-      {
-        "name": "ambient/nether/nether_wastes/addition1",
-        "weight": 1,
-        "volume": 0.3
-      },
-      {
-        "name": "ambient/nether/nether_wastes/addition2",
-        "weight": 1,
-        "volume": 0.3
-      },
-      {
-        "name": "ambient/nether/nether_wastes/addition3",
-        "weight": 1,
-        "volume": 0.1
-      },
-      {
-        "name": "ambient/nether/nether_wastes/addition4",
-        "weight": 5,
-        "volume": 0.67
-      },
-      {
-        "name": "ambient/nether/nether_wastes/addition5",
-        "weight": 1,
-        "volume": 0.3
-      },
-      {
-        "name": "ambient/nether/nether_wastes/addition6",
-        "weight": 1,
-        "volume": 0.3
-      },
-      {
-        "name": "ambient/nether/nether_wastes/addition7",
-        "weight": 1,
-        "volume": 0.3
-      },
-      {
-        "name": "ambient/nether/nether_wastes/addition8",
-        "weight": 5,
-        "volume": 0.67
-      },
-      {
-        "name": "ambient/nether/nether_wastes/dark1",
-        "weight": 5,
-        "volume": 0.9
-      },
-      {
-        "name": "ambient/nether/nether_wastes/dark2",
-        "weight": 5,
-        "volume": 0.9
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground1",
-        "weight": 3,
-        "volume": 0.25
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground2",
-        "weight": 1,
-        "volume": 0.4
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground3",
-        "weight": 1,
-        "volume": 0.4
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground4",
-        "weight": 1,
-        "volume": 0.4
-      }
-    ]
-  },
-  "ambient.nether_wastes.mood": {
-    "sounds": [
-      {
-        "name": "ambient/nether/nether_wastes/mood1",
-        "volume": 1
-      },
-      {
-        "name": "ambient/nether/nether_wastes/mood2",
-        "volume": 1
-      },
-      {
-        "name": "ambient/nether/nether_wastes/mood3",
-        "volume": 1
-      },
-      {
-        "name": "ambient/nether/nether_wastes/mood4",
-        "volume": 1
-      },
-      {
-        "name": "ambient/nether/nether_wastes/mood5",
-        "volume": 1
-      }
-    ]
-  },
-  "ambient.umbra_forest.loop": {
-    "sounds": [
-      {
-        "name": "ambient/nether/umbra_forest/ambience",
+        "name": "ambient/nether/crimson_valley/ambience",
         "stream": true,
         "volume": 0.87,
         "pitch": 1.2
       }
     ]
   },
-  "ambient.umbra_forest.additions": {
+  "ambient.crimson_valley.additions": {
     "sounds": [
       {
-        "name": "ambient/nether/umbra_forest/addition1",
-        "weight": 1,
-        "volume": 0.4,
-        "pitch": 1.2
-      },
-      {
-        "name": "ambient/nether/umbra_forest/addition2",
-        "weight": 1,
-        "volume": 0.4,
-        "pitch": 1.2
-      },
-      {
-        "name": "ambient/nether/umbra_forest/addition3",
-        "weight": 1,
-        "volume": 0.3,
-        "pitch": 1.2
-      },
-      {
-        "name": "ambient/nether/umbra_forest/help1",
-        "weight": 5,
-        "volume": 0.67,
-        "pitch": 1.2
-      },
-      {
-        "name": "ambient/nether/umbra_forest/help2",
-        "weight": 1,
-        "volume": 0.3,
-        "pitch": 1.2
-      },
-      {
-        "name": "ambient/nether/umbra_forest/here2",
-        "weight": 1,
-        "volume": 0.3,
-        "pitch": 1.2
-      },
-      {
-        "name": "ambient/nether/umbra_forest/here3",
-        "weight": 1,
-        "volume": 0.3,
-        "pitch": 1.2
-      },
-      {
-        "name": "ambient/nether/umbra_forest/particles1",
-        "weight": 5,
-        "volume": 0.9
-      },
-      {
-        "name": "ambient/nether/umbra_forest/particles2",
-        "weight": 5,
-        "volume": 0.9
-      },
-      {
-        "name": "ambient/nether/umbra_forest/particles3",
-        "weight": 5,
-        "volume": 0.9
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground1",
-        "weight": 3,
-        "volume": 0.25
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground2",
-        "weight": 1,
-        "volume": 0.4
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground3",
-        "weight": 1,
-        "volume": 0.4
-      },
-      {
-        "name": "ambient/nether/nether_wastes/ground4",
+        "name": "ambient/nether/crimson_valley/addition1",
         "weight": 1,
         "volume": 0.4
       }
     ]
   },
-  "ambient.umbra_forest.mood": {
+  "ambient.crimson_valley.mood": {
     "sounds": [
       {
-        "name": "ambient/nether/umbra_forest/mood1",
+        "name": "ambient/nether/crimson_valley/mood1",
         "volume": 1,
         "pitch": 1.2
-      },
+      }
+    ]
+  },
+  "ambient.spectre_forest.loop": {
+    "sounds": [
       {
-        "name": "ambient/nether/umbra_forest/mood2",
-        "volume": 1,
+        "name": "ambient/nether/spectre_forest/ambience",
+        "stream": true,
+        "volume": 0.87,
         "pitch": 1.2
-      },
+      }
+    ]
+  },
+  "ambient.spectre_forest.additions": {
+    "sounds": [
       {
-        "name": "ambient/nether/umbra_forest/mood3",
-        "volume": 1,
-        "pitch": 1.2
-      },
+        "name": "ambient/nether/spectre_forest/addition1",
+        "weight": 1,
+        "volume": 0.4
+      }
+    ]
+  },
+  "ambient.spectre_forest.mood": {
+    "sounds": [
       {
-        "name": "ambient/nether/umbra_forest/mood4",
+        "name": "ambient/nether/spectre_forest/mood1",
         "volume": 1,
         "pitch": 1.2
       }
@@ -986,6 +1081,113 @@
         "name": "ambient/nether/moonstone_caverns/mood4",
         "volume": 1,
         "pitch": 1.2
+      }
+    ]
+  },
+  "ambient.nether_wastes.loop": {
+    "sounds": [
+      {
+        "name": "ambient/nether/nether_wastes/ambience",
+        "stream": true,
+        "volume": 0.77
+      }
+    ]
+  },
+  "ambient.nether_wastes.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/nether_wastes/addition1",
+        "weight": 1,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/nether_wastes/addition2",
+        "weight": 1,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/nether_wastes/addition3",
+        "weight": 1,
+        "volume": 0.1
+      },
+      {
+        "name": "ambient/nether/nether_wastes/addition4",
+        "weight": 5,
+        "volume": 0.67
+      },
+      {
+        "name": "ambient/nether/nether_wastes/addition5",
+        "weight": 1,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/nether_wastes/addition6",
+        "weight": 1,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/nether_wastes/addition7",
+        "weight": 1,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/nether_wastes/addition8",
+        "weight": 5,
+        "volume": 0.67
+      },
+      {
+        "name": "ambient/nether/nether_wastes/dark1",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/nether_wastes/dark2",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground1",
+        "weight": 3,
+        "volume": 0.25
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground2",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground3",
+        "weight": 1,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/nether_wastes/ground4",
+        "weight": 1,
+        "volume": 0.4
+      }
+    ]
+  },
+  "ambient.nether_wastes.mood": {
+    "sounds": [
+      {
+        "name": "ambient/nether/nether_wastes/mood1",
+        "volume": 1
+      },
+      {
+        "name": "ambient/nether/nether_wastes/mood2",
+        "volume": 1
+      },
+      {
+        "name": "ambient/nether/nether_wastes/mood3",
+        "volume": 1
+      },
+      {
+        "name": "ambient/nether/nether_wastes/mood4",
+        "volume": 1
+      },
+      {
+        "name": "ambient/nether/nether_wastes/mood5",
+        "volume": 1
       }
     ]
   },
