@@ -60,6 +60,9 @@ execute store result score $Ordana-NS-ShroomsteerSMobCap OrdN-S_MobCap if entity
 #Zarpan#
 execute store result score $Ordana-NS-ZarpanMobCap OrdN-S_MobCap if entity @e[type=mule]
 
+#SufferFish#
+execute as @e[nbt={PuffState:2}] at @s run function inferno:entity/demomantf2/suffer
+
 ###Mossier Moss###
 execute as @a store result score @s OrdN-S_MossTicks run data get entity @s TicksFrozen
 execute as @a[scores={OrdN-S_MossTicks=120..}] at @s run function inferno:mossier_moss
