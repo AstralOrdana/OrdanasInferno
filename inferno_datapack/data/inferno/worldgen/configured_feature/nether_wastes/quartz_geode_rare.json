@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:chance",
       "config": {
-        "chance": 8
+        "chance": 32
       }
     },
     "feature": {
@@ -44,21 +44,10 @@
                     }
                   },
                   "inner_layer_provider": {
-                    "type": "minecraft:weighted_state_provider",
-                    "entries": [
-                      {
-                        "weight": 1,
-                        "data": {
-                          "Name": "minecraft:deepslate_lapis_ore"
-                        }
-                      },
-                      {
-                        "weight": 3,
-                        "data": {
-                          "Name": "minecraft:andesite"
-                        }
-                      }
-                    ]
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:deepslate_lapis_ore"
+                    }
                   },
                   "alternate_inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
@@ -125,7 +114,7 @@
                   "outer_layer": 4.2
                 },
                 "crack": {
-                  "generate_crack_chance": 0.95,
+                  "generate_crack_chance": 0.3,
                   "base_crack_size": 2,
                   "crack_point_offset": 2
                 },
