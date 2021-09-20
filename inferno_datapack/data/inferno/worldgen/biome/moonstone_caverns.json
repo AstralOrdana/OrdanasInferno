@@ -71,14 +71,6 @@
   "carvers": {},
   "features": [
     [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
@@ -87,17 +79,17 @@
       "inferno:base/rachite_sparse"
     ],
     [
-      "minecraft:ore_blackstone"
+      "minecraft:basalt_pillar",
+      "minecraft:patch_soul_fire",
+      "minecraft:spring_closed"
     ],
     [
       "inferno:moonstone_caverns/moonstone_cavern_roof_surface",
       "inferno:moonstone_caverns/moonstone_stalactites_large",
-      "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar",
       "inferno:moonstone_caverns/moonstone_stalactites",
-      "inferno:soul_sand_valley/netherrack_to_soulstone",
-      "inferno:moonstone_caverns/ore_anirrum_moonstone"
+      "inferno:moonstone_caverns/netherrack_to_soulstone",
+      "inferno:moonstone_caverns/ore_anirrum_moonstone",
+      "inferno:base/ore_blackstone"
     ]
   ]
 }

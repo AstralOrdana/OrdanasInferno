@@ -120,9 +120,9 @@
                 },
                 "layers": {
                   "filling": 1.2,
-                  "inner_layer": 2.9,
-                  "middle_layer": 3.2,
-                  "outer_layer": 4.2
+                  "inner_layer": 2.0,
+                  "middle_layer": 2.2,
+                  "outer_layer": 3.0
                 },
                 "crack": {
                   "generate_crack_chance": 0.95,

@@ -6,6 +6,7 @@
   "downfall": 0,
   "precipitation": "none",
   "category": "nether",
+  "player_spawn_friendly": true,
   "effects": {
     "sky_color": 7254527,
     "fog_color": 13890559,
@@ -70,14 +71,6 @@
   "carvers": {},
   "features": [
     [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
@@ -86,19 +79,17 @@
       "inferno:base/rachite_sparse"
     ],
     [
-      "minecraft:spring_open",
-      "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:spring_closed",
-      "inferno:spectre_forest/ore_anirrum",
-      "inferno:spectre_forest/netherrack_to_soulstone",
-      "inferno:spectre_forest/spectre_roots",
-      "inferno:spectre_forest/patch_gourds"
+      "minecraft:spring_lava"
     ],
     [
-      "minecraft:spring_lava",
+      "inferno:spectre_forest/netherrack_to_soulstone",
+      "inferno:spectre_forest/spectre_roots",
+      "inferno:spectre_forest/patch_gourds",
       "inferno:spectre_forest/spectre_fungi",
-      "inferno:spectre_forest/spectre_fungi_ground"
+      "inferno:spectre_forest/spectre_fungi_ground",
+      "inferno:spectre_forest/ore_anirrum"
     ]
   ]
 }

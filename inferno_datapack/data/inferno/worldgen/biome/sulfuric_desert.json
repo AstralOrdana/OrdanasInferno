@@ -1,5 +1,5 @@
 {
-  "surface_builder": "inferno:volcanic_desert",
+  "surface_builder": "inferno:sulfuric_desert",
   "depth": 0.1,
   "scale": 0.2,
   "temperature": 2,
@@ -11,15 +11,15 @@
     "fog_color": 14519309,
     "water_color": 4159204,
     "water_fog_color": 4341314,
-    "ambient_sound": "minecraft:ambient.volcanic_desert.loop",
+    "ambient_sound": "minecraft:ambient.sulfuric_desert.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.volcanic_desert.mood",
+      "sound": "minecraft:ambient.sulfuric_desert.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.volcanic_desert.additions",
+      "sound": "minecraft:ambient.sulfuric_desert.additions",
       "tick_chance": 0.0111
     },
     "music": {
@@ -77,14 +77,6 @@
   "carvers": {},
   "features": [
     [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
@@ -93,23 +85,24 @@
       "inferno:base/rachite_sparse"
     ],
     [
-      "inferno:volcanic_desert/sulfur_beaches",
-      "inferno:volcanic_desert/stinkvine",
-      "inferno:volcanic_desert/sulfur_geode",
-      "inferno:volcanic_desert/ochre_fungus",
-      "inferno:volcanic_desert/ochre_roots"
-    ],
-    [
-      "inferno:volcanic_desert/blackstone_base",
-      "inferno:volcanic_desert/ash_piles",
+      "minecraft:spring_open",
       "minecraft:patch_fire",
-      "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:ore_magma",
-      "minecraft:spring_closed_double",
-      "inferno:volcanic_desert/ore_gold",
-      "inferno:volcanic_desert/ore_carnelium"
+      "minecraft:spring_closed",
+      "minecraft:spring_lava"
+    ],
+    [
+      "inferno:sulfuric_desert/blackstone_base",
+      "inferno:sulfuric_desert/ash_piles",
+      "inferno:sulfuric_desert/sulfur_beaches",
+      "inferno:sulfuric_desert/stinkvine",
+      "inferno:sulfuric_desert/sulfur_geode",
+      "inferno:sulfuric_desert/ochre_fungus",
+      "inferno:sulfuric_desert/ochre_roots",
+      "inferno:sulfuric_desert/ore_gold",
+      "inferno:sulfuric_desert/ore_carnelium"
     ]
   ]
 }

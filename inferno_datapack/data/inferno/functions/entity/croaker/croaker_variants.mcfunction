@@ -15,9 +15,7 @@ execute as @s at @s if predicate inferno:biomes/moonstone_biome run data merge e
 execute as @s at @s if predicate inferno:biomes/soul_biome run data merge entity @s {RabbitType:3}
 
 #Sour Black#
-execute as @s at @s if predicate inferno:biomes/black_outskirts_biome run data merge entity @s {RabbitType:2}
 execute as @s at @s if predicate inferno:biomes/black_biome run data merge entity @s {RabbitType:2}
-execute as @s at @s if predicate inferno:biomes/black_wasteland_biome run data merge entity @s {RabbitType:2}
 execute as @s at @s if predicate inferno:biomes/basalt_biome run data merge entity @s {RabbitType:2}
 execute as @s at @s if predicate inferno:biomes/scrap_outskirts_biome run data merge entity @s {RabbitType:2}
 execute as @s at @s if predicate inferno:biomes/scrap_biome run data merge entity @s {RabbitType:2}

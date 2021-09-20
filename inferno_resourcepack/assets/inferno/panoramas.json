@@ -1,0 +1,93 @@
+{
+	"umbra_forest": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/umbra_forest/panorama"
+			}
+		]
+	},
+    "crimson_forest": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/crimson_forest/panorama"
+			}
+		]
+	},
+    "warped_forest": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/warped_forest/panorama"
+			}
+		]
+	},
+    "infested_wastes": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/infested_wastes/panorama"
+			}
+		]
+	},
+    "basalt_deltas": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/basalt_deltas/panorama"
+			}
+		]
+	},
+    "magma_mires": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/magma_mires/panorama"
+			}
+		]
+	},
+    "volcanic_desert": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/volcanic_desert/panorama"
+			}
+		]
+	},
+    "scrap_pit": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/scrap_pit/panorama"
+			}
+		]
+	},
+    "soul_sand_valley": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/soul_sand_valley/panorama"
+			}
+		]
+	},
+    "moonstone_caverns": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/moonstone_caverns/panorama"
+			}
+		]
+	},
+    "spectre_forest": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/spectre_forest/panorama"
+			}
+		]
+	},
+    "crimson_valley": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/crimson_valley/panorama"
+			}
+		]
+	},
+    "nether_wastes": {
+		"panoramas": [
+			{
+				"backgroundId": "inferno:panoramas/nether_wastes/panorama"
+			}
+		]
+	}
+}

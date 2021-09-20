@@ -58,6 +58,11 @@
         "spacing": 30,
         "separation": 15,
         "salt": 0
+      },
+      "minecraft:monument": {
+        "spacing": 30,
+        "separation": 5,
+        "salt": 10387313
       }
     }
   }

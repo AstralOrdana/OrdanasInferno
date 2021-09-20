@@ -68,14 +68,6 @@
   "carvers": {},
   "features": [
     [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
@@ -84,32 +76,30 @@
       "inferno:base/rachite_sparse"
     ],
     [
-      "inferno:basalt_deltas/pumice_piles",
-      "inferno:basalt_deltas/basalt_delta"
-    ],
-    [
-      "inferno:basalt_deltas/small_basalt_columns",
-      "inferno:basalt_deltas/large_basalt_columns"
-    ],
-    [],
-    [
-      "inferno:basalt_deltas/basalt_blobs",
-      "inferno:basalt_deltas/blackstone_blobs",
-      "minecraft:spring_delta",
+      "minecraft:spring_open",
       "minecraft:patch_fire",
-      "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:spring_lava",
       "minecraft:spring_closed_double",
-      "inferno:base/ore_gold",
-      "inferno:base/ore_quartz",
-      "inferno:basalt_deltas/ore_carnelium",
-      "inferno:basalt_deltas/ore_carnelium_poor",
-      "inferno:basalt_deltas/ore_pumice"
+      "minecraft:spring_lava_double",
+      "minecraft:spring_delta"
     ],
     [
-      "minecraft:spring_lava_double"
+      "inferno:basalt_deltas/pumice_piles",
+      "inferno:basalt_deltas/basalt_delta",
+      "inferno:basalt_deltas/small_basalt_columns",
+      "inferno:basalt_deltas/large_basalt_columns",
+      "inferno:basalt_deltas/basalt_blobs",
+      "inferno:basalt_deltas/blackstone_blobs",
+      "inferno:basalt_deltas/ore_carnelium",
+      "inferno:basalt_deltas/ore_carnelium_poor",
+      "inferno:basalt_deltas/ore_pumice",
+      "inferno:base/ore_gold",
+      "inferno:base/ore_quartz",
+      "inferno:base/ore_blackstone"
     ]
   ]
 }

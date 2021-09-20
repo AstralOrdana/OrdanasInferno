@@ -10,7 +10,7 @@ execute if predicate inferno:biomes/scrap_biome run loot spawn ~ ~ ~ loot infern
 execute if predicate inferno:biomes/soul_biome run loot spawn ~ ~ ~ loot inferno:enchanting/soul_sand_valley/1
 execute if predicate inferno:biomes/spectre_biome run loot spawn ~ ~ ~ loot inferno:enchanting/spectre_forest/1
 execute if predicate inferno:biomes/umbra_biome run loot spawn ~ ~ ~ loot inferno:enchanting/umbra_forest/1
-execute if predicate inferno:biomes/black_biome run loot spawn ~ ~ ~ loot inferno:enchanting/volcanic_desert/1
+execute if predicate inferno:biomes/black_biome run loot spawn ~ ~ ~ loot inferno:enchanting/sulfuric_desert/1
 execute if predicate inferno:biomes/warped_biome run loot spawn ~ ~ ~ loot inferno:enchanting/warped_forest/1
 execute if entity @s[tag=xpcheck] run particle minecraft:soul ~ ~ ~ 0 0 0 0.05 80 force
 execute if entity @s[tag=xpcheck] run playsound minecraft:block.enchantment_table.use ambient @a ~ ~ ~ 1 1

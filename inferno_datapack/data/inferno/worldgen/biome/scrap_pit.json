@@ -70,14 +70,6 @@
   "carvers": {},
   "features": [
     [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
@@ -86,18 +78,15 @@
       "inferno:base/rachite_sparse"
     ],
     [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:spring_closed"
+    ],
+    [
       "inferno:scrap_pit/scrap_beaches",
       "inferno:scrap_pit/rubber_rafts",
-      "inferno:scrap_pit/rubber_rafts_small"
-    ],
-    [
+      "inferno:scrap_pit/rubber_rafts_small",
       "inferno:scrap_pit/scrap_piles",
-      "inferno:scrap_pit/scrap_piles",
-      "inferno:scrap_pit/scrap_piles",
-      "inferno:scrap_pit/scrap_piles",
-      "inferno:scrap_pit/scrap_piles"
-    ],
-    [
       "inferno:scrap_pit/scrap_ceiling",
       "inferno:scrap_pit/ceiling_pipes",
       "inferno:scrap_pit/floor_pipes"

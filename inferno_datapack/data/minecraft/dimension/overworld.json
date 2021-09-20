@@ -371,7 +371,7 @@
           }
         },
         {
-          "biome": "inferno:volcanic_desert",
+          "biome": "inferno:sulfuric_desert",
           "parameters": {
             "altitude": -0.7,
             "temperature": 0.5,
@@ -381,7 +381,7 @@
           }
         },
         {
-          "biome": "inferno:volcanic_desert",
+          "biome": "inferno:sulfuric_desert",
           "parameters": {
             "altitude": -0.4,
             "temperature": 0.2,

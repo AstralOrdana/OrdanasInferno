@@ -99,10 +99,10 @@
                     ]
                   },
                   "layers": {
-                    "filling": 1.7,
+                    "filling": 1.2,
                     "inner_layer": 2.2,
-                    "middle_layer": 3.2,
-                    "outer_layer": 4.2
+                    "middle_layer": 2.2,
+                    "outer_layer": 3.2
                   },
                   "crack": {
                     "generate_crack_chance": 1,

@@ -76,14 +76,6 @@
   "carvers": {},
   "features": [
     [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
@@ -92,29 +84,25 @@
       "inferno:base/rachite_sparse"
     ],
     [
-      "inferno:crimson_forest/crimson_deltas"
-    ],
-    [
+      "minecraft:crimson_forest_vegetation",
+      "minecraft:crimson_fungi",
+      "minecraft:weeping_vines",
       "minecraft:spring_open",
       "minecraft:patch_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:ore_magma",
       "minecraft:spring_closed",
-      "minecraft:ore_gravel_nether",
-      "minecraft:ore_blackstone",
+      "minecraft:spring_lava"
+    ],
+    [
+      "inferno:crimson_forest/crimson_deltas",
       "inferno:crimson_forest/ore_gold",
       "inferno:crimson_forest/gold_cluster_block",
       "inferno:crimson_forest/gold_cluster_ore",
-      "inferno:base/ore_quartz",
       "inferno:base/ore_gold",
+      "inferno:base/ore_quartz",
       "inferno:base/ore_blackstone"
-    ],
-    [
-      "minecraft:spring_lava",
-      "minecraft:weeping_vines",
-      "minecraft:crimson_fungi",
-      "minecraft:crimson_forest_vegetation"
     ]
   ]
 }

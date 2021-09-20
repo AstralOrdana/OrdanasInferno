@@ -95,14 +95,6 @@
   "carvers": {},
   "features": [
     [
-      "inferno:base/rachte_terrain_0",
-      "inferno:base/rachte_terrain_1",
-      "inferno:base/rachte_terrain_2",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes",
-      "inferno:base/rachite_spikes_large_base",
-      "inferno:base/rachite_spikes_large",
       "inferno:base/ore_orichalcum",
       "inferno:base/orichalcum_cluster",
       "inferno:base/scoria",
@@ -111,26 +103,24 @@
       "inferno:base/rachite_sparse"
     ],
     [
+      "minecraft:weeping_vines",
+      "minecraft:ore_soul_sand",
       "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar",
-      "inferno:crimson_valley/wart_patch",
-      "inferno:crimson_valley/wart_patch_roof",
-      "inferno:crimson_valley/wart_patch_roof_vines",
-      "inferno:crimson_valley/rare_huge_fungus"
-    ],
-    [
       "minecraft:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
+      "minecraft:ore_magma",
       "minecraft:spring_closed",
-      "minecraft:ore_soul_sand",
-      "minecraft:ore_blackstone",
-      "inferno:crimson_valley/netherrack_to_soulstone"
+      "minecraft:spring_lava"
     ],
     [
+      "inferno:crimson_valley/wart_patch",
+      "inferno:crimson_valley/wart_patch_roof",
+      "inferno:crimson_valley/wart_patch_roof_vines",
+      "inferno:crimson_valley/rare_huge_fungus",
+      "inferno:crimson_valley/netherrack_to_soulstone",
       "inferno:crimson_valley/ore_anirrum",
-      "minecraft:spring_lava"
+      "inferno:base/ore_blackstone"
     ]
   ]
 }

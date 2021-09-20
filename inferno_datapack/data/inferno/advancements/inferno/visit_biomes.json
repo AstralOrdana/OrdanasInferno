@@ -101,7 +101,7 @@
         "trigger": "minecraft:location",
         "conditions": {
           "location": {
-            "biome": "inferno:volcanic_desert"
+            "biome": "inferno:sulfuric_desert"
           }
         }
       },
