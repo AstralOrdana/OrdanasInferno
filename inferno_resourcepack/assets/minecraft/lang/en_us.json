@@ -7,12 +7,14 @@
   "block.minecraft.coarse_dirt": "Rough Soil",
   "block.minecraft.grass_path": "Soil Path",
   "block.minecraft.sand": "Black Sand",
+  "block.minecraft.snow_block": "Ash Block",
+  "block.minecraft.snow": "Ash",
   "block.minecraft.hay_block": "Pumice",
 
   "block.minecraft.clay": "Anirrum Scraps",
   "block.minecraft.iron_ore": "Carnelium Ore",
   "block.minecraft.copper_ore": "Carnelium Ore",
-  "block.minecraft.coal_ore": "Poor Carnelium Ore",
+  "block.minecraft.coal_ore": "Basaltic Carnelium Ore",
   "block.minecraft.crying_obsidian": "Orichalcum ore",
 
   "block.minecraft.sea_lantern": "Moonstone Cluster Block",
@@ -55,6 +57,7 @@
   "item.minecraft.poisonous_potato": "Maggot",
   "item.minecraft.apple": "Cooked Maggot",
   "item.minecraft.honeycomb": "Wax",
+  "block.minecraft.honeycomb_block": "Block of Wax",
 
   "block.minecraft.nether_wart_block": "Crimson Wartcap",
   "item.minecraft.wheat": "Wart Bundle",
@@ -192,12 +195,12 @@
   "block.minecraft.stone_brick_stairs": "Polished Limestone Brick Stairs",
   "block.minecraft.stone_brick_wall": "Polished Limestone Brick Wall",
   "block.minecraft.chiseled_stone_bricks": "Chiseled Polished Limestone",
-  "block.minecraft.honeycomb_block": "Flesh Block",
 
   "block.minecraft.infested_stone": "Limestone Nest",
   "block.minecraft.infested_mossy_stone_bricks": "Polished Limestone Nest",
   "block.minecraft.infested_stone_bricks": "Limestone Brick Nest",
   "block.minecraft.infested_chiseled_stone_bricks": "Chiseled Limestone Nest",
+  "block.minecraft.infested_cobblestone": "Inhabited Scoria",
 
   "block.minecraft.dripstone_block": "Basalt",
   "block.minecraft.granite": "Blackstone",
@@ -277,7 +280,7 @@
   "block.minecraft.end_stone_brick_wall": "Polished Marble Brick Wall",
   "block.minecraft.chiseled_sandstone": "Chiseled Polished Marble",
 
-  "block.minecraft.podzol": "Moss Block",
+  "block.minecraft.podzol": "Block of Moss",
   "block.minecraft.glow_lichen": "Glowing Moss",
   "block.minecraft.seagrass": "Seamoss",
   "item.minecraft.cocoa_beans": "Mossball",
@@ -480,7 +483,7 @@
   "item.minecraft.wheat_seeds": "Umbra Fennel",
   "item.minecraft.golden_carrot": "Crystal Fennel",
   "item.minecraft.pumpkin_pie": "Truffles",
-  "item.minecraft.honey_bottle": "Bottle of Demon Blood",
+  "item.minecraft.honey_bottle": "Bottle of Blood",
   "item.minecraft.chicken": "Raw Croaker",
   "item.minecraft.cooked_chicken": "Cooked Croaker",
   "item.minecraft.rabbit_foot": "Croaker's Foot",
@@ -505,7 +508,7 @@
   "item.minecraft.enchanted_book": "Enchanted Moonstone",
 
   "item.minecraft.feather": "Feather",
-  "item.minecraft.ink_sac": "Bapholet Blood",
+  "item.minecraft.ink_sac": "Bottle of Bapholet Blood",
   "item.minecraft.bundle": "Bapholet Bladder",
   "item.minecraft.stick": "Stem Fiber",
   "item.minecraft.slime_ball": "Rubber ball",

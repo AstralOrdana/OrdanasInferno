@@ -2,7 +2,8 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:golden_carrot"
+        "minecraft:moss_carpet",
+        "minecraft:cocoa_beans"
       ]
     },
     "criteria": {
@@ -11,7 +12,7 @@
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:wheat_seeds"]
+              "items": ["minecraft:podzol"]
             }
           ]
         }
@@ -19,7 +20,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "minecraft:golden_carrot"
+          "recipe": "minecraft:moss_carpet"
         }
       }
     },

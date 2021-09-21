@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:honeycomb_block",
+        "minecraft:waxed_copper_block_from_honeycomb",
+        "minecraft:waxed_exposed_copper_from_honeycomb",
+        "minecraft:waxed_weathered_copper_from_honeycomb",
+        "minecraft:waxed_oxidized_copper_from_honeycomb",
+        "minecraft:waxed_cut_copper_from_honeycomb",
+        "minecraft:waxed_exposed_cut_copper_from_honeycomb",
+        "minecraft:waxed_weathered_cut_copper_from_honeycomb",
+        "minecraft:waxed_oxidized_cut_copper_from_honeycomb"
+      ]
+    },
+    "criteria": {
+      "has_blaze_rod": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:honeycomb"]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:honeycomb_block"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blaze_rod",
+        "has_the_recipe"
+      ]
+    ]
+  }

@@ -2,7 +2,7 @@
     "type": "minecraft:nether_forest",
     "config": {
       "top_material": {
-        "Name": "minecraft:dirt"
+        "Name": "minecraft:cobblestone"
       },
       "under_material": {
         "Name": "minecraft:cobblestone"
