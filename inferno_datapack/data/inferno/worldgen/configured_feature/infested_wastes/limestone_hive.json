@@ -42,10 +42,27 @@
                     }
                   },
                   "inner_layer_provider": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                      "Name": "minecraft:honeycomb_block"
-                    }
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 10,
+                        "data": {
+                          "Name": "minecraft:honeycomb_block"
+                        }
+                      },
+                      {
+                        "weight": 5,
+                        "data": {
+                          "Name": "minecraft:infested_stone"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:stone"
+                        }
+                      }
+                    ]
                   },
                   "alternate_inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
@@ -54,16 +71,50 @@
                     }
                   },
                   "middle_layer_provider": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                      "Name": "minecraft:infested_stone"
-                    }
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 5,
+                        "data": {
+                          "Name": "minecraft:honeycomb_block"
+                        }
+                      },
+                      {
+                        "weight": 10,
+                        "data": {
+                          "Name": "minecraft:infested_stone"
+                        }
+                      },
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:stone"
+                        }
+                      }
+                    ]
                   },
                   "outer_layer_provider": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                      "Name": "minecraft:stone"
-                    }
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "weight": 1,
+                        "data": {
+                          "Name": "minecraft:honeycomb_block"
+                        }
+                      },
+                      {
+                        "weight": 5,
+                        "data": {
+                          "Name": "minecraft:infested_stone"
+                        }
+                      },
+                      {
+                        "weight": 10,
+                        "data": {
+                          "Name": "minecraft:stone"
+                        }
+                      }
+                    ]
                   },
                   "inner_placements": [
                     {
@@ -92,21 +143,21 @@
                   "type": "minecraft:uniform",
                   "value": {
                     "min_inclusive": 1,
-                    "max_inclusive": 3
+                    "max_inclusive": 2
                   }
                 },
                 "distribution_points": {
                   "type": "minecraft:uniform",
                   "value": {
                     "min_inclusive": 2,
-                    "max_inclusive": 4
+                    "max_inclusive": 3
                   }
                 },
                 "point_offset": {
                   "type": "minecraft:uniform",
                   "value": {
                     "min_inclusive": 1,
-                    "max_inclusive": 3
+                    "max_inclusive": 2
                   }
                 },
                 "min_gen_offset": -16,

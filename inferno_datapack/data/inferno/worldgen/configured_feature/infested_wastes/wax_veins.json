@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:decorated",
+        "config": {
+          "outer": {
+            "type": "minecraft:count_extra",
+            "config": {
+              "count": 0,
+              "extra_count": 2000,
+              "extra_chance": 1
+            }
+          },
+          "inner": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:range",
+                "config": {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {
+                      "above_bottom": 20
+                    },
+                    "max_inclusive": {
+                      "below_top": 10
+                    }
+                  }
+                }
+              },
+              "inner": {
+                "type": "minecraft:square",
+                "config": {}
+              }
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:count_noise_biased",
+                "config": {
+                  "noise_to_count_ratio": 1,
+                  "noise_factor": 40,
+                  "noise_offset": 0.1
+                }
+              },
+              "inner": {
+                "type": "minecraft:count_noise_biased",
+                "config": {
+                  "noise_to_count_ratio": -1,
+                  "noise_factor": 40,
+                  "noise_offset": -0.2
+                }
+              }
+            }
+          },
+          "feature": {
+            "type": "minecraft:ore",
+            "config": {
+              "size": 1,
+              "discard_chance_on_air_exposure": 0,
+              "targets": [
+                {
+                  "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:netherrack"
+                  },
+                  "state": {
+                    "Name": "minecraft:honeycomb_block"
+                  }
+                },
+                {
+                  "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:stone"
+                  },
+                  "state": {
+                    "Name": "minecraft:honeycomb_block"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+  

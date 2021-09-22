@@ -97,13 +97,13 @@
                           "type": "minecraft:weighted_state_provider",
                           "entries": [
                             {
-                              "weight": 50,
+                              "weight": 25,
                               "data": {
                                 "Name": "minecraft:red_mushroom"
                               }
                             },
                             {
-                              "weight": 50,
+                              "weight": 25,
                               "data": {
                                 "Name": "minecraft:brown_mushroom"
                               }
@@ -112,6 +112,46 @@
                               "weight": 7,
                               "data": {
                                 "Name": "minecraft:blue_orchid"
+                              }
+                            },
+                            {
+                              "weight": 1,
+                              "data": {
+                                "Name": "minecraft:turtle_egg",
+                                "Properties": {
+                                  "eggs": "1",
+                                  "hatch": "0"
+                                }
+                              }
+                            },
+                            {
+                              "weight": 1,
+                              "data": {
+                                "Name": "minecraft:turtle_egg",
+                                "Properties": {
+                                  "eggs": "1",
+                                  "hatch": "1"
+                                }
+                              }
+                            },
+                            {
+                              "weight": 1,
+                              "data": {
+                                "Name": "minecraft:turtle_egg",
+                                "Properties": {
+                                  "eggs": "2",
+                                  "hatch": "0"
+                                }
+                              }
+                            },
+                            {
+                              "weight": 1,
+                              "data": {
+                                "Name": "minecraft:turtle_egg",
+                                "Properties": {
+                                  "eggs": "2",
+                                  "hatch": "1"
+                                }
                               }
                             }
                           ]

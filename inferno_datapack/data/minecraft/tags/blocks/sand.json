@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:dirt",
+    "minecraft:mycelium",
+    "minecraft:honeycomb_block",
+    "minecraft:stone",
+    "minecraft:infested_stone",
+    "minecraft:netherrack"
+  ]
+}
