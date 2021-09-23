@@ -1,0 +1,20 @@
+{
+    "replace": true,
+    "values": [
+      "minecraft:soul_fire",
+      "minecraft:soul_torch",
+      "minecraft:soul_wall_torch",
+      "minecraft:soul_lantern",
+      "minecraft:soul_campfire",
+      "minecraft:blast_furnace",
+      "minecraft:chorus_flower",
+      "minecraft:jack_o_lantern",
+      "minecraft:hanging_roots",
+      "minecraft:beetroots",
+      "minecraft:sea_lantern",
+      "minecraft:ender_chest",
+      "minecraft:anvil",
+      "minecraft:tinted_glass",
+      "minecraft:chiseled_nether_bricks"
+    ]
+  }

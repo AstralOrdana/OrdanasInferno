@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:small_flowers",
+    "minecraft:honey_block",
+    "minecraft:honeycomb_block"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:warped_fungus",
+    "minecraft:potted_warped_fungus",
+    "minecraft:chorus_plant",
+    "minecraft:chorus_flower",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:hanging_roots",
+    "minecraft:beetroots"
+  ]
+}

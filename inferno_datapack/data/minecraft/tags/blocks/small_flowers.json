@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:blue_orchid",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom"
+  ]
+}

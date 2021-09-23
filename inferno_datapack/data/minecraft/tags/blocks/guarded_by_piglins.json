@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:gold_block",
+    "minecraft:raw_gold_block",
+    "minecraft:nether_gold_ore",
+    "minecraft:gilded_blackstone",
+    "minecraft:chest",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:cake"
+  ]
+}
