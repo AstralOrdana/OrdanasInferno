@@ -24,6 +24,7 @@ scoreboard objectives add OrdN-S_Sneak2 minecraft.custom:minecraft.sneak_time
 scoreboard objectives add OrdN-S_Sneak3 minecraft.custom:minecraft.sneak_time
 scoreboard objectives add OrdN-G_BossBars dummy
 scoreboard objectives add OrdN-G_Transform dummy
+scoreboard objectives add OrdN-G_Cacti dummy
 scoreboard objectives add OrdN-G_Disable dummy
 scoreboard objectives add OrdN-S_PipeSuc dummy
 scoreboard objectives add OrdN-S_Dread dummy
