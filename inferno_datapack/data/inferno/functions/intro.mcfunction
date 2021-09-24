@@ -1,5 +1,13 @@
+###Gamerules###
+gamerule doFireTick false
+
+###Teams###
+team add oi.demon
+
+###SCHEDULES###
 
 ###Scoreboards - OrdN-S_000000000###
+scoreboard objectives add oi.dummy dummy
 scoreboard objectives add OrdN-S_Optimize dummy
 scoreboard objectives add OrdN-S_DemonIdo dummy
 scoreboard objectives add OrdN-S_AirCheck dummy

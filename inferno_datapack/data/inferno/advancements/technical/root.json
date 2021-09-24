@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "inferno:technical/revoke_technical_advancements"
+  }
+}

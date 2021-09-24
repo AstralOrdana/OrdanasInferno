@@ -1,0 +1,83 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "entity/z-orda-ns-entities/blood_puddle",
+		"particle": "entity/z-orda-ns-entities/blood_puddle"
+	},
+	"elements": [
+		{
+			"name": "Blob",
+			"from": [3, 0, 3],
+			"to": [13, 6, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [5, 0, 10, 3], "texture": "#0"},
+				"east": {"uv": [5, 0, 10, 3], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 3], "texture": "#0"},
+				"west": {"uv": [5, 0, 10, 3], "texture": "#0"},
+				"up": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"down": {"uv": [0, 0, 5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Spill",
+			"from": [0, 0, 3],
+			"to": [3, 2, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [1.5, 5, 3, 6], "texture": "#0"},
+				"south": {"uv": [0, 5, 1.5, 6], "texture": "#0"},
+				"west": {"uv": [13, 0, 16, 1], "texture": "#0"},
+				"up": {"uv": [10, 0, 13, 1.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [10, 1.5, 13, 3], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Spill",
+			"from": [7, 0, 0],
+			"to": [13, 2, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [13, 0, 16, 1], "texture": "#0"},
+				"east": {"uv": [1.5, 5, 3, 6], "texture": "#0"},
+				"west": {"uv": [0, 5, 1.5, 6], "texture": "#0"},
+				"up": {"uv": [10, 0, 13, 1.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [10, 1.5, 13, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Spill",
+			"from": [13, 0, 7],
+			"to": [16, 2, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 5, 1.5, 6], "texture": "#0"},
+				"east": {"uv": [13, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [1.5, 5, 3, 6], "texture": "#0"},
+				"up": {"uv": [10, 0, 13, 1.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [10, 1.5, 13, 3], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Spill",
+			"from": [3, 0, 13],
+			"to": [9, 2, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 5, 1.5, 6], "texture": "#0"},
+				"south": {"uv": [13, 0, 16, 1], "texture": "#0"},
+				"west": {"uv": [1.5, 5, 3, 6], "texture": "#0"},
+				"up": {"uv": [10, 0, 13, 1.5], "texture": "#0"},
+				"down": {"uv": [10, 1.5, 13, 3], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -9.1, -6.4],
+			"scale": [1.066, 1.066, 1.066]
+		}
+	}
+}

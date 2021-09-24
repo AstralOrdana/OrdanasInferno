@@ -1,4 +1,5 @@
 tag @s add Orda-NS-Demon
+team join oi.demon @s
 item replace entity @s armor.head with emerald{CustomModelData:28001}
 data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[0.1F,2.0F],Attributes:[{Name:zombie.spawn_reinforcements,Base:0}],Attributes:[{Name:generic.attack_damage,Base:0.5}]}
 item replace entity @s weapon.mainhand with stone_sword
