@@ -9,7 +9,7 @@
   "player_spawn_friendly": true,
   "effects": {
     "sky_color": 7254527,
-    "fog_color": 13890559,
+    "fog_color": 13005005,
     "water_color": 4159204,
     "water_fog_color": 329011,
     "ambient_sound": "minecraft:ambient.spectre_forest.loop",

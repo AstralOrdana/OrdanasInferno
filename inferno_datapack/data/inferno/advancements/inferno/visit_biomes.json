@@ -77,7 +77,7 @@
         "trigger": "minecraft:location",
         "conditions": {
           "location": {
-            "biome": "inferno:moonstone_caverns"
+            "biome": "inferno:lunar_valley"
           }
         }
       },

@@ -1,7 +1,7 @@
 {
-  "surface_builder": "inferno:moonstone_caverns",
-  "depth": 0.01,
-  "scale": 0.9,
+  "surface_builder": "inferno:lunar_valley",
+  "depth": 0.1,
+  "scale": 0.2,
   "temperature": 2,
   "downfall": 0,
   "precipitation": "none",
@@ -11,15 +11,15 @@
     "fog_color": 9820156,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "ambient_sound": "minecraft:ambient.moonstone_caverns.loop",
+    "ambient_sound": "minecraft:ambient.lunar_valley.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.moonstone_caverns.mood",
+      "sound": "minecraft:ambient.lunar_valley.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.moonstone_caverns.additions",
+      "sound": "minecraft:ambient.lunar_valley.additions",
       "tick_chance": 0.0111
     },
     "music": {
@@ -50,6 +50,12 @@
       {
         "type": "minecraft:ghast",
         "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:vex",
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       }
@@ -81,14 +87,18 @@
     [
       "minecraft:basalt_pillar",
       "minecraft:patch_soul_fire",
+      "minecraft:patch_fire",
       "minecraft:spring_closed"
     ],
     [
-      "inferno:moonstone_caverns/moonstone_cavern_roof_surface",
-      "inferno:moonstone_caverns/moonstone_stalactites_large",
-      "inferno:moonstone_caverns/moonstone_stalactites",
-      "inferno:moonstone_caverns/netherrack_to_soulstone",
-      "inferno:moonstone_caverns/ore_anirrum_moonstone",
+      "inferno:lunar_valley/moonstone_roof_surface",
+      "inferno:lunar_valley/moonstone_orbs_small",
+      "inferno:lunar_valley/moonstone_orbs_medium",
+      "inferno:lunar_valley/moonstone_orbs_large",
+      "inferno:lunar_valley/netherrack_to_soulstone",
+      "inferno:lunar_valley/ore_anirrum_moonstone",
+      "inferno:lunar_valley/quartzite_piles",
+      "inferno:lunar_valley/basalt_veins",
       "inferno:base/ore_blackstone"
     ]
   ]

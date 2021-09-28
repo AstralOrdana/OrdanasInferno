@@ -50,19 +50,14 @@
   "structures": {
     "structures": {
       "minecraft:bastion_remnant": {
-        "spacing": 8,
-        "separation": 6,
+        "spacing": 30,
+        "separation": 15,
         "salt": 0
       },
       "minecraft:village": {
         "spacing": 30,
         "separation": 15,
         "salt": 0
-      },
-      "minecraft:monument": {
-        "spacing": 30,
-        "separation": 5,
-        "salt": 10387313
       }
     }
   }

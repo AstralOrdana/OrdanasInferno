@@ -1,7 +1,7 @@
 {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "inferno:moonstone_caverns"
+                "biome": "inferno:lunar_valley"
               }
 			}
 			  

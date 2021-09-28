@@ -326,6 +326,8 @@
     "#minecraft:cauldrons",
     "#minecraft:rails",
     "minecraft:hay_block",
-    "minecraft:glowstone"
+    "minecraft:glowstone",
+    "minecraft:bee_nest",
+    "minecraft:beehive"
   ]
 }

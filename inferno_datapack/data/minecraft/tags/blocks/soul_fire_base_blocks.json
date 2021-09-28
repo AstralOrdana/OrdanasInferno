@@ -13,6 +13,9 @@
     "minecraft:sea_lantern",
     "minecraft:budding_amethyst",
     "minecraft:lapis_block",
-    "minecraft:dried_kelp_block"
+    "minecraft:dried_kelp_block",
+    "minecraft:andesite",
+    "minecraft:tinted_glass",
+    "minecraft:lapis_ore"
   ]
 }

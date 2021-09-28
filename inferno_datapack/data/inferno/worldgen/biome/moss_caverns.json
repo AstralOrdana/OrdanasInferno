@@ -20,7 +20,7 @@
   },
   "starts": [
     "inferno:power_plant",
-    "minecraft:monument"
+    "minecraft:bastion_remnant"
   ],
   "spawners": {
     "water_ambient": [
