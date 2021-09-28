@@ -1,6 +1,21 @@
 {
-  "parent": "minecraft:dream_team_custom/blocks/cross_crop",
-  "textures": {
-    "cross": "minecraft:block/bone_gourd_stem_stage0"
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/bone_fungourd_small",
+		"particle": "block/bone_fungourd_small"
+	},
+	"elements": [
+		{
+			"from": [6, -1, 6],
+			"to": [10, 2, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"north": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"east": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"south": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [12, 3, 16, 7], "texture": "#0"}
+			}
+		}
+	]
 }
