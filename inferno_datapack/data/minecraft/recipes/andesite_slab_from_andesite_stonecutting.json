@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:andesite"
+    "item": "minecraft:cobblestone"
   },
-  "result": "minecraft:andesite_slab",
+  "result": "minecraft:cobblestone_slab",
   "count": 2
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/copper_block",
+    "side": "minecraft:block/cut_copper_stairs"
+  }
+}

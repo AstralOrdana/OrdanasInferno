@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:pumpkin"
         }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:pumpkin_seeds",
+        "count": 2
     }
 }

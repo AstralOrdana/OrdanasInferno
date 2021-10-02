@@ -68,7 +68,7 @@
                 "Name": "minecraft:smooth_basalt"
               },
               "target": {
-                "Name": "minecraft:andesite"
+                "Name": "minecraft:soul_sand"
               },
               "radius": 0
             }

@@ -2,15 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#C#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
-    },
-    "C": {
-      "item": "minecraft:scute"
+      "item": "minecraft:raw_iron"
     }
   },
   "result": {

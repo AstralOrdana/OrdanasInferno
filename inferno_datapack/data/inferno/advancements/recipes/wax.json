@@ -10,7 +10,15 @@
         "minecraft:waxed_cut_copper_from_honeycomb",
         "minecraft:waxed_exposed_cut_copper_from_honeycomb",
         "minecraft:waxed_weathered_cut_copper_from_honeycomb",
-        "minecraft:waxed_oxidized_cut_copper_from_honeycomb"
+        "minecraft:waxed_oxidized_cut_copper_from_honeycomb",
+        "minecraft:waxed_cut_copper_slab_from_honeycomb",
+        "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb",
+        "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb",
+        "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb",
+        "minecraft:waxed_cut_copper_stairs_from_honeycomb",
+        "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb",
+        "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb",
+        "minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb"
       ]
     },
     "criteria": {

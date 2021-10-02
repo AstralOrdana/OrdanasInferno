@@ -66,6 +66,12 @@
         "weight": 60,
         "minCount": 1,
         "maxCount": 2
+      },
+      {
+        "type": "minecraft:iron_golem",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [],
@@ -95,9 +101,9 @@
       "inferno:lunar_valley/moonstone_orbs_small",
       "inferno:lunar_valley/moonstone_orbs_medium",
       "inferno:lunar_valley/moonstone_orbs_large",
+      "inferno:lunar_valley/demon_quartz_orbs",
       "inferno:lunar_valley/netherrack_to_soulstone",
       "inferno:lunar_valley/ore_anirrum_moonstone",
-      "inferno:lunar_valley/quartzite_piles",
       "inferno:lunar_valley/basalt_veins",
       "inferno:base/ore_blackstone"
     ]

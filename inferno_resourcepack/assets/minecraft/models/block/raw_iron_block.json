@@ -1,7 +1,6 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "end": "minecraft:block/raw_iron_block_top",
-    "side": "minecraft:block/raw_iron_block"
+    "all": "minecraft:block/raw_iron_block"
   }
 }

@@ -1,16 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SSS",
-    "SSS",
-    "SSS"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:bedrock"
+      }
   ],
-  "key": {
-    "S": {
-      "item": "minecraft:iron_ingot"
-    }
-  },
+  "group": "bedrock",
   "result": {
-    "item": "minecraft:prismarine"
+      "item": "minecraft:bedrock"
   }
 }

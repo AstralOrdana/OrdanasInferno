@@ -52,7 +52,7 @@
                   "alternate_inner_layer_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:andesite"
+                      "Name": "minecraft:calcite"
                     }
                   },
                   "middle_layer_provider": {
@@ -61,7 +61,7 @@
                       {
                         "weight": 2,
                         "data": {
-                          "Name": "minecraft:andesite"
+                          "Name": "minecraft:calcite"
                         }
                       },
                       {
@@ -78,7 +78,7 @@
                       {
                         "weight": 1,
                         "data": {
-                          "Name": "minecraft:andesite"
+                          "Name": "minecraft:calcite"
                         }
                       },
                       {

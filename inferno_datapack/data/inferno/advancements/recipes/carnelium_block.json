@@ -2,7 +2,15 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "minecraft:copper_ingot_from_copper_block"
+        "minecraft:copper_ingot_from_copper_block",
+        "minecraft:cut_copper_slab",
+        "minecraft:exposed_cut_copper_slab",
+        "minecraft:weathered_cut_copper_slab",
+        "minecraft:oxidized_cut_copper_slab",
+        "minecraft:cut_copper_stairs",
+        "minecraft:exposed_cut_copper_stairs",
+        "minecraft:weathered_cut_copper_stairs",
+        "minecraft:oxidized_cut_copper_stairs"
       ]
     },
     "criteria": {

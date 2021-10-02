@@ -14,7 +14,8 @@
         "minecraft:iron_leggings",
         "minecraft:iron_boots",
         "minecraft:shulker_box",
-        "minecraft:soul_lantern"
+        "minecraft:soul_lantern",
+        "minecraft:raw_iron_block"
       ]
     },
     "criteria": {

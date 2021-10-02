@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "minecraft:block/oxidized_cut_copper_stairs",
+    "top": "minecraft:block/oxidized_cut_copper_stairs",
+    "side": "minecraft:block/oxidized_cut_copper_stairs"
+  }
+}

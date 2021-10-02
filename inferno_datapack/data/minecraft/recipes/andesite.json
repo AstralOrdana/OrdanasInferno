@@ -1,15 +1,16 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:diorite"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:amethyst_shard"
+      }
     },
-    {
-      "item": "minecraft:cobblestone"
+    "result": {
+      "item": "minecraft:andesite"
     }
-  ],
-  "result": {
-    "item": "minecraft:andesite",
-    "count": 2
   }
-}

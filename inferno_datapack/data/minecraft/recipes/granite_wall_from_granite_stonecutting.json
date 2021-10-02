@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:andesite"
+    "item": "minecraft:cobblestone"
   },
   "result": "minecraft:granite_wall",
   "count": 1

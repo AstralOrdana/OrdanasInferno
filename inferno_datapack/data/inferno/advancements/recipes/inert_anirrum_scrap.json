@@ -3,7 +3,7 @@
     "rewards": {
       "recipes": [
         "minecraft:blast_furnace",
-        "minecraft:raw_iron_block"
+        "minecraft:iron_block"
       ]
     },
     "criteria": {

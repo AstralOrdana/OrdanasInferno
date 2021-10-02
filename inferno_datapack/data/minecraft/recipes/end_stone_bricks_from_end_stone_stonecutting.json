@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:andesite"
+    "item": "minecraft:cobblestone"
   },
   "result": "minecraft:end_stone_bricks",
   "count": 1

@@ -2,11 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:exposed_cut_copper_stairs"
+        },
+        {
+            "item": "minecraft:honeycomb"
         }
     ],
-    "group": "bedrock",
     "result": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:waxed_exposed_cut_copper_stairs"
     }
 }

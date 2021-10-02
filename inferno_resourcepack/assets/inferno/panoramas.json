@@ -41,10 +41,10 @@
 			}
 		]
 	},
-    "volcanic_desert": {
+    "sulfuric_desert": {
 		"panoramas": [
 			{
-				"backgroundId": "inferno:panoramas/volcanic_desert/panorama"
+				"backgroundId": "inferno:panoramas/sulfuric_desert/panorama"
 			}
 		]
 	},
@@ -62,10 +62,10 @@
 			}
 		]
 	},
-    "moonstone_caverns": {
+    "lunar_valley": {
 		"panoramas": [
 			{
-				"backgroundId": "inferno:panoramas/moonstone_caverns/panorama"
+				"backgroundId": "inferno:panoramas/lunar_valley/panorama"
 			}
 		]
 	},

@@ -128,10 +128,6 @@
   "block.minecraft.oak_door": "Spectre Door",
   "block.minecraft.oak_trapdoor": "Spectre Trapdoor",
 
-  "block.minecraft.prismarine_bricks": "Magma Bricks",
-  "block.minecraft.prismarine_brick_stairs": "Magma Brick Stairs",
-  "block.minecraft.prismarine_brick_slab": "Magma Bricks Slab",
-
   "block.minecraft.terracotta": "Soul Stone",
   "block.minecraft.red_sandstone_slab": "Soul Stone Slab",
   "block.minecraft.red_sandstone_stairs": "Soul Stone Stairs",
@@ -237,7 +233,7 @@
   "block.minecraft.chiseled_deepslate": "Chiseled Polished Terradite",
 
   "block.minecraft.deepslate_lapis_ore": "Quartz Cluster Block",
-  "block.minecraft.andesite": "Quartzite",
+  "block.minecraft.calcite": "Quartzite",
 
   "item.minecraft.clay_ball": "Demon Quartz",
   "block.minecraft.tinted_glass": "Block of Demon Quartz",
@@ -253,8 +249,6 @@
   "block.minecraft.redstone_torch": "Carnelium Capacitator",
   "block.minecraft.redstone_block": "Carnelium Power Cell",
   "block.minecraft.sculk_sensor": "Carnelium Resonator",
-  
-  "block.minecraft.iron_block": "Colossus Building Block",
   
   "block.minecraft.end_portal_frame": "Prototype Inter-dimensional Transportation Station",
   "block.minecraft.deepslate_diamond_ore":"Sunstone Ore",
@@ -330,7 +324,7 @@
 
   "block.minecraft.copper_block": "Block of Carnelium",
   "block.minecraft.lapis_block": "Block of Moonstone",
-  "block.minecraft.prismarine": "Block of Anirrum",
+  "block.minecraft.raw_iron_block": "Block of Anirrum",
   "block.minecraft.diamond_block": "Block of Nihiline",
   "block.minecraft.netherite_block": "Block of Orichalcum",
 
@@ -342,14 +336,32 @@
   "block.minecraft.waxed_weathered_copper": "Sealed Weathered Carnelium",
   "block.minecraft.waxed_oxidized_copper": "Sealed Corroded Carnelium",
 
+  "block.minecraft.cut_copper_slab": "Carnelium Slab",
+  "block.minecraft.exposed_cut_copper_slab": "Exposed Carnelium Slab",
+  "block.minecraft.weathered_cut_copper_slab": "Weathered Carnelium Slab",
+  "block.minecraft.oxidized_cut_copper_slab": "Corroded Carnelium Slab",
+  "block.minecraft.waxed_cut_copper_slab": "Sealed Carnelium Slab",
+  "block.minecraft.waxed_exposed_cut_copper_slab": "Sealed Exposed Carnelium Slab",
+  "block.minecraft.waxed_weathered_cut_copper_slab": "Sealed Weathered Carnelium Slab",
+  "block.minecraft.waxed_oxidized_cut_copper_slab": "Sealed Corroded Carnelium Slab",
+
+  "block.minecraft.cut_copper_stairs": "Carnelium stairs",
+  "block.minecraft.exposed_cut_copper_stairs": "Exposed Carnelium stairs",
+  "block.minecraft.weathered_cut_copper_stairs": "Weathered Carnelium stairs",
+  "block.minecraft.oxidized_cut_copper_stairs": "Corroded Carnelium stairs",
+  "block.minecraft.waxed_cut_copper_stairs": "Sealed Carnelium stairs",
+  "block.minecraft.waxed_exposed_cut_copper_stairs": "Sealed Exposed Carnelium stairs",
+  "block.minecraft.waxed_weathered_cut_copper_stairs": "Sealed Weathered Carnelium stairs",
+  "block.minecraft.waxed_oxidized_cut_copper_stairs": "Sealed Corroded Carnelium stairs",
+
   "block.minecraft.cut_copper": "Scrap Metal",
   "block.minecraft.exposed_cut_copper": "Dirty Scrap Metal",
-  "block.minecraft.weathered_cut_copper": "Changing Scrap Metal",
-  "block.minecraft.oxidized_cut_copper": "Altered Scrap Metal",
+  "block.minecraft.weathered_cut_copper": "Altered Scrap Metal",
+  "block.minecraft.oxidized_cut_copper": "Nihiline Scrap Metal",
   "block.minecraft.waxed_cut_copper": "Sealed Scrap Metal",
   "block.minecraft.waxed_exposed_cut_copper": "Sealed Dirty Scrap Metal",
-  "block.minecraft.waxed_weathered_cut_copper": "Sealed Changing Scrap Metal",
-  "block.minecraft.waxed_oxidized_cut_copper": "Sealed Altered Scrap Metal",
+  "block.minecraft.waxed_weathered_cut_copper": "Sealed Altered Scrap Metal",
+  "block.minecraft.waxed_oxidized_cut_copper": "Sealed Nihiline Scrap Metal",
 
   "block.minecraft.slime_block": "Rubber Block",
   "block.minecraft.honey_block": "Coagulated Blood",
@@ -417,7 +429,7 @@
   "item.minecraft.iron_horse_armor": "Carnelium Horse Armor",
 
   "block.minecraft.end_rod": "Anirrum Chain",
-  "block.minecraft.raw_iron_block": "Block of Anirrum Scrap",
+  "block.minecraft.iron_block": "Block of Anirrum Scrap",
 
   "item.minecraft.raw_iron": "Inert Anirrum Scrap",
   "item.minecraft.iron_ingot": "Anirrum Ingot",
@@ -434,7 +446,7 @@
   "item.minecraft.iron_hoe": "Anirrum Hoe",
 
   "item.minecraft.amethyst_shard": "Nihiline Scrap",
-  "block.minecraft.dead_brain_coral_block": "Block of Nihiline Scrap",
+  "block.minecraft.andesite": "Block of Nihiline Scrap",
   "item.minecraft.diamond": "Nihiline Ingot",
   "item.minecraft.diamond_helmet": "Nihiline Helmet",
   "item.minecraft.diamond_chestplate": "Nihiline Chestplate",
@@ -448,7 +460,7 @@
   "item.minecraft.diamond_axe": "Nihiline Axe",
   "item.minecraft.diamond_hoe": "Nihiline Hoe",
 
-  "block.minecraft.dead_horn_coral_block": "Block of Raw Orichalcum",
+  "block.minecraft.diorite": "Block of Raw Orichalcum",
   "block.minecraft.lightning_rod": "Orichalcum Cluster",
 
   "item.minecraft.netherite_scrap": "Raw Orichalcum",
