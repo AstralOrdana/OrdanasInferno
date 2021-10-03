@@ -758,6 +758,8 @@
   "item.minecraft.tipped_arrow.effect.unluck": "that's rough buddy",
   "item.minecraft.potion.effect.unluck": "don't fucking ask",
   "item.minecraft.splash_potion.effect.unluck": "error 404 bug Bones about it",
-  "item.minecraft.lingering_potion.effect.unluck": "lingering stank"
+  "item.minecraft.lingering_potion.effect.unluck": "lingering stank",
+  
+  "item.inferno.bottle_of_bapholet_blood": "Bottle of Bapholet Blood"
 
 }
