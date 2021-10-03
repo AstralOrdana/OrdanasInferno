@@ -1,12 +1,23 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:bedrock"
-        }
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "HPH",
+        "###"
     ],
-    "group": "bedrock",
+    "key": {
+        "#": {
+            "item": "minecraft:honeycomb_block"
+        },
+        "H": {
+            "item": "minecraft:honeycomb"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
     "result": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:beehive",
+        "count": 1
     }
 }

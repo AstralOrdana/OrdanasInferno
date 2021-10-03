@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:small_flowers",
-    "#minecraft:tall_flowers"
+    "minecraft:phantom_membrane"
   ]
 }

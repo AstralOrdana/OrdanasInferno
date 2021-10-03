@@ -1,28 +1,28 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:elytra"
+        "item": "minecraft:phantom_membrane"
       },
       "title": {
-        "text": "Fly Guys"
+        "text": "Let It Bee"
       },
       "description": {
-        "text": "Royal Jelly has mysterious properties, avoid using it on flies unless you're prepared for a fight."
+        "text": "Royal Jelly can be obtained rarely from killing flies, you can collect it with bottles."
       },
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "inferno:inferno/royal_jelly",
+    "parent": "inferno:inferno/infested_grove",
     "criteria": {
-      "elytra": {
+      "jelly": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:elytra"
+                "minecraft:phantom_membrane"
               ]
             }
           ]
@@ -31,7 +31,7 @@
     },
     "requirements": [
       [
-        "elytra"
+        "jelly"
       ]
     ]
   }

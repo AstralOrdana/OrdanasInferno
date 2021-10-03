@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": {
+      "text": "Oil Be There For You"
+    },
+    "description": {
+      "text": "Defeat a Beeper and it might spill its oil on the ground. It is extremely potent and might be a useful weapon if you harvest it with a bottle."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "inferno:inferno/get_anirrum",
+  "criteria": {
+    "oil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{display:{Name:'{\"translate\":\"item.inferno.bottle_of_beeper_oil\",\"italic\":false}'},CustomPotionColor:0,CustomPotionEffects:[{Id:7b,Amplifier:0b,Duration:5}]}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oil"
+    ]
+  ]
+}
