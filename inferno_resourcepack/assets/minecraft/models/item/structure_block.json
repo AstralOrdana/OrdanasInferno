@@ -12,6 +12,7 @@
 		{"predicate": {"custom_model_data":8}, "model": "entity/piglin_king_head"},
 		{"predicate": {"custom_model_data":9}, "model": "entity/piglin_king_head_hurt"},
 		{"predicate": {"custom_model_data":10}, "model": "entity/fly_eyes"},
-		{"predicate": {"custom_model_data":100}, "model": "entity/blood_puddle"}
+		{"predicate": {"custom_model_data":100}, "model": "entity/blood_puddle"},
+		{"predicate": {"custom_model_data":101}, "model": "entity/bapholet_blood_puddle"}
 	]
 }
