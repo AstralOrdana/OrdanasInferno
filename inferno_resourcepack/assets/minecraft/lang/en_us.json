@@ -604,6 +604,11 @@
   "subtitles.entity.bee.loop_aggressive": "Fly buzzes angrily",
   "subtitles.entity.bee.pollinate": "Fly buzzes happily",
   "subtitles.entity.bee.sting": "Fly Bites",
+  "subtitles.block.beehive.drip": "Blood drips",
+  "subtitles.block.beehive.enter": "Fly enters hive",
+  "subtitles.block.beehive.exit": "Fly leaves hive",
+  "subtitles.block.beehive.shear": "Shears scrape",
+  "subtitles.block.beehive.work": "Flies work",
   "subtitles.entity.silverfish.ambient": "Maggot hisses",
   "subtitles.entity.silverfish.death": "Maggot dies",
   "subtitles.entity.silverfish.hurt": "Maggot hurts",
@@ -760,6 +765,11 @@
   "item.minecraft.splash_potion.effect.unluck": "error 404 bug Bones about it",
   "item.minecraft.lingering_potion.effect.unluck": "lingering stank",
   
-  "item.inferno.bottle_of_bapholet_blood": "Bottle of Bapholet Blood"
+  "item.inferno.bottle_of_bapholet_blood": "Bottle of Bapholet Blood",
+  "item.inferno.bottle_of_lightcrawler_hemolymph": "Bottle of Lightcrawler Hemolymph",
+  "item.inferno.bottle_of_wartfruit_juice": "Bottle of Wartfruit Juice",
+  "item.inferno.bottle_of_beeper_oil": "Bottle of Beeper Oil",
+  "item.inferno.bottle_of_ectoplasm": "Bottle of Ectoplasm",
+  "item.inferno.bottle_of_spectre_spores": "Bottle of Spectre Spores"
 
 }
