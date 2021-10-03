@@ -73,7 +73,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:honey_bottle",
+          "name": "minecraft:glass_bottle",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

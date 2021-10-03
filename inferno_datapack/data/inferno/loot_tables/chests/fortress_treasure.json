@@ -21,7 +21,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:honey_bottle"
+          "name": "minecraft:glass_bottle"
         },
         {
           "type": "minecraft:item",
@@ -31,8 +31,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 4
               }
             }
           ],
