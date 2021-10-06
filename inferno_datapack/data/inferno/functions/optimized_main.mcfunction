@@ -84,7 +84,7 @@ execute as @e[nbt=!{ActiveEffects:[{Id:26b}]}, type=#inferno:scorchable] run fun
 
 ###soul heart
 #dread effect
-execute as @e[tag=soulheart] at @s run function inferno:dread/main
+execute as @e[tag=soulheartboss] at @s run function inferno:dread/main
 execute as @a[scores={OrdN-S_Dread=1..}] run function inferno:dread/remove_dread
 
 ### SPAWNING BRAPHOG

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:end_stone_brick_slab"
+      },
+      "title": {
+        "text": "The Almighty Slider"
+      },
+      "description": {
+        "text": "Look at He"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "inferno:inferno/get_blackstone",
+    "criteria": {
+      "ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:end_stone_brick_slab"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "ingot"
+      ]
+    ]
+  }
+  
