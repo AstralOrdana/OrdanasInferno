@@ -4,7 +4,7 @@
       "decorator": {
         "type": "minecraft:count_noise_biased",
         "config": {
-          "noise_to_count_ratio": 15,
+          "noise_to_count_ratio": 1,
           "noise_factor": 400,
           "noise_offset": 0
         }

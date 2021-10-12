@@ -1,7 +1,7 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:campfire_cooking",
   "ingredient": {
-    "item": "minecraft:netherrack"
+      "item": "minecraft:prismarine_shard"
   },
   "result": "minecraft:nether_brick",
   "experience": 0.1,

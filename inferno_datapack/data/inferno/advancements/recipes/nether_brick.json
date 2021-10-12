@@ -10,7 +10,8 @@
         "minecraft:nether_brick_wall",
         "minecraft:nether_brick_fence",
         "minecraft:red_nether_bricks",
-        "minecraft:flower_pot"
+        "minecraft:flower_pot",
+        "minecraft:furnace"
       ]
     },
     "criteria": {

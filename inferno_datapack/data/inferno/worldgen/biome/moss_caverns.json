@@ -72,10 +72,7 @@
       "minecraft:spring_water",
       "inferno:moss_caverns/lake",
       "minecraft:kelp_cold",
-      "inferno:moss_caverns/coral_rare_mushroom",
-      "inferno:moss_caverns/coral_rare_claw",
-      "inferno:moss_caverns/coral_rare_tree",
-      "inferno:moss_caverns/coral_normal"
+      "minecraft:warm_ocean_vegetation"
     ],
     [
       "inferno:moss_caverns/moss_layer",
@@ -93,7 +90,8 @@
       "inferno:moss_caverns/stardust_middle",
       "inferno:moss_caverns/stardust_upper",
       "inferno:moss_caverns/moss_raft",
-      "inferno:moss_caverns/sugarcane"
+      "inferno:moss_caverns/sugarcane",
+      "inferno:moss_caverns/crystals"
     ]
   ]
 }
