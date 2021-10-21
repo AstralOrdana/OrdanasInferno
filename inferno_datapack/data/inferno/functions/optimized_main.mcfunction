@@ -79,7 +79,8 @@ execute as @e[type=minecraft:area_effect_cloud,tag=Orda-NS-FertilizerCloud] at @
 execute as @e[type=minecraft:vindicator,tag=Orda-NS-Kinglin] run data merge entity @s {Johnny:0b}
 
 ###soul schorched###
-execute as @e[type=#inferno:scorchable] at @s if block ~ ~0.25 ~ minecraft:soul_fire run function inferno:soulfire
+execute as @a at @s store success score @s OrdN-G_Cacti run clone ~-0.25 ~-0.1 ~-0.25 ~0.25 ~ ~0.25 ~-0.25 ~-0.1 ~-0.25 filtered minecraft:cactus force
+execute as @a[scores={OrdN-G_SoulF=1}] run run function inferno:soulfire
 execute as @e[nbt=!{ActiveEffects:[{Id:26b}]}, type=#inferno:scorchable] run function inferno:soulfirent
 
 ###soul heart

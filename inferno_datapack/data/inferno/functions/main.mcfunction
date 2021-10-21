@@ -16,7 +16,7 @@ item replace entity @e[type=minecraft:pillager,nbt={HurtTime:0s}] armor.head wit
 item replace entity @e[type=minecraft:pillager,nbt=!{HurtTime:0s}] armor.head with minecraft:structure_block{CustomModelData:5}
 
 ###cacti###
-execute as @a at @s store success score @s OrdN-G_Cacti run clone ~-0.25 ~-0.1 ~-0.25 ~0.25 ~2 ~0.25 ~-0.25 ~-0.1 ~-0.25 filtered minecraft:cactus force
+execute as @a at @s store success score @s OrdN-G_Cacti run clone ~-0.25 ~-0.1 ~-0.25 ~0.25 ~0 ~0.25 ~-0.25 ~-0.1 ~-0.25 filtered minecraft:cactus force
 execute as @a[scores={OrdN-G_Cacti=1}] run effect give @s minecraft:wither 3 0 true
 
 
