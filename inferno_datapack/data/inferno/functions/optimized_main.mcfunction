@@ -35,7 +35,7 @@ execute as @e[type=villager,tag=Orda-NS-VillagerDemonIdolON,scores={OrdN-S_Demon
 effect give @e[type=minecraft:creeper] minecraft:slow_falling 2 0 true
 effect give @e[type=minecraft:creeper] minecraft:jump_boost 2 5 true
 
-###MOB COUNT RACKING###
+###MOB COUNT TRACKING###
 #Croaker#
 execute store result score $Ordana-NS-CroakerMobCap OrdN-S_MobCap if entity @e[type=rabbit]
 
@@ -80,7 +80,7 @@ execute as @e[type=minecraft:vindicator,tag=Orda-NS-Kinglin] run data merge enti
 
 ###soul schorched###
 execute as @a at @s store success score @s OrdN-G_Cacti run clone ~-0.25 ~-0.1 ~-0.25 ~0.25 ~ ~0.25 ~-0.25 ~-0.1 ~-0.25 filtered minecraft:cactus force
-execute as @a[scores={OrdN-G_SoulF=1}] run run function inferno:soulfire
+execute as @a[scores={OrdN-G_SoulF=1}] run function inferno:soulfire
 execute as @e[nbt=!{ActiveEffects:[{Id:26b}]}, type=#inferno:scorchable] run function inferno:soulfirent
 
 ###soul heart

@@ -1,5 +1,6 @@
 {
   "values":[
-	"inferno:intro"
+	"inferno:intro",
+	"inferno:schedule_10s"
   ]
 }

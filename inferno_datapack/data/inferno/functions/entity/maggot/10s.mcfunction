@@ -1,0 +1,1 @@
+execute if predicate inferno:33_chance run function inferno:entity/maggot/lay_egg
