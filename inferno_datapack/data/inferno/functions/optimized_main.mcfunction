@@ -108,3 +108,7 @@ execute as @e[type=goat] run scoreboard players add #LANOCOUNT OrdN-S_LanoCt 1
 
 execute as @e[type=zombified_piglin,tag=!LanoFound] at @s if predicate inferno:biomes/wastes_biome if predicate inferno:20_chance run function inferno:entity/lano/spawn
 tag @e[type=zombified_piglin] add LanoFound
+
+##silverfish
+execute as @e[type=silverfish,tag=!oi.silverfound] run data merge entity @s {Health:1f,Attributes:[{Name:generic.max_health,Base:1}]}
+tag @e[type=silverfish] add oi.silverfound
